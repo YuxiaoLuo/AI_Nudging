@@ -27,6 +27,7 @@
 - [ ] Define purchase likelihood and decision quality measures
 - [ ] Define process measures: perceived personalization, transparency, trust, cognitive load, confidence, satisfaction
 - [ ] Specify manipulation checks and control variables
+- [ ] Keep manipulation checks distinct from the substantive mediators and outcomes
 - [ ] Choose the analysis strategy
 
 ## Writing

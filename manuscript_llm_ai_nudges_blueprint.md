@@ -229,6 +229,9 @@ At this stage, the measure strategy should remain aligned with the theory rather
 - perceived AI involvement
 - perceived visibility of recommendation logic
 
+### Preliminary manipulation-check logic
+The manipulation checks should verify that the three conditions differ in the intended way without collapsing into the substantive mediators themselves. The key purpose is to confirm that the LLM condition is experienced as more conversational and adaptive than the UI-based nudge condition, and that both differ from control in the expected direction. Checks on perceived AI involvement and visibility of recommendation logic are also useful because they can confirm that participants recognized the intervention as algorithmically generated while still perceiving differences in how observable the recommendation process was.
+
 ### Controls
 - product category familiarity
 - prior use of AI assistants for shopping
