@@ -187,7 +187,7 @@ This set is compact enough to execute while still preserving the paper's core tr
 
 ## 11. Experimental design sketch
 ### Task
-Use a simulated online shopping task in a moderately involving product category with meaningful comparison needs. Good candidates are headphones, skincare, running shoes, or air fryers. Headphones or skincare may be especially useful because consumers can plausibly care about both preference fit and technical tradeoffs.
+Use a simulated online shopping task in a moderately involving product category with meaningful comparison needs. Good candidates are headphones, skincare, running shoes, or air fryers. At this stage, headphones appears to be the strongest candidate because the category combines attribute complexity, relatively broad consumer familiarity, and plausible tradeoffs among price, sound quality, comfort, battery life, and brand.
 
 ### Recommended design choice
 Use a **three-condition between-subject experiment**:
@@ -201,6 +201,9 @@ Use a **three-condition between-subject experiment**:
 3. Participant selects a product or indicates purchase likelihood.
 4. Participant completes post-task scales.
 5. Participant answers manipulation checks and basic controls.
+
+### Why headphones is currently the best first-category option
+A first paper should use a category that is sufficiently consequential to make advice meaningful, but not so specialized that participants struggle to evaluate the products at all. Headphones meets that requirement well. The category commonly involves multiple attributes, meaningful tradeoffs, and frequent use of recommendation support in actual online shopping. It should therefore make it easier to observe differences between conversational guidance and static nudges while keeping the decision task understandable for a broad participant pool.
 
 ### Measures
 **Primary outcomes**

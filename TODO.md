@@ -22,7 +22,7 @@
 - [ ] Tighten source-backed construct definitions for perceived personalization, transparency, confidence, and perceived decision quality
 
 ## Study Design
-- [ ] Design the shopping task and product category after the theory base is more stable
+- [ ] Finalize the shopping task and product category, with headphones currently the leading candidate
 - [ ] Draft treatment materials for each condition after the theory base is more stable
 - [ ] Define purchase likelihood and decision quality measures
 - [ ] Define process measures: perceived personalization, transparency, trust, cognitive load, confidence, satisfaction

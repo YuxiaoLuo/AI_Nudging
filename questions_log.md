@@ -19,6 +19,9 @@ This file records open questions, uncertainties, and decisions encountered while
 - Should the experimental treatments simulate a real shopping assistant conversation or a tightly scripted chatbot?
 - How much adaptivity is necessary in the LLM condition for the treatment to feel meaningfully different from UI nudges?
 
+### Current design direction
+- Headphones currently looks like the strongest first-category candidate because it combines attribute complexity, broad participant familiarity, and meaningful tradeoffs without requiring niche expertise.
+
 ### Literature and paper selection
 - Which additional UTD24 or ABDC A* papers best strengthen the bridge from recommendation agents to conversational AI?
 - Are there top-journal marketing papers on consumer confidence, transparency, or algorithmic advice in shopping contexts that should be pulled in next?

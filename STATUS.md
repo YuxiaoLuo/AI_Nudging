@@ -31,6 +31,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The manuscript opening has now been further harmonized with the theory and contribution sections, making the front end of the draft read more like a coherent scientific manuscript rather than a set of separate notes.
 - The contribution section has now also been tightened so the paper's theoretical contribution is stated more explicitly at the mechanism level rather than only as a broad framing claim.
 - Another literature pass has now been completed with a stricter filter for anchor versus supporting citations, including addition of a high-prestige AI-advice resistance paper as a possible boundary-condition reference rather than a core shopping anchor.
+- The study-design sketch has now been tightened slightly by identifying headphones as the strongest current first-category candidate, given its combination of attribute complexity, broad familiarity, and meaningful tradeoffs.
 - `ai nudging on digital platform.docx` appears empty on disk right now, so it could not yet be used as a source for development.
 
 ## Blockers
@@ -43,4 +44,4 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 2. Narrow the smallest defensible anchor set for each major construct and comparison in the model.
 3. Tighten source-backed construct definitions for the core mediators and outcomes.
 4. Keep integrating the strongest anchor papers directly into manuscript-level theory language.
-5. Delay detailed experiment drafting until the theory and literature foundation are more stable.
+5. Develop the experimental sketch cautiously, starting with the headphones category as the leading first-paper option.
