@@ -220,6 +220,9 @@ A first paper should use a category that is sufficiently consequential to make a
 - trust in recommender
 - satisfaction
 
+### Preliminary measure logic
+At this stage, the measure strategy should remain aligned with the theory rather than expanding into a broad inventory of attitudes. Purchase likelihood should capture the consumer's willingness to move toward buying the focal product. Perceived decision quality should capture whether the final choice feels sound, appropriate, and well justified. Perceived personalization should capture the extent to which the guidance feels tailored to the consumer's preferences and goals. Cognitive load should capture the amount of mental effort required to make the choice. Perceived transparency should capture whether the recommendation basis feels understandable and reconstructable. Choice confidence should capture certainty in the selected option. Keeping the measures tied this closely to the construct definitions should help preserve alignment between the theory, hypotheses, and eventual empirical implementation.
+
 ### Manipulation checks
 - degree of conversational interaction
 - perceived adaptivity/personalization of the aid

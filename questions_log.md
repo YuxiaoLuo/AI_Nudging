@@ -21,6 +21,7 @@ This file records open questions, uncertainties, and decisions encountered while
 
 ### Current design direction
 - Headphones currently looks like the strongest first-category candidate because it combines attribute complexity, broad participant familiarity, and meaningful tradeoffs without requiring niche expertise.
+- The measure strategy should remain tightly theory-aligned: each key construct should map to a distinct role in the model rather than expanding into a broad, overlapping set of post-task attitudes.
 
 ### Literature and paper selection
 - Which additional UTD24 or ABDC A* papers best strengthen the bridge from recommendation agents to conversational AI?

@@ -32,6 +32,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The contribution section has now also been tightened so the paper's theoretical contribution is stated more explicitly at the mechanism level rather than only as a broad framing claim.
 - Another literature pass has now been completed with a stricter filter for anchor versus supporting citations, including addition of a high-prestige AI-advice resistance paper as a possible boundary-condition reference rather than a core shopping anchor.
 - The study-design sketch has now been tightened slightly by identifying headphones as the strongest current first-category candidate, given its combination of attribute complexity, broad familiarity, and meaningful tradeoffs.
+- The measure logic has also been tightened so the planned outcomes and process measures now map more explicitly onto the theory's construct definitions rather than remaining a loose checklist.
 - `ai nudging on digital platform.docx` appears empty on disk right now, so it could not yet be used as a source for development.
 
 ## Blockers
