@@ -23,6 +23,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The manuscript blueprint has now been tightened again to better connect the theory section to early recommendation-effect research and recommendation-agent explanation logic, not just broad conversational-commerce framing.
 - The theory framing is now being consolidated around a compact anchor set rather than continued broad citation expansion, making the next step a cleaner manuscript-style theoretical background draft.
 - The blueprint has also been tightened to keep the first paper narrower and more defensible, with clearer emphasis on support-versus-opacity tradeoffs rather than a sprawling AI-shopping model.
+- The synthesis memo has now been extended with cleaner role separation among the core constructs, so the next manuscript gain can come from tighter construct definitions rather than more citation accumulation.
 - `ai nudging on digital platform.docx` appears empty on disk right now, so it could not yet be used as a source for development.
 
 ## Blockers

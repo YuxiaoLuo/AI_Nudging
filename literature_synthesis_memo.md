@@ -82,6 +82,17 @@ But they may also:
 
 This is a stronger contribution because it allows the paper to make a balanced claim: conversational AI may improve shopping efficiency and confidence while simultaneously introducing a new opacity problem.
 
+### Working construct logic for the core model
+At this stage, the construct logic looks cleanest when each major variable has a distinct role.
+
+- **Perceived personalization** should capture the extent to which the guidance feels tailored to the consumer's goals, constraints, and preferences.
+- **Cognitive load** should capture the degree of mental effort required to compare options and complete the choice task.
+- **Choice confidence** should capture the consumer's subjective certainty that the selected option is appropriate or well chosen.
+- **Perceived transparency** should capture how understandable and reconstructable the basis of the recommendation appears to the consumer.
+- **Perceived decision quality** should capture the consumer's evaluation that the final choice is sound, appropriate, and well justified.
+
+This role separation matters because it helps avoid conceptual overlap. Personalization is the tailoring property of the guidance, cognitive load is the effort consequence of navigating the task, confidence is the felt certainty that follows from support, transparency is the inspectability of the recommendation process, and decision quality is the consumer's evaluative judgment about the final decision. Keeping these distinctions clear should make the manuscript's hypotheses easier to defend and the eventual measures easier to justify.
+
 ## 4. What this means for your paper positioning
 A sharper positioning statement is:
 
@@ -125,11 +136,12 @@ These are not all top-anchor papers in the same way as Häubl and Trifts, Ursu, 
 
 
 ## 7. Priority implications for the next drafting pass
-The next theory draft should probably do four things in order:
+The next theory draft should probably do five things in order:
 1. establish the badge/ranking baseline
 2. bridge to recommendation-agent trust and disclosure literature
 3. use conversational-agent-as-decision-aid work to justify why LLM dialogue changes the nature of choice support
-4. argue why LLM conversational nudges create a sharper transparency tradeoff than prior forms of digital assistance
+4. define the core constructs in a non-overlapping way, especially personalization, transparency, confidence, and perceived decision quality
+5. argue why LLM conversational nudges create a sharper transparency tradeoff than prior forms of digital assistance
 
 ## 8. Sources used in this synthesis
 - Häubl, G., & Trifts, V. (2000). *Consumer Decision Making in Online Shopping Environments: The Effects of Interactive Decision Aids*. Marketing Science. https://pubsonline.informs.org/doi/10.1287/mksc.19.1.4.15178

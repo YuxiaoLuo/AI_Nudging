@@ -26,6 +26,11 @@ This file records open questions, uncertainties, and decisions encountered while
 - Which current papers are true construct anchors versus merely useful context, so the manuscript does not become citation-heavy but theoretically loose?
 - Should Wang and Benbasat (2007), Senecal and Nantel (2004), and Yalcin et al. (2022) become part of the core anchor set if their PDFs are added and their exact fit holds up on close reading?
 
+### Construct-definition questions
+- How should perceived decision quality be distinguished most cleanly from choice confidence so the two do not collapse conceptually?
+- Is perceived transparency best defined as understandability of recommendation logic, reconstructability of the recommendation process, or both?
+- Which construct definitions need the strongest seminal anchors before measure selection begins?
+
 ## Resolved questions
 
 ### Verification workflow
@@ -41,3 +46,4 @@ This file records open questions, uncertainties, and decisions encountered while
 - Trust and satisfaction should remain secondary outcomes unless later evidence shows they need a more central role.
 - The core theory should contrast conversational AI with interface-level nudges by emphasizing adaptive dialogue, personalization benefits, and transparency costs.
 - The literature base should be organized around a small number of true anchors for each construct rather than continued broad accumulation of adjacent papers.
+- The next theory gain should come from cleaner construct definitions, not from adding many more adjacent citations.
