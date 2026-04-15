@@ -4,7 +4,7 @@
 - [ ] Confirm whether `ai nudging on digital platform.docx` should contain content or replace it with the correct file
 - [x] Create a dedicated working manuscript/concept draft for the project
 - [x] Sharpen the core contribution claim relative to digital nudging, AI nudging, and conversational commerce
-- [ ] Decide the main dependent variables and which ones are mediators or moderators
+- [x] Decide the main dependent variables and which ones are mediators or moderators at a first-pass level
 - [ ] Build the experimental design with three conditions: LLM conversational nudge, UI-based nudge, control
 - [x] Articulate how LLM conversational nudges differ from algorithm-generated recommendation badges in e-commerce choice architecture
 - [x] Conduct a focused literature review in UTD24 and ABDC A* business journals
@@ -12,11 +12,13 @@
 - [x] Create a running questions log for open issues and decisions
 
 ## Theory
-- [ ] Define LLM-driven conversational nudges clearly
-- [ ] Distinguish conversational AI nudges from traditional UI nudges and generic recommendation agents
-- [ ] Clarify the role of algorithmic opacity, interactivity, personalization, and adaptivity
-- [ ] Build a mechanism model around transparency, trust, cognitive load, confidence, and decision quality
-- [ ] Decide whether lower transparency is a mediator, moderator, or tradeoff condition
+- [x] Define LLM-driven conversational nudges clearly
+- [x] Distinguish conversational AI nudges from traditional UI nudges and generic recommendation agents
+- [x] Clarify the role of algorithmic opacity, interactivity, personalization, and adaptivity
+- [x] Build a first-pass mechanism model around transparency, personalization, cognitive load, confidence, purchase likelihood, and decision quality
+- [x] Decide that lower transparency should be treated as a competing tradeoff path in the first paper
+- [ ] Convert the mechanism model into a fuller prose theory section
+- [ ] Write the formal hypotheses section from the compact H1-H8 structure
 
 ## Study Design
 - [ ] Design the shopping task and product category
@@ -29,11 +31,11 @@
 ## Writing
 - [ ] Draft introduction and gap statement
 - [ ] Draft theoretical background
-- [ ] Draft research model and hypotheses
+- [x] Draft research model and hypotheses at blueprint level
 - [ ] Draft methods section
-- [ ] Draft expected contributions
+- [x] Draft expected contributions
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
 - [ ] Record new questions and resolved decisions in `questions_log.md`
-- [ ] Update project status after each meaningful review iteration
+- [x] Update project status after each meaningful review iteration

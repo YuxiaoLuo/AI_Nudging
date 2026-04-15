@@ -49,24 +49,25 @@ Unlike transparent UI nudges, conversational recommendations often obscure why a
 ### 6.5 Trust and persuasion tension
 Users may trust the interaction more because it feels intelligent and personalized, yet this trust may rest on an opaque and potentially biased recommendation process.
 
-## 7. Candidate mechanism model
+## 7. Recommended mechanism model
 ### Independent variable
 Type of nudge:
 - LLM conversational nudge
 - UI-based nudge
 - control
 
-### Likely mediators
+### Core mediators
 - perceived personalization
-- cognitive load
+- cognitive load reduction
 - perceived transparency
-- trust in the recommendation mechanism
 - choice confidence
 
-### Likely dependent variables
+### Primary dependent variables
 - purchase likelihood
-- purchase intention
-- decision quality
+- perceived decision quality
+
+### Secondary outcomes
+- trust in the recommendation mechanism
 - satisfaction with the decision
 
 ### Possible moderators
@@ -75,6 +76,22 @@ Type of nudge:
 - prior trust in AI
 - product involvement
 - product type, utilitarian versus hedonic
+
+### Recommended model logic
+The cleanest first paper is a tradeoff model rather than an everything-model. The main claim should be that, relative to UI nudges and control, LLM conversational nudges reshape consumer choice through two opposing process routes.
+
+**Benefit route:**
+- LLM conversational nudges increase perceived personalization.
+- Greater personalization reduces cognitive load by narrowing options and structuring comparison.
+- Lower cognitive load increases choice confidence and should improve perceived decision quality.
+- These same benefits may also increase purchase likelihood.
+
+**Risk route:**
+- LLM conversational nudges reduce perceived transparency because the recommendation logic is difficult to reconstruct.
+- Lower transparency weakens informed evaluation and may place artificial weight on fluent, confident recommendations.
+- Lower transparency may therefore qualify, offset, or suppress gains in decision quality even when purchase likelihood rises.
+
+This model keeps the paper focused. It also makes the causal comparison easier to defend: LLM nudges do not merely increase persuasion. They change the balance between decision support benefits and opacity costs.
 
 ## 8. Strong framing options
 ### Option A: Effects on purchase and decision process
@@ -87,46 +104,107 @@ Argue that LLM nudges improve convenience and confidence but reduce transparency
 Examine whether LLM nudges increase buying but not necessarily better buying, positioning decision quality as the most important downstream outcome.
 
 ## 9. Recommended direction
-Option B is especially promising because it is more interesting than a simple effectiveness paper. It allows the study to show both benefits and risks of LLM-based nudging.
+Option B remains the strongest direction, but it should be sharpened into a more concrete first-paper structure.
 
-A possible core model is:
-- LLM conversational nudges increase perceived personalization
-- increased personalization reduces cognitive load and increases confidence
-- but LLM conversational nudges reduce perceived transparency
-- lower transparency qualifies or offsets downstream benefits
-- these processes jointly shape purchase likelihood and decision quality
+### Recommended outcome strategy
+Treat the outcomes in two tiers:
 
-## 10. Experimental design sketch
+**Primary outcomes**
+1. **Purchase likelihood** as the persuasion/effectiveness outcome.
+2. **Perceived decision quality** as the welfare/quality outcome.
+
+**Process measures**
+- perceived personalization
+- cognitive load
+- perceived transparency
+- choice confidence
+
+**Secondary outcomes**
+- trust in recommender
+- satisfaction
+
+This is cleaner than making trust, confidence, satisfaction, purchase, and decision quality all co-equal endpoints. Confidence works better as a downstream process outcome than as the headline contribution. Trust can be retained as an auxiliary dependent variable or robustness outcome rather than the centerpiece.
+
+### Recommended causal story
+- Compared with UI nudges, LLM conversational nudges increase perceived personalization.
+- Increased personalization reduces cognitive load.
+- Reduced cognitive load increases choice confidence and supports higher perceived decision quality.
+- At the same time, LLM conversational nudges reduce perceived transparency.
+- Reduced transparency limits users' ability to understand why products are being recommended and may weaken the quality of their final choice evaluation.
+- The net result is a tradeoff: stronger purchase support and confidence, but potentially weaker transparency and more ambiguous decision quality.
+
+## 10. Draft hypotheses structure
+A defensible first-pass hypothesis set is:
+
+**H1:** LLM conversational nudges increase perceived personalization relative to UI-based nudges and control.
+
+**H2:** Greater perceived personalization is associated with lower cognitive load during product choice.
+
+**H3:** Lower cognitive load is associated with higher choice confidence.
+
+**H4:** Higher choice confidence is associated with higher perceived decision quality.
+
+**H5:** LLM conversational nudges decrease perceived transparency relative to UI-based nudges and control.
+
+**H6:** Lower perceived transparency is associated with lower perceived decision quality.
+
+**H7:** LLM conversational nudges increase purchase likelihood relative to UI-based nudges and control.
+
+**H8:** The effect of LLM conversational nudges on perceived decision quality is jointly shaped by a positive personalization-to-confidence path and a negative transparency path.
+
+This set is compact enough to execute while still preserving the paper's core tradeoff argument.
+
+## 11. Experimental design sketch
 ### Task
-Simulated online shopping task in a realistic product category, such as headphones, laptop bags, air fryers, skincare, or running shoes.
+Use a simulated online shopping task in a moderately involving product category with meaningful comparison needs. Good candidates are headphones, skincare, running shoes, or air fryers. Headphones or skincare may be especially useful because consumers can plausibly care about both preference fit and technical tradeoffs.
+
+### Recommended design choice
+Use a **three-condition between-subject experiment**:
+1. LLM conversational nudge
+2. UI-based nudge
+3. control
 
 ### Procedure
-1. Participant receives a shopping goal or scenario.
-2. Participant shops under one of three randomized conditions.
-3. Participant makes a product choice.
-4. Participant completes post-task measures.
+1. Participant receives a shopping scenario with a budget and preference goal.
+2. Participant shops in one randomized condition.
+3. Participant selects a product or indicates purchase likelihood.
+4. Participant completes post-task scales.
+5. Participant answers manipulation checks and basic controls.
 
 ### Measures
-- purchase intention / choice likelihood
+**Primary outcomes**
+- purchase likelihood / purchase intention
 - perceived decision quality
-- confidence in decision
+
+**Core process measures**
+- perceived personalization
 - cognitive load / effort
 - perceived transparency
+- choice confidence
+
+**Secondary outcomes**
 - trust in recommender
-- perceived personalization
 - satisfaction
 
 ### Manipulation checks
 - degree of conversational interaction
-- degree of perceived nudge salience
-- degree of perceived AI involvement
+- perceived adaptivity/personalization of the aid
+- perceived AI involvement
+- perceived visibility of recommendation logic
 
-## 11. Draft contribution statement
-This study contributes to research on digital nudging and conversational commerce by theorizing LLM-driven conversational assistants as a distinct form of AI nudge that operates through dialogue rather than interface placement alone. It further contributes by identifying a key design tension in AI-mediated commerce: conversational AI may improve personalization, reduce cognitive burden, and increase purchase likelihood, but it may also decrease transparency and complicate responsible choice architecture.
+### Controls
+- product category familiarity
+- prior use of AI assistants for shopping
+- general trust in AI
+- need for cognition
+- shopping involvement
 
-## 12. Immediate next steps
-- tighten the contribution claim
-- decide the primary outcome, purchase likelihood versus decision quality
-- formalize the mechanism model
-- draft hypotheses
-- design the shopping experiment
+## 12. Draft contribution statement
+This study contributes to research on digital nudging and conversational commerce by theorizing LLM-driven conversational assistants as a distinct form of AI nudge that operates through adaptive dialogue rather than interface placement alone. It further contributes by identifying a core tradeoff in AI-mediated shopping: conversational AI can increase personalization, reduce cognitive burden, and raise purchase support, while simultaneously reducing transparency in how recommendations are generated and justified. By comparing conversational AI nudges directly with traditional UI-based nudges, the study clarifies whether LLM-based assistance is merely a stronger interface cue or a qualitatively different architecture of influence.
+
+## 13. Immediate next steps
+- convert the recommended model into a cleaner theory section
+- write a formal hypotheses section from H1 to H8
+- choose the shopping product category
+- draft treatment materials for the three conditions
+- specify the measures and analysis plan
