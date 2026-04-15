@@ -1,0 +1,57 @@
+# Literature Reading Matrix: LLM Conversational Nudges vs. Recommendation Badges
+
+## Use
+This matrix captures the most relevant literature for positioning the nudging project in top business journals. Priority is given to UTD24 journals and strong ABDC A* business journals with direct relevance to e-commerce, recommendation systems, conversational agents, AI transparency, and consumer decision-making.
+
+| # | Citation | Journal pool | Context | Focal technology / mechanism | Theory / lens | Method | Main findings / value for this project | Direct relevance |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Häubl, G., & Trifts, V. (2000). Consumer Decision Making in Online Shopping Environments: The Effects of Interactive Decision Aids. Marketing Science. https://doi.org/10.1287/mksc.19.1.4.15178 | UTD24 | Online shopping | Recommendation agent and comparison matrix as interactive decision aids | Consumer decision making, decision aids | Controlled experiment in simulated online store | Interactive decision aids reduce search effort, improve consideration set quality, and improve purchase decision quality. Critical anchor for showing that interactive guidance changes decision process, not just choice outcome. | Very high |
+| 2 | De Bruyn, A., Liechty, J. C., Huizingh, E. K. R. E., & Lilien, G. L. (2008). Offering Online Recommendations with Minimum Customer Input Through Conjoint-Based Decision Aids. Marketing Science. https://doi.org/10.1287/mksc.1070.0306 | UTD24 | Online recommendations | Questionnaire-based online decision aid / recommender | Conjoint-based decision aid design | Empirical modeling study | Shows recommendation systems can offer relevant guidance with minimal user input. Useful background on efficient recommendation support, but still much less interactive than LLM dialogue. | High |
+| 3 | Shi, S. W., & Zhang, J. (2014). Usage Experience with Decision Aids and Evolution of Online Purchase Behavior. Marketing Science. https://doi.org/10.1287/mksc.2014.0872 | UTD24 | Online grocery shopping | Interactive decision aids | Decision aids and purchase behavior evolution | Hidden Markov modeling on behavioral data | Different decision aids shape purchase behavior over time, with both beneficial and potentially undesirable effects. Helpful for arguing long-run platform implications of AI nudges. | High |
+| 4 | Ursu, R. M. (2018). The Power of Rankings: Quantifying the Effect of Rankings on Online Consumer Search and Purchase Decisions. Marketing Science. https://doi.org/10.1287/mksc.2017.1072 | UTD24 | Online consumer search and purchase | Rankings | Search and purchase decision process | Empirical structural analysis | Rankings affect search and purchase behavior by shaping what consumers inspect. Strong baseline for badge/ranking choice architecture. | Very high |
+| 5 | Compiani, G., Lewis, G., Peng, S., & Wang, P. (2023). Online Search and Optimal Product Rankings: An Empirical Framework. Marketing Science. https://doi.org/10.1287/mksc.2022.0071 | UTD24 | Online product search | Product rankings | Platform design and ranking optimization | Empirical framework | Useful for platform-side logic of rankings and incentives. Helps differentiate ranking optimization from conversational steering. | Medium-high |
+| 6 | Wang, W., Xu, J. D., & Wang, M. (2018). Effects of Recommendation Neutrality and Sponsorship Disclosure on Trust vs. Distrust in Online Recommendation Agents: Moderating Role of Explanations for Organic Recommendations. Management Science. https://doi.org/10.1287/mnsc.2017.2906 | UTD24 | Online recommendation agents | Recommendation neutrality, sponsorship disclosure, explanations | Trust vs. distrust, disclosure, explanations | Experiment | Directly relevant to opacity, persuasion, trust, and explanations in recommendation agents. Excellent bridge from classic recommendation agents to LLM conversational nudges. | Very high |
+| 7 | Wang, W., & Wang, M. (2019). Effects of Sponsorship Disclosure on Perceived Integrity of Biased Recommendation Agents: Psychological Contract Violation and Knowledge-Based Trust Perspectives. Information Systems Research. https://doi.org/10.1287/isre.2018.0811 | UTD24 | Online recommendation agents | Biased recommendation agent with sponsorship disclosure | Psychological contract violation, trust | Laboratory experiment | Sponsorship disclosure affects perceived integrity via reduced perceived psychological contract violation. Strong mechanism paper for transparency and integrity concerns. | Very high |
+| 8 | Kaliyamurthy, A. K., & Schau, H. J. (2025). How Algorithms Constrain Consumer Experience. Journal of Consumer Research. https://doi.org/10.1093/jcr/ucaf016 | UTD24 | Algorithm-mediated consumption | Algorithmic constraints on consumer experience | Legibility, visibility, legitimacy | Multi-method ethnography | Shows algorithms constrain consumer experience through systemic logics and consumer work. Strong conceptual anchor for the downside or hidden-cost side of conversational AI nudges. | High |
+| 9 | Castelo, N., Bos, M. W., & Lehmann, D. R. (2019). Task-Dependent Algorithm Aversion. Journal of Marketing Research. https://doi.org/10.1177/0022243719851788 | UTD24 | Consumer use of algorithms | Algorithmic advice | Algorithm aversion / appreciation | Experiments | Useful for theorizing when users may resist or distrust AI advice depending on task type. Relevant as a moderator perspective. | Medium |
+| 10 | Logg, J. M., Minson, J. A., & Moore, D. A. (2019). Algorithm Appreciation: People Prefer Algorithmic to Human Judgment. Organizational Behavior and Human Decision Processes. https://doi.org/10.1016/j.obhdp.2018.12.005 | Strong adjacent, not UTD24 business core | Judgment and decision making | Algorithmic advice | Algorithm appreciation | Experiments | Good anchor on algorithm trust/appreciation, though less e-commerce specific. Useful supporting theory, not a central positioning paper. | Medium |
+| 11 | Mahmud, I., & Islam, A. N. (2021). Understanding automated conversational agent as a decision aid: matching agent's conversation with customer's shopping task. Internet Research. https://doi.org/10.1108/INTR-11-2019-0447 | ABDC A* adjacent | Shopping tasks | Automated conversational agent | Cognitive fit, decisional guidance, communication style | 2x2x2 experiment | Treats chatbot as a decision aid and shows task-guidance fit matters. Useful direct precedent for conversational agents affecting decision outcomes through guidance style. | High |
+| 12 | Narducci, F., Basile, P., de Gemmis, M., Lops, P., & Semeraro, G. (2020). Conversational Recommender Systems and Natural Language: A Study Through the ConveRSE Framework. Decision Support Systems. https://doi.org/10.1016/j.dss.2020.113250 | ABDC A* / strong IS | Conversational recommenders | Conversational recommender systems | CRS framework | System development and evaluation | Strong technical and conceptual anchor distinguishing conversational recommenders from standard recommender interfaces. Useful for construct definition. | High |
+| 13 | Aksoy, L., Bloom, P. N., Lurie, N. H., & Cooil, B. (2006). Should Recommendation Agents Think Like People? Journal of Service Research. https://doi.org/10.1177/1094670506286326 | ABDC A* adjacent | Recommendation agents | Human-like recommendation strategies | Recommendation-agent similarity | Empirical study | Useful for arguing that human-like advisory behavior changes how consumers process recommendation support. | Medium-high |
+| 14 | Huseynov, F., Huseynov, S. Y., & Özkan, S. (2016). The influence of knowledge-based e-commerce product recommender agents on online consumer decision-making. Journal of Information Technology. https://doi.org/10.1177/0266666914528929 | ABDC A* | E-commerce recommender agents | Knowledge-based recommender agent | Consumer decision-making | Empirical study | Useful evidence that recommender agents influence effort and decision outcomes. Helpful intermediate comparison category between badges and LLM conversation. | Medium-high |
+| 15 | Lei, K., & Liu, Y. (2025). When AI Becomes a Shopping Advisor: A Study on the Impact of Generative AI Review on Consumer Purchase Decision. SAGE Open. https://doi.org/10.1177/21582440251357671 | Not a target journal, current topical relevance | Shopping with generative AI | Generative AI review / shopping advisor | Purchase decision | Empirical study | Not a target outlet paper, but useful for current phenomenon relevance and emerging constructs. Use cautiously as supporting context, not as an anchor. | Low-medium |
+
+## Excluded paper
+A previously renamed local file based on `Ho_2025_System 2 & Confidence.pdf` has been removed from the project set after verification. The embedded metadata showed it was a paper in *Humanities and Social Sciences Communications*, not Journal of Business Research, and it is outside the UTD24 / ABDC A* business-journal target scope for this project.
+
+## Initial synthesis
+
+### A. Badge / ranking baseline
+The strongest badge-side anchors are rankings and interface-based decision aids. These studies show that classic choice architecture on e-commerce platforms works by shaping search, salience, inspection order, and consideration sets.
+
+### B. Agent / advisor baseline
+Recommendation-agent studies show a different mechanism set: trust, neutrality, sponsorship disclosure, integrity, explanations, and guidance quality. This is already closer to your project than badges alone.
+
+### C. Conversational layer
+Conversational-agent and conversational-recommender studies suggest that dialogue changes the decision process by making guidance sequential, adaptive, and interaction-dependent.
+
+### D. Your likely gap
+There is still room for a paper showing that **LLM-based conversational nudges are distinct from both badge-based nudges and classic recommendation agents**, especially in e-commerce. The strongest differentiation dimensions are:
+- interactivity
+- adaptivity
+- perceived socialness / agency
+- opacity of recommendation logic
+- influence on confidence and preference construction, not just attention or search
+
+## Priority shortlist for immediate deep reading
+1. Häubl & Trifts (2000) - interactive decision aids
+2. Ursu (2018) - rankings and search
+3. Wang, Xu, & Wang (2018) - trust/distrust in recommendation agents
+4. Wang & Wang (2019) - integrity, disclosure, psychological contract violation
+5. Narducci et al. (2020) - conversational recommender systems
+6. Mahmud & Islam (2021) - chatbot as decision aid
+7. Kaliyamurthy & Schau (2025) - algorithmic constraints on consumer experience
+
+## Notes
+- UTD24 status can vary by list year and school implementation, but the selected core journals above are standard high-prestige targets and are appropriate anchors for this project.
+- I intentionally separated top-anchor papers from merely topical recent papers so the review stays publication-oriented.
