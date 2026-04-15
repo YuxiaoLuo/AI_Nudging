@@ -21,6 +21,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The hypotheses section has now been expanded from a compact H1-H8 list into fuller manuscript-style prose, making the theory package more publication-like and easier to convert into a full draft.
 - The next literature pass is now being tightened further: the goal is less broad accumulation and more identification of the smallest defensible anchor set for the paper's main constructs and comparisons.
 - The manuscript blueprint has now been tightened again to better connect the theory section to early recommendation-effect research and recommendation-agent explanation logic, not just broad conversational-commerce framing.
+- The theory framing is now being consolidated around a compact anchor set rather than continued broad citation expansion, making the next step a cleaner manuscript-style theoretical background draft.
 - `ai nudging on digital platform.docx` appears empty on disk right now, so it could not yet be used as a source for development.
 
 ## Blockers

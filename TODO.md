@@ -32,6 +32,7 @@
 - [ ] Draft introduction and gap statement
 - [ ] Draft theoretical background
 - [x] Draft research model and hypotheses at blueprint level
+- [ ] Convert the tightened anchor set into a cleaner manuscript-style theory/background draft
 - [ ] Draft methods section
 - [x] Draft expected contributions
 
