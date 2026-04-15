@@ -229,11 +229,11 @@ Use a **three-condition between-subject experiment**:
 - shopping involvement
 
 ## 12. Draft contribution statement
-This study contributes to research on digital nudging and conversational commerce by theorizing LLM-driven conversational assistants as a distinct form of AI nudge that operates through adaptive dialogue rather than interface placement alone. It further contributes by identifying a core tradeoff in AI-mediated shopping: conversational AI can increase personalization, reduce cognitive burden, and raise purchase support, while simultaneously reducing transparency in how recommendations are generated and justified. By comparing conversational AI nudges directly with traditional UI-based nudges, the study clarifies whether LLM-based assistance is merely a stronger interface cue or a qualitatively different architecture of influence. More broadly, the paper links classic recommendation effects, recommendation-agent explanation research, and newer conversational commerce work into a single theory of conversational AI as choice architecture.
+This study contributes to research on digital nudging and conversational commerce by theorizing LLM-driven conversational assistants as a distinct form of AI nudge that operates through adaptive dialogue rather than interface placement alone. It further contributes by identifying a core tradeoff in AI-mediated shopping: conversational AI can increase personalization, reduce cognitive burden, and raise purchase support, while simultaneously reducing transparency in how recommendations are generated and justified. By comparing conversational AI nudges directly with traditional UI-based nudges, the study clarifies whether LLM-based assistance is merely a stronger interface cue or a qualitatively different architecture of influence. More broadly, the paper links classic recommendation effects, recommendation-agent explanation research, and newer conversational commerce work into a single theory of conversational AI as choice architecture. This framing also keeps the first paper narrow enough to be credible: it does not need to explain every possible AI-shopping outcome, only why conversational AI changes the balance between support and opacity differently from simpler nudges.
 
 ## 13. Immediate next steps
-- convert the recommended model into a cleaner theory section
-- write a formal hypotheses section from H1 to H8
+- convert the compact anchor set into a cleaner manuscript-style theoretical background section
+- tighten construct definitions for perceived personalization, transparency, confidence, and perceived decision quality
 - choose the shopping product category
 - draft treatment materials for the three conditions
 - specify the measures and analysis plan

@@ -22,6 +22,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The next literature pass is now being tightened further: the goal is less broad accumulation and more identification of the smallest defensible anchor set for the paper's main constructs and comparisons.
 - The manuscript blueprint has now been tightened again to better connect the theory section to early recommendation-effect research and recommendation-agent explanation logic, not just broad conversational-commerce framing.
 - The theory framing is now being consolidated around a compact anchor set rather than continued broad citation expansion, making the next step a cleaner manuscript-style theoretical background draft.
+- The blueprint has also been tightened to keep the first paper narrower and more defensible, with clearer emphasis on support-versus-opacity tradeoffs rather than a sprawling AI-shopping model.
 - `ai nudging on digital platform.docx` appears empty on disk right now, so it could not yet be used as a source for development.
 
 ## Blockers
@@ -32,6 +33,6 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 ## Next Steps
 1. Continue collecting and verifying highly relevant articles, prioritizing seminal and top-journal anchors.
 2. Narrow the smallest defensible anchor set for each major construct and comparison in the model.
-3. Continue integrating the strongest anchor papers directly into manuscript-level theory language.
-4. Keep the literature folder and `literature/download_log.md` current whenever new relevant but unavailable papers are identified.
+3. Tighten source-backed construct definitions for the core mediators and outcomes.
+4. Keep integrating the strongest anchor papers directly into manuscript-level theory language.
 5. Delay detailed experiment drafting until the theory and literature foundation are more stable.
