@@ -34,6 +34,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The study-design sketch has now been tightened slightly by identifying headphones as the strongest current first-category candidate, given its combination of attribute complexity, broad familiarity, and meaningful tradeoffs.
 - The measure logic has also been tightened so the planned outcomes and process measures now map more explicitly onto the theory's construct definitions rather than remaining a loose checklist.
 - The manipulation-check logic has now been clarified as well, with an explicit reminder that checks should verify condition differences without collapsing into the substantive mediators.
+- The control-variable logic has now been clarified too, emphasizing a compact, theory-justified control set rather than an expansive list of generic controls.
 - `ai nudging on digital platform.docx` appears empty on disk right now, so it could not yet be used as a source for development.
 
 ## Blockers
