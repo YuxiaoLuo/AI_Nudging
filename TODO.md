@@ -34,6 +34,7 @@
 - [ ] Draft theoretical background
 - [x] Draft research model and hypotheses at blueprint level
 - [ ] Convert the tightened anchor set into a cleaner manuscript-style theory/background draft
+- [ ] Turn the current problem statement and contribution framing into a more journal-style opening section
 - [ ] Draft methods section
 - [x] Draft expected contributions
 
