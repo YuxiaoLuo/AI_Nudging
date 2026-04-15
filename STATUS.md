@@ -47,4 +47,4 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 2. Narrow the smallest defensible anchor set for each major construct and comparison in the model.
 3. Tighten source-backed construct definitions for the core mediators and outcomes.
 4. Keep integrating the strongest anchor papers directly into manuscript-level theory language.
-5. Develop the experimental sketch cautiously, starting with the headphones category as the leading first-paper option.
+5. Move the study design from first-pass conceptual logic toward treatment materials and analysis strategy, with headphones as the leading first-paper option.
