@@ -20,6 +20,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The blueprint now also contains a fuller prose theory section that explains why conversational AI is distinct from interface-level nudges and clarifies the benefit route (personalization, lower cognitive load, higher confidence) versus the risk route (lower transparency).
 - The hypotheses section has now been expanded from a compact H1-H8 list into fuller manuscript-style prose, making the theory package more publication-like and easier to convert into a full draft.
 - The next literature pass is now being tightened further: the goal is less broad accumulation and more identification of the smallest defensible anchor set for the paper's main constructs and comparisons.
+- The manuscript blueprint has now been tightened again to better connect the theory section to early recommendation-effect research and recommendation-agent explanation logic, not just broad conversational-commerce framing.
 - `ai nudging on digital platform.docx` appears empty on disk right now, so it could not yet be used as a source for development.
 
 ## Blockers
@@ -30,6 +31,6 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 ## Next Steps
 1. Continue collecting and verifying highly relevant articles, prioritizing seminal and top-journal anchors.
 2. Narrow the smallest defensible anchor set for each major construct and comparison in the model.
-3. Strengthen construct definitions with tighter source-backed positioning.
+3. Continue integrating the strongest anchor papers directly into manuscript-level theory language.
 4. Keep the literature folder and `literature/download_log.md` current whenever new relevant but unavailable papers are identified.
 5. Delay detailed experiment drafting until the theory and literature foundation are more stable.
