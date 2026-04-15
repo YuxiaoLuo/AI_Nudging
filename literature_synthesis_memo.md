@@ -123,6 +123,8 @@ Wang and Benbasat (2007) is especially valuable for the transparency side of the
 ### C. Algorithmic decision reactions
 Yalcin et al. (2022) is useful as a top-journal consumer-reaction anchor on algorithmic versus human decisions. It is not an e-commerce recommendation paper per se, but it can help support arguments about how consumers react to algorithmic agency, perceived judgment, and the social interpretation of machine-made decisions.
 
+Longoni, Bonezzi, and Morewedge (2019) is also worth retaining as a high-prestige supporting paper on resistance to AI advice. Although it is set in a medical domain rather than shopping, it is useful because it shows that consumers do not uniformly welcome AI advice, especially in consequential or judgment-heavy contexts. This makes it a useful boundary-condition reference for the current project's assumption that conversational AI guidance may often be effective, while still being met with resistance under some conditions.
+
 ### D. Conversational agents as decision aids
 The Internet Research paper on matching an automated conversational agent's conversation to the customer's shopping task is especially useful because it treats the conversational agent as a **decision aid** rather than just a service interface. That framing is very close to the present paper's logic and gives a direct bridge from decision-aid research to conversational shopping assistance.
 
@@ -133,6 +135,8 @@ The Technological Forecasting and Social Change paper on biased choices offered 
 The Computers in Human Behavior paper on personalization and social role in voice shopping is useful for the upside path. It supports the idea that conversational recommendation can increase perceived personalization and favorable product evaluation, which helps justify the benefit side of the tradeoff model.
 
 These are not all top-anchor papers in the same way as Häubl and Trifts, Ursu, or the Wang papers. But they are strong supporting papers because they map directly onto the project's benefit path, risk path, and conversational decision-aid framing.
+
+A useful caution, however, is that not every adjacent AI or service-technology paper should be absorbed into the core anchor set. Some papers, such as broader service-technology conceptual pieces, may help with phenomenon framing but should remain peripheral unless they directly sharpen the paper's core causal logic.
 
 
 ## 7. Priority implications for the next drafting pass

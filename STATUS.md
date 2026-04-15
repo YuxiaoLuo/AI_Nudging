@@ -30,6 +30,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The hypotheses section has now also been tightened to better match scientific manuscript conventions, including more explicit comparative phrasing and cleaner theory-linked prediction statements.
 - The manuscript opening has now been further harmonized with the theory and contribution sections, making the front end of the draft read more like a coherent scientific manuscript rather than a set of separate notes.
 - The contribution section has now also been tightened so the paper's theoretical contribution is stated more explicitly at the mechanism level rather than only as a broad framing claim.
+- Another literature pass has now been completed with a stricter filter for anchor versus supporting citations, including addition of a high-prestige AI-advice resistance paper as a possible boundary-condition reference rather than a core shopping anchor.
 - `ai nudging on digital platform.docx` appears empty on disk right now, so it could not yet be used as a source for development.
 
 ## Blockers

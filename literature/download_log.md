@@ -97,5 +97,11 @@ These look significant and relevant enough to track for manual review or later c
     - Strong top-journal anchor on how consumers react to algorithmic versus human decision makers.
     - Useful for framing anthropomorphism, acceptance, and perceived machine judgment.
 
+- Longoni, C., Bonezzi, A., & Morewedge, C. K. (2019). *Resistance to Medical Artificial Intelligence*. Journal of Consumer Research.
+  - intended filename: `Longoni_JCR2019_ResistanceToMedicalAI.pdf`
+  - why it is relevant:
+    - High-prestige supporting paper on consumer resistance to AI advice.
+    - Useful as a boundary-condition reference for acceptance of AI recommendations, even though the domain is medical rather than shopping.
+
 ## Recommended next step
 Keep using this file to track newly identified but unavailable articles in future literature-review passes.
