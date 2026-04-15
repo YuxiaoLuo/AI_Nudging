@@ -12,12 +12,14 @@ A foundational example is Häubl and Trifts (2000), who show that interactive de
 
 At the same time, the ranking literature suggests a boundary. Ursu (2018) shows that rankings causally affect what consumers search, but conditional on search, do not directly affect purchases. This is a critical benchmark for the current project because it suggests that many traditional interface-level nudges work primarily through **search-cost reduction and attention allocation**, not through deeper conversational persuasion or dynamic preference shaping.
 
-### B. Recommendation-agent research explains trust, disclosure, and integrity concerns
+### B. Recommendation-agent research explains trust, explanation, disclosure, and integrity concerns
 A second literature stream examines recommendation agents rather than simple badges or rankings. This work moves closer to your project because it addresses trust, explanations, sponsorship disclosure, and perceptions of biased recommendation systems.
+
+An important early anchor here is Wang and Benbasat (2007), who show that explanation facilities in recommendation agents affect trusting beliefs. This is especially useful because it establishes, at an earlier stage in the literature, that the design of explanations is not just a usability add-on. It changes whether users feel able to trust the recommendation mechanism itself. That matters directly for the present project because conversational AI systems may be highly fluent and personalized while still offering weak reconstructability of how the recommendation was produced.
 
 Wang, Xu, and Wang (2018) show that when recommendation agents lack neutrality and are biased toward sponsors, trust decreases and distrust increases. Explanations for organic recommendations can partially restore trust, and perceived psychological contract violation emerges as a key mediator. Wang and Wang (2019) extend this logic by showing that sponsorship disclosure improves perceived integrity partly through reduced psychological contract violation and improved transparency.
 
-This stream matters because it provides a strong theoretical bridge from classic recommendation agents to LLM conversational systems. It shows that once recommendation support becomes more agentic and more potentially biased, **transparency, integrity, and trust become central outcomes rather than peripheral design concerns**.
+This stream matters because it provides a strong theoretical bridge from classic recommendation agents to LLM conversational systems. It shows that once recommendation support becomes more agentic and more potentially biased, **transparency, explanations, integrity, and trust become central outcomes rather than peripheral design concerns**.
 
 ### C. Digital nudging research is increasingly attentive to ethics and transparency
 The more recent digital nudging literature has started to examine not only effectiveness but also the ethical and transparency dimensions of nudges. For example, the EJIS paper on salience, transparency, and self-nudging in healthier food choices suggests that the field is moving beyond the simple question of whether nudges work and toward whether they are transparent, ethical, and autonomy-preserving.
@@ -100,6 +102,26 @@ A strong contribution claim would be:
 
 ## 6. Additional literature worth keeping in the active set
 A few additional papers look worth retaining because they strengthen specific pieces of the emerging model rather than merely adding more adjacent citations.
+
+### A. Early recommendation-effect baseline
+Senecal and Nantel (2004) is useful as an early retail/marketing anchor showing that online product recommendations can directly influence consumer choice. It is helpful because it gives the paper a stronger pre-LLM baseline for recommendation influence before moving to more agentic and conversational forms.
+
+### B. Explanation and trust in recommendation agents
+Wang and Benbasat (2007) is especially valuable for the transparency side of the model. It gives a more foundational explanation-facility anchor that complements the later disclosure and integrity papers. If the project argues that LLM conversational nudges lower transparency relative to UI nudges, this older recommendation-agent literature helps show why explainability should matter for trust and evaluation in the first place.
+
+### C. Algorithmic decision reactions
+Yalcin et al. (2022) is useful as a top-journal consumer-reaction anchor on algorithmic versus human decisions. It is not an e-commerce recommendation paper per se, but it can help support arguments about how consumers react to algorithmic agency, perceived judgment, and the social interpretation of machine-made decisions.
+
+### D. Conversational agents as decision aids
+The Internet Research paper on matching an automated conversational agent's conversation to the customer's shopping task is especially useful because it treats the conversational agent as a **decision aid** rather than just a service interface. That framing is very close to the present paper's logic and gives a direct bridge from decision-aid research to conversational shopping assistance.
+
+### E. Conversational commerce bias and transparency concerns
+The Technological Forecasting and Social Change paper on biased choices offered by voice assistants is useful for the downside path. It suggests that conversational commerce is not only about convenience and engagement, but also about concerns over constrained choice, hidden steering, and transparency. This is closely aligned with the project's opacity concern.
+
+### F. Personalization benefits in conversational shopping
+The Computers in Human Behavior paper on personalization and social role in voice shopping is useful for the upside path. It supports the idea that conversational recommendation can increase perceived personalization and favorable product evaluation, which helps justify the benefit side of the tradeoff model.
+
+These are not all top-anchor papers in the same way as Häubl and Trifts, Ursu, or the Wang papers. But they are strong supporting papers because they map directly onto the project's benefit path, risk path, and conversational decision-aid framing.
 
 ### A. Conversational agents as decision aids
 The Internet Research paper on matching an automated conversational agent's conversation to the customer's shopping task is especially useful because it treats the conversational agent as a **decision aid** rather than just a service interface. That framing is very close to the present paper's logic and gives a direct bridge from decision-aid research to conversational shopping assistance.

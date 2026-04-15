@@ -76,5 +76,26 @@ Every time literature review is performed for this project, this file should be 
   - why it is relevant:
     - Strong support for the personalization benefit path in conversational shopping.
 
+## Newly identified relevant articles not yet added in this pass
+These look significant and relevant enough to track for manual review or later collection.
+
+- Wang, W., & Benbasat, I. (2007). *Recommendation agents for electronic commerce: Effects of explanation facilities on trusting beliefs*. Journal of Management Information Systems.
+  - intended filename: `Wang_JMIS2007_ExplanationFacilitiesTrustingBeliefs.pdf`
+  - why it is relevant:
+    - Seminal explanation-facility paper for recommendation agents.
+    - Important anchor for the transparency and trust side of the current model.
+
+- Senecal, S., & Nantel, J. (2004). *The influence of online product recommendations on consumers' online choices*. Journal of Retailing.
+  - intended filename: `Senecal_JRetailing2004_OnlineProductRecommendationsChoices.pdf`
+  - why it is relevant:
+    - Early and important retail anchor showing that online recommendations directly affect consumer choice.
+    - Useful baseline before moving to conversational and more opaque recommendation forms.
+
+- Yalcin, G., Lim, S., Puntoni, S., & van Osselaer, S. M. J. (2022). *Thumbs Up or Down: Consumer Reactions to Decisions by Algorithms Versus Humans*. Journal of Marketing Research.
+  - intended filename: `Yalcin_JMR2022_ConsumerReactionsAlgorithmsVersusHumans.pdf`
+  - why it is relevant:
+    - Strong top-journal anchor on how consumers react to algorithmic versus human decision makers.
+    - Useful for framing anthropomorphism, acceptance, and perceived machine judgment.
+
 ## Recommended next step
 Keep using this file to track newly identified but unavailable articles in future literature-review passes.

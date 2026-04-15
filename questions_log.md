@@ -24,6 +24,7 @@ This file records open questions, uncertainties, and decisions encountered while
 - Are there top-journal marketing papers on consumer confidence, transparency, or algorithmic advice in shopping contexts that should be pulled in next?
 - Which currently collected papers are useful but should remain supporting rather than anchor references?
 - Which current papers are true construct anchors versus merely useful context, so the manuscript does not become citation-heavy but theoretically loose?
+- Should Wang and Benbasat (2007), Senecal and Nantel (2004), and Yalcin et al. (2022) become part of the core anchor set if their PDFs are added and their exact fit holds up on close reading?
 
 ## Resolved questions
 
