@@ -18,7 +18,7 @@
 - [x] Build a first-pass mechanism model around transparency, personalization, cognitive load, confidence, purchase likelihood, and decision quality
 - [x] Decide that lower transparency should be treated as a competing tradeoff path in the first paper
 - [x] Convert the mechanism model into a fuller prose theory section
-- [ ] Write the formal hypotheses section from the compact H1-H8 structure
+- [x] Write the formal hypotheses section from the compact H1-H8 structure
 
 ## Study Design
 - [ ] Design the shopping task and product category after the theory base is more stable
