@@ -49,3 +49,4 @@ This file records open questions, uncertainties, and decisions encountered while
 - The next theory gain should come from cleaner construct definitions, not from adding many more adjacent citations.
 - Choice confidence should be treated as certainty in the selected option, whereas perceived decision quality should remain the broader evaluative judgment of whether the final decision was sound and appropriate.
 - Perceived transparency should be treated as a combination of understandability and reconstructability of the recommendation basis.
+- Scientific manuscript style should now be the default for theory writing, with citation-backed claims integrated directly into the prose rather than left implicit.
