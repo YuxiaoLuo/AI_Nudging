@@ -3,7 +3,7 @@
 ## 1. Core premise
 The integration of LLMs into e-commerce platforms has created a new form of digital choice architecture: conversational AI nudging. Unlike traditional UI nudges such as recommendation badges, product rankings, or highlighted labels, LLM-based assistants influence users through interactive, adaptive, and often opaque dialogue. This project examines whether and how LLM-driven conversational nudges shape purchase decision-making differently from traditional UI-based nudges.
 
-## 2. Problem statement
+## 2. Problem statement and research motivation
 Digital nudging research has largely focused on interface-level interventions such as defaults, rankings, labels, visual salience, social proof, and recommendation cues. These mechanisms alter choice architecture by changing what users see and how options are presented. Recommendation research has further shown that online recommendations can influence consumer choice, while recommendation-agent research has highlighted the importance of explanations, neutrality, disclosure, and trust. However, LLM-enabled shopping assistants do more than present options. They converse, interpret user needs, generate comparative guidance, personalize recommendations in real time, and steer users through a dynamic exchange.
 
 This shift matters because conversational AI may not simply be a stronger version of existing recommendation cues. It may represent a qualitatively different persuasive mechanism. Compared with static UI nudges, LLM-based nudges can feel more personalized, reduce search effort, guide users through complexity, and increase decision confidence. At the same time, they may reduce transparency because users cannot easily determine why a product is recommended, what logic was used, or whether the platform’s commercial interests shaped the response.
@@ -12,6 +12,8 @@ As a result, the central question is not only whether LLM assistants increase pu
 
 ## 3. Potential contribution
 This project can contribute by showing that LLM conversational assistants are a distinct form of AI nudge rather than a simple extension of existing digital nudges. It can also identify a central design tradeoff in conversational commerce: greater personalization and reduced cognitive burden may improve decision support and increase purchase, but increased algorithmic opacity may undermine transparent and responsible choice architecture. In that sense, the paper is not just about whether AI nudges work. It is about why conversational AI changes the balance between decision support and inspectability differently from rankings, badges, and classic recommendation agents.
+
+Taken together, this framing suggests a contribution to both digital-nudging and conversational-commerce research. The paper positions conversational AI as a form of choice architecture whose distinctive value lies in adaptive dialogue, but whose distinctive risk lies in reduced inspectability of the recommendation process. The resulting contribution is therefore not a generic claim that AI improves shopping, but a more specific claim that conversational AI changes the mechanism of influence and thereby introduces a new tradeoff between decision support and transparency.
 
 ## 4. Working definition
 **LLM-driven conversational AI nudges** are platform-mediated choice interventions delivered through interactive natural-language dialogue, where recommendations, framing, sequencing, and emphasis are generated or adapted by an LLM in ways that steer user decision processes without restricting options.
