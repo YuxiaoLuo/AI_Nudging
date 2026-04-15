@@ -23,6 +23,7 @@ This file records open questions, uncertainties, and decisions encountered while
 - Which additional UTD24 or ABDC A* papers best strengthen the bridge from recommendation agents to conversational AI?
 - Are there top-journal marketing papers on consumer confidence, transparency, or algorithmic advice in shopping contexts that should be pulled in next?
 - Which currently collected papers are useful but should remain supporting rather than anchor references?
+- Which current papers are true construct anchors versus merely useful context, so the manuscript does not become citation-heavy but theoretically loose?
 
 ## Resolved questions
 
@@ -38,3 +39,4 @@ This file records open questions, uncertainties, and decisions encountered while
 - Primary outcomes should remain purchase likelihood and perceived decision quality.
 - Trust and satisfaction should remain secondary outcomes unless later evidence shows they need a more central role.
 - The core theory should contrast conversational AI with interface-level nudges by emphasizing adaptive dialogue, personalization benefits, and transparency costs.
+- The literature base should be organized around a small number of true anchors for each construct rather than continued broad accumulation of adjacent papers.
