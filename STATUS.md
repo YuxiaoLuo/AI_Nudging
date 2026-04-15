@@ -27,6 +27,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The manuscript blueprint now clarifies two key construct boundaries directly in the theory: confidence versus perceived decision quality, and transparency as understandability plus reconstructability.
 - The opening manuscript framing has now been tightened further so the problem statement and contribution claim more clearly bridge digital nudging, recommendation research, recommendation-agent work, and conversational AI without drifting into an overly broad AI-commerce story.
 - The theory section has now been rewritten in a more scientific manuscript style, with citation-backed claims integrated directly into the prose for the core theoretical logic.
+- The hypotheses section has now also been tightened to better match scientific manuscript conventions, including more explicit comparative phrasing and cleaner theory-linked prediction statements.
 - `ai nudging on digital platform.docx` appears empty on disk right now, so it could not yet be used as a source for development.
 
 ## Blockers

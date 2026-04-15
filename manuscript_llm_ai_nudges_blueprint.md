@@ -139,12 +139,12 @@ This is cleaner than making trust, confidence, satisfaction, purchase, and decis
 - The net result is a tradeoff: stronger purchase support and confidence, but potentially weaker transparency and more ambiguous decision quality.
 
 ## 10. Hypotheses development
-The model implies that LLM conversational nudges influence shopping decisions through two competing routes. The first route captures decision-support benefits, beginning with stronger perceived personalization and flowing through lower cognitive load and higher confidence. The second route captures opacity costs, in which conversational guidance reduces perceived transparency and thereby complicates evaluation of the final choice. The hypotheses below formalize these arguments.
+The model implies that LLM conversational nudges influence shopping decisions through two competing routes. The first route captures decision-support benefits, beginning with stronger perceived personalization and flowing through lower cognitive load and higher confidence. The second route captures opacity costs, in which conversational guidance reduces perceived transparency and thereby complicates evaluation of the final choice. Consistent with the scientific writing direction of the project, the hypotheses below are stated as theory-linked predictions rather than as isolated causal claims.
 
 ### 10.1 LLM conversational nudges and perceived personalization
 Compared with UI nudges, conversational AI can ask follow-up questions, incorporate stated preferences, and present advice in language that appears tailored to the shopper's goals. This should make the recommendation process feel more individualized and context-sensitive than a generic badge, ranking, or highlight. Because the consumer experiences the system as responding to their situation rather than merely presenting a static signal, perceived personalization should be higher in the conversational condition.
 
-**H1:** LLM conversational nudges increase perceived personalization relative to UI-based nudges and control.
+**H1:** Relative to UI-based nudges and control, LLM conversational nudges increase perceived personalization.
 
 ### 10.2 Perceived personalization and cognitive load
 When recommendations feel tailored to the consumer's goals, the consumer should expend less effort sorting through irrelevant alternatives and reconciling competing product attributes. Personalized guidance helps simplify the decision environment by narrowing the set of plausible options and making tradeoffs easier to interpret. As a result, stronger perceived personalization should reduce the cognitive load associated with product choice.
@@ -164,7 +164,7 @@ Consumers often judge decision quality not only by objective choice outcomes but
 ### 10.5 LLM conversational nudges and perceived transparency
 Although conversational AI can feel helpful and personalized, it can also obscure how recommendations are produced. Unlike UI nudges, which often provide visible signals such as rankings, labels, or badges, conversational advice is generated through a less observable reasoning process. Consumers may therefore find it harder to infer why a product was suggested, what criteria guided the advice, or how platform interests may have influenced the recommendation. Relative to UI nudges and control, conversational nudges should therefore reduce perceived transparency.
 
-**H5:** LLM conversational nudges decrease perceived transparency relative to UI-based nudges and control.
+**H5:** Relative to UI-based nudges and control, LLM conversational nudges decrease perceived transparency.
 
 ### 10.6 Perceived transparency and perceived decision quality
 When consumers cannot understand the basis of a recommendation, they may feel less able to evaluate whether the final choice is genuinely well founded. Reduced transparency limits their ability to reconstruct the decision process, assess the appropriateness of the recommendation, and detect possible bias or missing considerations. For that reason, lower perceived transparency should reduce perceived decision quality.
@@ -174,7 +174,7 @@ When consumers cannot understand the basis of a recommendation, they may feel le
 ### 10.7 LLM conversational nudges and purchase likelihood
 Conversational AI may also increase purchase likelihood directly because it reduces friction in the decision process, structures comparison more effectively, and makes the final choice feel more actionable. Even if consumers do not fully understand the basis of the recommendation, the combined effects of guidance fluency, personalization, and confidence may make them more willing to move toward purchase. Thus, compared with UI nudges and control, LLM conversational nudges should increase purchase likelihood.
 
-**H7:** LLM conversational nudges increase purchase likelihood relative to UI-based nudges and control.
+**H7:** Relative to UI-based nudges and control, LLM conversational nudges increase purchase likelihood.
 
 ### 10.8 Joint tradeoff effect on perceived decision quality
 Taken together, the model suggests that the effect of conversational AI on decision quality is not unidirectional. On the one hand, conversational nudges can improve perceived decision quality by increasing personalization, reducing cognitive load, and strengthening confidence. On the other hand, they can undermine perceived decision quality by reducing transparency. The overall effect on decision quality therefore should be jointly shaped by these competing benefit and risk paths.
