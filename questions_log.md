@@ -32,3 +32,9 @@ This file records open questions, uncertainties, and decisions encountered while
 
 ### Excluded paper
 - `Ho_2025_System 2 & Confidence.pdf` was verified as out of scope for this project and removed from the usable literature set.
+
+### Current first-paper logic
+- The current best first-paper framing is a tradeoff model rather than an everything-model.
+- Primary outcomes should remain purchase likelihood and perceived decision quality.
+- Trust and satisfaction should remain secondary outcomes unless later evidence shows they need a more central role.
+- The core theory should contrast conversational AI with interface-level nudges by emphasizing adaptive dialogue, personalization benefits, and transparency costs.

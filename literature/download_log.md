@@ -1,8 +1,11 @@
 # Literature Download / File Log
 
+## Standing rule for future literature review
+Every time I do literature review for this project, I should update this file. If I identify relevant articles but cannot download valid PDFs, I should list them here clearly so Rain can review and add them manually.
+
 ## Request
 Download the most relevant articles into the literature folder and rename them with the format:
-`FirstAuthorLastName_AcronymJournalName_SimplifiedTitle`
+`FirstAuthorLastName_AcronymJournalNameYear_SimplifiedTitle`
 
 ## What happened
 I attempted direct publisher-PDF downloads for several top-journal anchor papers, including papers from Marketing Science, Management Science, Information Systems Research, and European Journal of Information Systems. Those requests returned HTML landing pages rather than usable PDF files, so I removed the bad files instead of leaving misleading fake PDFs in the folder.
@@ -26,51 +29,52 @@ The following files were created as clean renamed copies from papers already pre
 - `Luo_DSS_AINudgingDecisionQuality.pdf`
   - source: `Luo_DSS2026_ai nudging and decision quality.pdf`
 
-## Not successfully downloaded as PDFs in this pass
-These were identified as highly relevant, but direct download did not yield valid PDFs with the tools available in this environment:
+## Previously missing top-journal PDFs now added to the folder
+These were previously identified as highly relevant and not retrievable in the earlier pass, but they have now been added to the literature folder:
 
-- Häubl & Trifts (2000), Marketing Science
-- Ursu (2018), Marketing Science
-- Wang, Xu, & Wang (2018), Management Science
-- Wang & Wang (2019), Information Systems Research
+- `Haubl_MktSci2000_InteractiveDecisionAids.pdf`
+- `Ursu_MktSci2018_PowerOfRankings.pdf`
+- `Wang_MgmtSci2018_RecommendationNeutralitySponsorshipDisclosure.pdf`
+- `Wang_ISR2019_SponsorshipDisclosurePerceivedIntegrity.pdf`
 
-## Most relevant missing top-journal PDFs
-These are the highest-priority papers that I double-checked and still identified as especially important for the project, but could not download as valid PDFs in this environment.
+## Not successfully downloaded as PDFs in the current pass
+These newly identified publications appear meaningfully relevant, but I did not obtain valid PDFs for them in this pass.
 
-- Häubl, G., & Trifts, V. (2000). *Consumer Decision Making in Online Shopping Environments: The Effects of Interactive Decision Aids*. Marketing Science.
-  - intended filename: `Haubl_MktSci_InteractiveDecisionAids.pdf`
-  - why it is relevant:
-    - This is a foundational online-shopping paper on interactive decision aids, specifically a recommendation agent and a comparison matrix.
-    - The paper shows that stronger digital aids can reduce search effort, improve consideration set quality, and improve purchase decision quality.
-    - It matters here because it gives the baseline argument that online choice architecture can shape the **decision process**, not just the final click or purchase.
-    - It is especially useful for distinguishing LLM conversational nudges from simple badges: LLM nudges may be framed as a new generation of interactive decision aid, but one that is more adaptive, dialogic, and opaque.
-
-- Ursu, R. M. (2018). *The Power of Rankings: Quantifying the Effect of Rankings on Online Consumer Search and Purchase Decisions*. Marketing Science.
-  - intended filename: `Ursu_MktSci_PowerOfRankings.pdf`
-  - why it is relevant:
-    - This is the clearest top-journal baseline for ranking-based choice architecture in e-commerce-like search settings.
-    - The paper shows that rankings affect what consumers search, and attributes much of their effect to lowered search costs rather than deeper changes in utility.
-    - It matters because your project needs a strong comparison point for algorithm-generated badges and rankings.
-    - It helps support the claim that badge/ranking nudges mainly alter **attention and search order**, whereas LLM conversational nudges may also alter confidence, evaluation, and preference articulation.
-
-- Wang, W., Xu, J. D., & Wang, M. (2018). *Effects of Recommendation Neutrality and Sponsorship Disclosure on Trust vs. Distrust in Online Recommendation Agents: Moderating Role of Explanations for Organic Recommendations*. Management Science.
-  - intended filename: `Wang_MgmtSci_RecommendationNeutralitySponsorshipDisclosure.pdf`
-  - why it is relevant:
-    - This paper directly studies online recommendation agents rather than simple interface cues.
-    - It shows that bias, sponsorship disclosure, and explanations shape trust and distrust differently.
-    - It matters because LLM shopping assistants will likely be perceived as recommendation agents with even greater agency and opacity than classic recommenders.
-    - It is a strong bridge paper from recommendation systems to your core themes of trust, opacity, explanation, and hidden persuasive influence.
-
-- Wang, W., & Wang, M. (2019). *Effects of Sponsorship Disclosure on Perceived Integrity of Biased Recommendation Agents: Psychological Contract Violation and Knowledge-Based Trust Perspectives*. Information Systems Research.
-  - intended filename: `Wang_ISR_SponsorshipDisclosurePerceivedIntegrity.pdf`
-  - why it is relevant:
-    - This paper focuses on perceived integrity, transparency, sponsorship disclosure, and psychological contract violation in biased recommendation agents.
-    - It matters because your project likely hinges on a similar issue: conversational AI may be helpful and persuasive, but users may not clearly understand whose interests the system is serving or how its recommendations are produced.
-    - The paper is especially valuable if your model includes perceived transparency, integrity, or trust as mediators or tradeoff variables.
-    - It provides a rigorous top-journal mechanism for thinking about why opaque recommendation systems can influence user evaluations even when the system appears helpful.
+- Balakrishnan & Dwivedi (2024), Annals of Operations Research
+- Chen, Le, & Tran (2021), Internet Research
+- de Cicco, Iacobucci, & Pagliaro (2022), Technological Forecasting and Social Change
+- Chung, Ko, Joung, & Kim (2020), Computers in Human Behavior
 
 ## Removed out-of-scope paper
 I double-checked `Ho_2025_System 2 & Confidence.pdf` and confirmed it was misaligned with this project. The local filename was misleading. Embedded PDF metadata showed that it was actually published in *Humanities and Social Sciences Communications*, not in JBR, and it is not part of the UTD24 or ABDC A* business-journal target set. I therefore removed it from the nudging project literature folder and dropped it from the usable anchor set.
+
+## Additional relevant publications identified after the initial pass
+These appear meaningfully relevant to the current theory direction and should remain candidates for collection if accessible.
+
+### Standing workflow note
+Every time literature review is performed for this project, this file should be updated. Relevant articles that cannot be downloaded as valid PDFs should always be listed here for manual review and addition.
+
+- Balakrishnan, J., & Dwivedi, Y. K. (2024). *Conversational commerce: entering the next stage of AI-powered digital assistants*. Annals of Operations Research.
+  - intended filename: `Balakrishnan_AOR2024_ConversationalCommerceAIPoweredDigitalAssistants.pdf`
+  - why it is relevant:
+    - Useful high-level framing for conversational commerce as an emerging commerce architecture.
+    - Better for motivation and phenomenon framing than for core causal theory.
+
+- Chen, J. V., Le, H. T., & Tran, S. T. T. (2021). *Understanding automated conversational agent as a decision aid: matching agent's conversation with customer's shopping task*. Internet Research.
+  - intended filename: `Chen_IntrRes2021_ConversationalAgentDecisionAidShoppingTask.pdf`
+  - why it is relevant:
+    - Very close to the project because it explicitly frames the conversational agent as a decision aid.
+    - Strong bridge from classic decision-aid literature to conversational shopping support.
+
+- de Cicco, R., Iacobucci, S., & Pagliaro, S. (2022). *Conversational commerce: Do biased choices offered by voice assistants’ technology constrain its appropriation?*. Technological Forecasting and Social Change.
+  - intended filename: `DeCicco_TFSC2022_BiasedChoicesVoiceAssistantsConversationalCommerce.pdf`
+  - why it is relevant:
+    - Strong support for the risk side of the model, especially bias, constrained choice, and transparency concerns.
+
+- Chung, M., Ko, E., Joung, H., & Kim, S. J. (2020). *Effects of personalization and social role in voice shopping: An experimental study on product recommendation by a conversational voice agent*. Computers in Human Behavior.
+  - intended filename: `Chung_CHB2020_PersonalizationSocialRoleVoiceShopping.pdf`
+  - why it is relevant:
+    - Strong support for the personalization benefit path in conversational shopping.
 
 ## Recommended next step
 If you have institutional access through a browser session, the fastest path is to download those missing articles manually or place them in the folder, and I can immediately rename and organize them to match the naming convention.

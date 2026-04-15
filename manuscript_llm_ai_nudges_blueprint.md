@@ -33,21 +33,26 @@ Participants see static or semi-static nudges such as “best seller,” “reco
 ### Condition 3: Control
 Participants browse the same product environment without explicit nudging.
 
-## 6. Candidate theoretical logic
-### 6.1 Interactivity and adaptivity
-Conversational AI can ask, infer, and respond. This allows it to tailor guidance dynamically, which may increase perceived personalization and fit.
+## 6. Theoretical logic
+### 6.1 Why conversational AI should not be treated as just another interface cue
+Prior digital nudging research has largely examined interventions that operate through the interface itself, such as rankings, labels, salience cues, defaults, and recommendation badges. Those mechanisms influence what consumers notice, how they search, and which options receive attention. Even when they are algorithmically generated, they are still encountered as largely static or semi-static design features.
 
-### 6.2 Cognitive offloading
-By summarizing options and structuring comparisons, LLM nudges may reduce information overload and cognitive effort.
+LLM conversational nudges are different because they operate through adaptive dialogue. Rather than merely highlighting or ordering options, they can interpret user needs, summarize tradeoffs, reframe preferences, and steer the decision process across multiple turns. This makes them conceptually closer to a hybrid of recommendation agent, decision aid, and conversational advisor than to a simple interface nudge. As a result, they should affect not only search and visibility, but also how consumers experience support, effort, confidence, and understanding during choice.
 
-### 6.3 Confidence amplification
-Because the system speaks in coherent, human-like recommendations, it may increase users’ confidence in their choices even when the underlying logic is unclear.
+### 6.2 Personalization as the core benefit route
+A central advantage of conversational AI is that it can make guidance feel tailored to the consumer's stated goals, constraints, and preferences. Because the system can ask follow-up questions, infer priorities, and generate advice in natural language, consumers may perceive the guidance as more personalized than what is offered by ordinary UI nudges. This is theoretically important because perceived personalization can make the recommendation feel more relevant and more responsive to the consumer's specific context.
 
-### 6.4 Algorithmic opacity
-Unlike transparent UI nudges, conversational recommendations often obscure why a product was suggested, what criteria were prioritized, and how platform incentives may shape the response.
+### 6.3 Cognitive load reduction through structured guidance
+When consumers face many options, attributes, and tradeoffs, choice can become effortful and cognitively burdensome. Conversational AI may reduce that burden by filtering options, structuring comparisons, and translating product information into a simpler decision narrative. In this way, perceived personalization is not only persuasive. It may also reduce the effort required to compare alternatives. Lower cognitive load should make the shopping process feel easier and more manageable.
 
-### 6.5 Trust and persuasion tension
-Users may trust the interaction more because it feels intelligent and personalized, yet this trust may rest on an opaque and potentially biased recommendation process.
+### 6.4 Confidence amplification in AI-assisted choice
+As cognitive burden falls and guidance feels more tailored, consumers may become more confident in the choice they are making. Confidence is especially relevant in shopping contexts where consumers often lack complete knowledge and rely on external guidance to justify their selections. Conversational AI may amplify confidence because it offers fluent, coherent, and apparently responsive advice. That confidence can be beneficial if it reflects genuinely better decision support, but it can also become problematic if it rises faster than users' actual understanding of why the recommendation was made.
+
+### 6.5 Transparency as the core risk route
+The same properties that make conversational AI helpful can also make it difficult to scrutinize. Unlike UI nudges, which often leave visible traces of how a product is being highlighted or ranked, conversational recommendations can obscure the basis of advice. Users may not know which attributes were prioritized, how the system weighted tradeoffs, whether commercial incentives influenced the suggestion, or how stable the recommendation would be under slightly different prompts. This opacity matters because it reduces the reconstructability of the choice architecture.
+
+### 6.6 The tradeoff at the center of the paper
+Taken together, the core theoretical claim is that LLM conversational nudges create a benefit-risk tradeoff. On one side, they can increase perceived personalization, lower cognitive load, and raise confidence in choice. On the other side, they can reduce transparency in how recommendations are generated and justified. This combination makes conversational AI more than a stronger recommendation badge. It represents a distinct architecture of influence in which the consumer may feel better supported while simultaneously becoming less able to understand the basis of that support.
 
 ## 7. Recommended mechanism model
 ### Independent variable

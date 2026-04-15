@@ -98,13 +98,28 @@ A strong contribution claim would be:
 3. It identifies a core tradeoff in LLM-mediated shopping: better personalization and lower cognitive burden versus lower transparency and less reconstructible influence.
 4. It provides experimental evidence on how this new form of choice architecture shapes purchase decisions and decision process outcomes.
 
-## 6. Priority implications for the next drafting pass
-The next theory draft should probably do three things in order:
+## 6. Additional literature worth keeping in the active set
+A few additional papers look worth retaining because they strengthen specific pieces of the emerging model rather than merely adding more adjacent citations.
+
+### A. Conversational agents as decision aids
+The Internet Research paper on matching an automated conversational agent's conversation to the customer's shopping task is especially useful because it treats the conversational agent as a **decision aid** rather than just a service interface. That framing is very close to the present paper's logic and gives a direct bridge from decision-aid research to conversational shopping assistance.
+
+### B. Conversational commerce bias and transparency concerns
+The Technological Forecasting and Social Change paper on biased choices offered by voice assistants is useful for the downside path. It suggests that conversational commerce is not only about convenience and engagement, but also about concerns over constrained choice, hidden steering, and transparency. This is closely aligned with the project's opacity concern.
+
+### C. Personalization benefits in conversational shopping
+The Computers in Human Behavior paper on personalization and social role in voice shopping is useful for the upside path. It supports the idea that conversational recommendation can increase perceived personalization and favorable product evaluation, which helps justify the benefit side of the tradeoff model.
+
+These are not all top-anchor papers in the same way as Häubl and Trifts, Ursu, or the Wang papers. But they are strong supporting papers because they map directly onto the project's benefit path, risk path, and conversational decision-aid framing.
+
+## 7. Priority implications for the next drafting pass
+The next theory draft should probably do four things in order:
 1. establish the badge/ranking baseline
 2. bridge to recommendation-agent trust and disclosure literature
-3. argue why LLM conversational nudges exceed both categories and create a new transparency tradeoff
+3. use conversational-agent-as-decision-aid work to justify why LLM dialogue changes the nature of choice support
+4. argue why LLM conversational nudges create a sharper transparency tradeoff than prior forms of digital assistance
 
-## 7. Sources used in this synthesis
+## 8. Sources used in this synthesis
 - Häubl, G., & Trifts, V. (2000). *Consumer Decision Making in Online Shopping Environments: The Effects of Interactive Decision Aids*. Marketing Science. https://pubsonline.informs.org/doi/10.1287/mksc.19.1.4.15178
 - Ursu, R. M. (2018). *The Power of Rankings: Quantifying the Effect of Rankings on Online Consumer Search and Purchase Decisions*. Marketing Science. https://pubsonline.informs.org/doi/10.1287/mksc.2017.1072
 - Wang, W., Xu, J. D., & Wang, M. (2018). *Effects of Recommendation Neutrality and Sponsorship Disclosure on Trust vs. Distrust in Online Recommendation Agents*. Management Science. https://pubsonline.informs.org/doi/10.1287/mnsc.2017.2906
