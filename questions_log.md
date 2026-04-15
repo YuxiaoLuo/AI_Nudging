@@ -47,3 +47,5 @@ This file records open questions, uncertainties, and decisions encountered while
 - The core theory should contrast conversational AI with interface-level nudges by emphasizing adaptive dialogue, personalization benefits, and transparency costs.
 - The literature base should be organized around a small number of true anchors for each construct rather than continued broad accumulation of adjacent papers.
 - The next theory gain should come from cleaner construct definitions, not from adding many more adjacent citations.
+- Choice confidence should be treated as certainty in the selected option, whereas perceived decision quality should remain the broader evaluative judgment of whether the final decision was sound and appropriate.
+- Perceived transparency should be treated as a combination of understandability and reconstructability of the recommendation basis.
