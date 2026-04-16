@@ -204,6 +204,9 @@ At this point, the design logic is sufficiently stable that the next productive 
 4. Participant completes post-task scales.
 5. Participant answers manipulation checks and basic controls.
 
+### First-pass treatment-material direction
+For the headphones version of the study, the three conditions should differ in the mode of guidance rather than in the underlying product set. In the LLM conversational-nudge condition, participants should interact with a chatbot-style assistant that asks a small number of preference-elicitation questions and then recommends a focal product with brief comparative reasoning. In the UI-based nudge condition, participants should see the same product environment but with static interface cues such as recommendation badges, ranking emphasis, or highlighted placement. In the control condition, participants should see the same products without explicit nudging cues. This structure should help isolate the effect of conversational guidance relative to static nudges while holding the core decision environment as constant as possible.
+
 ### Why headphones is currently the best first-category option
 A first paper should use a category that is sufficiently consequential to make advice meaningful, but not so specialized that participants struggle to evaluate the products at all. Headphones meets that requirement well. The category commonly involves multiple attributes, meaningful tradeoffs, and frequent use of recommendation support in actual online shopping. It should therefore make it easier to observe differences between conversational guidance and static nudges while keeping the decision task understandable for a broad participant pool.
 
