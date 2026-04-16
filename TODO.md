@@ -36,7 +36,7 @@
 - [ ] Continue drafting theoretical background from the new four-step bridge structure
 - [x] Draft research model and hypotheses at blueprint level
 - [x] Sketch the tightened anchor set into a cleaner manuscript-style theory/background direction
-- [x] Draft the opening paragraph of the theoretical background section
+- [x] Draft the opening and bridge paragraphs of the theoretical background section
 - [x] Turn the current problem statement and contribution framing into a more journal-style opening section
 - [ ] Harmonize the opening, theory, and hypotheses into a single consistent scientific manuscript voice
 - [ ] Draft methods section
