@@ -267,6 +267,9 @@ A cleaner manuscript-style theoretical background should likely unfold in four s
 
 This four-step structure would help the manuscript avoid reading like a list of adjacent literatures. Instead, it would produce a cumulative theoretical bridge from interface nudges, to recommendation agents, to conversational AI as dialogic choice architecture.
 
+### 14.0 Background section purpose note
+The theoretical background should do more than summarize adjacent streams. Its purpose is to establish a cumulative argument in which each literature explains part of the phenomenon but leaves unresolved how LLM-based conversational shopping assistants alter the mechanism of influence. The section should therefore read as a progressive narrowing toward the paper's central question, not as a broad review of everything related to AI in commerce.
+
 ### 14.1 Background section opening paragraph draft
 Online shopping platforms have long shaped consumer choice through digital choice architecture such as rankings, recommendation cues, and interactive decision aids. Prior research shows that these mechanisms can alter search effort, comparison processes, and purchase behavior by changing what consumers notice and how they evaluate options (Häubl & Trifts 2000; Senecal & Nantel 2004; Ursu 2018). A second stream of research on recommendation agents extends this logic by showing that advisory technologies are evaluated not only in terms of usefulness, but also in terms of explanations, neutrality, sponsorship disclosure, and trusting beliefs (Wang & Benbasat 2007; Wang et al. 2018; Wang & Wang 2019). Together, these literatures establish that digital guidance tools can meaningfully shape online decisions, but they do not fully explain the distinctive form of influence introduced by LLM-based conversational shopping assistants.
 

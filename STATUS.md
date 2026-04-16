@@ -47,6 +47,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - A second background paragraph has now been added as well, explicitly bridging from earlier advisory technologies to LLM-based conversational assistants as dialogic choice architecture.
 - A third background paragraph now pushes that bridge into the paper's central tradeoff logic by framing conversational AI as a sharper tension between decision support and inspectability.
 - A fourth paragraph now links that tradeoff directly to the manuscript's benefit and risk pathways, giving the theoretical background a clearer transition into the formal model.
+- A purpose note has now been added for the theoretical background section, clarifying that the section should work as a cumulative narrowing argument rather than a broad review of adjacent AI-commerce literatures.
 - The previously empty `ai nudging on digital platform.docx` file has now been removed, so it is no longer treated as a project blocker or pending source.
 
 ## Blockers
