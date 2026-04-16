@@ -52,6 +52,7 @@ This file records open questions, uncertainties, and decisions encountered while
 - The opening paragraph of that section should establish continuity between classic digital guidance tools and advisory-system research before introducing the specific gap around LLM-based conversational assistants.
 - The next paragraph should explicitly bridge from earlier advisory technologies to conversational AI as a dialogic and adaptive form of choice architecture rather than merely a stronger static nudge.
 - The following paragraph should turn that bridge into the paper's core tradeoff question by foregrounding the tension between decision support and inspectability.
+- The next paragraph should connect that tradeoff explicitly to the manuscript's benefit and risk pathways so the theoretical background transitions cleanly into the formal model.
 
 ## Resolved questions
 
