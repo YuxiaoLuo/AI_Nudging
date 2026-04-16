@@ -33,9 +33,9 @@
 
 ## Writing
 - [ ] Draft introduction and gap statement
-- [ ] Draft theoretical background
+- [ ] Draft theoretical background from the new four-step bridge structure
 - [x] Draft research model and hypotheses at blueprint level
-- [ ] Convert the tightened anchor set into a cleaner manuscript-style theory/background draft
+- [x] Sketch the tightened anchor set into a cleaner manuscript-style theory/background direction
 - [x] Turn the current problem statement and contribution framing into a more journal-style opening section
 - [ ] Harmonize the opening, theory, and hypotheses into a single consistent scientific manuscript voice
 - [ ] Draft methods section

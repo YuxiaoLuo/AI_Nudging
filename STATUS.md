@@ -42,6 +42,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The previously missing PDFs for Wang and Benbasat (2007), Senecal and Nantel (2004), Yalcin et al. (2022), Longoni et al. (2019), and Luo et al. (2019) have now been added to the literature folder, which removes an important gap in the current anchor and support set.
 - Another selective literature pass did not reveal a clearly superior omitted seminal paper for the current theory frame, which increases confidence in the project's compact anchor strategy. It also strengthened the case for treating Luo et al. (2019) as a likely core anchor on the transparency and disclosure side.
 - The construct logic in the manuscript blueprint has now been tightened further with more explicit working definitions for perceived personalization, cognitive load, choice confidence, and perceived decision quality.
+- A first-pass manuscript-style theoretical-background direction has now been added, clarifying a four-step bridge from interface nudges to recommendation agents to conversational AI as dialogic choice architecture.
 - The previously empty `ai nudging on digital platform.docx` file has now been removed, so it is no longer treated as a project blocker or pending source.
 
 ## Blockers

@@ -47,6 +47,9 @@ This file records open questions, uncertainties, and decisions encountered while
 - Choice confidence should capture subjective certainty that the selected option is the right or appropriate choice.
 - Perceived decision quality should capture the broader judgment that the final decision is sound, appropriate, and well justified.
 
+### Current writing direction
+- The theoretical background should be organized as a four-step bridge: interface nudges and decision aids, recommendation-agent explanation/disclosure research, conversational AI as adaptive advisory guidance, and then the tradeoff argument around support versus transparency.
+
 ## Resolved questions
 
 ### Verification workflow
