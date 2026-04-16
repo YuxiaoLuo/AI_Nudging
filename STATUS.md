@@ -45,6 +45,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - A first-pass manuscript-style theoretical-background direction has now been added, clarifying a four-step bridge from interface nudges to recommendation agents to conversational AI as dialogic choice architecture.
 - The manuscript blueprint now also includes a draft opening paragraph for the theoretical background section, which begins translating the bridge structure into manuscript-ready prose.
 - A second background paragraph has now been added as well, explicitly bridging from earlier advisory technologies to LLM-based conversational assistants as dialogic choice architecture.
+- A third background paragraph now pushes that bridge into the paper's central tradeoff logic by framing conversational AI as a sharper tension between decision support and inspectability.
 - The previously empty `ai nudging on digital platform.docx` file has now been removed, so it is no longer treated as a project blocker or pending source.
 
 ## Blockers

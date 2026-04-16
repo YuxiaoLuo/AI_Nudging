@@ -51,6 +51,7 @@ This file records open questions, uncertainties, and decisions encountered while
 - The theoretical background should be organized as a four-step bridge: interface nudges and decision aids, recommendation-agent explanation/disclosure research, conversational AI as adaptive advisory guidance, and then the tradeoff argument around support versus transparency.
 - The opening paragraph of that section should establish continuity between classic digital guidance tools and advisory-system research before introducing the specific gap around LLM-based conversational assistants.
 - The next paragraph should explicitly bridge from earlier advisory technologies to conversational AI as a dialogic and adaptive form of choice architecture rather than merely a stronger static nudge.
+- The following paragraph should turn that bridge into the paper's core tradeoff question by foregrounding the tension between decision support and inspectability.
 
 ## Resolved questions
 
