@@ -40,6 +40,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - A first-pass analysis direction has now also been added, with the recommendation to match the analysis plan to the tradeoff model through condition comparisons and mediation or path-style tests.
 - Another selective literature pass identified Luo et al. (2019, Marketing Science) as a strong commerce-facing support paper on AI chatbot disclosure and purchase behavior, which is especially relevant to the transparency side of the model.
 - The previously missing PDFs for Wang and Benbasat (2007), Senecal and Nantel (2004), Yalcin et al. (2022), Longoni et al. (2019), and Luo et al. (2019) have now been added to the literature folder, which removes an important gap in the current anchor and support set.
+- Another selective literature pass did not reveal a clearly superior omitted seminal paper for the current theory frame, which increases confidence in the project's compact anchor strategy. It also strengthened the case for treating Luo et al. (2019) as a likely core anchor on the transparency and disclosure side.
 - `ai nudging on digital platform.docx` appears empty on disk right now, so it could not yet be used as a source for development.
 
 ## Blockers

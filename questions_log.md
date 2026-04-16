@@ -25,7 +25,8 @@ This file records open questions, uncertainties, and decisions encountered while
 - The control set should remain compact and theory-justified rather than growing into a broad checklist of generic individual-difference variables.
 - The first-pass treatment logic should keep the product set constant across conditions and vary only the mode of guidance: conversational assistant, static UI nudge, or no explicit nudge.
 - The first-pass analysis strategy should follow the tradeoff model directly, prioritizing condition comparisons plus mediation/path tests over a broad menu of loosely connected regressions.
-- Another selective literature pass suggests Luo et al. (2019, Marketing Science) is a particularly strong commerce-facing support paper for the transparency and disclosure side of the model.
+- Another selective literature pass suggests Luo et al. (2019, Marketing Science) is not just a strong commerce-facing support paper but a likely core anchor for the transparency and disclosure side of the model.
+- This additional literature pass did not reveal a clearly superior omitted seminal paper for the current theory frame, which increases confidence in the current compact anchor strategy.
 
 ### Literature and paper selection
 - Which additional UTD24 or ABDC A* papers best strengthen the bridge from recommendation agents to conversational AI?
