@@ -49,6 +49,7 @@ This file records open questions, uncertainties, and decisions encountered while
 
 ### Current writing direction
 - The theoretical background should be organized as a four-step bridge: interface nudges and decision aids, recommendation-agent explanation/disclosure research, conversational AI as adaptive advisory guidance, and then the tradeoff argument around support versus transparency.
+- The opening paragraph of that section should establish continuity between classic digital guidance tools and advisory-system research before introducing the specific gap around LLM-based conversational assistants.
 
 ## Resolved questions
 
