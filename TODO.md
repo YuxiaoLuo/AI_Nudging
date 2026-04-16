@@ -23,12 +23,12 @@
 
 ## Study Design
 - [ ] Finalize the shopping task and product category, with headphones currently the leading candidate
-- [ ] Draft treatment materials for each condition after the theory base is more stable
+- [ ] Draft first-pass treatment materials for each condition using the lead category
 - [x] Define purchase likelihood and decision quality measures at a first-pass conceptual level
 - [x] Define process measures at a first-pass conceptual level: perceived personalization, transparency, trust, cognitive load, confidence, satisfaction
 - [x] Specify manipulation checks and control variables at a first-pass conceptual level
 - [x] Keep manipulation checks distinct from the substantive mediators and outcomes
-- [ ] Choose the analysis strategy
+- [ ] Choose the analysis strategy for the tradeoff model
 
 ## Writing
 - [ ] Draft introduction and gap statement

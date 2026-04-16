@@ -35,6 +35,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The measure logic has also been tightened so the planned outcomes and process measures now map more explicitly onto the theory's construct definitions rather than remaining a loose checklist.
 - The manipulation-check logic has now been clarified as well, with an explicit reminder that checks should verify condition differences without collapsing into the substantive mediators.
 - The control-variable logic has now been clarified too, emphasizing a compact, theory-justified control set rather than an expansive list of generic controls.
+- The design logic is now stable enough that the next high-leverage step is no longer additional abstract structuring, but translation into first-pass treatment materials and an analysis plan.
 - `ai nudging on digital platform.docx` appears empty on disk right now, so it could not yet be used as a source for development.
 
 ## Blockers

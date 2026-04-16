@@ -195,6 +195,8 @@ Use a **three-condition between-subject experiment**:
 2. UI-based nudge
 3. control
 
+At this point, the design logic is sufficiently stable that the next productive step is no longer broad conceptual expansion, but translation into concrete treatment materials and an analysis plan.
+
 ### Procedure
 1. Participant receives a shopping scenario with a budget and preference goal.
 2. Participant shops in one randomized condition.
@@ -250,6 +252,6 @@ The theoretical contribution is therefore twofold. First, the paper reconceptual
 ## 13. Immediate next steps
 - convert the compact anchor set into a cleaner manuscript-style theoretical background section
 - harmonize the opening, theory, and hypotheses into one fully consistent scientific manuscript voice
-- choose the shopping product category
-- draft treatment materials for the three conditions
-- specify the measures and analysis plan
+- draft first-pass treatment materials for the three conditions using headphones as the lead category
+- specify the analysis strategy for testing the tradeoff model
+- continue selective literature collection only when it sharpens a construct anchor or a key comparison
