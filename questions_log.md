@@ -50,6 +50,7 @@ This file records open questions, uncertainties, and decisions encountered while
 ### Current writing direction
 - The theoretical background should be organized as a four-step bridge: interface nudges and decision aids, recommendation-agent explanation/disclosure research, conversational AI as adaptive advisory guidance, and then the tradeoff argument around support versus transparency.
 - The section should function as a cumulative narrowing argument toward the paper's central question, not as a broad review of adjacent AI-commerce work.
+- A useful drafting guardrail is that each paragraph should either establish the baseline, explain advisory/transparency mechanisms, or sharpen the tradeoff claim.
 - The opening paragraph of that section should establish continuity between classic digital guidance tools and advisory-system research before introducing the specific gap around LLM-based conversational assistants.
 - The next paragraph should explicitly bridge from earlier advisory technologies to conversational AI as a dialogic and adaptive form of choice architecture rather than merely a stronger static nudge.
 - The following paragraph should turn that bridge into the paper's core tradeoff question by foregrounding the tension between decision support and inspectability.
