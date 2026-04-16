@@ -103,5 +103,11 @@ These look significant and relevant enough to track for manual review or later c
     - High-prestige supporting paper on consumer resistance to AI advice.
     - Useful as a boundary-condition reference for acceptance of AI recommendations, even though the domain is medical rather than shopping.
 
+- Luo, X., Tong, S., Fang, Z., & Qu, Z. (2019). *Frontiers: Machines vs. Humans: The Impact of Artificial Intelligence Chatbot Disclosure on Customer Purchases*. Marketing Science.
+  - intended filename: `Luo_MktSci2019_ChatbotDisclosureCustomerPurchases.pdf`
+  - why it is relevant:
+    - Strong commerce-facing anchor on AI chatbot disclosure and purchase behavior.
+    - Directly useful for the transparency and disclosure side of the current model.
+
 ## Recommended next step
 Keep using this file to track newly identified but unavailable articles in future literature-review passes.

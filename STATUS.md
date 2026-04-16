@@ -38,6 +38,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The design logic is now stable enough that the next high-leverage step is no longer additional abstract structuring, but translation into first-pass treatment materials and an analysis plan.
 - A first-pass treatment-material direction has now been added as well: hold the product set constant across conditions and vary only the mode of guidance.
 - A first-pass analysis direction has now also been added, with the recommendation to match the analysis plan to the tradeoff model through condition comparisons and mediation or path-style tests.
+- Another selective literature pass identified Luo et al. (2019, Marketing Science) as a strong commerce-facing support paper on AI chatbot disclosure and purchase behavior, which is especially relevant to the transparency side of the model.
 - `ai nudging on digital platform.docx` appears empty on disk right now, so it could not yet be used as a source for development.
 
 ## Blockers
