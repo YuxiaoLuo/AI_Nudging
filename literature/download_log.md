@@ -79,35 +79,12 @@ Every time literature review is performed for this project, this file should be 
 ## Newly identified relevant articles not yet added in this pass
 These look significant and relevant enough to track for manual review or later collection.
 
-- Wang, W., & Benbasat, I. (2007). *Recommendation agents for electronic commerce: Effects of explanation facilities on trusting beliefs*. Journal of Management Information Systems.
-  - intended filename: `Wang_JMIS2007_ExplanationFacilitiesTrustingBeliefs.pdf`
-  - why it is relevant:
-    - Seminal explanation-facility paper for recommendation agents.
-    - Important anchor for the transparency and trust side of the current model.
-
-- Senecal, S., & Nantel, J. (2004). *The influence of online product recommendations on consumers' online choices*. Journal of Retailing.
-  - intended filename: `Senecal_JRetailing2004_OnlineProductRecommendationsChoices.pdf`
-  - why it is relevant:
-    - Early and important retail anchor showing that online recommendations directly affect consumer choice.
-    - Useful baseline before moving to conversational and more opaque recommendation forms.
-
-- Yalcin, G., Lim, S., Puntoni, S., & van Osselaer, S. M. J. (2022). *Thumbs Up or Down: Consumer Reactions to Decisions by Algorithms Versus Humans*. Journal of Marketing Research.
-  - intended filename: `Yalcin_JMR2022_ConsumerReactionsAlgorithmsVersusHumans.pdf`
-  - why it is relevant:
-    - Strong top-journal anchor on how consumers react to algorithmic versus human decision makers.
-    - Useful for framing anthropomorphism, acceptance, and perceived machine judgment.
-
-- Longoni, C., Bonezzi, A., & Morewedge, C. K. (2019). *Resistance to Medical Artificial Intelligence*. Journal of Consumer Research.
-  - intended filename: `Longoni_JCR2019_ResistanceToMedicalAI.pdf`
-  - why it is relevant:
-    - High-prestige supporting paper on consumer resistance to AI advice.
-    - Useful as a boundary-condition reference for acceptance of AI recommendations, even though the domain is medical rather than shopping.
-
-- Luo, X., Tong, S., Fang, Z., & Qu, Z. (2019). *Frontiers: Machines vs. Humans: The Impact of Artificial Intelligence Chatbot Disclosure on Customer Purchases*. Marketing Science.
-  - intended filename: `Luo_MktSci2019_ChatbotDisclosureCustomerPurchases.pdf`
-  - why it is relevant:
-    - Strong commerce-facing anchor on AI chatbot disclosure and purchase behavior.
-    - Directly useful for the transparency and disclosure side of the current model.
+- None at the moment from the previously tracked missing set. The five previously missing papers below have now been added to the literature folder:
+  - `Wang_JMIS2007_ExplanationFacilitiesTrustingBeliefs.pdf`
+  - `Senecal_JRetailing2004_OnlineProductRecommendationsChoices.pdf`
+  - `Yalcin_JMR2022_ConsumerReactionsAlgorithmsVersusHumans.pdf`
+  - `Longoni_JCR2019_ResistanceToMedicalAI.pdf`
+  - `Luo_MktSci2019_ChatbotDisclosureCustomerPurchases.pdf`
 
 ## Recommended next step
 Keep using this file to track newly identified but unavailable articles in future literature-review passes.

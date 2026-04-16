@@ -42,6 +42,7 @@
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
+- [ ] Reassess the core anchor set now that the previously missing PDFs have been added locally
 - [ ] Update `literature/download_log.md` every time literature review is performed
 - [ ] Record new questions and resolved decisions in `questions_log.md`
 - [x] Update project status after each meaningful review iteration
