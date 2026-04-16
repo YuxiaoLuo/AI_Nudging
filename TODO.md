@@ -19,7 +19,8 @@
 - [x] Decide that lower transparency should be treated as a competing tradeoff path in the first paper
 - [x] Convert the mechanism model into a fuller prose theory section
 - [x] Write the formal hypotheses section from the compact H1-H8 structure
-- [ ] Tighten source-backed construct definitions for perceived personalization, transparency, confidence, and perceived decision quality
+- [x] Tighten first-pass construct definitions for perceived personalization, transparency, confidence, and perceived decision quality
+- [ ] Add stronger source-backed support to the construct definitions for perceived personalization, transparency, confidence, and perceived decision quality
 
 ## Study Design
 - [ ] Finalize the shopping task and product category, with headphones currently the leading candidate

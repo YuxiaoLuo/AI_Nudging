@@ -41,6 +41,12 @@ This file records open questions, uncertainties, and decisions encountered while
 - Is perceived transparency best defined as understandability of recommendation logic, reconstructability of the recommendation process, or both?
 - Which construct definitions need the strongest seminal anchors before measure selection begins?
 
+### Current construct-definition direction
+- Perceived personalization should capture whether the guidance feels specifically adapted to the consumer's own needs, goals, and preference structure.
+- Cognitive load should capture the mental effort required to process alternatives, compare attributes, and reach a choice.
+- Choice confidence should capture subjective certainty that the selected option is the right or appropriate choice.
+- Perceived decision quality should capture the broader judgment that the final decision is sound, appropriate, and well justified.
+
 ## Resolved questions
 
 ### Verification workflow
