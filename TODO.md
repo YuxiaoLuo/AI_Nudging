@@ -39,6 +39,7 @@
 - [x] Clarify the purpose and argumentative role of the theoretical background section
 - [x] Add a scope guardrail for what belongs in the core theoretical background
 - [x] Set a compact anchor-priority list for the core theoretical background
+- [x] Add an anti-overbreadth guardrail for the theoretical background
 - [x] Draft and tighten the opening, bridge, tradeoff-transition, and model-link paragraphs of the theoretical background section
 - [x] Turn the current problem statement and contribution framing into a more journal-style opening section
 - [ ] Harmonize the opening, theory, and hypotheses into a single consistent scientific manuscript voice
