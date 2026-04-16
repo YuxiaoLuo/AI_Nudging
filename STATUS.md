@@ -50,6 +50,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - A purpose note has now been added for the theoretical background section, clarifying that the section should work as a cumulative narrowing argument rather than a broad review of adjacent AI-commerce literatures.
 - A drafting guardrail has now been added as well, specifying that the core theory section should include only paragraphs that establish the baseline, explain advisory/transparency mechanisms, or sharpen the tradeoff claim.
 - The theoretical-background section now also has a more explicit compact anchor priority list, keeping the core argument centered on a small set of strongest baseline and transparency-related papers.
+- The opening paragraph draft has now been tightened further by clarifying why the section should begin with established digital-guidance and recommendation literatures before introducing conversational AI.
 - The previously empty `ai nudging on digital platform.docx` file has now been removed, so it is no longer treated as a project blocker or pending source.
 
 ## Blockers
