@@ -35,6 +35,7 @@ This file records open questions, uncertainties, and decisions encountered while
 - Which current papers are true construct anchors versus merely useful context, so the manuscript does not become citation-heavy but theoretically loose?
 - With the PDFs now added, the next question is not whether Wang and Benbasat (2007), Senecal and Nantel (2004), and Yalcin et al. (2022) are usable, but which of them should be elevated from strong support into the smallest defensible core anchor set after close reading.
 - How much should top-journal but cross-domain AI-advice papers such as Longoni et al. (2019) be used in the first paper, given their value for boundary conditions but not for direct shopping-theory anchoring?
+- After this literature pass, should Xiao and Benbasat (2007), Wang and Benbasat (2008), Wang and Benbasat (2016), and the 2022 JMIS meta-analysis be used primarily to strengthen the recommendation-agent bridge, or should one of them be promoted into the compact core anchor set?
 
 ### Construct-definition questions
 - How should perceived decision quality be distinguished most cleanly from choice confidence so the two do not collapse conceptually?
@@ -52,6 +53,7 @@ This file records open questions, uncertainties, and decisions encountered while
 - The section should function as a cumulative narrowing argument toward the paper's central question, not as a broad review of adjacent AI-commerce work.
 - A useful drafting guardrail is that each paragraph should either establish the baseline, explain advisory/transparency mechanisms, or sharpen the tradeoff claim.
 - The core anchor priority list should stay compact: Häubl and Trifts (2000), Senecal and Nantel (2004), and Ursu (2018) for the baseline, then Wang and Benbasat (2007), Wang et al. (2018), Wang and Wang (2019), and likely Luo et al. (2019) for the advisory and transparency bridge.
+- A new candidate bridge layer has emerged between the baseline and disclosure papers: Xiao and Benbasat (2007), Wang and Benbasat (2008), Wang and Benbasat (2016), and the 2022 JMIS meta-analysis collectively strengthen the case that interactivity and trust in recommendation agents are already theorized design dimensions rather than entirely new LLM-era phenomena.
 - The section should also avoid theoretical overbreadth: depth should come from a disciplined bridge among a few strong anchors rather than an expanding inventory of adjacent literatures.
 - The opening paragraph of that section should establish continuity between classic digital guidance tools and advisory-system research before introducing the specific gap around LLM-based conversational assistants, so the paper reads as a reconfiguration of established choice-architecture logic rather than an isolated AI phenomenon paper.
 - The next paragraph should explicitly bridge from earlier advisory technologies to conversational AI as a dialogic and adaptive form of choice architecture rather than merely a stronger static nudge.
@@ -73,6 +75,7 @@ This file records open questions, uncertainties, and decisions encountered while
 - Trust and satisfaction should remain secondary outcomes unless later evidence shows they need a more central role.
 - The core theory should contrast conversational AI with interface-level nudges by emphasizing adaptive dialogue, personalization benefits, and transparency costs.
 - The literature base should be organized around a small number of true anchors for each construct rather than continued broad accumulation of adjacent papers.
+- Another literature pass suggests the next gain is not a broad search for more conversational-AI papers, but a tighter recommendation-agent bridge built around a few Benbasat-centered RA papers, especially to support the interactivity and trust-attribution logic.
 - The next theory gain should come from cleaner construct definitions, not from adding many more adjacent citations.
 - Choice confidence should be treated as certainty in the selected option, whereas perceived decision quality should remain the broader evaluative judgment of whether the final decision was sound and appropriate.
 - Perceived transparency should be treated as a combination of understandability and reconstructability of the recommendation basis.

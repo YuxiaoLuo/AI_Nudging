@@ -79,12 +79,36 @@ Every time literature review is performed for this project, this file should be 
 ## Newly identified relevant articles not yet added in this pass
 These look significant and relevant enough to track for manual review or later collection.
 
-- None at the moment from the previously tracked missing set. The five previously missing papers below have now been added to the literature folder:
-  - `Wang_JMIS2007_ExplanationFacilitiesTrustingBeliefs.pdf`
-  - `Senecal_JRetailing2004_OnlineProductRecommendationsChoices.pdf`
-  - `Yalcin_JMR2022_ConsumerReactionsAlgorithmsVersusHumans.pdf`
-  - `Longoni_JCR2019_ResistanceToMedicalAI.pdf`
-  - `Luo_MktSci2019_ChatbotDisclosureCustomerPurchases.pdf`
+### New manual-follow-up candidates from this literature pass
+I ran another stricter pass focused on strengthening the recommendation-agent bridge between early decision aids and later disclosure/transparency work. Metadata verification worked, but the direct PDF URLs I tested returned `403` HTML pages rather than valid PDFs, so I did **not** keep any of those files.
+
+- Xiao, B., & Benbasat, I. (2007). *E-Commerce Product Recommendation Agents: Use, Characteristics, and Impact*. MIS Quarterly. https://doi.org/10.2307/25148784
+  - why it is relevant:
+    - Strong bridge paper for the middle layer of the theory section.
+    - Helps define what recommendation agents do before the later transparency and disclosure literature.
+
+- Wang, W., & Benbasat, I. (2008). *Attributions of Trust in Decision Support Technologies: A Study of Recommendation Agents for E-Commerce*. Journal of Management Information Systems. https://doi.org/10.2753/MIS0742-1222240410
+  - why it is relevant:
+    - Sharpens the trust-attribution logic behind recommendation-agent use.
+    - Useful for explaining why conversational AI may change not only usefulness judgments but also the basis of trust.
+
+- Wang, W., & Benbasat, I. (2016). *Empirical Assessment of Alternative Designs for Enhancing Different Types of Trusting Beliefs in Online Recommendation Agents*. Journal of Management Information Systems. https://doi.org/10.1080/07421222.2016.1243949
+  - why it is relevant:
+    - Supports the argument that design choices in recommendation agents systematically affect trusting beliefs.
+    - Useful support for a design-sensitive conversational-AI framing.
+
+- Ebrahimi, S., Ghasemaghaei, M., & Benbasat, I. (2022). *The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis*. Journal of Management Information Systems. https://doi.org/10.1080/07421222.2022.2096549
+  - why it is relevant:
+    - Especially useful because it explicitly distinguishes interactive from non-interactive recommendation agents.
+    - Strong support for treating conversational AI as more than a stronger static recommender.
+
+### Previously resolved missing set
+The five previously missing papers below have now been added to the literature folder:
+- `Wang_JMIS2007_ExplanationFacilitiesTrustingBeliefs.pdf`
+- `Senecal_JRetailing2004_OnlineProductRecommendationsChoices.pdf`
+- `Yalcin_JMR2022_ConsumerReactionsAlgorithmsVersusHumans.pdf`
+- `Longoni_JCR2019_ResistanceToMedicalAI.pdf`
+- `Luo_MktSci2019_ChatbotDisclosureCustomerPurchases.pdf`
 
 ## Recommended next step
 Keep using this file to track newly identified but unavailable articles in future literature-review passes.

@@ -52,6 +52,8 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The theoretical-background section now also has a more explicit compact anchor priority list, keeping the core argument centered on a small set of strongest baseline and transparency-related papers.
 - The opening paragraph draft has now been tightened further by clarifying why the section should begin with established digital-guidance and recommendation literatures before introducing conversational AI.
 - The anchor-priority logic has also been sharpened with a warning against theoretical overbreadth, reinforcing that the background should build through a disciplined bridge among a few strong anchors rather than a long list of adjacent literatures.
+- Another literature pass has now identified a tighter recommendation-agent bridge layer that can strengthen the theory section without broadening it too much: Xiao and Benbasat (2007), Wang and Benbasat (2008), Wang and Benbasat (2016), and the 2022 JMIS meta-analysis on interactive versus non-interactive recommendation agents.
+- This pass did not yield valid new PDFs because the candidate publisher links returned `403` HTML pages rather than usable PDFs, but it still improved the manuscript's theoretical bridge and clarified which papers should be tracked for manual follow-up.
 - The previously empty `ai nudging on digital platform.docx` file has now been removed, so it is no longer treated as a project blocker or pending source.
 
 ## Blockers
@@ -61,6 +63,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 ## Next Steps
 1. Continue collecting and verifying highly relevant articles, prioritizing seminal and top-journal anchors.
 2. Narrow the smallest defensible anchor set for each major construct and comparison in the model.
-3. Tighten source-backed construct definitions for the core mediators and outcomes.
-4. Keep integrating the strongest anchor papers directly into manuscript-level theory language.
-5. Move the study design from first-pass conceptual logic toward treatment materials and analysis strategy, with headphones as the leading first-paper option.
+3. Decide whether the new recommendation-agent bridge papers stay as supporting bridge citations or whether one should be promoted into the compact core anchor set.
+4. Tighten source-backed construct definitions for the core mediators and outcomes.
+5. Keep integrating the strongest anchor papers directly into manuscript-level theory language.
+6. Move the study design from first-pass conceptual logic toward treatment materials and analysis strategy, with headphones as the leading first-paper option.
