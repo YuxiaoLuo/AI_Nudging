@@ -50,6 +50,7 @@
 - [ ] Continue autonomous literature collection and verification
 - [ ] Reassess the core anchor set now that the previously missing PDFs have been added locally
 - [ ] Decide whether the new recommendation-agent bridge papers should remain support citations or whether one belongs in the compact core anchor set
+- [ ] Continue harmonizing the opening, theory, and hypotheses into one fully consistent scientific manuscript voice
 - [ ] Update `literature/download_log.md` every time literature review is performed
 - [ ] Record new questions and resolved decisions in `questions_log.md`
 - [x] Update project status after each meaningful review iteration
