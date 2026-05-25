@@ -78,9 +78,10 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The contribution section has now also been sharpened into a clearer journal-style positioning statement, making the paper's theoretical and empirical payoffs more explicit.
 - The formal draft now also includes a discussion section with theoretical implications, practical implications, and first-pass limitations, so the manuscript closes more like a complete article.
 - The theory section now also carries more explicit construct definitions for personalization, cognitive load, transparency, confidence, and perceived decision quality, reducing one of the clearest remaining reviewer-facing ambiguities in the formal draft.
+- The theory section now also incorporates stronger source-backed wording for personalization and cognitive-load support while sharpening the confidence-versus-decision-quality distinction, which further narrows the remaining construct-stability risk.
 
 ## Blockers
-- Need tighter source-backed construct definitions before the theory section can be treated as stable.
+- Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable.
 - Need continued refinement of the manuscript draft so it can absorb only the highest-value remaining blueprint material while becoming more submission-like, self-contained, and less note-driven section by section.
 
 ## Next Steps

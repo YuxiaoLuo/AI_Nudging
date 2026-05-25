@@ -105,3 +105,4 @@ This file records open questions, uncertainties, and decisions encountered while
 - A useful heuristic now is to move only those remaining blueprint details that materially increase the formal draft's self-sufficiency and review readiness.
 - Definition clarity and comparison clarity are part of that heuristic: moving them into the draft is high value because they improve reviewer readability without reopening the model.
 - The formal manuscript draft should now carry explicit theory-level definitions for perceived personalization, cognitive load, perceived transparency, choice confidence, and perceived decision quality, rather than leaving those distinctions mainly in blueprint notes.
+- The formal manuscript draft should also carry the strongest existing source-backed wording for personalization and cognitive-load support directly in the theory section, while keeping the confidence-versus-decision-quality distinction explicit and disciplined.
