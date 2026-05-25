@@ -85,6 +85,8 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The introduction, theoretical-background bridge, and hypotheses/model setup have now been tightened further so the manuscript foregrounds the conversational-versus-UI comparison more consistently and carries a more uniform scientific voice across the front half of the paper.
 - The methods, measures, and analysis sections now also carry more explicit manuscript-ready procedural and presentation logic, including stronger invariance language for the three conditions, clearer instrument-handling rules, and a cleaner statement of how the core contrasts should be reported.
 - The formal draft now also includes more explicit instrumentation detail for manipulation checks, control items, response anchors, and data-quality screens, which further reduces the blueprint's role in explaining how the study would actually be fielded.
+- Another cleanup pass has now removed additional proposal-style hedging from the procedure, measures, manipulation-check, analysis-plan, and discussion sections, which makes the formal manuscript read more consistently as a paper draft rather than an implementation memo.
+- The manuscript front half now also states more explicitly that the study isolates mode of guidance rather than recommendation content, which sharpens the conversational-versus-UI comparison and reduces a likely reviewer ambiguity about what exactly the treatment contrast identifies.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable.
@@ -92,5 +94,5 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 
 ## Next Steps
 1. Continue improving the manuscript draft by folding in only the strongest remaining blueprint material, especially where final measure-selection specificity or review-facing citation calibration would improve self-sufficiency.
-2. Keep tightening transitions and trimming redundancy so the manuscript draft reads as one paper rather than as migrated notes.
+2. Keep tightening transitions and trimming redundancy, with special attention now shifting from methods voice cleanup toward any remaining theory/discussion repetition, citation-calibration rough spots, or places where the mode-of-guidance contrast can still be stated more crisply.
 3. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.
