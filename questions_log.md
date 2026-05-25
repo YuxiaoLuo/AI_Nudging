@@ -35,6 +35,7 @@ This file records open questions, uncertainties, and decisions encountered while
 - The integrated draft can now be improved meaningfully through prose cleanup alone; the next writing gain no longer depends on adding many new structural blocks.
 - A final narrow pass on the remaining confidence and perceived decision-quality gaps did not reveal a clearly stronger core anchor, so the project does not need another literature-expansion step before manuscript consolidation.
 - The formal manuscript file can now absorb more of the concrete empirical specification directly, which reduces the need to keep consulting the blueprint for core study details.
+- The methods section of the formal manuscript draft benefits from being broken into more explicit participant, design, and procedure components rather than left as one dense block.
 
 ### Literature and paper selection
 - Which additional UTD24 or ABDC A* papers best strengthen the bridge from recommendation agents to conversational AI?
@@ -98,3 +99,4 @@ This file records open questions, uncertainties, and decisions encountered while
 - The practical transition point is getting close: once the remaining source-gap decision is made, the project should be ready to move from blueprint refinement into a cleaner manuscript-file workflow.
 - That transition point has effectively been reached: the project now has a dedicated manuscript draft file, and the next gains should come from selective migration and refinement rather than more blueprint expansion.
 - The next practical manuscript gain is to keep moving only the highest-value remaining design and wording details into the draft while shrinking the blueprint's role as the primary working document.
+- The manuscript-draft workflow is now mature enough that many gains come from section-level rewriting and decomposition rather than from adding entirely new conceptual content.

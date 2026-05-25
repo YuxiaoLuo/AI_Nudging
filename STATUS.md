@@ -69,10 +69,11 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The integrated draft has now also been cleaned further at the prose level by stripping some blueprint-style labeling and tightening the manuscript transitions around the theory, method, and contribution sections.
 - A final narrow literature check on confidence and perceived decision quality did not uncover a clearly stronger core anchor that would justify delaying manuscript consolidation, and the strongest cleaned material has now been moved into a dedicated manuscript draft file.
 - The formal manuscript draft now also carries more of the concrete empirical design directly, including the six-product stimulus structure, condition implementation logic, and a compact measures section, so it depends less on the blueprint for basic study specification.
+- The manuscript draft now also has a more explicit participant, design, and procedure structure, which makes the methods section read more like a paper section and less like a compressed summary paragraph.
 
 ## Blockers
 - Need tighter source-backed construct definitions before the theory section can be treated as stable.
-- Need continued refinement of the manuscript draft so it can absorb only the highest-value remaining blueprint material while staying cleaner and more paper-like than the source notes.
+- Need continued refinement of the manuscript draft so it can absorb only the highest-value remaining blueprint material while becoming more submission-like section by section.
 
 ## Next Steps
 1. Continue improving the manuscript draft by folding in only the strongest remaining blueprint material.

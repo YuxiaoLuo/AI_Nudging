@@ -52,6 +52,7 @@
 - [x] Consolidate the cleaned integrated draft into a more formal manuscript file once the remaining source gaps are judged noncritical
 - [ ] Continue migrating the strongest material from the blueprint into the formal manuscript draft
 - [ ] Reduce the manuscript draft's dependence on the blueprint for concrete study specification and measurement wording
+- [ ] Expand the formal manuscript draft where needed so the methods section no longer relies on compressed summary prose
 - [x] Draft expected contributions
 
 ## Process
