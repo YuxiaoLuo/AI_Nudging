@@ -90,10 +90,11 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The literature synthesis and reading matrix now also carry a more explicit compact anchor map, which clarifies which citations should bear the manuscript's core theoretical burden versus which should remain bridge or boundary-support citations.
 - The formal manuscript draft now also reflects that citation hierarchy more explicitly in the introduction, theory, transparency logic, and discussion, which reduces another source of reviewer-facing ambiguity about which prior literatures are doing core versus supporting work.
 - The formal manuscript draft now also includes a representative conversational recommendation script and a more explicit statement of the planned conversational-versus-UI contrast as a linear restriction, which further reduces its dependence on the blueprint for treatment and analysis specificity.
+- The formal manuscript draft now also includes representative item wording for the primary outcomes, core process variables, and secondary outcomes, which further reduces blueprint dependence in the measurement section.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
-- Need continued refinement of the manuscript draft so the remaining blueprint dependence is reduced mainly in residual instrument-selection specificity and any final prose smoothing, rather than in treatment detail, core framing, citation hierarchy, or study logic.
+- Need continued refinement of the manuscript draft so the remaining blueprint dependence is reduced mainly in any final instrument-selection specificity and prose smoothing, rather than in treatment detail, measurement examples, core framing, citation hierarchy, or study logic.
 
 ## Next Steps
 1. Continue improving the manuscript draft by folding in only the strongest remaining blueprint material, especially where final measure-selection specificity would improve self-sufficiency.
