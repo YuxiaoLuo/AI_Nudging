@@ -142,8 +142,41 @@ These are not all top-anchor papers in the same way as Häubl and Trifts, Ursu, 
 
 A useful caution, however, is that not every adjacent AI or service-technology paper should be absorbed into the core anchor set. Some papers, such as broader service-technology conceptual pieces, may help with phenomenon framing but should remain peripheral unless they directly sharpen the paper's core causal logic.
 
+## 7. Compact core anchor set after reassessment
+After reassessing the current literature base, the paper no longer needs a broad or unsettled anchor pool. The smallest defensible anchor set now looks stable enough to guide the remaining manuscript cleanup.
 
-## 7. Priority implications for the next drafting pass
+### A. Core baseline for digital guidance and recommendation influence
+- **Häubl and Trifts (2000)** should anchor the claim that interactive decision aids can reshape the decision process itself, not merely the final choice.
+- **Senecal and Nantel (2004)** should anchor the claim that online product recommendations can directly influence consumer choice in e-commerce.
+- **Ursu (2018)** should anchor the more constrained baseline for rankings and interface-level nudges, especially the idea that these interventions work heavily through search and inspection order.
+
+Together, these three papers provide the cleanest baseline for saying that traditional digital guidance already matters, but that much of it operates through salience, search, and comparison structure rather than through dialogic advisory exchange.
+
+### B. Core transparency and disclosure anchor set
+- **Wang and Benbasat (2007)** should serve as the foundational explanation-facility anchor for why the inspectability of recommendation logic matters.
+- **Wang, Xu, and Wang (2018)** should serve as the core neutrality-and-explanations anchor for how biased recommendation agents generate trust and distrust consequences.
+- **Wang and Wang (2019)** should serve as the core integrity-and-disclosure anchor for why sponsorship disclosure changes evaluations of recommendation agents.
+- **Luo et al. (2019)** should serve as the commerce-facing conversational disclosure anchor because it ties AI chatbot disclosure directly to purchase outcomes.
+
+This four-paper cluster is now the clearest core set for the manuscript's opacity route. It is compact, e-commerce relevant, and strong enough to support the paper's transparency argument without importing a wider and looser AI-ethics literature.
+
+### C. Supporting but not core bridge citations
+- **Xiao and Benbasat (2007)** remains the best compact bridge for defining recommendation agents as a decision-support category, but it should support the bridge rather than carry the main causal burden.
+- **Ebrahimi et al. (2022)** remains valuable because it shows that interactivity is a meaningful recommendation-agent design distinction, but it is best treated as reinforcing evidence rather than as a primary anchor.
+- **Chen et al. (2021)** remains the most useful direct support citation for the idea that conversational agents can function as shopping decision aids.
+
+These papers are important, but they should stabilize the manuscript's middle layer rather than expand the core anchor set further.
+
+### D. Boundary-condition and phenomenon-support citations
+- **Yalcin et al. (2022)** should remain a supporting citation on reactions to algorithmic decisions rather than move into the core set.
+- **Longoni et al. (2019)** should remain a boundary-condition citation on resistance to AI advice.
+- **Chung et al. (2020)** should remain a support citation for the personalization benefit route.
+- **de Cicco et al. (2022)** should remain a support citation for conversational-commerce bias and transparency concerns.
+
+These papers still matter, but they should sharpen interpretation and scope conditions rather than define the manuscript's central theoretical spine.
+
+
+## 8. Priority implications for the next drafting pass
 The next theory draft should probably do five things in order:
 1. establish the badge/ranking baseline
 2. bridge to recommendation-agent trust and disclosure literature
@@ -151,13 +184,16 @@ The next theory draft should probably do five things in order:
 4. define the core constructs in a non-overlapping way, especially personalization, transparency, confidence, and perceived decision quality
 5. argue why LLM conversational nudges create a sharper transparency tradeoff than prior forms of digital assistance
 
-## 8. Sources used in this synthesis
+## 9. Sources used in this synthesis
 - Häubl, G., & Trifts, V. (2000). *Consumer Decision Making in Online Shopping Environments: The Effects of Interactive Decision Aids*. Marketing Science. https://pubsonline.informs.org/doi/10.1287/mksc.19.1.4.15178
+- Senecal, S., & Nantel, J. (2004). *The influence of online product recommendations on consumers' online choices*. Journal of Retailing. https://doi.org/10.1016/j.jretai.2004.04.001
 - Ursu, R. M. (2018). *The Power of Rankings: Quantifying the Effect of Rankings on Online Consumer Search and Purchase Decisions*. Marketing Science. https://pubsonline.informs.org/doi/10.1287/mksc.2017.1072
 - Xiao, B., & Benbasat, I. (2007). *E-Commerce Product Recommendation Agents: Use, Characteristics, and Impact*. MIS Quarterly. https://doi.org/10.2307/25148784
+- Wang, W., & Benbasat, I. (2007). *Recommendation Agents for Electronic Commerce: Effects of Explanation Facilities on Trusting Beliefs*. Journal of Management Information Systems. https://doi.org/10.2753/MIS0742-1222230420
 - Wang, W., & Benbasat, I. (2008). *Attributions of Trust in Decision Support Technologies: A Study of Recommendation Agents for E-Commerce*. Journal of Management Information Systems. https://doi.org/10.2753/MIS0742-1222240410
 - Wang, W., Xu, J. D., & Wang, M. (2018). *Effects of Recommendation Neutrality and Sponsorship Disclosure on Trust vs. Distrust in Online Recommendation Agents*. Management Science. https://pubsonline.informs.org/doi/10.1287/mnsc.2017.2906
 - Wang, W., & Wang, M. (2019). *Effects of Sponsorship Disclosure on Perceived Integrity of Biased Recommendation Agents*. Information Systems Research. https://pubsonline.informs.org/doi/10.1287/isre.2018.0811
+- Luo, X., Tong, S., Fang, Z., & Qu, Z. (2019). *Frontiers: Machines vs. Humans: The Impact of Artificial Intelligence Chatbot Disclosure on Customer Purchases*. Marketing Science. https://doi.org/10.1287/mksc.2019.1192
 - Michels, L., Ochmann, J., Schmitt, K., Laumer, S., & Tiefenbeck, V. (2023). *Salience, transparency, and self-nudging: a digital nudge to promote healthier food product choices*. European Journal of Information Systems. https://doi.org/10.1080/0960085X.2023.2229787
 - Ebrahimi, S., Ghasemaghaei, M., & Benbasat, I. (2022). *The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis*. Journal of Management Information Systems. https://doi.org/10.1080/07421222.2022.2096549
 

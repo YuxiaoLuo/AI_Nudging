@@ -62,7 +62,7 @@
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
-- [ ] Reassess the core anchor set now that the previously missing PDFs have been added locally
+- [x] Reassess the core anchor set now that the previously missing PDFs have been added locally
 - [x] Update the manuscript blueprint to explicitly promote Wang and Benbasat (2007) into the compact core anchor set while keeping the remaining recommendation-agent bridge papers as support citations unless later evidence suggests otherwise
 - [x] Continue harmonizing the opening, theory, and hypotheses into one fully consistent scientific manuscript voice
 - [ ] Update `literature/download_log.md` every time literature review is performed

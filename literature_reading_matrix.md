@@ -66,6 +66,28 @@ There is still room for a paper showing that **LLM-based conversational nudges a
 6. Mahmud & Islam (2021) - chatbot as decision aid
 7. Kaliyamurthy & Schau (2025) - algorithmic constraints on consumer experience
 
+## Reassessed compact anchor map
+
+### Core anchors
+- Häubl & Trifts (2000): interactive decision-aid baseline for process change.
+- Senecal & Nantel (2004): recommendation-effect baseline for direct influence on online choice.
+- Ursu (2018): ranking and search-order baseline for interface-level nudging.
+- Wang & Benbasat (2007): foundational explanation-facility anchor for inspectability and trusting beliefs.
+- Wang, Xu, & Wang (2018): neutrality, distrust, and explanation-restoration anchor.
+- Wang & Wang (2019): disclosure, integrity, and psychological-contract anchor.
+- Luo et al. (2019): commerce-facing conversational disclosure anchor tied to purchase behavior.
+
+### Supporting bridge citations
+- Xiao & Benbasat (2007): recommendation-agent category bridge.
+- Ebrahimi et al. (2022): interactivity versus non-interactivity bridge.
+- Chen et al. (2021): conversational-agent-as-decision-aid bridge.
+
+### Supporting scope and boundary citations
+- Chung et al. (2020): personalization support.
+- Yalcin et al. (2022): reactions to algorithmic decision makers.
+- Longoni et al. (2019): AI-advice resistance boundary condition.
+- de Cicco et al. (2022): conversational-commerce bias and transparency concerns.
+
 ## Notes
 - UTD24 status can vary by list year and school implementation, but the selected core journals above are standard high-prestige targets and are appropriate anchors for this project.
 - I intentionally separated top-anchor papers from merely topical recent papers so the review stays publication-oriented.
