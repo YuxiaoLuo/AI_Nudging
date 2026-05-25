@@ -84,12 +84,13 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The research-model, discussion, and conclusion prose have now also been harmonized further, reducing repetitive transitions and proposal-style hedging so the manuscript reads more evenly from theory through close.
 - The introduction, theoretical-background bridge, and hypotheses/model setup have now been tightened further so the manuscript foregrounds the conversational-versus-UI comparison more consistently and carries a more uniform scientific voice across the front half of the paper.
 - The methods, measures, and analysis sections now also carry more explicit manuscript-ready procedural and presentation logic, including stronger invariance language for the three conditions, clearer instrument-handling rules, and a cleaner statement of how the core contrasts should be reported.
+- The formal draft now also includes more explicit instrumentation detail for manipulation checks, control items, response anchors, and data-quality screens, which further reduces the blueprint's role in explaining how the study would actually be fielded.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable.
-- Need continued refinement of the manuscript draft so the remaining blueprint dependence is reduced mainly in citation-calibration details and any still-compressed wording around instrumentation, rather than in the core framing or study logic.
+- Need continued refinement of the manuscript draft so the remaining blueprint dependence is reduced mainly in citation-calibration details and any residual instrument-selection specificity, rather than in the core framing or study logic.
 
 ## Next Steps
-1. Continue improving the manuscript draft by folding in only the strongest remaining blueprint material, especially where measurement wording and instrumentation details can still be made more self-sufficient.
+1. Continue improving the manuscript draft by folding in only the strongest remaining blueprint material, especially where final measure-selection specificity or review-facing citation calibration would improve self-sufficiency.
 2. Keep tightening transitions and trimming redundancy so the manuscript draft reads as one paper rather than as migrated notes.
 3. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.
