@@ -99,6 +99,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another back-end prose pass has now tightened the contribution, discussion, and limitations sections so they play more distinct roles and repeat the support-versus-opacity claim less mechanically.
 - The analysis plan now also states more explicitly that the close post-task constructs must pass discriminability and measurement-validation checks before structural estimation, which reduces another likely reviewer concern about confidence, decision quality, and transparency being too close empirically.
 - The manuscript now also states more explicitly that manipulation checks are primarily diagnostic evidence of condition separation rather than automatic post hoc exclusion filters, which tightens another reviewer-sensitive part of the empirical design.
+- The methods and analysis sections now also state more explicitly that prespecified exclusions should be reported transparently and that a light robustness check on screening sensitivity is desirable when feasible, which further strengthens the draft's empirical-defense logic.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
