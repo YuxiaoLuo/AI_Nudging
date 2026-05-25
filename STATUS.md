@@ -72,6 +72,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The manuscript draft now also has a more explicit participant, design, and procedure structure, which makes the methods section read more like a paper section and less like a compressed summary paragraph.
 - The manuscript draft now also includes explicit manipulation-check and control-variable logic, which further reduces its dependence on blueprint-only study-specification notes.
 - The formal draft now also contains an explicit conceptualization-and-comparison section, making the definition of LLM conversational nudges and the three-condition contrast clearer within the manuscript itself.
+- The formal manuscript draft now also includes a manuscript-style abstract, making the front end read more like a complete paper package rather than a stack of drafted sections.
 
 ## Blockers
 - Need tighter source-backed construct definitions before the theory section can be treated as stable.

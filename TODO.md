@@ -44,6 +44,7 @@
 - [x] Add an anti-overbreadth guardrail for the theoretical background
 - [x] Draft and tighten the opening, bridge, tradeoff-transition, and model-link paragraphs of the theoretical background section
 - [x] Turn the current problem statement and contribution framing into a more journal-style opening section
+- [x] Add a manuscript-style abstract so the formal draft reads more like a complete paper package
 - [ ] Harmonize the opening, theory, and hypotheses into a single consistent scientific manuscript voice
 - [ ] Draft methods section
 - [x] Convert the strongest current blueprint sections into a more continuous manuscript-style draft
