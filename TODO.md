@@ -46,7 +46,7 @@
 - [x] Turn the current problem statement and contribution framing into a more journal-style opening section
 - [x] Add a manuscript-style abstract so the formal draft reads more like a complete paper package
 - [ ] Harmonize the opening, theory, and hypotheses into a single consistent scientific manuscript voice
-- [ ] Draft methods section
+- [x] Draft methods section
 - [x] Convert the strongest current blueprint sections into a more continuous manuscript-style draft
 - [ ] Tighten the integrated draft into cleaner manuscript prose with fewer blueprint-style labels and transitions
 - [x] Decide whether a narrowly targeted literature pass is still needed for confidence and perceived decision quality before deeper prose cleanup
