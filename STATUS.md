@@ -56,15 +56,19 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The manuscript blueprint has now been updated to integrate that bridge directly into the theory section, so the paper now moves more cleanly from interface-level nudges, to recommendation-agent design and trust, to conversational AI as a more adaptive advisory form.
 - This pass did not yield valid new PDFs because the candidate publisher links returned `403` HTML pages rather than usable PDFs, but it still improved the manuscript's theoretical bridge and clarified which papers should be tracked for manual follow-up.
 - The previously empty `ai nudging on digital platform.docx` file has now been removed, so it is no longer treated as a project blocker or pending source.
+- The manuscript blueprint now includes a first-pass construct-anchor map that identifies the smallest defensible source base for perceived personalization, cognitive load, confidence, transparency, and perceived decision quality, which clarifies that the next gain should come from tighter theory writing rather than broad citation expansion.
+- The core theory section has now been revised to incorporate that anchor map directly into the construct paragraphs, strengthening the source-backed logic for personalization, cognitive load, and transparency while keeping confidence and decision quality conceptually disciplined.
+- The project notes now also sharpen the likely bridge-paper decision: Wang and Benbasat (2007) appears to be the strongest candidate for promotion into the compact core anchor set because it most directly supports the transparency and explanation mechanism, while the other recommendation-agent bridge papers may remain supporting citations.
+- The manuscript blueprint has now been updated to make that anchor-set decision explicit inside the theoretical-background guidance, which should reduce ambiguity in the next drafting pass and keep the bridge literature from expanding unnecessarily.
+- The study-design section has now also been tightened around headphones as the leading first-paper category, including a clearer rationale for why it dominates skincare, running shoes, and air fryers, plus a more concrete first-pass treatment-material structure for the three conditions.
+- The blueprint now also contains a more usable first-pass shopping scenario and a short conversational-script logic for the headphones study, which reduces abstraction around how the treatment materials could actually be implemented.
+- The blueprint has now been pushed further into implementation detail with a concrete six-product fictional headphone set, a stable focal recommendation shared across the treatment conditions, a semi-structured conversational script, a clearer UI-based nudge execution, and a more manuscript-ready methods and estimation note.
 
 ## Blockers
 - Need tighter source-backed construct definitions before the theory section can be treated as stable.
-- Need a concrete product category choice so treatment materials and measures can be drafted with less abstraction.
+- Need a full draft methods section and draft survey items now that the category and treatment structure are concrete enough to implement.
 
 ## Next Steps
-1. Continue collecting and verifying highly relevant articles, prioritizing seminal and top-journal anchors.
-2. Narrow the smallest defensible anchor set for each major construct and comparison in the model.
-3. Decide whether the new recommendation-agent bridge papers stay as supporting bridge citations or whether one should be promoted into the compact core anchor set.
-4. Tighten source-backed construct definitions for the core mediators and outcomes.
-5. Keep harmonizing the opening, theory, and hypotheses into one fully consistent scientific manuscript voice.
-6. Move the study design from first-pass conceptual logic toward treatment materials and analysis strategy, with headphones as the leading first-paper option.
+1. Convert the blueprint's concrete headphone stimuli and condition logic into a manuscript-style methods section plus draft survey items.
+2. Keep harmonizing the opening, theory, and hypotheses into one fully consistent scientific manuscript voice.
+3. Run only a narrowly targeted literature pass if needed for the two weakest constructs: confidence and perceived decision quality.

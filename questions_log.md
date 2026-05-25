@@ -27,6 +27,8 @@ This file records open questions, uncertainties, and decisions encountered while
 - The first-pass analysis strategy should follow the tradeoff model directly, prioritizing condition comparisons plus mediation/path tests over a broad menu of loosely connected regressions.
 - Another selective literature pass suggests Luo et al. (2019, Marketing Science) is not just a strong commerce-facing support paper but a likely core anchor for the transparency and disclosure side of the model.
 - This additional literature pass did not reveal a clearly superior omitted seminal paper for the current theory frame, which increases confidence in the current compact anchor strategy.
+- The treatment should now be implemented as a semi-structured rather than fully open-ended conversation so the conversational condition feels adaptive without creating uncontrolled content variation.
+- The current best stimulus structure is a six-product fictional headphone set with one balanced focal option recommended across both the conversational and UI-nudge conditions.
 
 ### Literature and paper selection
 - Which additional UTD24 or ABDC A* papers best strengthen the bridge from recommendation agents to conversational AI?
@@ -36,6 +38,7 @@ This file records open questions, uncertainties, and decisions encountered while
 - With the PDFs now added, the next question is not whether Wang and Benbasat (2007), Senecal and Nantel (2004), and Yalcin et al. (2022) are usable, but which of them should be elevated from strong support into the smallest defensible core anchor set after close reading.
 - How much should top-journal but cross-domain AI-advice papers such as Longoni et al. (2019) be used in the first paper, given their value for boundary conditions but not for direct shopping-theory anchoring?
 - After this literature pass, should Xiao and Benbasat (2007), Wang and Benbasat (2008), Wang and Benbasat (2016), and the 2022 JMIS meta-analysis be used primarily to strengthen the recommendation-agent bridge, or should one of them be promoted into the compact core anchor set?
+- For the first paper, should Wang and Benbasat (2007) now be explicitly promoted into the compact core anchor set because explanation facilities directly support the transparency mechanism more cleanly than the broader bridge papers do?
 
 ### Construct-definition questions
 - How should perceived decision quality be distinguished most cleanly from choice confidence so the two do not collapse conceptually?
@@ -71,12 +74,15 @@ This file records open questions, uncertainties, and decisions encountered while
 
 ### Current first-paper logic
 - The current best first-paper framing is a tradeoff model rather than an everything-model.
+- Headphones should now be treated as the selected first-paper category rather than only a leading candidate.
 - Primary outcomes should remain purchase likelihood and perceived decision quality.
 - Trust and satisfaction should remain secondary outcomes unless later evidence shows they need a more central role.
 - The core theory should contrast conversational AI with interface-level nudges by emphasizing adaptive dialogue, personalization benefits, and transparency costs.
 - The literature base should be organized around a small number of true anchors for each construct rather than continued broad accumulation of adjacent papers.
 - Another literature pass suggests the next gain is not a broad search for more conversational-AI papers, but a tighter recommendation-agent bridge built around a few Benbasat-centered RA papers, especially to support the interactivity and trust-attribution logic.
+- A plausible next-step decision is to keep Xiao and Benbasat (2007), Wang and Benbasat (2008), Wang and Benbasat (2016), and the 2022 meta-analysis as bridge/support citations while promoting Wang and Benbasat (2007) into the compact core anchor set because it most directly underwrites the transparency and explanation mechanism in the current model.
 - The next theory gain should come from cleaner construct definitions, not from adding many more adjacent citations.
 - Choice confidence should be treated as certainty in the selected option, whereas perceived decision quality should remain the broader evaluative judgment of whether the final decision was sound and appropriate.
 - Perceived transparency should be treated as a combination of understandability and reconstructability of the recommendation basis.
 - Scientific manuscript style should now be the default for theory writing, with citation-backed claims integrated directly into the prose rather than left implicit.
+- The first experiment should keep the recommended focal product substantively constant across the conversational and UI-nudge conditions so the main manipulation remains the mode of guidance rather than the recommended option itself.

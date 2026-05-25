@@ -20,16 +20,18 @@
 - [x] Convert the mechanism model into a fuller prose theory section
 - [x] Write the formal hypotheses section from the compact H1-H8 structure
 - [x] Tighten first-pass construct definitions for perceived personalization, transparency, confidence, and perceived decision quality
-- [ ] Add stronger source-backed support to the construct definitions for perceived personalization, transparency, confidence, and perceived decision quality
+- [x] Convert the new construct-anchor map into tighter source-backed construct paragraphs for perceived personalization, transparency, confidence, and perceived decision quality
+- [ ] Run a narrowly targeted literature pass only if needed for stronger anchors on confidence and perceived decision quality
 
 ## Study Design
-- [ ] Finalize the shopping task and product category, with headphones currently the leading candidate
-- [ ] Draft first-pass treatment materials for each condition using the lead category
+- [x] Finalize the shopping task and product category, with headphones now selected as the first-paper option
+- [x] Draft fuller first-pass treatment materials for each condition using the headphones category
 - [x] Define purchase likelihood and decision quality measures at a first-pass conceptual level
 - [x] Define process measures at a first-pass conceptual level: perceived personalization, transparency, trust, cognitive load, confidence, satisfaction
 - [x] Specify manipulation checks and control variables at a first-pass conceptual level
 - [x] Keep manipulation checks distinct from the substantive mediators and outcomes
-- [ ] Choose the analysis strategy for the tradeoff model
+- [ ] Choose and tighten the analysis strategy for the tradeoff model
+- [ ] Convert the current blueprint into a compact manuscript-style methods section with draft stimuli wording and survey-item candidates
 
 ## Writing
 - [ ] Draft introduction and gap statement
@@ -49,7 +51,7 @@
 ## Process
 - [ ] Continue autonomous literature collection and verification
 - [ ] Reassess the core anchor set now that the previously missing PDFs have been added locally
-- [ ] Decide whether the new recommendation-agent bridge papers should remain support citations or whether one belongs in the compact core anchor set
+- [x] Update the manuscript blueprint to explicitly promote Wang and Benbasat (2007) into the compact core anchor set while keeping the remaining recommendation-agent bridge papers as support citations unless later evidence suggests otherwise
 - [ ] Continue harmonizing the opening, theory, and hypotheses into one fully consistent scientific manuscript voice
 - [ ] Update `literature/download_log.md` every time literature review is performed
 - [ ] Record new questions and resolved decisions in `questions_log.md`
