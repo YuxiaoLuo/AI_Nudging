@@ -49,6 +49,7 @@
 - [x] Convert the strongest current blueprint sections into a more continuous manuscript-style draft
 - [ ] Tighten the integrated draft into cleaner manuscript prose with fewer blueprint-style labels and transitions
 - [ ] Decide whether a narrowly targeted literature pass is still needed for confidence and perceived decision quality before deeper prose cleanup
+- [ ] Consolidate the cleaned integrated draft into a more formal manuscript file once the remaining source gaps are judged noncritical
 - [x] Draft expected contributions
 
 ## Process

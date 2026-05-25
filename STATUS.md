@@ -66,12 +66,13 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The blueprint now also contains a manuscript-style first-pass methods section plus a compact candidate questionnaire set for the core outcomes, process variables, manipulation checks, and controls, which makes the project materially closer to a paper-ready empirical draft.
 - The strongest existing introduction, theory, hypotheses, and methods material has now also been stitched into a more continuous manuscript-style draft, so the project no longer exists only as modular blueprint fragments.
 - The empirical plan has now been tightened further with an explicit publication-oriented analysis specification, including planned contrasts, staged model logic, preferred path-model estimation, fallback regression logic, and clearer presentation rules for the results section.
+- The integrated draft has now also been cleaned further at the prose level by stripping some blueprint-style labeling and tightening the manuscript transitions around the theory, method, and contribution sections.
 
 ## Blockers
 - Need tighter source-backed construct definitions before the theory section can be treated as stable.
-- Need continued tightening of the integrated draft so the prose reads less like an internal blueprint and more like a submission-oriented manuscript section by section.
+- Need continued section-by-section refinement so the remaining blueprint residue is removed and the strongest material can be migrated into a formal manuscript file cleanly.
 
 ## Next Steps
-1. Continue converting the integrated draft from blueprint-style sectioning into cleaner manuscript prose.
-2. Run only a narrowly targeted literature pass if needed for the two weakest constructs: confidence and perceived decision quality.
-3. If no targeted literature gap is found, begin trimming and consolidating section labels so the draft is easier to convert into a formal manuscript file.
+1. Decide whether a final narrowly targeted literature pass is still needed for confidence and perceived decision quality.
+2. If no critical source gap remains, continue prose cleanup and start consolidating the strongest material into a more formal manuscript file.
+3. Keep tightening transitions so the introduction, theory, hypotheses, method, and contribution sections read as one paper rather than as upgraded notes.
