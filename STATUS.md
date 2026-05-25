@@ -91,12 +91,13 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The formal manuscript draft now also reflects that citation hierarchy more explicitly in the introduction, theory, transparency logic, and discussion, which reduces another source of reviewer-facing ambiguity about which prior literatures are doing core versus supporting work.
 - The formal manuscript draft now also includes a representative conversational recommendation script and a more explicit statement of the planned conversational-versus-UI contrast as a linear restriction, which further reduces its dependence on the blueprint for treatment and analysis specificity.
 - The formal manuscript draft now also includes representative item wording for the primary outcomes, core process variables, and secondary outcomes, which further reduces blueprint dependence in the measurement section.
+- The formal manuscript draft now also includes a representative visibility-of-logic manipulation-check item and a concrete attentiveness-screen example, which further reduces blueprint dependence in the instrument and data-quality sections.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
-- Need continued refinement of the manuscript draft so the remaining blueprint dependence is reduced mainly in any final instrument-selection specificity and prose smoothing, rather than in treatment detail, measurement examples, core framing, citation hierarchy, or study logic.
+- Need continued refinement of the manuscript draft mainly in any final instrument-selection specificity and prose smoothing rather than in missing blueprint-to-manuscript migration of treatment, measurement, or analysis detail.
 
 ## Next Steps
-1. Continue improving the manuscript draft by folding in only the strongest remaining blueprint material, especially where final measure-selection specificity would improve self-sufficiency.
-2. Keep trimming any remaining repetition or residual blueprint phrasing now that the core framing, anchor hierarchy, and mode-of-guidance contrast are all materially clearer in the manuscript itself.
+1. Continue improving the manuscript draft mainly through final measure-selection specificity and prose smoothing rather than by importing additional blueprint blocks.
+2. Keep trimming any remaining repetition or residual blueprint phrasing now that the core framing, anchor hierarchy, mode-of-guidance contrast, and instrument examples are all materially clearer in the manuscript itself.
 3. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.

@@ -53,7 +53,7 @@
 - [x] Tighten the integrated draft into cleaner manuscript prose with fewer blueprint-style labels and transitions
 - [x] Decide whether a narrowly targeted literature pass is still needed for confidence and perceived decision quality before deeper prose cleanup
 - [x] Consolidate the cleaned integrated draft into a more formal manuscript file once the remaining source gaps are judged noncritical
-- [ ] Continue migrating the strongest material from the blueprint into the formal manuscript draft
+- [x] Continue migrating the strongest material from the blueprint into the formal manuscript draft
 - [x] Reduce the manuscript draft's dependence on the blueprint for concrete study specification and measurement wording
 - [x] Expand the formal manuscript draft where needed so the methods section no longer relies on compressed summary prose
 - [x] Continue moving manipulation-check, control, and instrument logic fully into the formal manuscript draft where useful
