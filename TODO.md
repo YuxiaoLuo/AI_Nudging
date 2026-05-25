@@ -34,8 +34,8 @@
 - [x] Convert the current blueprint into a compact manuscript-style methods section with draft stimuli wording and survey-item candidates
 
 ## Writing
-- [ ] Draft introduction and gap statement
-- [ ] Continue drafting theoretical background from the new four-step bridge structure
+- [x] Draft introduction and gap statement
+- [x] Continue drafting theoretical background from the new four-step bridge structure
 - [x] Draft research model and hypotheses at blueprint level
 - [x] Sketch the tightened anchor set into a cleaner manuscript-style theory/background direction
 - [x] Clarify the purpose and argumentative role of the theoretical background section
@@ -45,7 +45,7 @@
 - [x] Draft and tighten the opening, bridge, tradeoff-transition, and model-link paragraphs of the theoretical background section
 - [x] Turn the current problem statement and contribution framing into a more journal-style opening section
 - [x] Add a manuscript-style abstract so the formal draft reads more like a complete paper package
-- [ ] Harmonize the opening, theory, and hypotheses into a single consistent scientific manuscript voice
+- [x] Harmonize the opening, theory, and hypotheses into a single consistent scientific manuscript voice
 - [x] Draft methods section
 - [x] Draft a first-pass discussion section with implications and limitations
 - [x] Add a concise conclusion section so the manuscript has a clear closing statement
@@ -55,7 +55,7 @@
 - [x] Consolidate the cleaned integrated draft into a more formal manuscript file once the remaining source gaps are judged noncritical
 - [ ] Continue migrating the strongest material from the blueprint into the formal manuscript draft
 - [ ] Reduce the manuscript draft's dependence on the blueprint for concrete study specification and measurement wording
-- [ ] Expand the formal manuscript draft where needed so the methods section no longer relies on compressed summary prose
+- [x] Expand the formal manuscript draft where needed so the methods section no longer relies on compressed summary prose
 - [ ] Continue moving manipulation-check, control, and instrument logic fully into the formal manuscript draft where useful
 - [ ] Continue moving conceptual-definition and comparison logic fully into the formal manuscript draft where useful
 - [x] Draft expected contributions
@@ -64,7 +64,7 @@
 - [ ] Continue autonomous literature collection and verification
 - [ ] Reassess the core anchor set now that the previously missing PDFs have been added locally
 - [x] Update the manuscript blueprint to explicitly promote Wang and Benbasat (2007) into the compact core anchor set while keeping the remaining recommendation-agent bridge papers as support citations unless later evidence suggests otherwise
-- [ ] Continue harmonizing the opening, theory, and hypotheses into one fully consistent scientific manuscript voice
+- [x] Continue harmonizing the opening, theory, and hypotheses into one fully consistent scientific manuscript voice
 - [ ] Update `literature/download_log.md` every time literature review is performed
 - [ ] Record new questions and resolved decisions in `questions_log.md`
 - [x] Update project status after each meaningful review iteration

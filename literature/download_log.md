@@ -113,6 +113,19 @@ The five previously missing papers below have now been added to the literature f
 ## Recommended next step
 Keep using this file to track newly identified but unavailable articles in future literature-review passes.
 
+## 2026-04-22 request: Marketing Science paper on ChatGPT referrals
+Requested paper:
+- Kaiser, M., & Schulze, C. (2026). *Frontiers: ChatGPT Referrals to E-Commerce Websites: How Do LLMs Compare Against Traditional Channels?* Marketing Science. DOI: https://doi.org/10.1287/mksc.2025.0489
+
+What I verified:
+- OpenAlex lists this article as published in *Marketing Science* on 2026-04-21.
+- OpenAlex marks it as closed access with no open-access PDF or repository full text currently available.
+- A direct attempt to fetch the publisher PDF returned a Cloudflare challenge HTML page instead of a valid PDF, so I removed the bad file rather than keeping a fake PDF.
+
+Status:
+- Not successfully downloaded as a valid PDF in this pass.
+- Needs manual access via institution/library, publisher site, or author-shared copy if Rain wants the full text added.
+
 ## 2026-05-25 narrow construct-anchor follow-up
 Purpose of this pass:
 - Check whether the remaining weak constructs in the current manuscript, especially choice confidence and perceived decision quality, require another targeted literature-collection step before the project moves from blueprint refinement into a cleaner manuscript-file workflow.
