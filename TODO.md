@@ -31,7 +31,7 @@
 - [x] Specify manipulation checks and control variables at a first-pass conceptual level
 - [x] Keep manipulation checks distinct from the substantive mediators and outcomes
 - [ ] Choose and tighten the analysis strategy for the tradeoff model
-- [ ] Convert the current blueprint into a compact manuscript-style methods section with draft stimuli wording and survey-item candidates
+- [x] Convert the current blueprint into a compact manuscript-style methods section with draft stimuli wording and survey-item candidates
 
 ## Writing
 - [ ] Draft introduction and gap statement
@@ -46,6 +46,7 @@
 - [x] Turn the current problem statement and contribution framing into a more journal-style opening section
 - [ ] Harmonize the opening, theory, and hypotheses into a single consistent scientific manuscript voice
 - [ ] Draft methods section
+- [ ] Convert the strongest current blueprint sections into a more continuous manuscript-style draft
 - [x] Draft expected contributions
 
 ## Process

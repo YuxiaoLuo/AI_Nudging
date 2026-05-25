@@ -63,12 +63,13 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The study-design section has now also been tightened around headphones as the leading first-paper category, including a clearer rationale for why it dominates skincare, running shoes, and air fryers, plus a more concrete first-pass treatment-material structure for the three conditions.
 - The blueprint now also contains a more usable first-pass shopping scenario and a short conversational-script logic for the headphones study, which reduces abstraction around how the treatment materials could actually be implemented.
 - The blueprint has now been pushed further into implementation detail with a concrete six-product fictional headphone set, a stable focal recommendation shared across the treatment conditions, a semi-structured conversational script, a clearer UI-based nudge execution, and a more manuscript-ready methods and estimation note.
+- The blueprint now also contains a manuscript-style first-pass methods section plus a compact candidate questionnaire set for the core outcomes, process variables, manipulation checks, and controls, which makes the project materially closer to a paper-ready empirical draft.
 
 ## Blockers
 - Need tighter source-backed construct definitions before the theory section can be treated as stable.
-- Need a full draft methods section and draft survey items now that the category and treatment structure are concrete enough to implement.
+- Need tighter manuscript-level integration across the introduction, theory, hypotheses, and now-methods sections so the project reads like one paper rather than a strong modular blueprint.
 
 ## Next Steps
-1. Convert the blueprint's concrete headphone stimuli and condition logic into a manuscript-style methods section plus draft survey items.
-2. Keep harmonizing the opening, theory, and hypotheses into one fully consistent scientific manuscript voice.
+1. Convert the blueprint's strongest introduction, theory, hypotheses, and methods material into a more continuous manuscript-style draft.
+2. Tighten the analysis strategy write-up so the path structure and planned contrasts are publication-ready rather than only blueprint-ready.
 3. Run only a narrowly targeted literature pass if needed for the two weakest constructs: confidence and perceived decision quality.

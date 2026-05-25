@@ -342,3 +342,98 @@ Perceived decision quality should remain tightly separated from both confidence 
 
 ### 15.6 Implication for the next manuscript pass
 The practical implication is that the next writing gain should come from tightening these construct paragraphs directly inside the theory section rather than continuing broad article collection. If another literature pass is done, it should be narrowly targeted at only two remaining weak spots: a better source-backed confidence anchor and, if possible, a stronger commerce-facing decision-quality anchor.
+
+## 16. First-pass methods section draft
+
+### 16.1 Design overview
+The first study can be designed as a three-condition between-subject online experiment comparing an LLM conversational nudge, a traditional UI-based nudge, and a no-nudge control condition. The design holds the shopping assortment constant across conditions and varies only the mode through which recommendation guidance is delivered. This structure is important because the theory concerns whether conversational guidance changes the decision process differently from static interface nudges, not whether participants respond differently to different product sets.
+
+### 16.2 Participants and setting
+Participants should be adult consumers recruited from a general online panel such as Prolific or CloudResearch. The study does not require category expertise, but participants should be comfortable making ordinary online shopping decisions in English. A first-pass target sample of roughly 450 to 600 completed responses is likely defensible because it would provide approximately 150 to 200 participants per condition, which is a more credible range for detecting condition differences and estimating the proposed process paths than a small-N pilot-style design. The study should exclude duplicate, incomplete, and low-effort responses through prespecified quality checks rather than ad hoc trimming.
+
+### 16.3 Shopping scenario and stimuli
+Participants should be asked to imagine that they need a pair of wireless over-ear headphones for frequent daily use, with a budget cap of $180 and a goal of finding the best overall fit for commuting, work, and casual listening. All participants should evaluate the same six fictional headphone options. The options should differ in meaningful but non-dominant ways on price, battery life, weight, active noise cancellation, microphone quality, comfort rating, and user rating. The key focal option, `VeroWave M6`, should be positioned as a balanced midrange alternative that performs solidly across the core attributes without being the best product on every dimension.
+
+In the conversational-nudge condition, participants should interact with a semi-structured assistant that asks a short sequence of preference questions and then recommends `VeroWave M6` with brief comparative reasoning. In the UI-based nudge condition, participants should see the same focal option highlighted through static cues such as first position, a `Best Match` badge, and a short recommendation note. In the control condition, participants should see the same product grid without explicit recommendation cues. This implementation keeps the substantive recommendation as constant as possible while manipulating the mode of guidance.
+
+### 16.4 Procedure
+The first-pass procedure can be written compactly in manuscript style. Participants first read the shopping scenario and are then randomly assigned to one of the three shopping conditions. They review the headphone options, interact with the conversational assistant or UI cues as applicable, and then indicate which product they would choose. After making that selection, participants report purchase likelihood and complete the post-task scales for perceived personalization, cognitive load, choice confidence, perceived transparency, perceived decision quality, and the secondary evaluation variables retained for robustness checks. The survey should conclude with manipulation checks, control variables, and a small number of data-quality screens.
+
+### 16.5 Outcome structure
+The empirical structure should remain tightly matched to the theory. Purchase likelihood and perceived decision quality should function as the headline dependent variables. Perceived personalization, cognitive load, choice confidence, and perceived transparency should function as the primary process variables. Trust in the recommender and satisfaction with the shopping aid can remain secondary responses for descriptive completeness and robustness checks, but they should not displace the paper's central tradeoff model.
+
+## 17. First-pass questionnaire candidates
+
+### 17.1 Response format
+Unless a borrowed validated scale later suggests otherwise, the first-pass questionnaire can use seven-point Likert-type response formats anchored from strongly disagree to strongly agree for evaluative items, plus a seven-point unlikely-to-likely format for purchase likelihood. This is adequate for blueprint purposes and can later be refined during scale selection and pretesting.
+
+### 17.2 Purchase likelihood
+Candidate items:
+- I would be likely to purchase the headphone option I selected.
+- If I were actually shopping for headphones, I would seriously consider buying the option I selected.
+- The probability that I would purchase the option I selected is high.
+
+### 17.3 Perceived decision quality
+Candidate items:
+- I feel that I made a high-quality decision in this shopping task.
+- My final choice seems well justified given the information available.
+- I believe the option I selected is an appropriate choice for my needs.
+- I feel that I arrived at a sound overall decision.
+
+### 17.4 Perceived personalization
+Candidate items:
+- The guidance I received felt tailored to my needs and preferences.
+- The shopping aid took my priorities into account.
+- The recommendation felt personalized rather than generic.
+
+### 17.5 Cognitive load
+Candidate items:
+- It took a lot of mental effort to make this decision.
+- Comparing the headphone options felt cognitively demanding.
+- This shopping task felt mentally taxing.
+
+One reverse-direction note is necessary here: if these items are retained in this wording, higher scores indicate greater cognitive load, so the analysis plan should either reverse-code for interpretive clarity or keep the negative direction explicit in the model write-up.
+
+### 17.6 Choice confidence
+Candidate items:
+- I am confident that I selected the right headphone option.
+- I feel certain about the choice I made.
+- I have little doubt that my selected option fits my needs well.
+
+### 17.7 Perceived transparency
+Candidate items:
+- I understand why this product was recommended or stood out.
+- The basis of the recommendation was clear to me.
+- I could reconstruct the main logic behind the recommendation.
+- It was easy to tell what information drove the guidance I received.
+
+### 17.8 Secondary outcomes
+Trust candidate items:
+- I trust the shopping aid I interacted with.
+- The shopping aid seemed reliable.
+- I would feel comfortable relying on this type of aid again.
+
+Satisfaction candidate items:
+- I am satisfied with the guidance I received in this shopping task.
+- The shopping aid improved my shopping experience.
+- The guidance process worked well for me.
+
+### 17.9 Manipulation checks
+Candidate items:
+- The shopping aid felt conversational.
+- The guidance adapted to my inputs or needs.
+- Artificial intelligence played a meaningful role in the guidance I received.
+- The logic behind the recommendation was visibly presented to me.
+
+The final item should be handled carefully because it sits near the transparency construct. It is acceptable as a manipulation-oriented perception check at this stage, but the eventual instrument should avoid making manipulation checks redundant with the core mediator.
+
+### 17.10 Controls
+Compact first-pass control candidates:
+- product category familiarity: "I am familiar with wireless over-ear headphones as a product category."
+- prior AI shopping use: "I have used AI-based assistants or chatbots for shopping before."
+- general trust in AI: "I generally trust AI systems to provide useful recommendations."
+- need for cognition: use a short validated subset later rather than inventing ad hoc items
+- shopping involvement: "Choosing the right headphones in this scenario feels like an important decision."
+
+## 18. Immediate drafting implications
+The manuscript is now close to having a complete first-pass empirical core. The next highest-leverage writing move should be to convert Sections 2, 6, 10, 16, and 17 into a more continuous paper-like draft so that the project has a coherent introduction-theory-hypotheses-methods arc rather than a strong but still modular blueprint.
