@@ -92,10 +92,11 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The formal manuscript draft now also includes a representative conversational recommendation script and a more explicit statement of the planned conversational-versus-UI contrast as a linear restriction, which further reduces its dependence on the blueprint for treatment and analysis specificity.
 - The formal manuscript draft now also includes representative item wording for the primary outcomes, core process variables, and secondary outcomes, which further reduces blueprint dependence in the measurement section.
 - The formal manuscript draft now also includes a representative visibility-of-logic manipulation-check item and a concrete attentiveness-screen example, which further reduces blueprint dependence in the instrument and data-quality sections.
+- A further article-level prose pass has now tightened the introduction, contribution framing, and discussion so the manuscript reads less repetitively without changing the underlying theory or design.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
-- Need continued refinement of the manuscript draft mainly in any final instrument-selection specificity and prose smoothing rather than in missing blueprint-to-manuscript migration of treatment, measurement, or analysis detail.
+- Need continued refinement of the manuscript draft mainly in final instrument-selection specificity and selective prose smoothing rather than in missing blueprint-to-manuscript migration of treatment, measurement, or analysis detail.
 
 ## Next Steps
 1. Continue improving the manuscript draft mainly through final measure-selection specificity and prose smoothing rather than by importing additional blueprint blocks.
