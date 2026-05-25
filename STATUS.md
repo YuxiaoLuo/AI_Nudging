@@ -67,12 +67,13 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The strongest existing introduction, theory, hypotheses, and methods material has now also been stitched into a more continuous manuscript-style draft, so the project no longer exists only as modular blueprint fragments.
 - The empirical plan has now been tightened further with an explicit publication-oriented analysis specification, including planned contrasts, staged model logic, preferred path-model estimation, fallback regression logic, and clearer presentation rules for the results section.
 - The integrated draft has now also been cleaned further at the prose level by stripping some blueprint-style labeling and tightening the manuscript transitions around the theory, method, and contribution sections.
+- A final narrow literature check on confidence and perceived decision quality did not uncover a clearly stronger core anchor that would justify delaying manuscript consolidation, and the strongest cleaned material has now been moved into a dedicated manuscript draft file.
 
 ## Blockers
 - Need tighter source-backed construct definitions before the theory section can be treated as stable.
-- Need continued section-by-section refinement so the remaining blueprint residue is removed and the strongest material can be migrated into a formal manuscript file cleanly.
+- Need continued refinement of the new manuscript draft so it can absorb the strongest remaining material from the blueprint without carrying over unnecessary scaffolding.
 
 ## Next Steps
-1. Decide whether a final narrowly targeted literature pass is still needed for confidence and perceived decision quality.
-2. If no critical source gap remains, continue prose cleanup and start consolidating the strongest material into a more formal manuscript file.
-3. Keep tightening transitions so the introduction, theory, hypotheses, method, and contribution sections read as one paper rather than as upgraded notes.
+1. Continue improving the new manuscript draft by folding in only the strongest remaining blueprint material.
+2. Keep tightening transitions so the introduction, theory, hypotheses, method, and contribution sections read as one paper rather than as upgraded notes.
+3. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.

@@ -21,7 +21,7 @@
 - [x] Write the formal hypotheses section from the compact H1-H8 structure
 - [x] Tighten first-pass construct definitions for perceived personalization, transparency, confidence, and perceived decision quality
 - [x] Convert the new construct-anchor map into tighter source-backed construct paragraphs for perceived personalization, transparency, confidence, and perceived decision quality
-- [ ] Run a narrowly targeted literature pass only if needed for stronger anchors on confidence and perceived decision quality
+- [x] Run a narrowly targeted literature pass only if needed for stronger anchors on confidence and perceived decision quality
 
 ## Study Design
 - [x] Finalize the shopping task and product category, with headphones now selected as the first-paper option
@@ -48,8 +48,9 @@
 - [ ] Draft methods section
 - [x] Convert the strongest current blueprint sections into a more continuous manuscript-style draft
 - [ ] Tighten the integrated draft into cleaner manuscript prose with fewer blueprint-style labels and transitions
-- [ ] Decide whether a narrowly targeted literature pass is still needed for confidence and perceived decision quality before deeper prose cleanup
-- [ ] Consolidate the cleaned integrated draft into a more formal manuscript file once the remaining source gaps are judged noncritical
+- [x] Decide whether a narrowly targeted literature pass is still needed for confidence and perceived decision quality before deeper prose cleanup
+- [x] Consolidate the cleaned integrated draft into a more formal manuscript file once the remaining source gaps are judged noncritical
+- [ ] Continue migrating the strongest material from the blueprint into the formal manuscript draft
 - [x] Draft expected contributions
 
 ## Process

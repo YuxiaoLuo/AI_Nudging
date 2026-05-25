@@ -33,6 +33,7 @@ This file records open questions, uncertainties, and decisions encountered while
 - The project now has enough material to sustain an integrated introduction-theory-hypotheses-methods draft rather than only disconnected blueprint sections.
 - The empirical section now has a more defendable publication-oriented logic: explicit conversational-versus-UI planned contrasts, staged outcome and process models, a preferred path-model specification, and a simpler fallback regression sequence.
 - The integrated draft can now be improved meaningfully through prose cleanup alone; the next writing gain no longer depends on adding many new structural blocks.
+- A final narrow pass on the remaining confidence and perceived decision-quality gaps did not reveal a clearly stronger core anchor, so the project does not need another literature-expansion step before manuscript consolidation.
 
 ### Literature and paper selection
 - Which additional UTD24 or ABDC A* papers best strengthen the bridge from recommendation agents to conversational AI?
@@ -94,3 +95,4 @@ This file records open questions, uncertainties, and decisions encountered while
 - The next writing gain should come less from adding new blocks and more from smoothing the integrated draft into cleaner manuscript prose and tightening the analysis framing.
 - The next likely decision point is whether the remaining confidence and perceived decision-quality literature gaps are serious enough to justify one more narrow source pass before the project shifts primarily into prose cleanup and manuscript consolidation.
 - The practical transition point is getting close: once the remaining source-gap decision is made, the project should be ready to move from blueprint refinement into a cleaner manuscript-file workflow.
+- That transition point has effectively been reached: the project now has a dedicated manuscript draft file, and the next gains should come from selective migration and refinement rather than more blueprint expansion.

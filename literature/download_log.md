@@ -112,3 +112,35 @@ The five previously missing papers below have now been added to the literature f
 
 ## Recommended next step
 Keep using this file to track newly identified but unavailable articles in future literature-review passes.
+
+## 2026-05-25 narrow construct-anchor follow-up
+Purpose of this pass:
+- Check whether the remaining weak constructs in the current manuscript, especially choice confidence and perceived decision quality, require another targeted literature-collection step before the project moves from blueprint refinement into a cleaner manuscript-file workflow.
+
+What I checked:
+- A narrow search focused on chatbot or conversational-agent work related to consumer confidence, decision quality, and AI-assisted shopping decisions.
+
+What this pass clarified:
+- I did not identify a clearly stronger core anchor that changes the current compact source strategy.
+- The best additional candidates I found appear more useful as supporting citations than as core construct anchors.
+- This means the current manuscript can keep moving forward without pausing for a larger literature-expansion step.
+
+Relevant candidates identified in this pass:
+- Fan, X., Chai, Y., Deng, N., & Dong, X. (2022). *AI is better when I'm sure: The influence of certainty of needs on consumers' acceptance of AI chatbots*. Journal of Business Research. https://doi.org/10.1016/j.jbusres.2022.06.044
+  - why it is relevant:
+    - Useful support for chatbot effectiveness and the role of consumer need certainty.
+    - Not a clean core anchor for choice confidence in the present model because the article centers more on chatbot acceptance and perceived effectiveness than on confidence as the focal post-choice construct.
+
+- Mimoun, M. S. B., Poncin, I., & Garnier, M. (2015). *A valued agent: How ECAs affect website customers' satisfaction and behaviors*. Journal of Retailing and Consumer Services. https://doi.org/10.1016/j.jretconser.2015.05.008
+  - why it is relevant:
+    - Useful supporting citation because it treats decision quality as one of the consequences of interacting with a conversational agent in an e-commerce environment.
+    - Not strong enough to displace the current tighter logic for perceived decision quality, because the paper is not the kind of compact, high-leverage core anchor that would materially restructure the argument.
+
+- Meng, K., & Xiao, J. J. (2026). *Can ChatGPT relate to you? Exploring consumer satisfaction with AI-generated product advice through the lens of consumption values*. Journal of Retailing and Consumer Services. ideas.repec.org record surfaced in search.
+  - why it is relevant:
+    - Potentially useful contemporary support for AI-generated product advice and consumer evaluation.
+    - Not necessary for the current draft's core mechanism claims, and not a decisive anchor for the remaining construct-definition gap.
+
+Bottom-line judgment from this pass:
+- No critical literature gap was found that should block the project from shifting into manuscript consolidation and prose cleanup.
+- If a later revision still needs more explicit support, the JBR and JRCS papers above can be cited as secondary reinforcement rather than promoted into the compact core anchor set.
