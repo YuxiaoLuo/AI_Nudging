@@ -50,7 +50,7 @@
 - [x] Draft a first-pass discussion section with implications and limitations
 - [x] Add a concise conclusion section so the manuscript has a clear closing statement
 - [x] Convert the strongest current blueprint sections into a more continuous manuscript-style draft
-- [ ] Tighten the integrated draft into cleaner manuscript prose with fewer blueprint-style labels and transitions
+- [x] Tighten the integrated draft into cleaner manuscript prose with fewer blueprint-style labels and transitions
 - [x] Decide whether a narrowly targeted literature pass is still needed for confidence and perceived decision quality before deeper prose cleanup
 - [x] Consolidate the cleaned integrated draft into a more formal manuscript file once the remaining source gaps are judged noncritical
 - [ ] Continue migrating the strongest material from the blueprint into the formal manuscript draft

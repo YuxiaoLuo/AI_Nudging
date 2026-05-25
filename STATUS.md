@@ -88,12 +88,13 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another cleanup pass has now removed additional proposal-style hedging from the procedure, measures, manipulation-check, analysis-plan, and discussion sections, which makes the formal manuscript read more consistently as a paper draft rather than an implementation memo.
 - The manuscript front half now also states more explicitly that the study isolates mode of guidance rather than recommendation content, which sharpens the conversational-versus-UI comparison and reduces a likely reviewer ambiguity about what exactly the treatment contrast identifies.
 - The literature synthesis and reading matrix now also carry a more explicit compact anchor map, which clarifies which citations should bear the manuscript's core theoretical burden versus which should remain bridge or boundary-support citations.
+- The formal manuscript draft now also reflects that citation hierarchy more explicitly in the introduction, theory, transparency logic, and discussion, which reduces another source of reviewer-facing ambiguity about which prior literatures are doing core versus supporting work.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
-- Need continued refinement of the manuscript draft so the remaining blueprint dependence is reduced mainly in citation-calibration details and any residual instrument-selection specificity, rather than in the core framing or study logic.
+- Need continued refinement of the manuscript draft so the remaining blueprint dependence is reduced mainly in any residual instrument-selection specificity and minor prose cleanup, rather than in the core framing, citation hierarchy, or study logic.
 
 ## Next Steps
-1. Continue improving the manuscript draft by folding in only the strongest remaining blueprint material, especially where final measure-selection specificity or review-facing citation calibration would improve self-sufficiency.
-2. Use the newly stabilized anchor hierarchy to tighten any remaining theory/discussion repetition and to ensure that core mechanism claims are carried by the compact anchor set rather than by peripheral support citations.
+1. Continue improving the manuscript draft by folding in only the strongest remaining blueprint material, especially where final measure-selection specificity would improve self-sufficiency.
+2. Keep trimming any remaining repetition or residual blueprint phrasing now that the core framing, anchor hierarchy, and mode-of-guidance contrast are all materially clearer in the manuscript itself.
 3. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.
