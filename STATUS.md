@@ -68,12 +68,13 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The empirical plan has now been tightened further with an explicit publication-oriented analysis specification, including planned contrasts, staged model logic, preferred path-model estimation, fallback regression logic, and clearer presentation rules for the results section.
 - The integrated draft has now also been cleaned further at the prose level by stripping some blueprint-style labeling and tightening the manuscript transitions around the theory, method, and contribution sections.
 - A final narrow literature check on confidence and perceived decision quality did not uncover a clearly stronger core anchor that would justify delaying manuscript consolidation, and the strongest cleaned material has now been moved into a dedicated manuscript draft file.
+- The formal manuscript draft now also carries more of the concrete empirical design directly, including the six-product stimulus structure, condition implementation logic, and a compact measures section, so it depends less on the blueprint for basic study specification.
 
 ## Blockers
 - Need tighter source-backed construct definitions before the theory section can be treated as stable.
-- Need continued refinement of the new manuscript draft so it can absorb the strongest remaining material from the blueprint without carrying over unnecessary scaffolding.
+- Need continued refinement of the manuscript draft so it can absorb only the highest-value remaining blueprint material while staying cleaner and more paper-like than the source notes.
 
 ## Next Steps
-1. Continue improving the new manuscript draft by folding in only the strongest remaining blueprint material.
-2. Keep tightening transitions so the introduction, theory, hypotheses, method, and contribution sections read as one paper rather than as upgraded notes.
+1. Continue improving the manuscript draft by folding in only the strongest remaining blueprint material.
+2. Keep tightening transitions and trimming redundancy so the manuscript draft reads as one paper rather than as migrated notes.
 3. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.

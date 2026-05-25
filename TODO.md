@@ -51,6 +51,7 @@
 - [x] Decide whether a narrowly targeted literature pass is still needed for confidence and perceived decision quality before deeper prose cleanup
 - [x] Consolidate the cleaned integrated draft into a more formal manuscript file once the remaining source gaps are judged noncritical
 - [ ] Continue migrating the strongest material from the blueprint into the formal manuscript draft
+- [ ] Reduce the manuscript draft's dependence on the blueprint for concrete study specification and measurement wording
 - [x] Draft expected contributions
 
 ## Process
