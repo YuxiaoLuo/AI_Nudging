@@ -79,6 +79,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The formal draft now also includes a discussion section with theoretical implications, practical implications, and first-pass limitations, so the manuscript closes more like a complete article.
 - The theory section now also carries more explicit construct definitions for personalization, cognitive load, transparency, confidence, and perceived decision quality, reducing one of the clearest remaining reviewer-facing ambiguities in the formal draft.
 - The theory section now also incorporates stronger source-backed wording for personalization and cognitive-load support while sharpening the confidence-versus-decision-quality distinction, which further narrows the remaining construct-stability risk.
+- The formal draft now also ends with a concise conclusion section, giving the manuscript a clearer closing statement after the broader discussion.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable.
