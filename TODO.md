@@ -53,6 +53,7 @@
 - [ ] Continue migrating the strongest material from the blueprint into the formal manuscript draft
 - [ ] Reduce the manuscript draft's dependence on the blueprint for concrete study specification and measurement wording
 - [ ] Expand the formal manuscript draft where needed so the methods section no longer relies on compressed summary prose
+- [ ] Continue moving manipulation-check, control, and instrument logic fully into the formal manuscript draft where useful
 - [x] Draft expected contributions
 
 ## Process
