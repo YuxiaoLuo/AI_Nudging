@@ -64,12 +64,13 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The blueprint now also contains a more usable first-pass shopping scenario and a short conversational-script logic for the headphones study, which reduces abstraction around how the treatment materials could actually be implemented.
 - The blueprint has now been pushed further into implementation detail with a concrete six-product fictional headphone set, a stable focal recommendation shared across the treatment conditions, a semi-structured conversational script, a clearer UI-based nudge execution, and a more manuscript-ready methods and estimation note.
 - The blueprint now also contains a manuscript-style first-pass methods section plus a compact candidate questionnaire set for the core outcomes, process variables, manipulation checks, and controls, which makes the project materially closer to a paper-ready empirical draft.
+- The strongest existing introduction, theory, hypotheses, and methods material has now also been stitched into a more continuous manuscript-style draft, so the project no longer exists only as modular blueprint fragments.
 
 ## Blockers
 - Need tighter source-backed construct definitions before the theory section can be treated as stable.
-- Need tighter manuscript-level integration across the introduction, theory, hypotheses, and now-methods sections so the project reads like one paper rather than a strong modular blueprint.
+- Need publication-ready tightening of the integrated manuscript draft, especially in the analysis framing and in the transition from blueprint-style hypotheses to cleaner article prose.
 
 ## Next Steps
-1. Convert the blueprint's strongest introduction, theory, hypotheses, and methods material into a more continuous manuscript-style draft.
-2. Tighten the analysis strategy write-up so the path structure and planned contrasts are publication-ready rather than only blueprint-ready.
+1. Tighten the analysis strategy write-up so the path structure, planned contrasts, and model estimation logic are publication-ready rather than only blueprint-ready.
+2. Continue converting the integrated draft from blueprint-style sectioning into cleaner manuscript prose.
 3. Run only a narrowly targeted literature pass if needed for the two weakest constructs: confidence and perceived decision quality.

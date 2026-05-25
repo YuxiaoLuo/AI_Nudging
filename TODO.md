@@ -46,7 +46,8 @@
 - [x] Turn the current problem statement and contribution framing into a more journal-style opening section
 - [ ] Harmonize the opening, theory, and hypotheses into a single consistent scientific manuscript voice
 - [ ] Draft methods section
-- [ ] Convert the strongest current blueprint sections into a more continuous manuscript-style draft
+- [x] Convert the strongest current blueprint sections into a more continuous manuscript-style draft
+- [ ] Tighten the integrated draft into cleaner manuscript prose with fewer blueprint-style labels and transitions
 - [x] Draft expected contributions
 
 ## Process
