@@ -31,6 +31,7 @@ This file records open questions, uncertainties, and decisions encountered while
 - The current best stimulus structure is a six-product fictional headphone set with one balanced focal option recommended across both the conversational and UI-nudge conditions.
 - The methods section can now be drafted with enough specificity to include a panel-based three-condition experiment, a stable shopping scenario, a compact procedure, and candidate scale items without inventing new theory.
 - The project now has enough material to sustain an integrated introduction-theory-hypotheses-methods draft rather than only disconnected blueprint sections.
+- The empirical section now has a more defendable publication-oriented logic: explicit conversational-versus-UI planned contrasts, staged outcome and process models, a preferred path-model specification, and a simpler fallback regression sequence.
 
 ### Literature and paper selection
 - Which additional UTD24 or ABDC A* papers best strengthen the bridge from recommendation agents to conversational AI?
@@ -90,3 +91,4 @@ This file records open questions, uncertainties, and decisions encountered while
 - The first experiment should keep the recommended focal product substantively constant across the conversational and UI-nudge conditions so the main manipulation remains the mode of guidance rather than the recommended option itself.
 - The first-pass questionnaire should stay compact and construct-disciplined, with perceived decision quality, personalization, cognitive load, confidence, and transparency each measured separately rather than collapsed into a generic post-task attitude battery.
 - The next writing gain should come less from adding new blocks and more from smoothing the integrated draft into cleaner manuscript prose and tightening the analysis framing.
+- The next likely decision point is whether the remaining confidence and perceived decision-quality literature gaps are serious enough to justify one more narrow source pass before the project shifts primarily into prose cleanup and manuscript consolidation.

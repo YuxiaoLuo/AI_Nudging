@@ -30,7 +30,7 @@
 - [x] Define process measures at a first-pass conceptual level: perceived personalization, transparency, trust, cognitive load, confidence, satisfaction
 - [x] Specify manipulation checks and control variables at a first-pass conceptual level
 - [x] Keep manipulation checks distinct from the substantive mediators and outcomes
-- [ ] Choose and tighten the analysis strategy for the tradeoff model
+- [x] Choose and tighten the analysis strategy for the tradeoff model
 - [x] Convert the current blueprint into a compact manuscript-style methods section with draft stimuli wording and survey-item candidates
 
 ## Writing
@@ -48,6 +48,7 @@
 - [ ] Draft methods section
 - [x] Convert the strongest current blueprint sections into a more continuous manuscript-style draft
 - [ ] Tighten the integrated draft into cleaner manuscript prose with fewer blueprint-style labels and transitions
+- [ ] Decide whether a narrowly targeted literature pass is still needed for confidence and perceived decision quality before deeper prose cleanup
 - [x] Draft expected contributions
 
 ## Process
