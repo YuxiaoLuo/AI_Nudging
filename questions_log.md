@@ -104,3 +104,4 @@ This file records open questions, uncertainties, and decisions encountered while
 - The manuscript-draft workflow is now mature enough that many gains come from section-level rewriting and decomposition rather than from adding entirely new conceptual content.
 - A useful heuristic now is to move only those remaining blueprint details that materially increase the formal draft's self-sufficiency and review readiness.
 - Definition clarity and comparison clarity are part of that heuristic: moving them into the draft is high value because they improve reviewer readability without reopening the model.
+- The formal manuscript draft should now carry explicit theory-level definitions for perceived personalization, cognitive load, perceived transparency, choice confidence, and perceived decision quality, rather than leaving those distinctions mainly in blueprint notes.
