@@ -76,6 +76,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The method and analysis sections have now also been shifted into a more manuscript-like empirical voice, reducing planning-note language and making the formal draft read less provisionally.
 - The opening, conceptualization, and theory-to-model transitions have now also been tightened, reducing repetition and making the front half of the manuscript read in a more uniform scientific voice.
 - The contribution section has now also been sharpened into a clearer journal-style positioning statement, making the paper's theoretical and empirical payoffs more explicit.
+- The formal draft now also includes a discussion section with theoretical implications, practical implications, and first-pass limitations, so the manuscript closes more like a complete article.
 
 ## Blockers
 - Need tighter source-backed construct definitions before the theory section can be treated as stable.
