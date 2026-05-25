@@ -71,10 +71,11 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The formal manuscript draft now also carries more of the concrete empirical design directly, including the six-product stimulus structure, condition implementation logic, and a compact measures section, so it depends less on the blueprint for basic study specification.
 - The manuscript draft now also has a more explicit participant, design, and procedure structure, which makes the methods section read more like a paper section and less like a compressed summary paragraph.
 - The manuscript draft now also includes explicit manipulation-check and control-variable logic, which further reduces its dependence on blueprint-only study-specification notes.
+- The formal draft now also contains an explicit conceptualization-and-comparison section, making the definition of LLM conversational nudges and the three-condition contrast clearer within the manuscript itself.
 
 ## Blockers
 - Need tighter source-backed construct definitions before the theory section can be treated as stable.
-- Need continued refinement of the manuscript draft so it can absorb only the highest-value remaining blueprint material while becoming more submission-like and less note-driven section by section.
+- Need continued refinement of the manuscript draft so it can absorb only the highest-value remaining blueprint material while becoming more submission-like, self-contained, and less note-driven section by section.
 
 ## Next Steps
 1. Continue improving the manuscript draft by folding in only the strongest remaining blueprint material.
