@@ -96,6 +96,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another methods-side prose pass has now trimmed specification-style qualifiers in the stimuli, measures, manipulation-check, control, and data-quality sections, which makes the empirical half read more like a finished manuscript.
 - The manuscript's measures section now also states more explicitly that the instrument adapts item wording from the adjacent decision-aid, recommendation-agent, and conversational-shopping literatures while normalizing the battery to one coherent shopping-task instrument, which reduces another reviewer-facing ambiguity about measurement grounding.
 - Another front-end prose pass has now reduced repeated "stronger recommendation cue" and related contrast language across the abstract, introduction, theory, and contribution sections, which makes the central dialogic-choice-architecture claim read more economically.
+- Another back-end prose pass has now tightened the contribution, discussion, and limitations sections so they play more distinct roles and repeat the support-versus-opacity claim less mechanically.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
