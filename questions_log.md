@@ -123,3 +123,4 @@ This file records open questions, uncertainties, and decisions encountered while
 - The draft should also say directly that manipulation checks mainly establish condition separation and should not become an ad hoc exclusion device after outcomes are observed, except under narrow preregistered criteria.
 - The draft should also say directly that prespecified exclusions must be reported as a sample-flow accounting exercise and, when feasible, paired with a light robustness check so screening rules do not look outcome-contingent.
 - The draft should also say directly that one clearly defined screened sample anchors the main results, while narrower or alternative screening choices belong in explicitly labeled robustness checks rather than in shifting table-by-table samples.
+- The draft should also say directly that the compact control set is for stable baseline adjustment, not for opportunistic covariate searching or table-by-table specification drift.

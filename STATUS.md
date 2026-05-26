@@ -101,6 +101,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The manuscript now also states more explicitly that manipulation checks are primarily diagnostic evidence of condition separation rather than automatic post hoc exclusion filters, which tightens another reviewer-sensitive part of the empirical design.
 - The methods and analysis sections now also state more explicitly that prespecified exclusions should be reported transparently and that a light robustness check on screening sensitivity is desirable when feasible, which further strengthens the draft's empirical-defense logic.
 - The manuscript now also states more explicitly that one clearly defined screened sample should anchor the main reported results and that narrower screening variants belong in labeled robustness analyses, which further improves empirical reporting discipline.
+- The manuscript now also states more explicitly that the compact control set is meant as a stable, theory-justified adjustment layer rather than as a source of opportunistic specification search, which sharpens the empirical-design discipline further.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
