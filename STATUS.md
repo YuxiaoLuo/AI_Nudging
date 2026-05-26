@@ -105,6 +105,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The manuscript now also states more explicitly that the main hypotheses, screening rules, construct-handling conventions, and model sequence should be fixed in advance through preregistration when feasible, keeping robustness checks clearly secondary to confirmatory tests.
 - The manuscript now also states more explicitly that trust and satisfaction remain secondary outcomes that should be reported after the headline outcomes and main process paths, which further protects the paper's outcome hierarchy.
 - The analysis plan now also states more explicitly that the results section should foreground condition means, effect sizes, and confidence intervals rather than leaning only on significance language, which strengthens another reviewer-facing part of the empirical reporting strategy.
+- The analysis plan now also states more explicitly that total, indirect, and residual direct effects should be distinguished clearly, with interpretive emphasis on the theorized pathways rather than on overreading any leftover direct path.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
