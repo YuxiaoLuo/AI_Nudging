@@ -136,6 +136,8 @@ Within that presentation logic, the empirical section should also provide a comp
 
 That same presentation discipline should extend to the labeling of tables, figures, and appendices. Confirmatory analyses, robustness checks, and exploratory results should be named consistently so readers can tell at a glance which evidence carries the paper's main inferential weight and which evidence is supportive or diagnostic.
 
+The ordering of those materials should reinforce the same hierarchy. The confirmatory outcome and process evidence should appear first in the main narrative, with robustness checks, secondary outcomes, and exploratory extensions following afterward rather than interrupting the core inferential sequence.
+
 ## Contribution
 This paper makes three main contributions. First, it conceptualizes LLM-based conversational shopping assistants as a distinct form of AI nudge whose influence is enacted through adaptive dialogue rather than interface placement alone. This positions conversational AI as a dialogic form of digital choice architecture rather than as a routine extension of existing recommendation cues. Second, the paper identifies a mechanism-level tradeoff in which the same features that make conversational AI feel more useful and personalized may also reduce transparency in the recommendation process. This moves the contribution beyond a new empirical setting for digital nudging and toward a clearer explanation of why conversational guidance may simultaneously support and compromise consumer decision evaluation.
 

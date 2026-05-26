@@ -40,6 +40,7 @@
 - [x] State more explicitly that the eventual paper should show construct means, standard deviations, and correlations alongside the retained measures
 - [x] State more explicitly that a compact descriptive table for the retained constructs should appear before or alongside the structural results
 - [x] State more explicitly that tables, figures, and appendices should label confirmatory, robustness, and exploratory analyses consistently
+- [x] State more explicitly that confirmatory evidence should appear first in the results narrative, with robustness, secondary, and exploratory material following afterward
 - [x] State more explicitly that the final paper should show screening counts and sensitivity checks in a compact flow or robustness display
 - [x] State more explicitly that, where feasible, the final paper should be paired with a compact replication package containing materials, a codebook, and core analysis scripts
 
