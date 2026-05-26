@@ -43,6 +43,7 @@
 - [x] State more explicitly that confirmatory evidence should appear first in the results narrative, with robustness, secondary, and exploratory material following afterward
 - [x] State more explicitly that the final paper should show screening counts and sensitivity checks in a compact flow or robustness display
 - [x] State more explicitly that, where feasible, the final paper should be paired with a compact replication package containing materials, a codebook, and core analysis scripts
+- [x] Smooth repeated blueprint-style "eventual paper should" phrasing in the methods and analysis sections into cleaner manuscript prose
 
 ## Writing
 - [x] Draft introduction and gap statement

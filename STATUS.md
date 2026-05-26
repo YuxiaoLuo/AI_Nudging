@@ -118,6 +118,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The analysis-plan section now also states more explicitly that confirmatory evidence should appear first in the results narrative, with robustness, secondary, and exploratory material following afterward rather than interrupting the core sequence.
 - The procedure section now also states more explicitly that the final paper should show screening counts and sensitivity checks in a compact table, flowchart, or appendix-style robustness display, which strengthens the transparency of the data-quality workflow.
 - The workflow section now also states more explicitly that, where feasible, the final paper should be paired with a compact replication package containing the treatment materials, codebook, and core analysis scripts.
+- The methods and analysis sections have now been smoothed further to remove repeated blueprint-style "eventual paper should" phrasing, preserving the reporting discipline while making the manuscript read more like settled paper prose.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
