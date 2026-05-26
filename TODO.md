@@ -60,6 +60,7 @@
 - [x] Calibrate the theory section against the local compact anchor map so the bridge, benefit route, and transparency route are source-backed more explicitly without expanding the citation set
 - [x] Calibrate the measures section so each core battery is tied more explicitly to the adjacent literature it adapts from
 - [x] Clarify the inferential role of secondary outcomes and the rationale for the compact control set
+- [x] Tighten the manipulation-check and controls section so it reads as disciplined instrument logic rather than a residual planning list
 
 ## Writing
 - [x] Draft introduction and gap statement
