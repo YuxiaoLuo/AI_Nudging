@@ -32,6 +32,7 @@
 - [x] Keep manipulation checks distinct from the substantive mediators and outcomes
 - [x] Choose and tighten the analysis strategy for the tradeoff model
 - [x] Convert the current blueprint into a compact manuscript-style methods section with draft stimuli wording and survey-item candidates
+- [x] State the target sample-size logic more explicitly in the manuscript so the planned cell sizes are tied to a prespecified sensitivity or power rationale rather than left as a convenience range
 
 ## Writing
 - [x] Draft introduction and gap statement
