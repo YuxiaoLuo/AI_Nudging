@@ -115,6 +115,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The measures section now also states more explicitly that the eventual paper should report construct means, standard deviations, and correlations, which makes the descriptive measurement structure easier for reviewers to inspect.
 - The analysis-plan section now also states more explicitly that a compact descriptive table for the retained constructs should appear before or alongside the structural results, which improves the readability of the empirical package.
 - The procedure section now also states more explicitly that the final paper should show screening counts and sensitivity checks in a compact table, flowchart, or appendix-style robustness display, which strengthens the transparency of the data-quality workflow.
+- The workflow section now also states more explicitly that, where feasible, the final paper should be paired with a compact replication package containing the treatment materials, codebook, and core analysis scripts.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.

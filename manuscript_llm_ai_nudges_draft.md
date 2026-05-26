@@ -74,6 +74,8 @@ The eventual write-up should also summarize the main pre-treatment characteristi
 
 The same logic applies to the broader empirical workflow: the main hypotheses, screening rules, construct-handling conventions, and model sequence should be fixed in advance through a preregistered analysis plan whenever feasible. Doing so helps distinguish confirmatory tests of the support-versus-opacity model from secondary robustness or exploratory checks and makes the eventual evidence package easier to defend.
 
+Where journal policy and data-sharing constraints allow, the final paper should also be paired with a compact replication package containing the treatment materials, codebook, and core analysis scripts. That package would make it easier for reviewers and later readers to see how the instrument, screening workflow, and reported models fit together in practice.
+
 ### Stimuli
 To reduce brand-specific confounds while keeping the shopping task realistic, the study uses fictional but plausible headphone brands. A compact six-option set is sufficient because it creates meaningful comparison without producing an unwieldy choice screen. The product set includes one option emphasizing low price, one emphasizing battery life, one emphasizing active noise cancellation, one emphasizing call quality, one emphasizing comfort, and one balanced midrange option. The balanced midrange option, `VeroWave M6`, remains the focal recommendation in both the conversational and UI-nudge conditions so that the substantive recommendation is held constant across treatments.
 
