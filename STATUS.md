@@ -129,6 +129,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The discussion and conclusion now also divide labor more cleanly: the discussion interprets the support-versus-inspectability implication more explicitly, while the conclusion closes on the paper's broader significance without mechanically restating the whole argument.
 - The measures and manipulation-check sections now also read more like settled manuscript prose: the diagnostic battery, compact control set, missing-data handling, and measurement-reporting expectations are stated more directly and with less blueprint-style hedging.
 - The procedure and stimuli sections now also state the reporting and workflow conventions more declaratively, so the methods narrative reads less like an annotated checklist and more like a settled manuscript design.
+- The analysis-plan section now also states construct-validation, effect-interpretation, control-handling, and results-presentation conventions more declaratively, which further reduces the draft's residual reviewer-instruction tone.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.

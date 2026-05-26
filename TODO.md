@@ -54,6 +54,7 @@
 - [x] Tighten the discussion and conclusion so they play more distinct argumentative roles
 - [x] Tighten the measures and manipulation-check sections so the instrument language reads more settled than provisional
 - [x] Tighten the procedure and stimuli sections so reporting conventions read as manuscript commitments rather than planning notes
+- [x] Tighten the analysis-plan section so reporting and interpretation conventions read as manuscript commitments rather than reviewer instructions
 
 ## Writing
 - [x] Draft introduction and gap statement
