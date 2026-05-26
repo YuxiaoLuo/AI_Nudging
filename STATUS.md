@@ -131,6 +131,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The procedure and stimuli sections now also state the reporting and workflow conventions more declaratively, so the methods narrative reads less like an annotated checklist and more like a settled manuscript design.
 - The analysis-plan section now also states construct-validation, effect-interpretation, control-handling, and results-presentation conventions more declaratively, which further reduces the draft's residual reviewer-instruction tone.
 - Another small methods-side pass now also removes a few remaining conditional phrasings around sample rationale, preregistration, and the representative conversational script, making the empirical setup read slightly more settled.
+- Another light prose pass now also removes the lingering `final paper` framing in the methods section and softens one residual `when feasible` qualifier, which further reduces blueprint residue without changing the design logic.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.

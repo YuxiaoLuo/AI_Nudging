@@ -56,6 +56,7 @@
 - [x] Tighten the procedure and stimuli sections so reporting conventions read as manuscript commitments rather than planning notes
 - [x] Tighten the analysis-plan section so reporting and interpretation conventions read as manuscript commitments rather than reviewer instructions
 - [x] Remove remaining conditional methods phrasing around sample rationale, preregistration, and the conversational script
+- [x] Remove remaining `final paper` and similar blueprint-style phrasing from the methods section where the design logic is already stable
 
 ## Writing
 - [x] Draft introduction and gap statement
