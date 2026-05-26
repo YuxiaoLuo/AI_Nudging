@@ -125,3 +125,4 @@ This file records open questions, uncertainties, and decisions encountered while
 - The draft should also say directly that one clearly defined screened sample anchors the main results, while narrower or alternative screening choices belong in explicitly labeled robustness checks rather than in shifting table-by-table samples.
 - The draft should also say directly that the compact control set is for stable baseline adjustment, not for opportunistic covariate searching or table-by-table specification drift.
 - The draft should also say directly that the confirmatory workflow itself should be fixed in advance when feasible, so preregistered hypotheses and model sequencing remain clearly distinguishable from secondary robustness or exploratory analyses.
+- The draft should also say directly that trust and satisfaction stay secondary in the reporting sequence, so they do not quietly become co-primary outcomes if they generate interesting condition differences.

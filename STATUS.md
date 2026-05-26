@@ -103,6 +103,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The manuscript now also states more explicitly that one clearly defined screened sample should anchor the main reported results and that narrower screening variants belong in labeled robustness analyses, which further improves empirical reporting discipline.
 - The manuscript now also states more explicitly that the compact control set is meant as a stable, theory-justified adjustment layer rather than as a source of opportunistic specification search, which sharpens the empirical-design discipline further.
 - The manuscript now also states more explicitly that the main hypotheses, screening rules, construct-handling conventions, and model sequence should be fixed in advance through preregistration when feasible, keeping robustness checks clearly secondary to confirmatory tests.
+- The manuscript now also states more explicitly that trust and satisfaction remain secondary outcomes that should be reported after the headline outcomes and main process paths, which further protects the paper's outcome hierarchy.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
