@@ -68,6 +68,8 @@ The eventual empirical write-up should report the sample flow transparently, inc
 
 The primary reported results should be based on one clearly defined screened sample rather than on shifting analytic subsets across tables. If supplementary analyses use narrower screening definitions or alternative coding decisions, those checks should be labeled explicitly as robustness analyses so the paper preserves a stable main evidentiary frame.
 
+The eventual write-up should also summarize the main pre-treatment characteristics by condition so readers can see that the randomized groups look broadly comparable on variables such as product familiarity, prior AI-shopping experience, and general trust in AI. That balance reporting should remain descriptive and discipline oriented rather than turning into a battery of opportunistic randomization significance tests that distract from the actual treatment contrasts.
+
 The same logic applies to the broader empirical workflow: the main hypotheses, screening rules, construct-handling conventions, and model sequence should be fixed in advance through a preregistered analysis plan whenever feasible. Doing so helps distinguish confirmatory tests of the support-versus-opacity model from secondary robustness or exploratory checks and makes the eventual evidence package easier to defend.
 
 ### Stimuli
