@@ -39,6 +39,7 @@
 - [x] State more explicitly that the eventual paper should show full item wording, reverse-coding direction, and concise scale diagnostics for the retained constructs
 - [x] State more explicitly that the eventual paper should show construct means, standard deviations, and correlations alongside the retained measures
 - [x] State more explicitly that a compact descriptive table for the retained constructs should appear before or alongside the structural results
+- [x] State more explicitly that the final paper should show screening counts and sensitivity checks in a compact flow or robustness display
 
 ## Writing
 - [x] Draft introduction and gap statement
