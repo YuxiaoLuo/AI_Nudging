@@ -134,12 +134,13 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another light prose pass now also removes the lingering `final paper` framing in the methods section and softens one residual `when feasible` qualifier, which further reduces blueprint residue without changing the design logic.
 - The theory section now also reflects the local compact anchor map more explicitly by tying the recommendation-agent bridge, benefit route, and transparency route more directly to Luo et al. (2019), Chen et al. (2021), and de Cicco et al. (2022), which slightly reduces the remaining source-calibration blocker without broadening the citation set.
 - The measures section now also maps its primary outcomes and core process batteries more explicitly onto the adjacent purchase-intention, decision-aid, conversational-shopping, and explanation/disclosure literatures, which strengthens the manuscript's remaining measure-specificity blocker without changing the instrument structure.
+- The measures section now also clarifies the inferential role of trust and satisfaction and gives a more explicit rationale for the compact control set, which makes the non-headline instrument choices read as more disciplined and less residual.
 
 ## Blockers
-- Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
-- Need continued refinement of the manuscript draft mainly in final instrument-selection specificity and light prose smoothing rather than in missing blueprint-to-manuscript migration of treatment, measurement, or analysis detail.
+- The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is final instrument-selection specificity and light prose smoothing rather than unresolved framing architecture.
+- A remaining reviewer-facing risk is that some secondary-outcome and control choices still need to look clearly disciplined rather than merely included by habit, even though the core instrument structure is now much stronger.
 
 ## Next Steps
-1. Continue improving the manuscript draft mainly through final measure-selection specificity and prose smoothing rather than by importing additional blueprint blocks.
+1. Continue improving the manuscript draft mainly through final measure-selection specificity, especially for secondary outcomes and compact controls, rather than by importing additional blueprint blocks.
 2. Keep trimming any remaining repetition or residual blueprint phrasing now that the core framing, anchor hierarchy, mode-of-guidance contrast, and instrument examples are all materially clearer in the manuscript itself.
 3. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.
