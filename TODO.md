@@ -51,6 +51,7 @@
 - [x] State the key construct boundaries more directly in the theory/model sections so confidence, decision quality, transparency, personalization, and cognitive load are easier to distinguish
 - [x] Remove note-like literature-summary phrasing in the theory section so the anchor hierarchy reads more like finished manuscript prose
 - [x] Clarify that purchase likelihood and perceived decision quality play different inferential roles in the model and analysis sections
+- [x] Tighten the discussion and conclusion so they play more distinct argumentative roles
 
 ## Writing
 - [x] Draft introduction and gap statement
