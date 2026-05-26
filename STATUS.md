@@ -122,6 +122,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another small methods/results cleanup pass has now trimmed lingering meta-writing around the sample-flow display, replication package, descriptive measurement table, and robustness-check framing, making the empirical prose more direct without changing the design logic.
 - Another front-end prose pass has now reduced repeated support-versus-opacity phrasing across the abstract, introduction, contribution, discussion, and limitations, making the manuscript's central claim read more economically without changing the underlying theory.
 - The measures and controls sections now also specify the planned instrument more concretely by clarifying the intended item-battery structure for primary outcomes, core process measures, secondary outcomes, manipulation checks, and controls, which reduces another layer of blueprint-style hedging.
+- Another methods-side pass has now tightened remaining optional-sounding language in the instrument, data-quality, missing-data, and analysis-plan sections, making the empirical specification read more like a settled design rather than a provisional menu.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
