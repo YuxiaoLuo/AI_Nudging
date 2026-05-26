@@ -113,6 +113,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The stimuli section now also states more explicitly that the eventual paper should include representative treatment materials or screenshots so readers can directly inspect how the conversational and UI-based nudges were instantiated.
 - The measures section now also states more explicitly that the eventual paper should show the full item set, any reverse coding, and concise scale diagnostics so measurement quality is visible rather than left implicit.
 - The measures section now also states more explicitly that the eventual paper should report construct means, standard deviations, and correlations, which makes the descriptive measurement structure easier for reviewers to inspect.
+- The analysis-plan section now also states more explicitly that a compact descriptive table for the retained constructs should appear before or alongside the structural results, which improves the readability of the empirical package.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.

@@ -38,6 +38,7 @@
 - [x] State more explicitly that the eventual paper should show representative treatment materials or screenshots for the conversational and UI-based nudges
 - [x] State more explicitly that the eventual paper should show full item wording, reverse-coding direction, and concise scale diagnostics for the retained constructs
 - [x] State more explicitly that the eventual paper should show construct means, standard deviations, and correlations alongside the retained measures
+- [x] State more explicitly that a compact descriptive table for the retained constructs should appear before or alongside the structural results
 
 ## Writing
 - [x] Draft introduction and gap statement
