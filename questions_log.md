@@ -126,3 +126,4 @@ This file records open questions, uncertainties, and decisions encountered while
 - The draft should also say directly that the compact control set is for stable baseline adjustment, not for opportunistic covariate searching or table-by-table specification drift.
 - The draft should also say directly that the confirmatory workflow itself should be fixed in advance when feasible, so preregistered hypotheses and model sequencing remain clearly distinguishable from secondary robustness or exploratory analyses.
 - The draft should also say directly that trust and satisfaction stay secondary in the reporting sequence, so they do not quietly become co-primary outcomes if they generate interesting condition differences.
+- The draft should also say directly that the empirical section should foreground estimated magnitudes and uncertainty, including condition means, effect sizes, and confidence intervals, rather than relying mainly on significance phrasing.
