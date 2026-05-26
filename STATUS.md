@@ -136,6 +136,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The measures section now also maps its primary outcomes and core process batteries more explicitly onto the adjacent purchase-intention, decision-aid, conversational-shopping, and explanation/disclosure literatures, which strengthens the manuscript's remaining measure-specificity blocker without changing the instrument structure.
 - The measures section now also clarifies the inferential role of trust and satisfaction and gives a more explicit rationale for the compact control set, which makes the non-headline instrument choices read as more disciplined and less residual.
 - The manipulation-check and controls section now also reads more cleanly as instrument logic rather than as a planning list, with the diagnostic role of the visible-logic item and the rationale for the compact covariate set stated more explicitly.
+- Another light front-end theory pass has now compressed repeated defenses of the conversational-versus-UI contrast in the conceptualization and model-summary sections, so the draft reads more like a settled manuscript and less like a memo justifying its own comparison logic.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is final instrument-selection specificity and light prose smoothing rather than unresolved framing architecture.
