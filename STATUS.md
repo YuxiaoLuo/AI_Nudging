@@ -108,6 +108,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The analysis plan now also states more explicitly that total, indirect, and residual direct effects should be distinguished clearly, with interpretive emphasis on the theorized pathways rather than on overreading any leftover direct path.
 - The methods section now also states more explicitly that avoidable missingness should be minimized by design, residual missing data should be reported transparently, and one prespecified confirmatory missing-data rule should anchor the main analyses rather than shifting model samples opportunistically.
 - The participants section now also states more explicitly that the target sample should be justified through a prespecified sensitivity or power rationale and buffered for normal screening losses, which strengthens another reviewer-facing part of the empirical-design defense.
+- The procedure section now also states more explicitly that random assignment should yield approximately even condition sizes and that the realized cell counts should be reported transparently, which closes another small but visible empirical-reporting gap.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.

@@ -33,6 +33,7 @@
 - [x] Choose and tighten the analysis strategy for the tradeoff model
 - [x] Convert the current blueprint into a compact manuscript-style methods section with draft stimuli wording and survey-item candidates
 - [x] State the target sample-size logic more explicitly in the manuscript so the planned cell sizes are tied to a prespecified sensitivity or power rationale rather than left as a convenience range
+- [x] State more explicitly that random assignment should preserve roughly even condition sizes and that realized cell counts should be reported in the manuscript
 
 ## Writing
 - [x] Draft introduction and gap statement
