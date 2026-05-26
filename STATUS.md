@@ -106,6 +106,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The manuscript now also states more explicitly that trust and satisfaction remain secondary outcomes that should be reported after the headline outcomes and main process paths, which further protects the paper's outcome hierarchy.
 - The analysis plan now also states more explicitly that the results section should foreground condition means, effect sizes, and confidence intervals rather than leaning only on significance language, which strengthens another reviewer-facing part of the empirical reporting strategy.
 - The analysis plan now also states more explicitly that total, indirect, and residual direct effects should be distinguished clearly, with interpretive emphasis on the theorized pathways rather than on overreading any leftover direct path.
+- The methods section now also states more explicitly that avoidable missingness should be minimized by design, residual missing data should be reported transparently, and one prespecified confirmatory missing-data rule should anchor the main analyses rather than shifting model samples opportunistically.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
