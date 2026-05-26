@@ -53,6 +53,7 @@
 - [x] Clarify that purchase likelihood and perceived decision quality play different inferential roles in the model and analysis sections
 - [x] Tighten the discussion and conclusion so they play more distinct argumentative roles
 - [x] Tighten the measures and manipulation-check sections so the instrument language reads more settled than provisional
+- [x] Tighten the procedure and stimuli sections so reporting conventions read as manuscript commitments rather than planning notes
 
 ## Writing
 - [x] Draft introduction and gap statement
