@@ -144,6 +144,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another light methods-side pass has now removed a few remaining self-referential fillers from the treatment-materials and instrument setup prose, making those paragraphs read slightly more economically.
 - Another light methods/results presentation pass has now compressed a few remaining narrated reporting sentences, so the treatment-materials and empirical-presentation prose read slightly more directly.
 - Another small analysis-plan pass has now made the staged empirical sequence read slightly more synthetically and less like a checklist, while leaving the underlying confirmatory workflow unchanged.
+- Another small methods-side pass has now reduced a bit more contingency language in the manipulation-check and missing-data prose, making those workflow choices read slightly more settled.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is final instrument-selection specificity and light prose smoothing rather than unresolved framing architecture.
