@@ -57,6 +57,7 @@
 - [x] Tighten the analysis-plan section so reporting and interpretation conventions read as manuscript commitments rather than reviewer instructions
 - [x] Remove remaining conditional methods phrasing around sample rationale, preregistration, and the conversational script
 - [x] Remove remaining `final paper` and similar blueprint-style phrasing from the methods section where the design logic is already stable
+- [x] Calibrate the theory section against the local compact anchor map so the bridge, benefit route, and transparency route are source-backed more explicitly without expanding the citation set
 
 ## Writing
 - [x] Draft introduction and gap statement
