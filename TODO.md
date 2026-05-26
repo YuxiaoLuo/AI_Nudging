@@ -36,6 +36,7 @@
 - [x] State more explicitly that random assignment should preserve roughly even condition sizes and that realized cell counts should be reported in the manuscript
 - [x] State more explicitly that baseline pre-treatment characteristics should be reported descriptively by condition rather than through opportunistic randomization significance testing
 - [x] State more explicitly that the eventual paper should show representative treatment materials or screenshots for the conversational and UI-based nudges
+- [x] State more explicitly that the eventual paper should show full item wording, reverse-coding direction, and concise scale diagnostics for the retained constructs
 
 ## Writing
 - [x] Draft introduction and gap statement

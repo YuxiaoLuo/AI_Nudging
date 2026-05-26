@@ -111,6 +111,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - The procedure section now also states more explicitly that random assignment should yield approximately even condition sizes and that the realized cell counts should be reported transparently, which closes another small but visible empirical-reporting gap.
 - The procedure section now also states more explicitly that baseline pre-treatment characteristics should be summarized descriptively by condition, without turning randomization checks into an opportunistic significance-testing exercise.
 - The stimuli section now also states more explicitly that the eventual paper should include representative treatment materials or screenshots so readers can directly inspect how the conversational and UI-based nudges were instantiated.
+- The measures section now also states more explicitly that the eventual paper should show the full item set, any reverse coding, and concise scale diagnostics so measurement quality is visible rather than left implicit.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
