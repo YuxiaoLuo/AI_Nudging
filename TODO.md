@@ -52,6 +52,7 @@
 - [x] Remove note-like literature-summary phrasing in the theory section so the anchor hierarchy reads more like finished manuscript prose
 - [x] Clarify that purchase likelihood and perceived decision quality play different inferential roles in the model and analysis sections
 - [x] Tighten the discussion and conclusion so they play more distinct argumentative roles
+- [x] Tighten the measures and manipulation-check sections so the instrument language reads more settled than provisional
 
 ## Writing
 - [x] Draft introduction and gap statement

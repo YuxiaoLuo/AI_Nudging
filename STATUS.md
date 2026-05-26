@@ -127,6 +127,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another theory-side prose pass has now removed a few note-like literature-summary phrasings in the recommendation-agent and transparency paragraphs, making the anchor hierarchy read more like publication prose rather than internal drafting commentary.
 - The model and analysis sections now also distinguish more explicitly between purchase likelihood as the headline behavioral outcome and perceived decision quality as the evaluative endpoint of the competing mechanism paths, which clarifies another reviewer-facing aspect of the paper's inferential structure.
 - The discussion and conclusion now also divide labor more cleanly: the discussion interprets the support-versus-inspectability implication more explicitly, while the conclusion closes on the paper's broader significance without mechanically restating the whole argument.
+- The measures and manipulation-check sections now also read more like settled manuscript prose: the diagnostic battery, compact control set, missing-data handling, and measurement-reporting expectations are stated more directly and with less blueprint-style hedging.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
