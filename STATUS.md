@@ -141,6 +141,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another light back-end pass has now reduced overlap between the contribution and discussion openings, so the contribution section states the paper's added value more economically and the discussion begins more directly with interpretation.
 - Another measures-side prose pass has now tightened the rationale for auxiliary outcomes and compact controls, so those variables read more clearly as bounded supporting design choices rather than as over-defended additions.
 - Another small methods-side pass has now converted a few remaining meta-reporting phrases into direct declarative prose, so the treatment-materials and measurement-reporting sections read more like settled article text.
+- Another light methods-side pass has now removed a few remaining self-referential fillers from the treatment-materials and instrument setup prose, making those paragraphs read slightly more economically.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is final instrument-selection specificity and light prose smoothing rather than unresolved framing architecture.
