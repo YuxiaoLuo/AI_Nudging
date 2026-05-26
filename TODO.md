@@ -46,6 +46,7 @@
 - [x] Smooth repeated blueprint-style "eventual paper should" phrasing in the methods and analysis sections into cleaner manuscript prose
 - [x] Trim remaining meta-writing in the methods/results sections around screening displays, replication materials, descriptive tables, and robustness phrasing
 - [x] Reduce repeated support-versus-opacity phrasing across the manuscript front end and back end so the core claim reads more economically
+- [x] Tighten the measures and controls sections so the planned item-battery structure is stated more concretely rather than through example-style wording
 
 ## Writing
 - [x] Draft introduction and gap statement
