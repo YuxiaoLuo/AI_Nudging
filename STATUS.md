@@ -139,10 +139,11 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another light front-end theory pass has now compressed repeated defenses of the conversational-versus-UI contrast in the conceptualization and model-summary sections, so the draft reads more like a settled manuscript and less like a memo justifying its own comparison logic.
 - Another back-end prose pass has now compressed a small amount of contribution and discussion scaffolding, so those sections state their theoretical and empirical stakes more directly and with less narrated transition language.
 - Another light back-end pass has now reduced overlap between the contribution and discussion openings, so the contribution section states the paper's added value more economically and the discussion begins more directly with interpretation.
+- Another measures-side prose pass has now tightened the rationale for auxiliary outcomes and compact controls, so those variables read more clearly as bounded supporting design choices rather than as over-defended additions.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is final instrument-selection specificity and light prose smoothing rather than unresolved framing architecture.
-- A remaining reviewer-facing risk is that some secondary-outcome and control choices still need to look clearly disciplined rather than merely included by habit, even though the core instrument structure is now much stronger.
+- The remaining reviewer-facing risk around secondary outcomes and compact controls is now narrower; the variables are more clearly bounded, but a final light prose-smoothing pass may still help the instrument read maximally economical.
 
 ## Next Steps
 1. Continue improving the manuscript draft mainly through final measure-selection specificity, especially for secondary outcomes and compact controls, rather than by importing additional blueprint blocks.
