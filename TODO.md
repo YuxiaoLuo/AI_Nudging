@@ -58,6 +58,7 @@
 - [x] Remove remaining conditional methods phrasing around sample rationale, preregistration, and the conversational script
 - [x] Remove remaining `final paper` and similar blueprint-style phrasing from the methods section where the design logic is already stable
 - [x] Calibrate the theory section against the local compact anchor map so the bridge, benefit route, and transparency route are source-backed more explicitly without expanding the citation set
+- [x] Calibrate the measures section so each core battery is tied more explicitly to the adjacent literature it adapts from
 
 ## Writing
 - [x] Draft introduction and gap statement

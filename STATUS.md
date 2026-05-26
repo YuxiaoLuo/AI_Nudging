@@ -133,6 +133,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another small methods-side pass now also removes a few remaining conditional phrasings around sample rationale, preregistration, and the representative conversational script, making the empirical setup read slightly more settled.
 - Another light prose pass now also removes the lingering `final paper` framing in the methods section and softens one residual `when feasible` qualifier, which further reduces blueprint residue without changing the design logic.
 - The theory section now also reflects the local compact anchor map more explicitly by tying the recommendation-agent bridge, benefit route, and transparency route more directly to Luo et al. (2019), Chen et al. (2021), and de Cicco et al. (2022), which slightly reduces the remaining source-calibration blocker without broadening the citation set.
+- The measures section now also maps its primary outcomes and core process batteries more explicitly onto the adjacent purchase-intention, decision-aid, conversational-shopping, and explanation/disclosure literatures, which strengthens the manuscript's remaining measure-specificity blocker without changing the instrument structure.
 
 ## Blockers
 - Need selective final calibration of source-backed construct framing before the theory section can be treated as fully stable, but the core citation hierarchy is now materially clearer.
