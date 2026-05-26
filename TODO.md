@@ -49,6 +49,7 @@
 - [x] Tighten the measures and controls sections so the planned item-battery structure is stated more concretely rather than through example-style wording
 - [x] Tighten remaining optional-sounding language in the empirical specification so the design reads more settled
 - [x] State the key construct boundaries more directly in the theory/model sections so confidence, decision quality, transparency, personalization, and cognitive load are easier to distinguish
+- [x] Remove note-like literature-summary phrasing in the theory section so the anchor hierarchy reads more like finished manuscript prose
 
 ## Writing
 - [x] Draft introduction and gap statement
