@@ -62,6 +62,7 @@
 - [x] Clarify the inferential role of secondary outcomes and the rationale for the compact control set
 - [x] Tighten the manipulation-check and controls section so it reads as disciplined instrument logic rather than a residual planning list
 - [x] Fix the final compact measurement rule so the manuscript states balanced three-item core batteries, short auxiliary outcomes, transparent item-retention discipline, and one stable five-covariate confirmatory control set
+- [x] Compress the analysis-plan tail and back-end transition prose so the reporting hierarchy and contribution/discussion flow read more directly with less repeated scaffolding
 
 ## Writing
 - [x] Draft introduction and gap statement
