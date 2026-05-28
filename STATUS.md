@@ -147,12 +147,13 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another small methods-side pass has now reduced a bit more contingency language in the manipulation-check and missing-data prose, making those workflow choices read slightly more settled.
 - Another targeted methods-side pass now also makes the final instrument package more explicit: the core mechanisms now use balanced three-item batteries, trust and satisfaction remain intentionally short auxiliary outcomes, the item-retention rule is stated as disciplined rather than expansive, and the confirmatory models now commit to one stable five-covariate control set.
 - Another light back-end pass now also compresses the analysis-plan tail and contribution/discussion transition language, so the reporting hierarchy, central contrast, and managerial implication read more directly and with less repeated scaffolding.
+- Another micro back-end pass now also tightens the contribution close and discussion opening, so the conversational-versus-UI contrast and support-versus-inspectability framing are stated more directly with less near-adjacent repetition.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
-- The reviewer-facing risk around secondary outcomes and compact controls is now narrower still; the variables are bounded more explicitly, and the remaining manuscript work is mostly any last residual repetition rather than a substantive design gap.
+- The reviewer-facing risk around secondary outcomes and compact controls is now narrower still; the variables are bounded more explicitly, and the remaining manuscript work is now mostly negligible residual polishing rather than a substantive design gap.
 
 ## Next Steps
-1. Continue improving the manuscript draft only through very light residual prose smoothing, especially if any repeated framing still appears after a fresh reread, rather than by importing additional blueprint blocks.
-2. Keep trimming any remaining residual blueprint phrasing now that the core framing, anchor hierarchy, mode-of-guidance contrast, instrument package, and reporting hierarchy are materially clearer in the manuscript itself.
+1. Continue improving the manuscript draft only if a fresh reread reveals genuinely awkward residual phrasing; otherwise preserve momentum and avoid unnecessary churn.
+2. Keep trimming any remaining residual blueprint phrasing only when it produces a real readability gain now that the core framing, anchor hierarchy, mode-of-guidance contrast, instrument package, and reporting hierarchy are materially clearer in the manuscript itself.
 3. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.

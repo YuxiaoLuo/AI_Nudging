@@ -63,6 +63,7 @@
 - [x] Tighten the manipulation-check and controls section so it reads as disciplined instrument logic rather than a residual planning list
 - [x] Fix the final compact measurement rule so the manuscript states balanced three-item core batteries, short auxiliary outcomes, transparent item-retention discipline, and one stable five-covariate confirmatory control set
 - [x] Compress the analysis-plan tail and back-end transition prose so the reporting hierarchy and contribution/discussion flow read more directly with less repeated scaffolding
+- [x] Tighten the contribution close and discussion opening so the paper stops restating the same contrast in near-adjacent back-end paragraphs
 
 ## Writing
 - [x] Draft introduction and gap statement
