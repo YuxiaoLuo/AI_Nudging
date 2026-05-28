@@ -6,6 +6,7 @@
 - [x] Sharpen the core contribution claim relative to digital nudging, AI nudging, and conversational commerce
 - [x] Decide the main dependent variables and which ones are mediators or moderators at a first-pass level
 - [ ] Continue collecting highly relevant and significant articles in seminal journals
+- [ ] Run one full fresh reread of the manuscript to decide whether draft-side polishing should pause unless a concrete reviewer-facing gap appears
 - [x] Articulate how LLM conversational nudges differ from algorithm-generated recommendation badges in e-commerce choice architecture
 - [x] Conduct a focused literature review in UTD24 and ABDC A* business journals
 - [x] Build a structured reading matrix for the nudging project

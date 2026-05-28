@@ -4,7 +4,7 @@
 This project develops a study on how LLM-based conversational AI nudges shape consumer purchase decision-making in online shopping environments. The working title is: **Talking Shoppers Into Buying? Experimental Evidence on LLM-Driven AI Nudges**.
 
 ## Current Focus
-Stay focused on theoretical framing and collection of highly relevant, significant articles in seminal journals. The immediate objective is to keep strengthening the literature base and theory logic rather than jumping ahead to full experimental detailing.
+The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and make only genuinely readability-improving edits unless a concrete reviewer-facing literature or design gap becomes visible.
 
 ## Recent Progress
 - Core project idea identified: compare LLM-driven conversational nudges with traditional UI-based nudges and a control condition.
@@ -148,6 +148,7 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another targeted methods-side pass now also makes the final instrument package more explicit: the core mechanisms now use balanced three-item batteries, trust and satisfaction remain intentionally short auxiliary outcomes, the item-retention rule is stated as disciplined rather than expansive, and the confirmatory models now commit to one stable five-covariate control set.
 - Another light back-end pass now also compresses the analysis-plan tail and contribution/discussion transition language, so the reporting hierarchy, central contrast, and managerial implication read more directly and with less repeated scaffolding.
 - Another micro back-end pass now also tightens the contribution close and discussion opening, so the conversational-versus-UI contrast and support-versus-inspectability framing are stated more directly with less near-adjacent repetition.
+- The project tracking now also reflects the manuscript's actual stage more accurately: this is no longer primarily a literature-accumulation phase, but a near-frozen draft-polishing phase unless a concrete gap appears.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
