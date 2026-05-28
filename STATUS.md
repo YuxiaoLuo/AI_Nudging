@@ -145,12 +145,13 @@ Stay focused on theoretical framing and collection of highly relevant, significa
 - Another light methods/results presentation pass has now compressed a few remaining narrated reporting sentences, so the treatment-materials and empirical-presentation prose read slightly more directly.
 - Another small analysis-plan pass has now made the staged empirical sequence read slightly more synthetically and less like a checklist, while leaving the underlying confirmatory workflow unchanged.
 - Another small methods-side pass has now reduced a bit more contingency language in the manipulation-check and missing-data prose, making those workflow choices read slightly more settled.
+- Another targeted methods-side pass now also makes the final instrument package more explicit: the core mechanisms now use balanced three-item batteries, trust and satisfaction remain intentionally short auxiliary outcomes, the item-retention rule is stated as disciplined rather than expansive, and the confirmatory models now commit to one stable five-covariate control set.
 
 ## Blockers
-- The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is final instrument-selection specificity and light prose smoothing rather than unresolved framing architecture.
-- The remaining reviewer-facing risk around secondary outcomes and compact controls is now narrower; the variables are more clearly bounded, but a final light prose-smoothing pass may still help the instrument read maximally economical.
+- The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
+- The reviewer-facing risk around secondary outcomes and compact controls is now narrower still; the variables are bounded more explicitly, but a final cleanup pass may still help trim any residual repetition around measurement and reporting discipline.
 
 ## Next Steps
-1. Continue improving the manuscript draft mainly through final measure-selection specificity, especially for secondary outcomes and compact controls, rather than by importing additional blueprint blocks.
-2. Keep trimming any remaining repetition or residual blueprint phrasing now that the core framing, anchor hierarchy, mode-of-guidance contrast, and instrument examples are all materially clearer in the manuscript itself.
+1. Continue improving the manuscript draft through a final light prose-smoothing pass, especially around any residual repetition in the methods and back-end sections, rather than by importing additional blueprint blocks.
+2. Keep trimming any remaining residual blueprint phrasing now that the core framing, anchor hierarchy, mode-of-guidance contrast, and instrument package are materially clearer in the manuscript itself.
 3. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.
