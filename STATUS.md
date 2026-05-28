@@ -149,12 +149,13 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - Another light back-end pass now also compresses the analysis-plan tail and contribution/discussion transition language, so the reporting hierarchy, central contrast, and managerial implication read more directly and with less repeated scaffolding.
 - Another micro back-end pass now also tightens the contribution close and discussion opening, so the conversational-versus-UI contrast and support-versus-inspectability framing are stated more directly with less near-adjacent repetition.
 - The project tracking now also reflects the manuscript's actual stage more accurately: this is no longer primarily a literature-accumulation phase, but a near-frozen draft-polishing phase unless a concrete gap appears.
+- A full fresh reread of the manuscript now also suggests that additional line-level polishing should pause by default; the current draft reads coherently enough that further edits are more likely to create churn than meaningful gain unless a concrete reviewer-facing gap appears.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
 - The reviewer-facing risk around secondary outcomes and compact controls is now narrower still; the variables are bounded more explicitly, and the remaining manuscript work is now mostly negligible residual polishing rather than a substantive design gap.
 
 ## Next Steps
-1. Continue improving the manuscript draft only if a fresh reread reveals genuinely awkward residual phrasing; otherwise preserve momentum and avoid unnecessary churn.
-2. Keep trimming any remaining residual blueprint phrasing only when it produces a real readability gain now that the core framing, anchor hierarchy, mode-of-guidance contrast, instrument package, and reporting hierarchy are materially clearer in the manuscript itself.
-3. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.
+1. Pause routine manuscript-side polishing unless a concrete reviewer-facing gap, awkward passage, or missing anchor becomes visible on a later pass.
+2. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.
+3. Preserve momentum by shifting future effort toward clearly additive tasks rather than additional low-yield prose churn.
