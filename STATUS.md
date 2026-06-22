@@ -167,6 +167,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The replication-package outputs layer now also has a concrete manifest that points from the package folder to the current authoritative table and figure assets, reducing ambiguity about which repo files presently serve as the output-side sources before generated release files exist.
 - The manuscript package now also has a concrete pre-submission workflow: a submission-readiness checklist ties the draft, tables, figures, appendices, replication package, and final validation steps into one last-mile sequence rather than leaving them as a flat set of assets.
 - The manuscript package now also has a concrete citation-role crosswalk: the current references are mapped to argumentative roles, priority levels, and local literature files, making later citation verification and reference cleanup easier without reopening the paper's broader framing.
+- The citation crosswalk now also distinguishes `citation confirmed from project records` from `local PDF archived`, which narrows the remaining bridge-citation cleanup task by showing that Xiao and Benbasat (2007) and Ebrahimi et al. (2022) are bibliographically confirmed even though authoritative local PDFs are still missing.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
@@ -176,4 +177,4 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 1. Pause routine manuscript-side polishing unless a concrete reviewer-facing gap, awkward passage, or missing anchor becomes visible on a later pass.
 2. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.
 3. Preserve momentum by shifting future effort toward clearly additive tasks such as reference cleanup, citation verification, and asset creation from the new packaging plan rather than additional low-yield prose churn.
-4. Use the new citation crosswalk to verify the unresolved bridge-citation file matches and tighten the references section against the exact main-text citation set.
+4. Use the new citation crosswalk to tighten the references section against the exact main-text citation set and, only if needed, archive authoritative local PDFs for the two already-confirmed bridge citations.

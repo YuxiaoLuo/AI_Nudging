@@ -109,6 +109,7 @@
 - [x] Create a replication-package outputs manifest that links the current authoritative table and figure assets
 - [x] Create a submission-readiness checklist and link it from the main package entrypoints
 - [x] Create a manuscript citation crosswalk that maps current references to argumentative roles and local source files
+- [x] Clarify in the citation crosswalk which unresolved bridge citations are bibliographically confirmed versus backed by authoritative local PDFs
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
