@@ -7,6 +7,7 @@ This file converts the manuscript's current reporting commitments into a concret
 
 ### Table 1. Descriptive statistics and correlations
 - Status: required by current manuscript text
+- Draft asset: `results_table_shells.md`
 - Purpose:
   - Report construct means, standard deviations, and correlations before or alongside the structural results.
   - Give readers a compact view of the support-route and transparency-route variables before the path estimates.
@@ -24,6 +25,7 @@ This file converts the manuscript's current reporting commitments into a concret
 
 ### Table 2. Headline treatment effects on primary outcomes
 - Status: strongly implied by the current results plan
+- Draft asset: `results_table_shells.md`
 - Purpose:
   - Present the conversational-versus-UI and conversational-versus-control contrasts on purchase likelihood and perceived decision quality.
   - Keep the paper's central comparison visible rather than burying it inside omnibus treatment tests.
@@ -36,6 +38,7 @@ This file converts the manuscript's current reporting commitments into a concret
 
 ### Table 3. Mechanism-path results
 - Status: required by the current theory-aligned analysis sequence
+- Draft asset: `results_table_shells.md`
 - Purpose:
   - Report the staged support and opacity pathway evidence.
   - Show whether conversational guidance increases personalization, reduces cognitive load, increases confidence, and decreases transparency in the expected pattern.
@@ -47,6 +50,7 @@ This file converts the manuscript's current reporting commitments into a concret
 
 ### Table 4. Secondary outcomes and compact robustness checks
 - Status: optional but likely useful
+- Draft asset: `results_table_shells.md`
 - Purpose:
   - Keep trust, satisfaction, and limited robustness evidence visible without letting them compete with the paper's headline tests.
 - Likely contents:

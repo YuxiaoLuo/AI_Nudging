@@ -1,0 +1,99 @@
+# Results Table Shells
+
+## Purpose
+This file converts the manuscript's promised main-text results tables into concrete shells that can later be populated with estimates. The goal is to keep the confirmatory evidence hierarchy explicit before data collection and analysis outputs exist.
+
+## Table 1. Descriptive statistics and correlations
+
+### Purpose
+- Report construct means, standard deviations, and correlations before or alongside the structural results
+- Give readers a compact view of the support-route and transparency-route variables before the path estimates
+
+### Shell
+
+| Variable | Mean | SD | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1. Purchase likelihood | `TBD` | `TBD` | `--` |  |  |  |  |  |  |  |
+| 2. Perceived decision quality | `TBD` | `TBD` | `TBD` | `--` |  |  |  |  |  |  |
+| 3. Perceived personalization | `TBD` | `TBD` | `TBD` | `TBD` | `--` |  |  |  |  |  |
+| 4. Cognitive load (reverse coded) | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `--` |  |  |  |  |
+| 5. Choice confidence | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `--` |  |  |  |
+| 6. Perceived transparency | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `--` |  |  |
+| 7. Trust | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `--` |  |
+| 8. Satisfaction | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `--` |
+
+### Notes
+- Keep the confirmatory core constructs visually central even if trust and satisfaction remain in the same table
+- Add significance markers only if the target journal expects them
+
+## Table 2. Headline treatment effects on primary outcomes
+
+### Purpose
+- Keep the central conversational-versus-UI comparison visible
+- Present both purchase likelihood and perceived decision quality as the headline outcomes
+
+### Shell
+
+| Outcome | Conversational mean (SD) | UI-based nudge mean (SD) | Control mean (SD) | Conversational vs. UI estimate | Conversational vs. control estimate | 95% CI | Effect size | Covariates included? |
+|---|---:|---:|---:|---:|---:|---:|---:|---|
+| Purchase likelihood | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` |
+| Perceived decision quality | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` |
+
+### Notes
+- The conversational-versus-UI comparison should remain visibly central rather than being buried inside an omnibus test
+- If the main text keeps only one effect-size column, retain the conversational-versus-UI effect size first
+
+## Table 3. Mechanism-path results
+
+### Purpose
+- Report the support and opacity pathways in the order implied by the theory
+- Distinguish total effects, indirect effects, and any residual direct effects clearly
+
+### Shell A. Condition-to-mechanism contrasts
+
+| Dependent variable | Conversational vs. UI estimate | Conversational vs. control estimate | 95% CI | Note |
+|---|---:|---:|---:|---|
+| Perceived personalization | `TBD` | `TBD` | `TBD` | Benefit-route entry |
+| Perceived transparency | `TBD` | `TBD` | `TBD` | Risk-route entry |
+
+### Shell B. Path estimates
+
+| Path | Estimate | 95% CI | Interpretation note |
+|---|---:|---:|---|
+| Perceived personalization -> cognitive load (reverse coded) | `TBD` | `TBD` | Support simplification route |
+| Cognitive load (reverse coded) -> choice confidence | `TBD` | `TBD` | Confidence-building route |
+| Choice confidence -> perceived decision quality | `TBD` | `TBD` | Positive evaluative route |
+| Perceived transparency -> perceived decision quality | `TBD` | `TBD` | Inspectability route |
+| Conversational nudge -> purchase likelihood (direct) | `TBD` | `TBD` | Direct behavioral path |
+| Conversational nudge -> perceived decision quality (residual direct effect, if retained) | `TBD` | `TBD` | Interpret cautiously |
+
+### Shell C. Indirect effects
+
+| Indirect effect | Estimate | 95% CI | Note |
+|---|---:|---:|---|
+| Conversational nudge -> personalization -> cognitive load -> confidence -> decision quality | `TBD` | `TBD` | Support-route indirect effect |
+| Conversational nudge -> transparency -> decision quality | `TBD` | `TBD` | Opacity-route indirect effect |
+
+## Table 4. Secondary outcomes and compact robustness checks
+
+### Purpose
+- Keep secondary outcomes and bounded robustness evidence visible without letting them displace the confirmatory core
+
+### Shell A. Secondary outcomes
+
+| Outcome | Conversational mean (SD) | UI-based nudge mean (SD) | Control mean (SD) | Conversational vs. UI estimate | 95% CI | Note |
+|---|---:|---:|---:|---:|---:|---|
+| Trust | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | Secondary only |
+| Satisfaction | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | Secondary only |
+
+### Shell B. Compact robustness checks
+
+| Robustness variant | N | Purchase-likelihood conclusion preserved? | Decision-quality conclusion preserved? | Note |
+|---|---:|---|---|---|
+| Main confirmatory sample | `TBD` | `TBD` | `TBD` | Reference row |
+| Variant 1 | `TBD` | `TBD` | `TBD` | Narrower screen or coding choice |
+| Variant 2 | `TBD` | `TBD` | `TBD` | Sensitivity only if needed |
+
+## Usage notes
+- These shells are not a substitute for the appendices; they are the planned main-text table layer
+- If a target journal later forces a different table merge or split, revise this file first so the package still has one explicit reporting map

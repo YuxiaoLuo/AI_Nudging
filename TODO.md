@@ -100,6 +100,7 @@
 - [x] Create a first draft of Appendix A as a standalone stimuli-and-treatment-materials asset and record its filename in the packaging plan
 - [x] Create a first draft of Appendix C as a standalone screening-and-sample-flow asset and record its filename in the packaging plan
 - [x] Create a first draft of Appendix D as a standalone supplemental-robustness asset and record its filename in the packaging plan
+- [x] Create a first draft of the main-text results tables as a standalone results-shell asset and record its filename in the packaging plan
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
