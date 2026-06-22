@@ -68,6 +68,7 @@ python3 replication_package/scripts/check_reference_formatting.py manuscript_llm
 ## Recommended order during package cleanup
 1. Use `run_validation_suite.py` when you want one reproducible pass across the current lightweight checks.
 2. Use its `--report-md` flag when you want the current validation state preserved as a handoff artifact rather than left only in terminal output.
+   The saved report also records generation time, repository head, and input file fingerprints so later sessions can judge whether the snapshot is stale.
 3. Run `check_package_links.py` separately only when you are editing package-facing docs and want a faster targeted recheck.
 4. Run `check_reference_alignment.py` separately only when you changed citations or the references section and do not need the full suite.
 5. Run `check_reference_formatting.py` separately when the citation set is stable and the next step is bounded bibliography cleanup rather than theory expansion.

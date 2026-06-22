@@ -182,6 +182,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The replication-package scripts layer now also includes a working `run_validation_suite.py` wrapper that executes the current package-link, citation-alignment, and bibliography-format checks in one pass, and the current package state now passes that suite cleanly apart from the intentionally deferred outlet-specific title-style warnings.
 - The bibliography workflow now also has a dedicated `manuscript_reference_format_audit.md` artifact that records the current post-suite interpretation explicitly, which makes it easier to distinguish `structural cleanliness` from `still-unsettled target-journal style choices` without rerunning or mentally unpacking script output.
 - The package now also has a committed `manuscript_package_validation_report.md` snapshot generated from the one-command validation suite, which gives later sessions a current verified baseline for package links, citation alignment, and bibliography-format warnings without rerunning the tools just to reestablish state.
+- That validation snapshot now also records generation time, repository head, and input file fingerprints, which makes the saved report self-auditing and reduces the risk of treating a stale snapshot as current package state.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

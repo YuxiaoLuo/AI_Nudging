@@ -124,6 +124,7 @@
 - [x] Add a one-command validation-suite wrapper for the current package-link and bibliography checks
 - [x] Create a dedicated reference-format audit artifact that records the current structural-versus-outlet-style split in the bibliography state
 - [x] Generate and preserve a current manuscript-package validation snapshot from the one-command suite
+- [x] Add provenance metadata to the saved validation snapshot so later sessions can judge freshness without rerunning the suite first
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

@@ -30,7 +30,7 @@ These files define the intended analysis workflow before a final implementation 
   - one-command wrapper for the current package-link, citation-alignment, and reference-formatting checks
   - default docs: `../../README.md`, `../../manuscript_package_index.md`, and `../../submission_readiness_checklist.md`
   - useful when you want one reproducible package-validation pass instead of remembering the helper order manually
-  - optional `--report-md` flag writes the suite output into a reusable markdown artifact
+  - optional `--report-md` flag writes the suite output into a reusable markdown artifact with generation metadata and input fingerprints
 - `validation_workflow.md`
   - compact guide for when to run the current lightweight checks and what each one covers
 

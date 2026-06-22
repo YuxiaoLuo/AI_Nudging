@@ -4,9 +4,11 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import subprocess
 import sys
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -30,23 +32,59 @@ def run_check(name: str, command: list[str]) -> CheckResult:
     )
 
 
+def git_head(repo_root: Path) -> str | None:
+    completed = subprocess.run(
+        ["git", "-C", str(repo_root), "rev-parse", "HEAD"],
+        capture_output=True,
+        text=True,
+    )
+    if completed.returncode != 0:
+        return None
+    return completed.stdout.strip() or None
+
+
+def sha256_prefix(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()[:12]
+
+
 def markdown_report(
     repo_root: Path,
     manuscript: Path,
     package_docs: list[str],
     results: list[CheckResult],
 ) -> str:
+    generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    head = git_head(repo_root)
+    tracked_inputs = [manuscript, *[(repo_root / doc).resolve() for doc in package_docs]]
+
     lines = [
         "# Manuscript Package Validation Report",
         "",
         "## Purpose",
         "This file records one lightweight validation-suite snapshot for the current manuscript package.",
         "",
+        "## Snapshot metadata",
+        f"- Generated at (UTC): `{generated_at}`",
+    ]
+    if head:
+        lines.append(f"- Repository HEAD at generation: `{head}`")
+    lines.extend(
+        [
+            "",
+            "## Input fingerprints",
+        ]
+    )
+    for path in tracked_inputs:
+        lines.append(f"- `{path.relative_to(repo_root)}`: sha256 `{sha256_prefix(path)}`")
+    lines.extend(
+        [
+        "",
         "## Current validation target",
         f"- Repository root: `{repo_root}`",
         f"- Manuscript: `{manuscript}`",
         "- Package-facing docs included in link check:",
-    ]
+        ]
+    )
     lines.extend([f"  - `{doc}`" for doc in package_docs])
     lines.extend(
         [
