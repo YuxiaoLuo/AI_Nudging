@@ -186,6 +186,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The validation workflow now also includes a `check_validation_snapshot_freshness.py` helper that tests the saved snapshot against the current repo head and tracked file fingerprints, which turns snapshot provenance from passive metadata into an actual freshness check rather than a visual cue alone.
 - The manuscript package now also includes a dedicated `manuscript_package_validation_freshness.md` artifact, and the current validation snapshot plus freshness decision have both been refreshed so later sessions can see not just what passed, but whether that saved baseline is still current.
 - The validation helpers have now also been tightened in two practical ways: `check_package_links.py` resolves paths from each package document's own location, and `check_validation_snapshot_freshness.py` now treats tracked manuscript/package inputs as the true freshness criterion while still surfacing repository-HEAD drift as provenance.
+- A targeted late-day literature retrieval recheck also clarified the remaining bridge-source gap further: Xiao and Benbasat (2007) and Ebrahimi et al. (2022) now have explicit direct PDF endpoints recorded, but those routes still return environment-level `403`/challenge blocks here, so the unresolved issue is access rather than source discovery.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

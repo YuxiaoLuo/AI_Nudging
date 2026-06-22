@@ -138,6 +138,29 @@ Manual-access routes worth keeping for a later retrieval attempt:
   - Taylor & Francis abstract page surfaced by search: `https://www.tandfonline.com/doi/abs/10.1080/07421222.2022.2096549`
   - ResearchGate article page surfaced by search: `https://www.researchgate.net/publication/363016491_The_Impact_of_Trust_and_Recommendation_Quality_on_Adopting_Interactive_and_Non-Interactive_Recommendation_Agents_A_Meta-Analysis`
 
+## 2026-06-22 late-day bridge-citation retrieval recheck
+Purpose of this pass:
+- Recheck whether the two remaining bridge citations could now be archived as valid PDFs from stronger direct routes than the earlier abstract-page checks.
+
+What I tested:
+- Xiao and Benbasat (2007):
+  - MIS Quarterly direct PDF route: `https://misq.umn.edu/misq/article-pdf/31/1/137/5188/7_xiaobenbasat.pdf`
+  - JSTOR direct PDF route surfaced by web search: `https://www.jstor.org/stable/pdf/25148784.pdf`
+- Ebrahimi et al. (2022):
+  - Taylor & Francis direct PDF route surfaced by web search: `https://www.tandfonline.com/doi/pdf/10.1080/07421222.2022.2096549`
+  - ResearchGate full-text pages for both papers
+
+What happened:
+- The MIS Quarterly direct PDF route for Xiao and Benbasat (2007) now resolves to a Cloudflare-protected `403` challenge page from this environment rather than a downloadable PDF.
+- The JSTOR direct PDF route for Xiao and Benbasat (2007) also resolves to a `403` access-denied page from this environment.
+- The Taylor & Francis direct PDF route for Ebrahimi et al. (2022) resolves to a Cloudflare-protected `403` challenge page from this environment.
+- ResearchGate requests for both papers also returned `403` responses from this environment rather than full-text downloads.
+
+Updated judgment:
+- The remaining gap is now even more clearly an environment-level access or anti-bot constraint rather than uncertainty about the most relevant PDF endpoints.
+- Keep both citations on the `citation confirmed but local PDF not yet archived` list.
+- If Rain later wants these files added, the best next move is likely a manual browser/institutional-library retrieval from one of the direct PDF routes above rather than another discovery pass.
+
 ## 2026-04-22 request: Marketing Science paper on ChatGPT referrals
 Requested paper:
 - Kaiser, M., & Schulze, C. (2026). *Frontiers: ChatGPT Referrals to E-Commerce Websites: How Do LLMs Compare Against Traditional Channels?* Marketing Science. DOI: https://doi.org/10.1287/mksc.2025.0489
