@@ -69,15 +69,16 @@ python3 replication_package/scripts/check_reference_formatting.py manuscript_llm
 1. Use `run_validation_suite.py` when you want one reproducible pass across the current lightweight checks.
 2. Use its `--report-md` flag when you want the current validation state preserved as a handoff artifact rather than left only in terminal output.
    The saved report also records generation time, repository head, and input file fingerprints so later sessions can judge whether the snapshot is stale.
-3. Run `check_package_links.py` separately only when you are editing package-facing docs and want a faster targeted recheck.
-4. Run `check_reference_alignment.py` separately only when you changed citations or the references section and do not need the full suite.
-5. Run `check_reference_formatting.py` separately when the citation set is stable and the next step is bounded bibliography cleanup rather than theory expansion.
-6. If the citation and formatting checks pass, use:
+3. Use `check_validation_snapshot_freshness.py` when you want to test whether the saved snapshot is still trustworthy before deciding to rerun the full suite.
+4. Run `check_package_links.py` separately only when you are editing package-facing docs and want a faster targeted recheck.
+5. Run `check_reference_alignment.py` separately only when you changed citations or the references section and do not need the full suite.
+6. Run `check_reference_formatting.py` separately when the citation set is stable and the next step is bounded bibliography cleanup rather than theory expansion.
+7. If the citation and formatting checks pass, use:
    - `manuscript_reference_audit.md`
    - `manuscript_reference_cleanup_notes.md`
    - `manuscript_citation_crosswalk.md`
    to decide whether the next step is style cleanup, citation-role review, or PDF retrieval.
-7. If the package-link check passes, do the final walk-through items in `submission_readiness_checklist.md`.
+8. If the package-link check passes, do the final walk-through items in `submission_readiness_checklist.md`.
 
 ## Current scope limits
 - These helpers do not validate journal-style bibliography formatting.

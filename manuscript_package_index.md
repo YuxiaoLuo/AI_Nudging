@@ -50,6 +50,7 @@ This file is the quickest entrypoint to the current manuscript package for the n
   - `replication_package/scripts/README.md`
   - `replication_package/scripts/validation_workflow.md`
   - `replication_package/scripts/run_validation_suite.py`
+  - `replication_package/scripts/check_validation_snapshot_freshness.py`
   - `replication_package/scripts/check_package_links.py`
   - `replication_package/scripts/check_reference_alignment.py`
   - `replication_package/scripts/check_reference_formatting.py`

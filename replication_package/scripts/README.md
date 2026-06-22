@@ -31,6 +31,10 @@ These files define the intended analysis workflow before a final implementation 
   - default docs: `../../README.md`, `../../manuscript_package_index.md`, and `../../submission_readiness_checklist.md`
   - useful when you want one reproducible package-validation pass instead of remembering the helper order manually
   - optional `--report-md` flag writes the suite output into a reusable markdown artifact with generation metadata and input fingerprints
+- `check_validation_snapshot_freshness.py`
+  - checks whether the saved markdown validation snapshot still matches the current repo head and tracked file fingerprints
+  - default report: `../../manuscript_package_validation_report.md`
+  - useful when you want to trust the saved snapshot without rerunning the full validation suite
 - `validation_workflow.md`
   - compact guide for when to run the current lightweight checks and what each one covers
 
