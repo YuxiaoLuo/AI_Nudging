@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figure 2. Representative Treatment Materials</title>
+  <style>
+    :root {
+      --bg: #f4efe6;
+      --paper: #fffdfa;
+      --ink: #1f2933;
+      --muted: #52606d;
+      --line: #d9d2c5;
+      --blue: #dce8f6;
+      --blue-strong: #6b8bb3;
+      --green: #d7eadf;
+      --green-strong: #42705b;
+      --badge: #f4c95d;
+      --card: #f8f7f3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .wrap {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin: 0 0 20px;
+      font-size: 15px;
+      line-height: 1.5;
+      color: var(--muted);
+      max-width: 1100px;
+    }
+
+    .figure {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .panel {
+      background: var(--paper);
+      border: 1.5px solid var(--line);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 1px 0 rgba(31, 41, 51, 0.04);
+    }
+
+    .panel-header {
+      padding: 18px 20px 14px;
+      border-bottom: 1px solid var(--line);
+      background: #fcfaf6;
+    }
+
+    .panel-title {
+      margin: 0 0 6px;
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    .panel-note {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    .content {
+      padding: 18px;
+    }
+
+    .scenario {
+      margin-bottom: 14px;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #faf8f2;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .chat-and-grid {
+      display: grid;
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 14px;
+      align-items: start;
+    }
+
+    .chat {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fbfdff;
+      padding: 14px;
+    }
+
+    .chat-title {
+      margin: 0 0 12px;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--blue-strong);
+    }
+
+    .bubble {
+      margin-bottom: 10px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .bot {
+      background: var(--blue);
+      border: 1px solid #bfd2ea;
+    }
+
+    .user {
+      background: #eef2f6;
+      border: 1px solid #d8e0e8;
+      margin-left: 18px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+    }
+
+    .card.highlight {
+      background: #f3fbf6;
+      border: 2px solid #6fb188;
+      box-shadow: inset 0 0 0 1px rgba(111, 177, 136, 0.12);
+    }
+
+    .card.top {
+      order: -1;
+    }
+
+    .brand {
+      margin: 0 0 4px;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-bottom: 8px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: var(--badge);
+      color: #4d3b05;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    .tagline {
+      margin: 0 0 8px;
+      font-size: 12px;
+      color: var(--green-strong);
+      font-weight: 700;
+    }
+
+    .meta {
+      margin: 0;
+      font-size: 12px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    .note-box {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      background: #f7fafc;
+      border: 1px solid var(--line);
+      font-size: 13px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    @media (max-width: 1200px) {
+      .figure {
+        grid-template-columns: 1fr;
+      }
+
+      .chat-and-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Figure 2. Representative Treatment Materials</h1>
+    <p class="subtitle">
+      Draft mockups of the two theoretically central treatment conditions. Both panels keep the product set and focal recommendation constant and vary only the mode of guidance.
+    </p>
+
+    <div class="figure">
+      <section class="panel">
+        <div class="panel-header">
+          <h2 class="panel-title">Conversational-nudge condition</h2>
+          <p class="panel-note">Semi-structured assistant asks brief preference questions, then recommends <strong>VeroWave M6</strong> with comparative reasoning.</p>
+        </div>
+        <div class="content">
+          <div class="scenario">
+            Scenario: You need wireless over-ear headphones for commuting, work, and casual listening. Your budget cap is $180.
+          </div>
+          <div class="chat-and-grid">
+            <div class="chat">
+              <p class="chat-title">Shopping Assistant</p>
+              <div class="bubble bot">Which headphone attribute matters most to you: sound quality, comfort, battery life, call quality, or noise cancellation?</div>
+              <div class="bubble user">I want something balanced for commuting and work. Comfort and battery life matter a lot.</div>
+              <div class="bubble bot">What will be your main use context most of the time?</div>
+              <div class="bubble user">Mostly commuting and everyday listening, plus some work calls.</div>
+              <div class="bubble bot">Is staying comfortably under budget more important than maximizing one feature?</div>
+              <div class="bubble user">Yes. I do not want to overspend for one feature.</div>
+              <div class="bubble bot">Based on what you said, I would lean toward the <strong>VeroWave M6</strong>. It stays comfortably under your budget, performs well across sound, comfort, and battery life, and looks like the most balanced fit for commuting and daily use. If your top priority were maximum noise cancellation, the <strong>NordSound C5</strong> would be stronger, but it is heavier and costs more. If battery life mattered above everything else, the <strong>Auralite B3</strong> would be a better fit, but it gives up some overall balance.</div>
+            </div>
+
+            <div class="grid">
+              <div class="card">
+                <p class="brand">Auralite A1</p>
+                <p class="meta">$89 • value-focused • weaker ANC and call quality</p>
+              </div>
+              <div class="card">
+                <p class="brand">Auralite B3</p>
+                <p class="meta">$149 • 50h battery • moderate comfort</p>
+              </div>
+              <div class="card">
+                <p class="brand">NordSound C5</p>
+                <p class="meta">$179 • strongest ANC • heavier frame</p>
+              </div>
+              <div class="card">
+                <p class="brand">NordSound D2</p>
+                <p class="meta">$159 • best mic • average battery</p>
+              </div>
+              <div class="card">
+                <p class="brand">VeroWave H4</p>
+                <p class="meta">$169 • highest comfort • midrange mic</p>
+              </div>
+              <div class="card highlight">
+                <p class="brand">VeroWave M6</p>
+                <p class="tagline">Balanced focal recommendation</p>
+                <p class="meta">$139 • solid across sound, comfort, battery life, microphone quality, and ANC</p>
+              </div>
+            </div>
+          </div>
+          <div class="note-box">
+            Guidance is adaptive and sequential: the recommendation is presented as the outcome of a short advisory exchange rather than a fixed interface cue.
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2 class="panel-title">UI-based nudge condition</h2>
+          <p class="panel-note">The same focal option appears first with a static <strong>Best Match</strong> badge and a short recommendation note.</p>
+        </div>
+        <div class="content">
+          <div class="scenario">
+            Scenario: You need wireless over-ear headphones for commuting, work, and casual listening. Your budget cap is $180.
+          </div>
+          <div class="grid">
+            <div class="card highlight top">
+              <span class="badge">Best Match</span>
+              <p class="brand">VeroWave M6</p>
+              <p class="tagline">Balanced choice for commuting, work, and everyday listening</p>
+              <p class="meta">$139 • strong all-around performance across comfort, battery life, and daily usability</p>
+            </div>
+            <div class="card">
+              <p class="brand">Auralite A1</p>
+              <p class="meta">$89 • value-focused • weaker ANC and call quality</p>
+            </div>
+            <div class="card">
+              <p class="brand">Auralite B3</p>
+              <p class="meta">$149 • 50h battery • moderate comfort</p>
+            </div>
+            <div class="card">
+              <p class="brand">NordSound C5</p>
+              <p class="meta">$179 • strongest ANC • heavier frame</p>
+            </div>
+            <div class="card">
+              <p class="brand">NordSound D2</p>
+              <p class="meta">$159 • best mic • average battery</p>
+            </div>
+            <div class="card">
+              <p class="brand">VeroWave H4</p>
+              <p class="meta">$169 • highest comfort • midrange mic</p>
+            </div>
+          </div>
+          <div class="note-box">
+            Guidance is static and interface-level: the recommendation is visible through placement, labeling, and a short note rather than through adaptive dialogue.
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

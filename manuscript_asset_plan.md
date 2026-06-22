@@ -73,6 +73,7 @@ This file converts the manuscript's current reporting commitments into a concret
 
 ### Figure 2. Representative treatment materials
 - Status: explicitly committed in the manuscript
+- Draft asset: `figures/figure2_treatment_materials.html`
 - Purpose:
   - Show representative screenshots or visual excerpts from the conversational and UI-based nudge conditions.
 - Minimum contents:
