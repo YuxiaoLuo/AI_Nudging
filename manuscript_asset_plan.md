@@ -157,6 +157,7 @@ This file converts the manuscript's current reporting commitments into a concret
   - `replication_package/materials/README.md`
   - `replication_package/materials/manifest.md`
   - `replication_package/outputs/README.md`
+  - `replication_package/outputs/manifest.md`
 - Minimum package:
   - treatment materials
   - codebook

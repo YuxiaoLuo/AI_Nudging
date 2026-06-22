@@ -106,6 +106,7 @@
 - [x] Create a top-level manuscript package index and update the repo README so the draft assets have one navigable entrypoint
 - [x] Create the replication-package directory skeleton with local readmes for data, materials, and outputs
 - [x] Create a replication-package materials manifest that links the current authoritative stimuli and figure assets
+- [x] Create a replication-package outputs manifest that links the current authoritative table and figure assets
 - [x] Create a submission-readiness checklist and link it from the main package entrypoints
 
 ## Process
