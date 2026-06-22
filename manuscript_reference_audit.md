@@ -50,3 +50,4 @@ The current main-text citation set is:
 ## Practical use
 - Use this file before submission-oriented formatting passes on the references section.
 - Use this file together with `manuscript_citation_crosswalk.md` when deciding whether the next step is `style cleanup`, `source verification`, or `local-PDF archiving`.
+- Use `replication_package/scripts/check_reference_alignment.py` when the draft changes and you want to rerun the alignment check instead of repeating the audit manually.

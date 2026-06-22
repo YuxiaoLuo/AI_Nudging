@@ -115,6 +115,7 @@
 - [x] Record concrete fallback retrieval routes for the two already-confirmed bridge citations that still lack authoritative local PDFs
 - [x] Create reference-cleanup notes that isolate the likely style-normalization work for the current bibliography
 - [x] Add an explicit bibliography workflow to the submission-readiness checklist
+- [x] Add a reusable script that checks manuscript citation/reference alignment automatically
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
