@@ -115,6 +115,7 @@ This file converts the manuscript's current reporting commitments into a concret
 
 ### Appendix C. Screening and sample-flow details
 - Status: likely required for empirical credibility
+- Draft asset: `appendix_c_screening_and_sample_flow.md`
 - Purpose:
   - Show how many responses were removed under each prespecified quality rule and what analyzable sample remained.
 - Include:
