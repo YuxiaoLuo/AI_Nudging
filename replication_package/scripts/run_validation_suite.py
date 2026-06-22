@@ -30,6 +30,55 @@ def run_check(name: str, command: list[str]) -> CheckResult:
     )
 
 
+def markdown_report(
+    repo_root: Path,
+    manuscript: Path,
+    package_docs: list[str],
+    results: list[CheckResult],
+) -> str:
+    lines = [
+        "# Manuscript Package Validation Report",
+        "",
+        "## Purpose",
+        "This file records one lightweight validation-suite snapshot for the current manuscript package.",
+        "",
+        "## Current validation target",
+        f"- Repository root: `{repo_root}`",
+        f"- Manuscript: `{manuscript}`",
+        "- Package-facing docs included in link check:",
+    ]
+    lines.extend([f"  - `{doc}`" for doc in package_docs])
+    lines.extend(
+        [
+            "",
+            "## Validation results",
+        ]
+    )
+
+    for result in results:
+        status = "PASS" if result.returncode == 0 else "FAIL"
+        lines.extend(
+            [
+                f"### {result.name}",
+                f"- Status: `{status}`",
+            ]
+        )
+        if result.stdout:
+            lines.extend(["- Output:", "```text", result.stdout, "```"])
+        if result.stderr:
+            lines.extend(["- Stderr:", "```text", result.stderr, "```"])
+        lines.append("")
+
+    lines.extend(
+        [
+            "## Interpretation note",
+            "- Treat `PASS` here as confirmation that the current lightweight checks did not find structural package or bibliography failures.",
+            "- Treat any remaining warnings inside the individual outputs as follow-up guidance, not as automatic blockers, unless they contradict the intended submission state.",
+        ]
+    )
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -48,16 +97,27 @@ def main() -> int:
         dest="package_docs",
         help="Package-facing doc to include in the link check. May be repeated.",
     )
+    parser.add_argument(
+        "--report-md",
+        help="Optional path to write a markdown validation report.",
+    )
     args = parser.parse_args()
 
     script_dir = Path(__file__).resolve().parent
     repo_root = Path(args.repo_root).resolve()
     manuscript = Path(args.manuscript).resolve()
+    report_path = Path(args.report_md).resolve() if args.report_md else None
     package_docs = args.package_docs or [
         "README.md",
         "manuscript_package_index.md",
         "submission_readiness_checklist.md",
     ]
+
+    if report_path and not report_path.exists():
+        report_path.write_text(
+            "# Manuscript Package Validation Report\n\n"
+            "_This placeholder is overwritten automatically by `run_validation_suite.py`._\n"
+        )
 
     checks = [
         (
@@ -89,6 +149,9 @@ def main() -> int:
     ]
 
     results = [run_check(name, command) for name, command in checks]
+
+    if report_path:
+        report_path.write_text(markdown_report(repo_root, manuscript, package_docs, results))
 
     overall_failure = False
     print("Validation suite summary:")

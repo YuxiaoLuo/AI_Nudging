@@ -123,6 +123,7 @@
 - [x] Fix the internal ordering drift in the current `Wang` references so the working bibliography is cleaner before outlet-specific normalization
 - [x] Add a one-command validation-suite wrapper for the current package-link and bibliography checks
 - [x] Create a dedicated reference-format audit artifact that records the current structural-versus-outlet-style split in the bibliography state
+- [x] Generate and preserve a current manuscript-package validation snapshot from the one-command suite
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

@@ -18,6 +18,14 @@ This file explains how to use the current lightweight package-validation helpers
 python3 replication_package/scripts/run_validation_suite.py --repo-root .
 ```
 
+- Report example:
+
+```bash
+python3 replication_package/scripts/run_validation_suite.py \
+  --repo-root . \
+  --report-md manuscript_package_validation_report.md
+```
+
 ### 1. Package entrypoint link check
 - Script:
   - `check_package_links.py`
@@ -59,15 +67,16 @@ python3 replication_package/scripts/check_reference_formatting.py manuscript_llm
 
 ## Recommended order during package cleanup
 1. Use `run_validation_suite.py` when you want one reproducible pass across the current lightweight checks.
-2. Run `check_package_links.py` separately only when you are editing package-facing docs and want a faster targeted recheck.
-3. Run `check_reference_alignment.py` separately only when you changed citations or the references section and do not need the full suite.
-4. Run `check_reference_formatting.py` separately when the citation set is stable and the next step is bounded bibliography cleanup rather than theory expansion.
-5. If the citation and formatting checks pass, use:
+2. Use its `--report-md` flag when you want the current validation state preserved as a handoff artifact rather than left only in terminal output.
+3. Run `check_package_links.py` separately only when you are editing package-facing docs and want a faster targeted recheck.
+4. Run `check_reference_alignment.py` separately only when you changed citations or the references section and do not need the full suite.
+5. Run `check_reference_formatting.py` separately when the citation set is stable and the next step is bounded bibliography cleanup rather than theory expansion.
+6. If the citation and formatting checks pass, use:
    - `manuscript_reference_audit.md`
    - `manuscript_reference_cleanup_notes.md`
    - `manuscript_citation_crosswalk.md`
    to decide whether the next step is style cleanup, citation-role review, or PDF retrieval.
-6. If the package-link check passes, do the final walk-through items in `submission_readiness_checklist.md`.
+7. If the package-link check passes, do the final walk-through items in `submission_readiness_checklist.md`.
 
 ## Current scope limits
 - These helpers do not validate journal-style bibliography formatting.

@@ -6,6 +6,8 @@ This file is the quickest entrypoint to the current manuscript package for the n
 ## Core manuscript
 - Main draft:
   - `manuscript_llm_ai_nudges_draft.md`
+- Current validation snapshot:
+  - `manuscript_package_validation_report.md`
 - References-backed packaging map:
   - `manuscript_asset_plan.md`
 - Citation-role and local-source crosswalk:
@@ -58,19 +60,20 @@ This file is the quickest entrypoint to the current manuscript package for the n
 
 ## Suggested reading order
 1. `manuscript_llm_ai_nudges_draft.md`
-2. `manuscript_asset_plan.md`
-3. `manuscript_citation_crosswalk.md`
-4. `manuscript_reference_audit.md`
-5. `manuscript_reference_format_audit.md`
-6. `manuscript_reference_cleanup_notes.md`
-7. `figures/figure1_conceptual_model.html`
-8. `figures/figure2_treatment_materials.html`
-9. `appendix_a_stimuli_and_treatment_materials.md`
-10. `appendix_b_measurement_instrument.md`
-11. `results_table_shells.md`
-12. `submission_readiness_checklist.md`
-13. `replication_package/scripts/validation_workflow.md`
-14. `replication_package/README.md`
+2. `manuscript_package_validation_report.md`
+3. `manuscript_asset_plan.md`
+4. `manuscript_citation_crosswalk.md`
+5. `manuscript_reference_audit.md`
+6. `manuscript_reference_format_audit.md`
+7. `manuscript_reference_cleanup_notes.md`
+8. `figures/figure1_conceptual_model.html`
+9. `figures/figure2_treatment_materials.html`
+10. `appendix_a_stimuli_and_treatment_materials.md`
+11. `appendix_b_measurement_instrument.md`
+12. `results_table_shells.md`
+13. `submission_readiness_checklist.md`
+14. `replication_package/scripts/validation_workflow.md`
+15. `replication_package/README.md`
 
 ## Maintenance rule
 - When a new manuscript-facing asset is created, add it here if a reviewer, coauthor, or future session would reasonably need it as part of the package walkthrough.

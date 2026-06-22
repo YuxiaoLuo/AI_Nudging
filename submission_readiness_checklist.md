@@ -55,6 +55,7 @@ This checklist converts the current manuscript package into a pre-submission wor
 
 ## Final package walk-through
 - [ ] Use `replication_package/scripts/run_validation_suite.py` as the default lightweight package audit before the final manual walk-through.
+- [ ] If a durable snapshot is useful for handoff or archiving, rerun the suite with `--report-md manuscript_package_validation_report.md`.
 - [ ] Use `replication_package/scripts/validation_workflow.md` if you need to rerun or interpret the individual helpers separately.
 - [ ] Start from `manuscript_package_index.md` and verify every linked file still exists and is current.
 - [ ] Confirm `README.md` still points to the right manuscript entrypoints.
