@@ -150,3 +150,28 @@ Several limitations shape the interpretation of the first study. The design uses
 
 ## Conclusion
 LLM-based conversational shopping assistants matter not only because they can influence whether consumers buy, but because they can change how consumers experience the act of choosing. By theorizing conversational AI as a dialogic form of choice architecture, this paper argues that its distinctive significance lies in combining purchase-relevant support with reduced inspectability of the recommendation basis. More broadly, conversational AI in commerce should be understood not as a simple increase in recommendation effectiveness, but as a shift in the mechanism of digital influence itself.
+
+## References
+Chen, J. V., Le, H. T., & Tran, S. T. T. (2021). Understanding automated conversational agent as a decision aid: matching agent's conversation with customer's shopping task. *Internet Research*. https://doi.org/10.1108/INTR-11-2019-0447
+
+Chung, M., Ko, E., Joung, H., & Kim, S. J. (2020). Effects of personalization and social role in voice shopping: An experimental study on product recommendation by a conversational voice agent. *Computers in Human Behavior*. https://doi.org/10.1016/j.chb.2020.106359
+
+de Cicco, R., Iacobucci, S., & Pagliaro, S. (2022). Conversational commerce: Do biased choices offered by voice assistants' technology constrain its appropriation? *Technological Forecasting and Social Change*. https://doi.org/10.1016/j.techfore.2021.121292
+
+Ebrahimi, S., Ghasemaghaei, M., & Benbasat, I. (2022). The impact of trust and recommendation quality on adopting interactive and non-interactive recommendation agents: A meta-analysis. *Journal of Management Information Systems*. https://doi.org/10.1080/07421222.2022.2096549
+
+Häubl, G., & Trifts, V. (2000). Consumer decision making in online shopping environments: The effects of interactive decision aids. *Marketing Science*. https://doi.org/10.1287/mksc.19.1.4.15178
+
+Luo, X., Tong, S., Fang, Z., & Qu, Z. (2019). Frontiers: Machines vs. humans: The impact of artificial intelligence chatbot disclosure on customer purchases. *Marketing Science*. https://doi.org/10.1287/mksc.2019.1192
+
+Senecal, S., & Nantel, J. (2004). The influence of online product recommendations on consumers' online choices. *Journal of Retailing*. https://doi.org/10.1016/j.jretai.2004.04.001
+
+Ursu, R. M. (2018). The power of rankings: Quantifying the effect of rankings on online consumer search and purchase decisions. *Marketing Science*. https://doi.org/10.1287/mksc.2017.1072
+
+Wang, W., & Benbasat, I. (2007). Recommendation agents for electronic commerce: Effects of explanation facilities on trusting beliefs. *Journal of Management Information Systems*. https://doi.org/10.2753/MIS0742-1222230420
+
+Wang, W., & Wang, M. (2019). Effects of sponsorship disclosure on perceived integrity of biased recommendation agents: Psychological contract violation and knowledge-based trust perspectives. *Information Systems Research*. https://doi.org/10.1287/isre.2018.0811
+
+Wang, W., Xu, J. D., & Wang, M. (2018). Effects of recommendation neutrality and sponsorship disclosure on trust vs. distrust in online recommendation agents: Moderating role of explanations for organic recommendations. *Management Science*. https://doi.org/10.1287/mnsc.2017.2906
+
+Xiao, B., & Benbasat, I. (2007). E-commerce product recommendation agents: Use, characteristics, and impact. *MIS Quarterly*. https://doi.org/10.2307/25148784

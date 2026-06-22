@@ -92,6 +92,7 @@
 - [x] Continue moving manipulation-check, control, and instrument logic fully into the formal manuscript draft where useful
 - [x] Continue moving conceptual-definition and comparison logic fully into the formal manuscript draft where useful
 - [x] Draft expected contributions
+- [x] Add a working references section to the formal manuscript draft so the document has a complete manuscript-style back end
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
