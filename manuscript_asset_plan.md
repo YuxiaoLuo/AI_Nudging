@@ -139,6 +139,9 @@ This file converts the manuscript's current reporting commitments into a concret
 
 ## Replication package components
 - Status: conditional on journal policy and data-sharing constraints, but already anticipated in the manuscript
+- Draft assets:
+  - `replication_package/README.md`
+  - `replication_package/codebook_shell.md`
 - Minimum package:
   - treatment materials
   - codebook

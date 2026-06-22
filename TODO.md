@@ -101,6 +101,7 @@
 - [x] Create a first draft of Appendix C as a standalone screening-and-sample-flow asset and record its filename in the packaging plan
 - [x] Create a first draft of Appendix D as a standalone supplemental-robustness asset and record its filename in the packaging plan
 - [x] Create a first draft of the main-text results tables as a standalone results-shell asset and record its filename in the packaging plan
+- [x] Create a first draft of the replication-package scaffold, including a manifest and codebook shell, and record those assets in the packaging plan
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

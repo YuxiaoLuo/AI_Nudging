@@ -159,6 +159,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The package now also contains a concrete Appendix C draft: the screening and sample-flow logic has been externalized into a dedicated appendix template with stage-by-stage reporting fields, primary-sample definitions, robustness-variant slots, and condition-balance placeholders, and the asset plan now records its filename.
 - The package now also contains a concrete Appendix D draft: the supporting-evidence layer has been externalized into a dedicated appendix template for manipulation checks, construct-separability diagnostics, secondary outcomes, and bounded robustness checks, and the asset plan now records its filename.
 - The package now also contains a concrete main-text table layer: the four planned manuscript tables have been externalized into a dedicated results-shell file covering descriptive statistics, headline treatment effects, mechanism-path reporting, and bounded secondary/robustness displays.
+- The replication-package layer now also has a concrete scaffold: a manifest links the existing draft assets into one package entrypoint, and a codebook shell now fixes the study-level variable dictionary structure before the final dataset exists.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
