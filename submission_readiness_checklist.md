@@ -44,6 +44,7 @@ This checklist converts the current manuscript package into a pre-submission wor
 
 ## References and source hygiene
 - [ ] Use `manuscript_reference_audit.md` to confirm the references list still matches the in-text citation set after any draft changes.
+- [ ] Run `replication_package/scripts/check_reference_formatting.py` before the final bounded bibliography cleanup pass.
 - [ ] Use `manuscript_reference_cleanup_notes.md` to run one bounded bibliography style-normalization pass once the target journal is fixed.
 - [ ] Verify DOI formatting and journal names in the reference list.
 - [ ] Use `manuscript_citation_crosswalk.md` to confirm that any citation-role changes are intentional rather than accidental.

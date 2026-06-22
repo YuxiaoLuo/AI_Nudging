@@ -13,6 +13,7 @@ This file captures the most likely reference-style cleanup tasks remaining in th
 ## Current reference count
 - The draft currently contains 12 references.
 - The current references section matches the in-text citation set exactly.
+- The current references also have uniform full DOI URLs, and the simple alphabetical-order drift in the `Wang` entries has now been corrected.
 
 ## Cleanup principle
 - Do not change the substantive citation set during a style-only pass unless the main text changes.
@@ -47,7 +48,7 @@ The current list already uses a consistent initials-based pattern, but a final s
 - alphabetization behavior for `de Cicco`
 
 ### 4. Alphabetical ordering should be rechecked after any future bibliography edits
-The current order is broadly alphabetical, but a final pass should verify the exact placement logic for:
+The current order is now clean at a first-pass level, but any later bibliography edits should still verify the exact placement logic for:
 - `de Cicco`
 - repeated first authors such as `Wang`
 

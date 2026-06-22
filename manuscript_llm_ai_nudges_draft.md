@@ -170,8 +170,8 @@ Ursu, R. M. (2018). The power of rankings: Quantifying the effect of rankings on
 
 Wang, W., & Benbasat, I. (2007). Recommendation agents for electronic commerce: Effects of explanation facilities on trusting beliefs. *Journal of Management Information Systems*. https://doi.org/10.2753/MIS0742-1222230420
 
-Wang, W., & Wang, M. (2019). Effects of sponsorship disclosure on perceived integrity of biased recommendation agents: Psychological contract violation and knowledge-based trust perspectives. *Information Systems Research*. https://doi.org/10.1287/isre.2018.0811
-
 Wang, W., Xu, J. D., & Wang, M. (2018). Effects of recommendation neutrality and sponsorship disclosure on trust vs. distrust in online recommendation agents: Moderating role of explanations for organic recommendations. *Management Science*. https://doi.org/10.1287/mnsc.2017.2906
+
+Wang, W., & Wang, M. (2019). Effects of sponsorship disclosure on perceived integrity of biased recommendation agents: Psychological contract violation and knowledge-based trust perspectives. *Information Systems Research*. https://doi.org/10.1287/isre.2018.0811
 
 Xiao, B., & Benbasat, I. (2007). E-commerce product recommendation agents: Use, characteristics, and impact. *MIS Quarterly*. https://doi.org/10.2307/25148784

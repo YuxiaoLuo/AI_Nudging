@@ -22,6 +22,10 @@ These files define the intended analysis workflow before a final implementation 
   - lightweight local check for whether repo-relative file references in package docs still exist
   - default docs: `../../README.md` and `../../manuscript_package_index.md`
   - useful when package entrypoints are edited and you want to catch stale file pointers quickly
+- `check_reference_formatting.py`
+  - lightweight local audit for reference-list ordering, DOI URL consistency, and a few bounded style-normalization risks
+  - default target: `../../manuscript_llm_ai_nudges_draft.md`
+  - useful before the final journal-style bibliography pass so cleanup stays disciplined rather than ad hoc
 - `validation_workflow.md`
   - compact guide for when to run the current lightweight checks and what each one covers
 
