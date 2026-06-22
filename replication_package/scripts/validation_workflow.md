@@ -70,6 +70,8 @@ python3 replication_package/scripts/check_reference_formatting.py manuscript_llm
 2. Use its `--report-md` flag when you want the current validation state preserved as a handoff artifact rather than left only in terminal output.
    The saved report also records generation time, repository head, and input file fingerprints so later sessions can judge whether the snapshot is stale.
 3. Use `check_validation_snapshot_freshness.py` when you want to test whether the saved snapshot is still trustworthy before deciding to rerun the full suite.
+   Treat the tracked manuscript and package-doc fingerprints as the actual freshness criterion, while reading any repository-HEAD drift as provenance about changes made after the snapshot was written.
+   If useful, write that decision to disk with `--freshness-report-md manuscript_package_validation_freshness.md`.
 4. Run `check_package_links.py` separately only when you are editing package-facing docs and want a faster targeted recheck.
 5. Run `check_reference_alignment.py` separately only when you changed citations or the references section and do not need the full suite.
 6. Run `check_reference_formatting.py` separately when the citation set is stable and the next step is bounded bibliography cleanup rather than theory expansion.

@@ -4,14 +4,14 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-22T22:22:52+00:00`
-- Repository HEAD at generation: `82ac8042725693f0ef72c7a665e087a5fa364a81`
+- Generated at (UTC): `2026-06-22T22:54:14+00:00`
+- Repository HEAD at generation: `611888a4ab5d86b2e6544b945cfa37753680895a`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `9b68409e8332`
-- `README.md`: sha256 `a42b2c896673`
-- `manuscript_package_index.md`: sha256 `9d6efaeebe88`
-- `submission_readiness_checklist.md`: sha256 `211c851ebedf`
+- `README.md`: sha256 `7081bb1dd355`
+- `manuscript_package_index.md`: sha256 `d70f49e5bebc`
+- `submission_readiness_checklist.md`: sha256 `4d35f6712f41`
 
 ## Current validation target
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
@@ -27,15 +27,15 @@ This file records one lightweight validation-suite snapshot for the current manu
 - Output:
 ```text
 Doc: README.md
-Referenced package paths: 20
+Referenced package paths: 21
 Missing targets: 0
 
 Doc: manuscript_package_index.md
-Referenced package paths: 28
+Referenced package paths: 29
 Missing targets: 0
 
 Doc: submission_readiness_checklist.md
-Referenced package paths: 18
+Referenced package paths: 19
 Missing targets: 0
 ```
 

@@ -29,6 +29,8 @@ This folder is a draft replication-package scaffold for the nudging manuscript. 
 
 ### 4. Core analysis scripts
 - Current linked draft assets:
+  - `../manuscript_package_validation_report.md`
+  - `../manuscript_package_validation_freshness.md`
   - `scripts/README.md`
   - `scripts/run_validation_suite.py`
   - `scripts/check_validation_snapshot_freshness.py`
@@ -71,6 +73,7 @@ replication_package/
 - Screening logic: scaffolded
 - Results table shells: scaffolded in `../results_table_shells.md`
 - Core analysis scripts: scaffolded
+- Validation and freshness artifacts: scaffolded and current
 - Replication directory structure: scaffolded
 - Shareable data objects: pending
 

@@ -8,6 +8,7 @@ import hashlib
 import re
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -40,6 +41,59 @@ def parse_report(report_path: Path) -> tuple[str | None, list[tuple[str, str]]]:
     return saved_head, fingerprints
 
 
+def markdown_report(
+    report_path: Path,
+    repo_root: Path,
+    saved_head: str | None,
+    current_head: str | None,
+    comparisons: list[tuple[str, str, str, str | None]],
+    stale: bool,
+    head_drift: bool,
+) -> str:
+    generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    lines = [
+        "# Manuscript Package Validation Freshness Report",
+        "",
+        "## Purpose",
+        "This file records whether the saved manuscript-package validation snapshot still matches the current repository state.",
+        "",
+        "## Freshness metadata",
+        f"- Generated at (UTC): `{generated_at}`",
+        f"- Repository root: `{repo_root}`",
+        f"- Validation snapshot checked: `{report_path}`",
+    ]
+    if saved_head:
+        lines.append(f"- Saved snapshot HEAD: `{saved_head}`")
+    if current_head:
+        lines.append(f"- Current repository HEAD: `{current_head}`")
+    lines.append(f"- Repository HEAD drift since snapshot: `{'YES' if head_drift else 'NO'}`")
+    lines.extend(
+        [
+            "",
+            "## Tracked input comparison",
+        ]
+    )
+    for rel_path, status, saved_hash, current_hash in comparisons:
+        if current_hash is None:
+            lines.append(f"- `{rel_path}`: `{status}` (saved `{saved_hash}`, current file missing)")
+        else:
+            lines.append(f"- `{rel_path}`: `{status}` (saved `{saved_hash}`, current `{current_hash}`)")
+    lines.extend(
+        [
+            "",
+            "## Result",
+            f"- Snapshot freshness: `{'CURRENT' if not stale else 'STALE'}`",
+        ]
+    )
+    if stale:
+        lines.append("- Action: rerun `replication_package/scripts/run_validation_suite.py --report-md manuscript_package_validation_report.md` before relying on the saved snapshot.")
+    else:
+        lines.append("- Action: the saved validation snapshot is currently trustworthy for package handoff and quick orientation.")
+        if head_drift:
+            lines.append("- Note: repository HEAD changed after the snapshot was written, but the tracked manuscript/package inputs still match.")
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -52,14 +106,21 @@ def main() -> int:
         default="manuscript_package_validation_report.md",
         help="Path to the saved validation snapshot markdown file.",
     )
+    parser.add_argument(
+        "--freshness-report-md",
+        help="Optional path to write a markdown freshness report.",
+    )
     args = parser.parse_args()
 
     repo_root = Path(args.repo_root).resolve()
     report_path = Path(args.report_md).resolve()
+    freshness_report_path = Path(args.freshness_report_md).resolve() if args.freshness_report_md else None
     saved_head, fingerprints = parse_report(report_path)
     current_head = git_head(repo_root)
 
     stale = False
+    head_drift = False
+    comparisons: list[tuple[str, str, str, str | None]] = []
     print(f"Report: {report_path}")
     if saved_head:
         print(f"Saved HEAD: {saved_head}")
@@ -67,7 +128,7 @@ def main() -> int:
         print(f"Current HEAD: {current_head}")
         if saved_head and saved_head != current_head:
             print("- Repository HEAD differs from the saved snapshot.")
-            stale = True
+            head_drift = True
 
     print("\nTracked input comparison:")
     for rel_path, saved_hash in fingerprints:
@@ -75,16 +136,27 @@ def main() -> int:
         if not abs_path.exists():
             print(f"- {rel_path}: MISSING (saved sha256 {saved_hash})")
             stale = True
+            comparisons.append((rel_path, "MISSING", saved_hash, None))
             continue
         current_hash = sha256_prefix(abs_path)
         status = "MATCH" if current_hash == saved_hash else "CHANGED"
         print(f"- {rel_path}: {status} (saved {saved_hash}, current {current_hash})")
         if current_hash != saved_hash:
             stale = True
+        comparisons.append((rel_path, status, saved_hash, current_hash))
+
+    if freshness_report_path:
+        freshness_report_path.write_text(
+            markdown_report(report_path, repo_root, saved_head, current_head, comparisons, stale, head_drift)
+        )
 
     if stale:
         print("\nSnapshot freshness: STALE")
         return 1
+
+    if head_drift:
+        print("\nSnapshot freshness: CURRENT (tracked inputs match; HEAD drift noted)")
+        return 0
 
     print("\nSnapshot freshness: CURRENT")
     return 0

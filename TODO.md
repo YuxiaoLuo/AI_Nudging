@@ -126,6 +126,8 @@
 - [x] Generate and preserve a current manuscript-package validation snapshot from the one-command suite
 - [x] Add provenance metadata to the saved validation snapshot so later sessions can judge freshness without rerunning the suite first
 - [x] Add a helper that checks whether the saved validation snapshot is stale against the current repo head and tracked package files
+- [x] Add and expose a package-facing freshness-decision artifact so later sessions can see immediately whether the saved validation snapshot is still current
+- [x] Tighten the validation helpers so doc-local package links validate correctly and saved freshness decisions do not fail solely because the repo HEAD later moved
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

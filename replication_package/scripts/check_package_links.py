@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check whether repo-relative file references in package docs exist on disk."""
+"""Check whether package-doc file references exist on disk."""
 
 from __future__ import annotations
 
@@ -28,7 +28,8 @@ def check_doc(doc_path: Path, repo_root: Path) -> tuple[list[str], list[str]]:
     found = extract_paths(text)
     missing: list[str] = []
     for rel in found:
-        if not (repo_root / rel).exists():
+        candidate = (doc_path.parent / rel).resolve()
+        if not candidate.exists():
             missing.append(rel)
     return found, missing
 

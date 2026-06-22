@@ -19,7 +19,7 @@ These files define the intended analysis workflow before a final implementation 
   - useful during package cleanup before a full journal-style bibliography pass
   - default target: `../../manuscript_llm_ai_nudges_draft.md`
 - `check_package_links.py`
-  - lightweight local check for whether repo-relative file references in package docs still exist
+  - lightweight local check for whether package-doc file references still exist when resolved from each document's own location
   - default docs: `../../README.md` and `../../manuscript_package_index.md`
   - useful when package entrypoints are edited and you want to catch stale file pointers quickly
 - `check_reference_formatting.py`
@@ -35,6 +35,8 @@ These files define the intended analysis workflow before a final implementation 
   - checks whether the saved markdown validation snapshot still matches the current repo head and tracked file fingerprints
   - default report: `../../manuscript_package_validation_report.md`
   - useful when you want to trust the saved snapshot without rerunning the full validation suite
+  - treats tracked manuscript/package inputs as the freshness criterion while still surfacing repository-HEAD drift as provenance
+  - optional `--freshness-report-md` flag writes that freshness decision into a reusable markdown artifact
 - `validation_workflow.md`
   - compact guide for when to run the current lightweight checks and what each one covers
 
