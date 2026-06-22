@@ -12,6 +12,8 @@ This file is the quickest entrypoint to the current manuscript package for the n
   - `manuscript_citation_crosswalk.md`
 - Reference-list alignment audit:
   - `manuscript_reference_audit.md`
+- Reference-style cleanup notes:
+  - `manuscript_reference_cleanup_notes.md`
 - Submission workflow:
   - `submission_readiness_checklist.md`
 - Main-text results table shells:
@@ -50,13 +52,14 @@ This file is the quickest entrypoint to the current manuscript package for the n
 2. `manuscript_asset_plan.md`
 3. `manuscript_citation_crosswalk.md`
 4. `manuscript_reference_audit.md`
-5. `figures/figure1_conceptual_model.html`
-6. `figures/figure2_treatment_materials.html`
-7. `appendix_a_stimuli_and_treatment_materials.md`
-8. `appendix_b_measurement_instrument.md`
-9. `results_table_shells.md`
-10. `submission_readiness_checklist.md`
-11. `replication_package/README.md`
+5. `manuscript_reference_cleanup_notes.md`
+6. `figures/figure1_conceptual_model.html`
+7. `figures/figure2_treatment_materials.html`
+8. `appendix_a_stimuli_and_treatment_materials.md`
+9. `appendix_b_measurement_instrument.md`
+10. `results_table_shells.md`
+11. `submission_readiness_checklist.md`
+12. `replication_package/README.md`
 
 ## Maintenance rule
 - When a new manuscript-facing asset is created, add it here if a reviewer, coauthor, or future session would reasonably need it as part of the package walkthrough.

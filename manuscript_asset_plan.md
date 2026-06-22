@@ -10,6 +10,8 @@ This file converts the manuscript's current reporting commitments into a concret
   - `manuscript_citation_crosswalk.md`
 - Reference-list alignment audit:
   - `manuscript_reference_audit.md`
+- Reference-style cleanup notes:
+  - `manuscript_reference_cleanup_notes.md`
 - Submission workflow:
   - `submission_readiness_checklist.md`
 
@@ -187,3 +189,4 @@ This file converts the manuscript's current reporting commitments into a concret
 - If the manuscript's reporting promises change, update this file rather than rediscovering the commitments from the prose each time.
 - Use the citation crosswalk during reference cleanup so the anchor hierarchy and local-file matches do not have to be reconstructed from scratch.
 - Use the reference audit to distinguish citation-list alignment work from local-PDF archiving work.
+- Use the reference cleanup notes to separate style normalization from citation verification and source retrieval.
