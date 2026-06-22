@@ -31,6 +31,7 @@ This folder is a draft replication-package scaffold for the nudging manuscript. 
 - Current linked draft assets:
   - `scripts/README.md`
   - `scripts/check_reference_alignment.py`
+  - `scripts/check_package_links.py`
   - `scripts/01_screening_shell.md`
   - `scripts/02_constructs_shell.md`
   - `scripts/03_main_results_shell.md`

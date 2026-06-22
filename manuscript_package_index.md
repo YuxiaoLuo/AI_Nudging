@@ -42,6 +42,8 @@ This file is the quickest entrypoint to the current manuscript package for the n
   - `replication_package/codebook_shell.md`
 - Analysis workflow shells:
   - `replication_package/scripts/README.md`
+  - `replication_package/scripts/check_package_links.py`
+  - `replication_package/scripts/check_reference_alignment.py`
   - `replication_package/scripts/01_screening_shell.md`
   - `replication_package/scripts/02_constructs_shell.md`
   - `replication_package/scripts/03_main_results_shell.md`
