@@ -22,6 +22,8 @@ These files define the intended analysis workflow before a final implementation 
   - lightweight local check for whether repo-relative file references in package docs still exist
   - default docs: `../../README.md` and `../../manuscript_package_index.md`
   - useful when package entrypoints are edited and you want to catch stale file pointers quickly
+- `validation_workflow.md`
+  - compact guide for when to run the current lightweight checks and what each one covers
 
 ## Rule
 - When the final analysis language is chosen, each shell should be translated into one real script while preserving the same numbering and responsibility split.

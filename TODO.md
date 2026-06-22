@@ -117,6 +117,7 @@
 - [x] Add an explicit bibliography workflow to the submission-readiness checklist
 - [x] Add a reusable script that checks manuscript citation/reference alignment automatically
 - [x] Add a reusable script that checks whether core package-doc file pointers still resolve
+- [x] Add a compact validation-workflow guide for the current lightweight package checks
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

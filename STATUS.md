@@ -175,6 +175,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The submission-readiness checklist now also contains an explicit bibliography workflow that points to the reference audit, cleanup notes, citation crosswalk, and download-log fallback routes, so the package now has a clearer execution path for final reference work rather than only separate supporting files.
 - The replication-package scripts layer now also includes a working `check_reference_alignment.py` helper that successfully verifies the current manuscript draft has 12 cited references, 12 matching reference entries, and no unmatched citation tokens, reducing the need to rerun the bibliography audit manually after future draft changes.
 - The replication-package scripts layer now also includes a working `check_package_links.py` helper that confirms the current `README.md` and `manuscript_package_index.md` package pointers resolve cleanly, reducing the risk of silent drift in the package entrypoints as more assets accumulate.
+- The replication-package scripts layer now also has a compact `validation_workflow.md` guide that sequences the current lightweight checks and links them into the submission checklist, making the package-verification routine more reusable and less dependent on reconstructing the intended order from scattered notes.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
@@ -184,4 +185,4 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 1. Pause routine manuscript-side polishing unless a concrete reviewer-facing gap, awkward passage, or missing anchor becomes visible on a later pass.
 2. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.
 3. Preserve momentum by shifting future effort toward clearly additive tasks such as reference cleanup, citation verification, and asset creation from the new packaging plan rather than additional low-yield prose churn.
-4. Use the explicit bibliography workflow in `submission_readiness_checklist.md`, together with the new script helpers, to decide whether the next reference step is style normalization or alternate-context retrieval for the two already-confirmed bridge citations.
+4. Use the explicit validation and bibliography workflows in `submission_readiness_checklist.md`, together with the new script helpers, to decide whether the next package step is style normalization, alternate-context PDF retrieval, or further executable package checks.
