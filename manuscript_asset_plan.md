@@ -59,6 +59,7 @@ This file converts the manuscript's current reporting commitments into a concret
 
 ### Figure 1. Conceptual model
 - Status: required
+- Draft asset: `figures/figure1_conceptual_model.html`
 - Purpose:
   - Visualize the core tradeoff model linking conversational guidance to the benefit route and the transparency-risk route.
 - Core paths:

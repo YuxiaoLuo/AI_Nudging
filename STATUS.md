@@ -152,6 +152,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - A full fresh reread of the manuscript now also suggests that additional line-level polishing should pause by default; the current draft reads coherently enough that further edits are more likely to create churn than meaningful gain unless a concrete reviewer-facing gap appears.
 - The formal manuscript draft now also includes a working references section covering the papers cited in the current text, so the file reads more like a complete manuscript package rather than a citation-bearing draft without a back-end bibliography.
 - The project now also has a dedicated manuscript asset plan that translates the draft's existing promises about tables, figures, appendices, and replication materials into one explicit packaging checklist, reducing the need to rediscover those commitments from scattered prose.
+- The packaging work has now also moved from planning into asset creation: a first draft of `Figure 1` exists as a standalone HTML/SVG conceptual-model artifact, and the asset plan now records its filename directly.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

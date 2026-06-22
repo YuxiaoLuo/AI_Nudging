@@ -94,6 +94,7 @@
 - [x] Draft expected contributions
 - [x] Add a working references section to the formal manuscript draft so the document has a complete manuscript-style back end
 - [x] Create a dedicated manuscript asset plan that maps required tables, figures, appendices, and replication-package components from the current draft
+- [x] Create a first draft of Figure 1 as a standalone conceptual-model asset and record its filename in the packaging plan
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

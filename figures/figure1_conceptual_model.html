@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figure 1. Conceptual Model</title>
+  <style>
+    :root {
+      --bg: #f7f4ee;
+      --ink: #1f2933;
+      --muted: #52606d;
+      --line: #8d99a6;
+      --benefit: #d7eadf;
+      --risk: #f6d9d3;
+      --outcome: #e7e1f4;
+      --treatment: #dce8f6;
+      --border: #3e4c59;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .wrap {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0 0 16px;
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    svg {
+      width: 100%;
+      height: auto;
+      display: block;
+      background: #fffdfa;
+      border: 1.5px solid #d9d2c5;
+    }
+
+    .box {
+      stroke: var(--border);
+      stroke-width: 2;
+      rx: 18;
+      ry: 18;
+    }
+
+    .group {
+      fill: none;
+      stroke: #c5b9a4;
+      stroke-width: 2;
+      stroke-dasharray: 10 8;
+      rx: 24;
+      ry: 24;
+    }
+
+    .label {
+      font-size: 22px;
+      font-weight: 700;
+      fill: var(--ink);
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+
+    .small {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .group-title {
+      font-size: 20px;
+      font-weight: 700;
+      fill: var(--muted);
+    }
+
+    .path-label {
+      font-size: 16px;
+      font-weight: 700;
+      fill: var(--muted);
+      text-anchor: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Figure 1. Conceptual Model</h1>
+    <p>
+      The model treats the conversational-versus-UI contrast as theoretically central and links
+      conversational guidance to a benefit route, a transparency-risk route, and a direct purchase-likelihood path.
+    </p>
+
+    <svg viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+      <title id="title">Conceptual model for LLM conversational nudges</title>
+      <desc id="desc">A diagram showing a conversational AI nudge leading to personalization, lower cognitive load, higher choice confidence, perceived decision quality, lower transparency, and purchase likelihood.</desc>
+
+      <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z" fill="#6b7280"></path>
+        </marker>
+      </defs>
+
+      <path d="M 270 260 C 345 260, 355 260, 430 260" fill="none" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"></path>
+      <path d="M 590 260 C 665 260, 675 260, 750 260" fill="none" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"></path>
+      <path d="M 910 260 C 985 260, 995 260, 1070 260" fill="none" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"></path>
+      <path d="M 270 260 C 370 410, 640 575, 1070 620" fill="none" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"></path>
+      <path d="M 270 250 C 470 185, 830 235, 1070 425" fill="none" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"></path>
+      <path d="M 270 260 C 405 430, 405 620, 430 620" fill="none" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"></path>
+      <path d="M 590 620 C 745 620, 855 620, 1070 620" fill="none" stroke="#6b7280" stroke-width="4" marker-end="url(#arrow)"></path>
+
+      <rect x="355" y="120" width="660" height="220" class="group"></rect>
+      <rect x="355" y="500" width="410" height="220" class="group"></rect>
+      <text x="385" y="150" class="group-title">Benefit route</text>
+      <text x="385" y="530" class="group-title">Transparency-risk route</text>
+
+      <rect x="70" y="190" width="200" height="140" class="box" fill="var(--treatment)"></rect>
+      <text x="170" y="235" class="label">LLM</text>
+      <text x="170" y="270" class="label">conversational</text>
+      <text x="170" y="305" class="label">AI nudge</text>
+
+      <rect x="430" y="190" width="160" height="140" class="box" fill="var(--benefit)"></rect>
+      <text x="510" y="245" class="label">Perceived</text>
+      <text x="510" y="285" class="label">personalization</text>
+
+      <rect x="750" y="190" width="160" height="140" class="box" fill="var(--benefit)"></rect>
+      <text x="830" y="245" class="label">Lower</text>
+      <text x="830" y="285" class="label">cognitive load</text>
+
+      <rect x="1070" y="190" width="180" height="140" class="box" fill="var(--benefit)"></rect>
+      <text x="1160" y="245" class="label">Higher</text>
+      <text x="1160" y="285" class="label">choice confidence</text>
+
+      <rect x="430" y="550" width="160" height="140" class="box" fill="var(--risk)"></rect>
+      <text x="510" y="605" class="label">Lower</text>
+      <text x="510" y="645" class="label">transparency</text>
+
+      <rect x="1070" y="550" width="180" height="140" class="box" fill="var(--outcome)"></rect>
+      <text x="1160" y="595" class="label">Perceived</text>
+      <text x="1160" y="635" class="label">decision quality</text>
+
+      <rect x="1070" y="390" width="180" height="110" class="box" fill="var(--outcome)"></rect>
+      <text x="1160" y="428" class="label">Purchase</text>
+      <text x="1160" y="466" class="label">likelihood</text>
+
+      <text x="350" y="240" class="path-label">+</text>
+      <text x="670" y="240" class="path-label">-</text>
+      <text x="990" y="240" class="path-label">+</text>
+      <text x="740" y="505" class="path-label">+</text>
+      <text x="338" y="470" class="path-label">-</text>
+      <text x="680" y="612" class="path-label">-</text>
+      <text x="705" y="305" class="path-label">+</text>
+
+      <text x="770" y="380" class="path-label small">direct behavioral path</text>
+    </svg>
+  </div>
+</body>
+</html>
