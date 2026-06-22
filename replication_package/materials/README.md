@@ -4,3 +4,4 @@ Use this folder for study-facing materials that belong inside the replication pa
 
 - `stimuli/`: packaged scenario text, product grids, or treatment wording
 - `screenshots/`: shareable interface captures or exported mockups
+- `manifest.md`: links the current authoritative manuscript-facing material assets

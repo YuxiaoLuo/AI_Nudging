@@ -153,6 +153,7 @@ This file converts the manuscript's current reporting commitments into a concret
   - `replication_package/scripts/04_robustness_shell.md`
   - `replication_package/data/README.md`
   - `replication_package/materials/README.md`
+  - `replication_package/materials/manifest.md`
   - `replication_package/outputs/README.md`
 - Minimum package:
   - treatment materials

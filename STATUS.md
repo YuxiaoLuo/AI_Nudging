@@ -163,6 +163,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The replication-package layer now also has a concrete analysis-workflow scaffold: four language-agnostic script shells now define the screening, construct-scoring, main-results, and robustness workflow before a final implementation language is chosen.
 - The manuscript package now also has a single top-level entrypoint: a package-index file and updated repo README now link the draft, figures, appendices, table shells, and replication scaffold so the current package is much easier to navigate as one coherent bundle.
 - The replication-package layer now also has a real directory skeleton: data, materials, and output folders all exist with local readmes, reducing later ambiguity about where shareable inputs, generated tables, screenshots, and processed datasets should live.
+- The replication-package materials layer now also has a concrete manifest that points from the package folder to the current authoritative stimuli and figure assets, reducing ambiguity about which repo files presently serve as the release-ready material sources.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
