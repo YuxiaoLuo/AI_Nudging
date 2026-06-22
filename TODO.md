@@ -112,6 +112,7 @@
 - [x] Clarify in the citation crosswalk which unresolved bridge citations are bibliographically confirmed versus backed by authoritative local PDFs
 - [x] Create a manuscript reference audit that confirms the current in-text citation set matches the draft references section
 - [x] Update the literature download log with the latest failed archive attempt for the two already-confirmed bridge citations
+- [x] Record concrete fallback retrieval routes for the two already-confirmed bridge citations that still lack authoritative local PDFs
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

@@ -170,6 +170,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The citation crosswalk now also distinguishes `citation confirmed from project records` from `local PDF archived`, which narrows the remaining bridge-citation cleanup task by showing that Xiao and Benbasat (2007) and Ebrahimi et al. (2022) are bibliographically confirmed even though authoritative local PDFs are still missing.
 - The manuscript package now also has a concrete reference audit showing that the current in-text citation set and the draft references section are aligned, which narrows the remaining bibliography work to style cleanup and local-PDF archiving rather than citation-list mismatch repair.
 - The literature log and citation files now also record that the latest archive attempt for Xiao and Benbasat (2007) and Ebrahimi et al. (2022) failed because the relevant download routes were access-blocked or unavailable from this environment, which narrows the remaining gap further from `what is the right paper?` to `where can an authoritative PDF actually be retrieved?`
+- The literature log now also preserves concrete fallback routes for those two missing bridge PDFs, so any later manual-access or alternate-environment retrieval attempt can start from specific MISQ, Taylor & Francis, and ResearchGate URLs instead of repeating discovery work.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
@@ -179,4 +180,4 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 1. Pause routine manuscript-side polishing unless a concrete reviewer-facing gap, awkward passage, or missing anchor becomes visible on a later pass.
 2. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.
 3. Preserve momentum by shifting future effort toward clearly additive tasks such as reference cleanup, citation verification, and asset creation from the new packaging plan rather than additional low-yield prose churn.
-4. Use the new reference audit, citation crosswalk, and download-log notes to decide whether the next bibliography step is style cleanup or a different retrieval route for the two already-confirmed bridge citations.
+4. Use the new reference audit, citation crosswalk, and download-log notes to decide whether the next bibliography step is style cleanup or trying the recorded fallback retrieval routes for the two already-confirmed bridge citations from a different access context.

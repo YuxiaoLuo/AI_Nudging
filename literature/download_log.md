@@ -129,6 +129,15 @@ Outcome:
 - Keep both papers on the `citation confirmed but local PDF not yet archived` list.
 - Do not treat nearby local placeholder files as authoritative substitutes.
 
+Manual-access routes worth keeping for a later retrieval attempt:
+- Xiao and Benbasat (2007):
+  - MIS Quarterly PDF route surfaced by search: `https://misq.umn.edu/misq/article-pdf/31/1/137/5188/7_xiaobenbasat.pdf`
+  - ResearchGate full-text page surfaced by search: `https://www.researchgate.net/publication/220260358_E-Commerce_Product_Recommendation_Agents_Use_Characteristics_and_Impact`
+- Ebrahimi et al. (2022):
+  - Taylor & Francis PDF route surfaced by search: `https://www.tandfonline.com/doi/pdf/10.1080/07421222.2022.2096549`
+  - Taylor & Francis abstract page surfaced by search: `https://www.tandfonline.com/doi/abs/10.1080/07421222.2022.2096549`
+  - ResearchGate article page surfaced by search: `https://www.researchgate.net/publication/363016491_The_Impact_of_Trust_and_Recommendation_Quality_on_Adopting_Interactive_and_Non-Interactive_Recommendation_Agents_A_Meta-Analysis`
+
 ## 2026-04-22 request: Marketing Science paper on ChatGPT referrals
 Requested paper:
 - Kaiser, M., & Schulze, C. (2026). *Frontiers: ChatGPT Referrals to E-Commerce Websites: How Do LLMs Compare Against Traditional Channels?* Marketing Science. DOI: https://doi.org/10.1287/mksc.2025.0489
