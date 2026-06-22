@@ -97,6 +97,7 @@
 - [x] Create a first draft of Figure 1 as a standalone conceptual-model asset and record its filename in the packaging plan
 - [x] Create a first draft of Figure 2 as a standalone treatment-materials asset and record its filename in the packaging plan
 - [x] Create a first draft of Appendix B as a standalone measurement-instrument asset and record its filename in the packaging plan
+- [x] Create a first draft of Appendix A as a standalone stimuli-and-treatment-materials asset and record its filename in the packaging plan
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

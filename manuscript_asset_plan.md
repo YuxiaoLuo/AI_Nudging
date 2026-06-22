@@ -93,6 +93,7 @@ This file converts the manuscript's current reporting commitments into a concret
 
 ### Appendix A. Full stimuli and treatment materials
 - Status: effectively required if space permits
+- Draft asset: `appendix_a_stimuli_and_treatment_materials.md`
 - Purpose:
   - Preserve the exact wording and presentation logic for the conversational and UI conditions.
 - Include:
