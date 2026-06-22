@@ -151,6 +151,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The project tracking now also reflects the manuscript's actual stage more accurately: this is no longer primarily a literature-accumulation phase, but a near-frozen draft-polishing phase unless a concrete gap appears.
 - A full fresh reread of the manuscript now also suggests that additional line-level polishing should pause by default; the current draft reads coherently enough that further edits are more likely to create churn than meaningful gain unless a concrete reviewer-facing gap appears.
 - The formal manuscript draft now also includes a working references section covering the papers cited in the current text, so the file reads more like a complete manuscript package rather than a citation-bearing draft without a back-end bibliography.
+- The project now also has a dedicated manuscript asset plan that translates the draft's existing promises about tables, figures, appendices, and replication materials into one explicit packaging checklist, reducing the need to rediscover those commitments from scattered prose.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
@@ -159,4 +160,4 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 ## Next Steps
 1. Pause routine manuscript-side polishing unless a concrete reviewer-facing gap, awkward passage, or missing anchor becomes visible on a later pass.
 2. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.
-3. Preserve momentum by shifting future effort toward clearly additive tasks such as reference cleanup, citation verification, and submission-shaped packaging rather than additional low-yield prose churn.
+3. Preserve momentum by shifting future effort toward clearly additive tasks such as reference cleanup, citation verification, and asset creation from the new packaging plan rather than additional low-yield prose churn.

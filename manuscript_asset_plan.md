@@ -1,0 +1,154 @@
+# Manuscript Asset Plan: LLM Conversational Nudges
+
+## Purpose
+This file converts the manuscript's current reporting commitments into a concrete packaging plan. The goal is to make the paper easier to execute as a submission-shaped package without reopening the core theory or methods framing.
+
+## Main-text tables
+
+### Table 1. Descriptive statistics and correlations
+- Status: required by current manuscript text
+- Purpose:
+  - Report construct means, standard deviations, and correlations before or alongside the structural results.
+  - Give readers a compact view of the support-route and transparency-route variables before the path estimates.
+- Likely contents:
+  - purchase likelihood
+  - perceived decision quality
+  - perceived personalization
+  - cognitive load
+  - choice confidence
+  - perceived transparency
+  - trust
+  - satisfaction
+- Notes:
+  - Keep the confirmatory core constructs visually prominent even if secondary outcomes are retained in the same table.
+
+### Table 2. Headline treatment effects on primary outcomes
+- Status: strongly implied by the current results plan
+- Purpose:
+  - Present the conversational-versus-UI and conversational-versus-control contrasts on purchase likelihood and perceived decision quality.
+  - Keep the paper's central comparison visible rather than burying it inside omnibus treatment tests.
+- Likely contents:
+  - condition means
+  - planned contrasts
+  - confidence intervals
+  - effect sizes where appropriate
+  - stable covariate specification indicator
+
+### Table 3. Mechanism-path results
+- Status: required by the current theory-aligned analysis sequence
+- Purpose:
+  - Report the staged support and opacity pathway evidence.
+  - Show whether conversational guidance increases personalization, reduces cognitive load, increases confidence, and decreases transparency in the expected pattern.
+- Likely contents:
+  - path coefficients
+  - indirect effects
+  - confidence intervals
+  - any residual direct effect reported separately and interpreted cautiously
+
+### Table 4. Secondary outcomes and compact robustness checks
+- Status: optional but likely useful
+- Purpose:
+  - Keep trust, satisfaction, and limited robustness evidence visible without letting them compete with the paper's headline tests.
+- Likely contents:
+  - trust and satisfaction contrasts
+  - brief alternative-screening or alternative-coding checks if used
+- Guardrail:
+  - This table should remain clearly secondary and should not expand into a generic appendix-in-disguise.
+
+## Figures
+
+### Figure 1. Conceptual model
+- Status: required
+- Purpose:
+  - Visualize the core tradeoff model linking conversational guidance to the benefit route and the transparency-risk route.
+- Core paths:
+  - conversational AI nudge -> perceived personalization
+  - perceived personalization -> lower cognitive load
+  - lower cognitive load -> higher choice confidence
+  - choice confidence -> perceived decision quality
+  - conversational AI nudge -> lower perceived transparency
+  - lower perceived transparency -> lower perceived decision quality
+  - conversational AI nudge -> higher purchase likelihood
+
+### Figure 2. Representative treatment materials
+- Status: explicitly committed in the manuscript
+- Purpose:
+  - Show representative screenshots or visual excerpts from the conversational and UI-based nudge conditions.
+- Minimum contents:
+  - conversational assistant view
+  - UI-based badge or highlighted-placement view
+- Guardrail:
+  - Use representative materials, not every screen. The figure should clarify the treatment contrast quickly.
+
+### Figure 3. Sample-flow visualization
+- Status: optional because the manuscript allows either table, appendix flowchart, or short robustness display
+- Purpose:
+  - Make the screening pipeline inspectable if the final write-up benefits from a visual flow rather than a text-only description.
+- Use only if:
+  - the exclusions are numerous enough that prose or a compact appendix table would feel opaque
+
+## Appendices
+
+### Appendix A. Full stimuli and treatment materials
+- Status: effectively required if space permits
+- Purpose:
+  - Preserve the exact wording and presentation logic for the conversational and UI conditions.
+- Include:
+  - shopping scenario
+  - product grid
+  - assistant prompt or scripted exchange
+  - UI badge or recommendation wording
+
+### Appendix B. Full measurement instrument
+- Status: explicitly committed in the manuscript
+- Purpose:
+  - Provide full item wording, reverse-coding direction, and concise scale diagnostics for retained constructs.
+- Include:
+  - all construct items
+  - manipulation checks
+  - control items
+  - coding notes
+
+### Appendix C. Screening and sample-flow details
+- Status: likely required for empirical credibility
+- Purpose:
+  - Show how many responses were removed under each prespecified quality rule and what analyzable sample remained.
+- Include:
+  - initial collected sample
+  - exclusions by rule
+  - final sample by condition
+  - any alternate-screening variants used for robustness
+
+### Appendix D. Supplemental robustness and secondary analyses
+- Status: optional but likely useful
+- Purpose:
+  - Keep confirmatory and secondary evidence clearly separated.
+- Include only:
+  - robustness checks that materially defend the main findings
+  - limited secondary-outcome detail not needed in the main text
+
+## Replication package components
+- Status: conditional on journal policy and data-sharing constraints, but already anticipated in the manuscript
+- Minimum package:
+  - treatment materials
+  - codebook
+  - core analysis scripts
+- Nice-to-have:
+  - mock data dictionary
+  - table/figure generation scripts mapped to manuscript assets
+
+## Priority order
+1. Figure 1 conceptual model
+2. Figure 2 representative treatment materials
+3. Table 1 descriptive statistics and correlations
+4. Table 2 headline treatment effects
+5. Table 3 mechanism-path results
+6. Appendix B full measurement instrument
+7. Appendix C screening and sample-flow details
+8. Appendix A full stimuli
+9. Table 4 or Appendix D for bounded secondary evidence
+
+## Practical use
+- Treat this file as the packaging checklist for future heartbeats.
+- Add asset filenames here once draft tables, figures, or appendices are actually created.
+- If the manuscript's reporting promises change, update this file rather than rediscovering the commitments from the prose each time.
