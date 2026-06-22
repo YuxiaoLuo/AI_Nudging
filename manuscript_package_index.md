@@ -8,6 +8,8 @@ This file is the quickest entrypoint to the current manuscript package for the n
   - `manuscript_llm_ai_nudges_draft.md`
 - References-backed packaging map:
   - `manuscript_asset_plan.md`
+- Submission workflow:
+  - `submission_readiness_checklist.md`
 - Main-text results table shells:
   - `results_table_shells.md`
 
@@ -47,7 +49,8 @@ This file is the quickest entrypoint to the current manuscript package for the n
 5. `appendix_a_stimuli_and_treatment_materials.md`
 6. `appendix_b_measurement_instrument.md`
 7. `results_table_shells.md`
-8. `replication_package/README.md`
+8. `submission_readiness_checklist.md`
+9. `replication_package/README.md`
 
 ## Maintenance rule
 - When a new manuscript-facing asset is created, add it here if a reviewer, coauthor, or future session would reasonably need it as part of the package walkthrough.

@@ -6,4 +6,5 @@ This is the research repository for the AI nudging project.
 - Main manuscript draft: `manuscript_llm_ai_nudges_draft.md`
 - Package index: `manuscript_package_index.md`
 - Asset plan: `manuscript_asset_plan.md`
+- Submission checklist: `submission_readiness_checklist.md`
 - Replication scaffold: `replication_package/README.md`

@@ -6,6 +6,8 @@ This file converts the manuscript's current reporting commitments into a concret
 ## Package entrypoint
 - Current package index:
   - `manuscript_package_index.md`
+- Submission workflow:
+  - `submission_readiness_checklist.md`
 
 ## Main-text tables
 
