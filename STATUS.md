@@ -157,6 +157,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The package now also contains a concrete Appendix B draft: the measurement instrument has been externalized into a dedicated appendix file with construct batteries, reverse-coding notes, manipulation checks, controls, and data-quality screens, and the asset plan now records its filename.
 - The package now also contains a concrete Appendix A draft: the study stimuli and treatment materials have been externalized into a dedicated appendix file with the shopping scenario, shared product set, condition structure, assistant sequence, and static UI wording, and the asset plan now records its filename.
 - The package now also contains a concrete Appendix C draft: the screening and sample-flow logic has been externalized into a dedicated appendix template with stage-by-stage reporting fields, primary-sample definitions, robustness-variant slots, and condition-balance placeholders, and the asset plan now records its filename.
+- The package now also contains a concrete Appendix D draft: the supporting-evidence layer has been externalized into a dedicated appendix template for manipulation checks, construct-separability diagnostics, secondary outcomes, and bounded robustness checks, and the asset plan now records its filename.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

@@ -126,6 +126,7 @@ This file converts the manuscript's current reporting commitments into a concret
 
 ### Appendix D. Supplemental robustness and secondary analyses
 - Status: optional but likely useful
+- Draft asset: `appendix_d_supplemental_robustness.md`
 - Purpose:
   - Keep confirmatory and secondary evidence clearly separated.
 - Include only:
