@@ -121,6 +121,7 @@
 - [x] Surface the lightweight validation workflow from the main package entrypoints so readers can find the verification routine without drilling into the scripts folder
 - [x] Add a reusable script that audits lightweight reference-format consistency before the final journal-style bibliography pass
 - [x] Fix the internal ordering drift in the current `Wang` references so the working bibliography is cleaner before outlet-specific normalization
+- [x] Add a one-command validation-suite wrapper for the current package-link and bibliography checks
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

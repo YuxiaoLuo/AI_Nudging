@@ -26,6 +26,10 @@ These files define the intended analysis workflow before a final implementation 
   - lightweight local audit for reference-list ordering, DOI URL consistency, and a few bounded style-normalization risks
   - default target: `../../manuscript_llm_ai_nudges_draft.md`
   - useful before the final journal-style bibliography pass so cleanup stays disciplined rather than ad hoc
+- `run_validation_suite.py`
+  - one-command wrapper for the current package-link, citation-alignment, and reference-formatting checks
+  - default docs: `../../README.md`, `../../manuscript_package_index.md`, and `../../submission_readiness_checklist.md`
+  - useful when you want one reproducible package-validation pass instead of remembering the helper order manually
 - `validation_workflow.md`
   - compact guide for when to run the current lightweight checks and what each one covers
 

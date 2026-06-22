@@ -30,6 +30,7 @@ This folder is a draft replication-package scaffold for the nudging manuscript. 
 ### 4. Core analysis scripts
 - Current linked draft assets:
   - `scripts/README.md`
+  - `scripts/run_validation_suite.py`
   - `scripts/check_reference_alignment.py`
   - `scripts/check_package_links.py`
   - `scripts/check_reference_formatting.py`

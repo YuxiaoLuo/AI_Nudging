@@ -53,7 +53,8 @@ This checklist converts the current manuscript package into a pre-submission wor
 - [ ] Check that any later literature additions are reflected in both the manuscript and package files where relevant.
 
 ## Final package walk-through
-- [ ] Use `replication_package/scripts/validation_workflow.md` to run the lightweight package checks before the final manual walk-through.
+- [ ] Use `replication_package/scripts/run_validation_suite.py` as the default lightweight package audit before the final manual walk-through.
+- [ ] Use `replication_package/scripts/validation_workflow.md` if you need to rerun or interpret the individual helpers separately.
 - [ ] Start from `manuscript_package_index.md` and verify every linked file still exists and is current.
 - [ ] Confirm `README.md` still points to the right manuscript entrypoints.
 - [ ] Check that the package feels coherent to a new reader rather than only to someone who built it incrementally.
