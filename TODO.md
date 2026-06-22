@@ -118,6 +118,7 @@
 - [x] Add a reusable script that checks manuscript citation/reference alignment automatically
 - [x] Add a reusable script that checks whether core package-doc file pointers still resolve
 - [x] Add a compact validation-workflow guide for the current lightweight package checks
+- [x] Surface the lightweight validation workflow from the main package entrypoints so readers can find the verification routine without drilling into the scripts folder
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

@@ -16,6 +16,8 @@ This file is the quickest entrypoint to the current manuscript package for the n
   - `manuscript_reference_cleanup_notes.md`
 - Submission workflow:
   - `submission_readiness_checklist.md`
+- Lightweight validation workflow:
+  - `replication_package/scripts/validation_workflow.md`
 - Main-text results table shells:
   - `results_table_shells.md`
 
@@ -42,6 +44,7 @@ This file is the quickest entrypoint to the current manuscript package for the n
   - `replication_package/codebook_shell.md`
 - Analysis workflow shells:
   - `replication_package/scripts/README.md`
+  - `replication_package/scripts/validation_workflow.md`
   - `replication_package/scripts/check_package_links.py`
   - `replication_package/scripts/check_reference_alignment.py`
   - `replication_package/scripts/01_screening_shell.md`
@@ -61,7 +64,8 @@ This file is the quickest entrypoint to the current manuscript package for the n
 9. `appendix_b_measurement_instrument.md`
 10. `results_table_shells.md`
 11. `submission_readiness_checklist.md`
-12. `replication_package/README.md`
+12. `replication_package/scripts/validation_workflow.md`
+13. `replication_package/README.md`
 
 ## Maintenance rule
 - When a new manuscript-facing asset is created, add it here if a reviewer, coauthor, or future session would reasonably need it as part of the package walkthrough.

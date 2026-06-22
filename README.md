@@ -11,6 +11,8 @@ This is the research repository for the AI nudging project.
   - `manuscript_asset_plan.md`
 - Submission workflow:
   - `submission_readiness_checklist.md`
+- Lightweight validation workflow:
+  - `replication_package/scripts/validation_workflow.md`
 - Replication scaffold:
   - `replication_package/README.md`
 
@@ -44,9 +46,10 @@ This is the research repository for the AI nudging project.
 1. `manuscript_package_index.md`
 2. `manuscript_llm_ai_nudges_draft.md`
 3. `submission_readiness_checklist.md`
-4. `manuscript_citation_crosswalk.md`
-5. `manuscript_reference_audit.md`
-6. `manuscript_reference_cleanup_notes.md`
+4. `replication_package/scripts/validation_workflow.md`
+5. `manuscript_citation_crosswalk.md`
+6. `manuscript_reference_audit.md`
+7. `manuscript_reference_cleanup_notes.md`
 
 ## Maintenance note
 - When a manuscript-facing asset becomes part of the submission path, update this file and `manuscript_package_index.md` together so the repo front door does not drift behind the actual package.
