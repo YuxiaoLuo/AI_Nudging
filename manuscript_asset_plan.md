@@ -6,6 +6,8 @@ This file converts the manuscript's current reporting commitments into a concret
 ## Package entrypoint
 - Current package index:
   - `manuscript_package_index.md`
+- Citation verification map:
+  - `manuscript_citation_crosswalk.md`
 - Submission workflow:
   - `submission_readiness_checklist.md`
 
@@ -181,3 +183,4 @@ This file converts the manuscript's current reporting commitments into a concret
 - Treat this file as the packaging checklist for future heartbeats.
 - Add asset filenames here once draft tables, figures, or appendices are actually created.
 - If the manuscript's reporting promises change, update this file rather than rediscovering the commitments from the prose each time.
+- Use the citation crosswalk during reference cleanup so the anchor hierarchy and local-file matches do not have to be reconstructed from scratch.

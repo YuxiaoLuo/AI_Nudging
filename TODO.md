@@ -108,6 +108,7 @@
 - [x] Create a replication-package materials manifest that links the current authoritative stimuli and figure assets
 - [x] Create a replication-package outputs manifest that links the current authoritative table and figure assets
 - [x] Create a submission-readiness checklist and link it from the main package entrypoints
+- [x] Create a manuscript citation crosswalk that maps current references to argumentative roles and local source files
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
@@ -115,5 +116,5 @@
 - [x] Update the manuscript blueprint to explicitly promote Wang and Benbasat (2007) into the compact core anchor set while keeping the remaining recommendation-agent bridge papers as support citations unless later evidence suggests otherwise
 - [x] Continue harmonizing the opening, theory, and hypotheses into one fully consistent scientific manuscript voice
 - [ ] Update `literature/download_log.md` every time literature review is performed
-- [ ] Record new questions and resolved decisions in `questions_log.md`
+- [x] Record new questions and resolved decisions in `questions_log.md`
 - [x] Update project status after each meaningful review iteration
