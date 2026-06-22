@@ -161,6 +161,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The package now also contains a concrete main-text table layer: the four planned manuscript tables have been externalized into a dedicated results-shell file covering descriptive statistics, headline treatment effects, mechanism-path reporting, and bounded secondary/robustness displays.
 - The replication-package layer now also has a concrete scaffold: a manifest links the existing draft assets into one package entrypoint, and a codebook shell now fixes the study-level variable dictionary structure before the final dataset exists.
 - The replication-package layer now also has a concrete analysis-workflow scaffold: four language-agnostic script shells now define the screening, construct-scoring, main-results, and robustness workflow before a final implementation language is chosen.
+- The manuscript package now also has a single top-level entrypoint: a package-index file and updated repo README now link the draft, figures, appendices, table shells, and replication scaffold so the current package is much easier to navigate as one coherent bundle.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

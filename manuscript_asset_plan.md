@@ -3,6 +3,10 @@
 ## Purpose
 This file converts the manuscript's current reporting commitments into a concrete packaging plan. The goal is to make the paper easier to execute as a submission-shaped package without reopening the core theory or methods framing.
 
+## Package entrypoint
+- Current package index:
+  - `manuscript_package_index.md`
+
 ## Main-text tables
 
 ### Table 1. Descriptive statistics and correlations
