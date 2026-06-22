@@ -110,6 +110,7 @@
 - [x] Create a submission-readiness checklist and link it from the main package entrypoints
 - [x] Create a manuscript citation crosswalk that maps current references to argumentative roles and local source files
 - [x] Clarify in the citation crosswalk which unresolved bridge citations are bibliographically confirmed versus backed by authoritative local PDFs
+- [x] Create a manuscript reference audit that confirms the current in-text citation set matches the draft references section
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

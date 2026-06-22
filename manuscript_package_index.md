@@ -10,6 +10,8 @@ This file is the quickest entrypoint to the current manuscript package for the n
   - `manuscript_asset_plan.md`
 - Citation-role and local-source crosswalk:
   - `manuscript_citation_crosswalk.md`
+- Reference-list alignment audit:
+  - `manuscript_reference_audit.md`
 - Submission workflow:
   - `submission_readiness_checklist.md`
 - Main-text results table shells:
@@ -47,13 +49,14 @@ This file is the quickest entrypoint to the current manuscript package for the n
 1. `manuscript_llm_ai_nudges_draft.md`
 2. `manuscript_asset_plan.md`
 3. `manuscript_citation_crosswalk.md`
-4. `figures/figure1_conceptual_model.html`
-5. `figures/figure2_treatment_materials.html`
-6. `appendix_a_stimuli_and_treatment_materials.md`
-7. `appendix_b_measurement_instrument.md`
-8. `results_table_shells.md`
-9. `submission_readiness_checklist.md`
-10. `replication_package/README.md`
+4. `manuscript_reference_audit.md`
+5. `figures/figure1_conceptual_model.html`
+6. `figures/figure2_treatment_materials.html`
+7. `appendix_a_stimuli_and_treatment_materials.md`
+8. `appendix_b_measurement_instrument.md`
+9. `results_table_shells.md`
+10. `submission_readiness_checklist.md`
+11. `replication_package/README.md`
 
 ## Maintenance rule
 - When a new manuscript-facing asset is created, add it here if a reviewer, coauthor, or future session would reasonably need it as part of the package walkthrough.

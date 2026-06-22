@@ -8,6 +8,8 @@ This file converts the manuscript's current reporting commitments into a concret
   - `manuscript_package_index.md`
 - Citation verification map:
   - `manuscript_citation_crosswalk.md`
+- Reference-list alignment audit:
+  - `manuscript_reference_audit.md`
 - Submission workflow:
   - `submission_readiness_checklist.md`
 
@@ -184,3 +186,4 @@ This file converts the manuscript's current reporting commitments into a concret
 - Add asset filenames here once draft tables, figures, or appendices are actually created.
 - If the manuscript's reporting promises change, update this file rather than rediscovering the commitments from the prose each time.
 - Use the citation crosswalk during reference cleanup so the anchor hierarchy and local-file matches do not have to be reconstructed from scratch.
+- Use the reference audit to distinguish citation-list alignment work from local-PDF archiving work.
