@@ -65,6 +65,7 @@ replication_package/
 - Screening logic: scaffolded
 - Results table shells: scaffolded in `../results_table_shells.md`
 - Core analysis scripts: scaffolded
+- Replication directory structure: scaffolded
 - Shareable data objects: pending
 
 ## Packaging rule

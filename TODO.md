@@ -104,6 +104,7 @@
 - [x] Create a first draft of the replication-package scaffold, including a manifest and codebook shell, and record those assets in the packaging plan
 - [x] Create a first draft of the replication-package analysis workflow as numbered script shells and record those assets in the packaging plan
 - [x] Create a top-level manuscript package index and update the repo README so the draft assets have one navigable entrypoint
+- [x] Create the replication-package directory skeleton with local readmes for data, materials, and outputs
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
