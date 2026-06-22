@@ -43,7 +43,11 @@ This checklist converts the current manuscript package into a pre-submission wor
 - [ ] Check that reliability and construct-separability evidence are adequate for the retained batteries.
 
 ## References and source hygiene
+- [ ] Use `manuscript_reference_audit.md` to confirm the references list still matches the in-text citation set after any draft changes.
+- [ ] Use `manuscript_reference_cleanup_notes.md` to run one bounded bibliography style-normalization pass once the target journal is fixed.
 - [ ] Verify DOI formatting and journal names in the reference list.
+- [ ] Use `manuscript_citation_crosswalk.md` to confirm that any citation-role changes are intentional rather than accidental.
+- [ ] If authoritative local PDFs are still desired for the two bridge citations, use the fallback routes recorded in `literature/download_log.md` from a different access context rather than restarting discovery work.
 - [ ] Remove any placeholder `TBD` text that remains in package files.
 - [ ] Check that any later literature additions are reflected in both the manuscript and package files where relevant.
 

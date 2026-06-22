@@ -114,6 +114,7 @@
 - [x] Update the literature download log with the latest failed archive attempt for the two already-confirmed bridge citations
 - [x] Record concrete fallback retrieval routes for the two already-confirmed bridge citations that still lack authoritative local PDFs
 - [x] Create reference-cleanup notes that isolate the likely style-normalization work for the current bibliography
+- [x] Add an explicit bibliography workflow to the submission-readiness checklist
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

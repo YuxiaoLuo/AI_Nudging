@@ -172,6 +172,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The literature log and citation files now also record that the latest archive attempt for Xiao and Benbasat (2007) and Ebrahimi et al. (2022) failed because the relevant download routes were access-blocked or unavailable from this environment, which narrows the remaining gap further from `what is the right paper?` to `where can an authoritative PDF actually be retrieved?`
 - The literature log now also preserves concrete fallback routes for those two missing bridge PDFs, so any later manual-access or alternate-environment retrieval attempt can start from specific MISQ, Taylor & Francis, and ResearchGate URLs instead of repeating discovery work.
 - The manuscript package now also has concrete reference-cleanup notes that isolate likely style-normalization tasks for the current 12-entry bibliography, which narrows the next submission-facing bibliography step from open-ended cleanup to one bounded normalization pass.
+- The submission-readiness checklist now also contains an explicit bibliography workflow that points to the reference audit, cleanup notes, citation crosswalk, and download-log fallback routes, so the package now has a clearer execution path for final reference work rather than only separate supporting files.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
@@ -181,4 +182,4 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 1. Pause routine manuscript-side polishing unless a concrete reviewer-facing gap, awkward passage, or missing anchor becomes visible on a later pass.
 2. Use literature review only selectively from this point forward, when a truly missing anchor or reviewer-facing gap becomes concrete.
 3. Preserve momentum by shifting future effort toward clearly additive tasks such as reference cleanup, citation verification, and asset creation from the new packaging plan rather than additional low-yield prose churn.
-4. Use the new reference audit, cleanup notes, citation crosswalk, and download-log notes to decide whether the next bibliography step is a style-normalization pass or trying the recorded fallback retrieval routes for the two already-confirmed bridge citations from a different access context.
+4. Use the explicit bibliography workflow in `submission_readiness_checklist.md` to decide whether the next reference step is style normalization or alternate-context retrieval for the two already-confirmed bridge citations.
