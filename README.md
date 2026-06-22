@@ -25,6 +25,8 @@ This is the research repository for the AI nudging project.
   - `manuscript_citation_crosswalk.md`
 - Reference-list alignment audit:
   - `manuscript_reference_audit.md`
+- Source-archive status audit:
+  - `manuscript_source_archive_audit.md`
 - Reference-format audit:
   - `manuscript_reference_format_audit.md`
 - Reference-style cleanup notes:
@@ -57,8 +59,9 @@ This is the research repository for the AI nudging project.
 6. `replication_package/scripts/validation_workflow.md`
 7. `manuscript_citation_crosswalk.md`
 8. `manuscript_reference_audit.md`
-9. `manuscript_reference_format_audit.md`
-10. `manuscript_reference_cleanup_notes.md`
+9. `manuscript_source_archive_audit.md`
+10. `manuscript_reference_format_audit.md`
+11. `manuscript_reference_cleanup_notes.md`
 
 ## Maintenance note
 - When a manuscript-facing asset becomes part of the submission path, update this file and `manuscript_package_index.md` together so the repo front door does not drift behind the actual package.

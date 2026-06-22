@@ -128,6 +128,7 @@
 - [x] Add a helper that checks whether the saved validation snapshot is stale against the current repo head and tracked package files
 - [x] Add and expose a package-facing freshness-decision artifact so later sessions can see immediately whether the saved validation snapshot is still current
 - [x] Tighten the validation helpers so doc-local package links validate correctly and saved freshness decisions do not fail solely because the repo HEAD later moved
+- [x] Add a dedicated source-archive audit so later sessions can see which cited papers are locally archived versus only bibliographically confirmed
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

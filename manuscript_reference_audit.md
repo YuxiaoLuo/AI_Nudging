@@ -39,6 +39,7 @@ The current main-text citation set is:
 - This file does not certify that every cited work has an authoritative local PDF archived.
 - For source-role mapping and local-file status, use:
   - `manuscript_citation_crosswalk.md`
+  - `manuscript_source_archive_audit.md`
 
 ## Remaining cleanup points
 - `Xiao and Benbasat (2007)` is bibliographically confirmed in project records, but an authoritative local PDF is still not archived.

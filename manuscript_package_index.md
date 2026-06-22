@@ -16,6 +16,8 @@ This file is the quickest entrypoint to the current manuscript package for the n
   - `manuscript_citation_crosswalk.md`
 - Reference-list alignment audit:
   - `manuscript_reference_audit.md`
+- Source-archive status audit:
+  - `manuscript_source_archive_audit.md`
 - Reference-format audit:
   - `manuscript_reference_format_audit.md`
 - Reference-style cleanup notes:
@@ -68,16 +70,17 @@ This file is the quickest entrypoint to the current manuscript package for the n
 4. `manuscript_asset_plan.md`
 5. `manuscript_citation_crosswalk.md`
 6. `manuscript_reference_audit.md`
-7. `manuscript_reference_format_audit.md`
-8. `manuscript_reference_cleanup_notes.md`
-9. `figures/figure1_conceptual_model.html`
-10. `figures/figure2_treatment_materials.html`
-11. `appendix_a_stimuli_and_treatment_materials.md`
-12. `appendix_b_measurement_instrument.md`
-13. `results_table_shells.md`
-14. `submission_readiness_checklist.md`
-15. `replication_package/scripts/validation_workflow.md`
-16. `replication_package/README.md`
+7. `manuscript_source_archive_audit.md`
+8. `manuscript_reference_format_audit.md`
+9. `manuscript_reference_cleanup_notes.md`
+10. `figures/figure1_conceptual_model.html`
+11. `figures/figure2_treatment_materials.html`
+12. `appendix_a_stimuli_and_treatment_materials.md`
+13. `appendix_b_measurement_instrument.md`
+14. `results_table_shells.md`
+15. `submission_readiness_checklist.md`
+16. `replication_package/scripts/validation_workflow.md`
+17. `replication_package/README.md`
 
 ## Maintenance rule
 - When a new manuscript-facing asset is created, add it here if a reviewer, coauthor, or future session would reasonably need it as part of the package walkthrough.
