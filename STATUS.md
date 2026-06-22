@@ -154,6 +154,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The project now also has a dedicated manuscript asset plan that translates the draft's existing promises about tables, figures, appendices, and replication materials into one explicit packaging checklist, reducing the need to rediscover those commitments from scattered prose.
 - The packaging work has now also moved from planning into asset creation: a first draft of `Figure 1` exists as a standalone HTML/SVG conceptual-model artifact, and the asset plan now records its filename directly.
 - The next packaging asset is now also concrete: a first draft of `Figure 2` exists as a standalone treatment-materials mockup showing the conversational and UI-based nudge conditions with the shared `VeroWave M6` focal recommendation, and the asset plan now records that filename as well.
+- The package now also contains a concrete Appendix B draft: the measurement instrument has been externalized into a dedicated appendix file with construct batteries, reverse-coding notes, manipulation checks, controls, and data-quality screens, and the asset plan now records its filename.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

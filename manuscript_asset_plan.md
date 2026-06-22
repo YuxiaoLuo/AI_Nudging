@@ -103,6 +103,7 @@ This file converts the manuscript's current reporting commitments into a concret
 
 ### Appendix B. Full measurement instrument
 - Status: explicitly committed in the manuscript
+- Draft asset: `appendix_b_measurement_instrument.md`
 - Purpose:
   - Provide full item wording, reverse-coding direction, and concise scale diagnostics for retained constructs.
 - Include:
