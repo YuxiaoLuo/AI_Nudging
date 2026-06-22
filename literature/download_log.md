@@ -113,6 +113,22 @@ The five previously missing papers below have now been added to the literature f
 ## Recommended next step
 Keep using this file to track newly identified but unavailable articles in future literature-review passes.
 
+## 2026-06-22 bridge-citation archive check
+I revisited the two remaining bridge citations that are already used in the manuscript but still lack authoritative local PDFs:
+
+- Xiao, B., & Benbasat, I. (2007). *E-Commerce Product Recommendation Agents: Use, Characteristics, and Impact*. MIS Quarterly. https://doi.org/10.2307/25148784
+- Ebrahimi, S., Ghasemaghaei, M., & Benbasat, I. (2022). *The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis*. Journal of Management Information Systems. https://doi.org/10.1080/07421222.2022.2096549
+
+What I verified:
+- Both citations remain bibliographically confirmed in the local project records, including `literature_reading_matrix.md` and the manuscript-side citation files.
+- A direct MIS Quarterly PDF route for Xiao and Benbasat (2007) is discoverable on the open web, but requests from this environment returned `403 Forbidden`, so I could not archive a valid PDF.
+- The live JMIS article page for Ebrahimi et al. (2022) is reachable, but no directly downloadable PDF was exposed through the page from this environment, and alternate routes tested here also failed to yield a valid PDF.
+- ResearchGate and similar alternate-access routes also did not provide a clean downloadable PDF from this environment.
+
+Outcome:
+- Keep both papers on the `citation confirmed but local PDF not yet archived` list.
+- Do not treat nearby local placeholder files as authoritative substitutes.
+
 ## 2026-04-22 request: Marketing Science paper on ChatGPT referrals
 Requested paper:
 - Kaiser, M., & Schulze, C. (2026). *Frontiers: ChatGPT Referrals to E-Commerce Websites: How Do LLMs Compare Against Traditional Channels?* Marketing Science. DOI: https://doi.org/10.1287/mksc.2025.0489

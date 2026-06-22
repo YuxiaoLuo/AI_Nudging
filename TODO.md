@@ -111,6 +111,7 @@
 - [x] Create a manuscript citation crosswalk that maps current references to argumentative roles and local source files
 - [x] Clarify in the citation crosswalk which unresolved bridge citations are bibliographically confirmed versus backed by authoritative local PDFs
 - [x] Create a manuscript reference audit that confirms the current in-text citation set matches the draft references section
+- [x] Update the literature download log with the latest failed archive attempt for the two already-confirmed bridge citations
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

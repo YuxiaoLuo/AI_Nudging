@@ -43,6 +43,7 @@ The current main-text citation set is:
 ## Remaining cleanup points
 - `Xiao and Benbasat (2007)` is bibliographically confirmed in project records, but an authoritative local PDF is still not archived.
 - `Ebrahimi et al. (2022)` is bibliographically confirmed in project records, but an authoritative local PDF is still not archived.
+- The latest archive attempt on `2026-06-22` indicates that the remaining problem is access or download-route availability from this environment rather than a citation-list mismatch.
 - If the manuscript later gains or drops citations, this audit should be refreshed rather than assumed to remain valid.
 
 ## Practical use
