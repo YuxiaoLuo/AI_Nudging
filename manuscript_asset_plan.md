@@ -142,6 +142,11 @@ This file converts the manuscript's current reporting commitments into a concret
 - Draft assets:
   - `replication_package/README.md`
   - `replication_package/codebook_shell.md`
+  - `replication_package/scripts/README.md`
+  - `replication_package/scripts/01_screening_shell.md`
+  - `replication_package/scripts/02_constructs_shell.md`
+  - `replication_package/scripts/03_main_results_shell.md`
+  - `replication_package/scripts/04_robustness_shell.md`
 - Minimum package:
   - treatment materials
   - codebook

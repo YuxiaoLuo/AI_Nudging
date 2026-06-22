@@ -28,8 +28,12 @@ This folder is a draft replication-package scaffold for the nudging manuscript. 
   - document the main confirmatory sample, exclusion workflow, and bounded robustness variants
 
 ### 4. Core analysis scripts
-- Current status:
-  - not yet created
+- Current linked draft assets:
+  - `scripts/README.md`
+  - `scripts/01_screening_shell.md`
+  - `scripts/02_constructs_shell.md`
+  - `scripts/03_main_results_shell.md`
+  - `scripts/04_robustness_shell.md`
 - Intended final role:
   - generate the confirmatory tables, mechanism-path results, and any bounded supplemental outputs linked to the manuscript
 
@@ -60,7 +64,7 @@ replication_package/
 - Measurement instrument: scaffolded
 - Screening logic: scaffolded
 - Results table shells: scaffolded in `../results_table_shells.md`
-- Core analysis scripts: pending
+- Core analysis scripts: scaffolded
 - Shareable data objects: pending
 
 ## Packaging rule
