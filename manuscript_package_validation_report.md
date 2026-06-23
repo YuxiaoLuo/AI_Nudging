@@ -4,17 +4,17 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T06:52:07+00:00`
-- Repository HEAD at generation: `1d66d4ecb85fe1254d59bd8274de96afb5b23030`
+- Generated at (UTC): `2026-06-23T07:22:45+00:00`
+- Repository HEAD at generation: `8ad1cbe956660db780ca5cf0418468a8026732ac`
 
 ## Input fingerprints
-- `manuscript_llm_ai_nudges_draft.md`: sha256 `9b68409e8332`
+- `manuscript_llm_ai_nudges_draft.md`: sha256 `c2774c9f0090`
 - `README.md`: sha256 `83bf31b0cff2`
 - `manuscript_package_index.md`: sha256 `8d2f35ee373d`
 - `submission_readiness_checklist.md`: sha256 `468f1829d843`
 - `replication_package/README.md`: sha256 `bd254a6cf084`
 - `manuscript_reference_audit.md`: sha256 `f2ea9930a433`
-- `manuscript_reference_format_audit.md`: sha256 `89e1ae2fbd24`
+- `manuscript_reference_format_audit.md`: sha256 `ae3fd9947cd2`
 - `manuscript_citation_crosswalk.md`: sha256 `68156b481ff6`
 - `literature/download_log.md`: sha256 `21e1d6a2a2b6`
 - `manuscript_source_archive_audit.md`: sha256 `fbbb44c25240`
@@ -93,34 +93,20 @@ Manuscript: /Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_llm
 Reference entries: 12
 Entries with DOI URLs: 12
 Alphabetical-order warning: no
-Mixed subtitle capitalization warning: yes
+Mixed subtitle capitalization warning: no
 'vs.' warning: yes
 'Frontiers:' warning: yes
 
 Warnings:
-- Mixed subtitle capitalization detected after colons; choose one journal-specific rule in the final style pass.
 - At least one title uses 'vs.'; confirm whether the target outlet keeps abbreviations or spells them out.
 - At least one title starts with 'Frontiers:'; confirm whether that prefix is kept exactly in the target style.
 
-Mixed subtitle-capitalization examples:
-- Understanding automated conversational agent as a decision aid: matching agent's conversation with customer's shopping task.
-- Effects of personalization and social role in voice shopping: An experimental study on product recommendation by a conversational voice agent.
-- Conversational commerce: Do biased choices offered by voice assistants' technology constrain its appropriation?
-- The impact of trust and recommendation quality on adopting interactive and non-interactive recommendation agents: A meta-analysis.
-- Consumer decision making in online shopping environments: The effects of interactive decision aids.
-- Frontiers: Machines vs. humans: The impact of artificial intelligence chatbot disclosure on customer purchases.
-- The power of rankings: Quantifying the effect of rankings on online consumer search and purchase decisions.
-- Recommendation agents for electronic commerce: Effects of explanation facilities on trusting beliefs.
-- Effects of recommendation neutrality and sponsorship disclosure on trust vs. distrust in online recommendation agents: Moderating role of explanations for organic recommendations.
-- Effects of sponsorship disclosure on perceived integrity of biased recommendation agents: Psychological contract violation and knowledge-based trust perspectives.
-- E-commerce product recommendation agents: Use, characteristics, and impact.
-
 'vs.' examples:
-- Frontiers: Machines vs. humans: The impact of artificial intelligence chatbot disclosure on customer purchases.
-- Effects of recommendation neutrality and sponsorship disclosure on trust vs. distrust in online recommendation agents: Moderating role of explanations for organic recommendations.
+- Frontiers: machines vs. humans: the impact of artificial intelligence chatbot disclosure on customer purchases.
+- Effects of recommendation neutrality and sponsorship disclosure on trust vs. distrust in online recommendation agents: moderating role of explanations for organic recommendations.
 
 'Frontiers:' examples:
-- Frontiers: Machines vs. humans: The impact of artificial intelligence chatbot disclosure on customer purchases.
+- Frontiers: machines vs. humans: the impact of artificial intelligence chatbot disclosure on customer purchases.
 ```
 
 ### source_archive_status
