@@ -167,6 +167,7 @@
 - [x] Tighten the controls-and-data-quality tail so the methods section states covariate discipline and sample-handling rules in one compact sequence
 - [x] Tighten the discussion-tail implications and limitations so the back end states managerial relevance and study boundaries more economically
 - [x] Tighten the discussion opening so the support-versus-inspectability issue is stated more directly
+- [x] Tighten the contribution close so the mechanism-level advance is stated with less back-end repetition
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
