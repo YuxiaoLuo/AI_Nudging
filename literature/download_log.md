@@ -203,6 +203,29 @@ Updated judgment:
 - Even the most direct PDF-style endpoints currently reachable from search should not be trusted unless the fetched file is validated as a real PDF.
 - Keep both citations on the `bibliographically confirmed but authoritative local PDF not yet archived` list.
 
+## 2026-06-23 browser-header endpoint retry
+Purpose of this pass:
+- Recheck the same two remaining bridge citations with a narrower `browser-like request` test from the shell, using explicit PDF-friendly `Accept` headers and site referers, to see whether the earlier failures were caused only by missing browser headers.
+
+What I tested:
+- Xiao and Benbasat (2007):
+  - MIS Quarterly PDF endpoint with browser-style headers:
+    - `https://misq.umn.edu/misq/article-pdf/31/1/137/5188/7_xiaobenbasat.pdf`
+- Ebrahimi et al. (2022):
+  - Taylor & Francis PDF endpoint with browser-style headers:
+    - `https://www.tandfonline.com/doi/pdf/10.1080/07421222.2022.2096549?download=true`
+
+What happened:
+- Both endpoints again saved HTML documents rather than real PDFs.
+- The Xiao fetch produced an HTML file of 5,614 bytes beginning with `<!DOCTYPE html>`.
+- The Ebrahimi fetch produced an HTML file of 5,685 bytes beginning with `<!DOCTYPE html>`.
+- That means the failure is not just `missing browser headers`; the environment still cannot obtain valid PDFs from those routes.
+
+Updated judgment:
+- The remaining archive gap is now even more clearly an access-context issue rather than a malformed-request issue.
+- Future retries should avoid repeating the same shell-level header experiment unless the access context changes materially.
+- Keep both citations on the `bibliographically confirmed but authoritative local PDF not yet archived` list.
+
 What I checked:
 - A narrow search focused on chatbot or conversational-agent work related to consumer confidence, decision quality, and AI-assisted shopping decisions.
 

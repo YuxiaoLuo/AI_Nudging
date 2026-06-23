@@ -211,6 +211,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - That stricter placeholder coverage has now also been exercised successfully: `manuscript_package_open_items.md` was cleaned up so it no longer trips the core-doc placeholder audit, and the default package suite again passes cleanly with the open-items summary included in both link and placeholder checks.
 - The standalone `check_package_links.py` helper now also defaults to the same front-door doc set as the full validation suite, so targeted link-only checks no longer omit `manuscript_package_open_items.md` by default.
 - A targeted bibliography verification pass also narrowed the remaining reference-style ambiguity further: the flagged `vs.` wording and the `Frontiers:` title prefix have now been confirmed against authoritative publication metadata, so the residual issue is purely outlet-specific normalization rather than uncertainty about the underlying article titles.
+- Another bounded bridge-source retrieval retry also tightened the archive diagnosis further: even browser-header requests to the most PDF-looking MISQ and Taylor & Francis endpoints still returned HTML rather than `%PDF` files, so the two remaining source gaps are now more clearly access-context constraints than malformed-request problems.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
