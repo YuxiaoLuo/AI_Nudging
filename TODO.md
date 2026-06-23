@@ -162,6 +162,7 @@
 - [x] Tighten repeated front-end framing so the opening does not restate the dialogue-versus-static-cues contrast in near-duplicate wording
 - [x] Compress the analysis-plan tail so the reporting hierarchy is stated once in a tighter sequence rather than repeated across adjacent paragraphs
 - [x] Compress the procedure-side screening and reporting logic so the methods section states that discipline once in a tighter sequence
+- [x] Compress the measures-to-manipulation-checks handoff so the measurement-discipline logic is stated more compactly
 - [x] Tighten the conclusion so it adds a cleaner closing takeaway instead of repeating the discussion opener
 
 ## Process
