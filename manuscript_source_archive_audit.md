@@ -9,8 +9,8 @@ This file records the current local-archive status of the manuscript's cited sou
 - Audit date:
   - `2026-06-22`
 - Related files:
-  - `manuscript_reference_audit.md`
   - `manuscript_citation_crosswalk.md`
+  - `manuscript_reference_audit.md`
   - `literature/download_log.md`
 
 ## Current archive summary
@@ -50,32 +50,24 @@ This file records the current local-archive status of the manuscript's cited sou
   - bibliographically confirmed in the manuscript package
 - Current issue:
   - no authoritative local PDF archived yet
-- Strongest currently known routes:
-  - MIS Quarterly direct PDF: `https://misq.umn.edu/misq/article-pdf/31/1/137/5188/7_xiaobenbasat.pdf`
-  - JSTOR direct PDF: `https://www.jstor.org/stable/pdf/25148784.pdf`
-  - ResearchGate article page: `https://www.researchgate.net/publication/220260358_E-Commerce_Product_Recommendation_Agents_Use_Characteristics_and_Impact`
-- Latest retrieval status:
-  - all tested routes returned `403` or challenge blocks from this environment on `2026-06-22`
+- Current crosswalk note:
+  - Exact citation is confirmed in `literature_reading_matrix.md` and `literature/download_log.md`, but no authoritative local PDF is currently present. Direct MISQ and JSTOR PDF routes were rechecked on 2026-06-22 and both returned `403` access blocks from this environment; the download log now records those routes plus a ResearchGate full-text page for later manual retrieval. Nearby `Xiao_*` PDFs should not be treated as verified matches.
 
 ### Ebrahimi et al. (2022)
 - Citation status:
   - bibliographically confirmed in the manuscript package
 - Current issue:
   - no authoritative local PDF archived yet
-- Strongest currently known routes:
-  - Taylor & Francis direct PDF: `https://www.tandfonline.com/doi/pdf/10.1080/07421222.2022.2096549`
-  - Taylor & Francis abstract page: `https://www.tandfonline.com/doi/abs/10.1080/07421222.2022.2096549`
-  - ResearchGate article page: `https://www.researchgate.net/publication/363016491_The_Impact_of_Trust_and_Recommendation_Quality_on_Adopting_Interactive_and_Non-Interactive_Recommendation_Agents_A_Meta-Analysis`
-- Latest retrieval status:
-  - all tested routes returned `403` or challenge blocks from this environment on `2026-06-22`
+- Current crosswalk note:
+  - Exact citation is confirmed in `literature_reading_matrix.md` and `literature/download_log.md`, but no authoritative local PDF is currently present. A direct Taylor & Francis PDF route and ResearchGate route were rechecked on 2026-06-22 and returned `403` access blocks from this environment; the download log records those routes for later manual retrieval, and `literature/DSS2024_XAI & Decision Making.pdf` should not be treated as a verified substitute.
 
 ## Interpretation
 - The manuscript currently does not have a citation-alignment problem.
 - The manuscript also does not have a broad source-discovery problem.
-- The remaining archive gap is narrow and specific to two bridge citations whose metadata and direct PDF routes are already known.
+- The remaining archive gap is narrow and specific to the bridge citations already identified in the manuscript package.
 - The main unresolved issue is access context, not uncertainty about what the cited papers are.
 
 ## Practical use
 - Use this file when deciding whether the next bibliography step is `style cleanup` versus `manual PDF retrieval`.
 - Use this file during handoff when a future session needs a fast answer to `which cited papers are still not locally archived?`
-- If one of the two missing PDFs is later archived successfully, update this file, `manuscript_citation_crosswalk.md`, and `literature/download_log.md` together.
+- If a missing PDF is later archived successfully, update this file, `manuscript_citation_crosswalk.md`, and `literature/download_log.md` together.

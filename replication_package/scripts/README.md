@@ -26,6 +26,10 @@ These files define the intended analysis workflow before a final implementation 
   - lightweight local audit for reference-list ordering, DOI URL consistency, and a few bounded style-normalization risks
   - default target: `../../manuscript_llm_ai_nudges_draft.md`
   - useful before the final journal-style bibliography pass so cleanup stays disciplined rather than ad hoc
+- `check_source_archive_status.py`
+  - lightweight local audit for which cited manuscript sources are already archived as authoritative local PDFs versus only bibliographically confirmed
+  - default inputs: `../../manuscript_citation_crosswalk.md`, `../../manuscript_llm_ai_nudges_draft.md`, and `../../literature/download_log.md`
+  - useful when you want to refresh `../../manuscript_source_archive_audit.md` without maintaining that handoff file manually
 - `run_validation_suite.py`
   - one-command wrapper for the current package-link, citation-alignment, and reference-formatting checks
   - default docs: `../../README.md`, `../../manuscript_package_index.md`, and `../../submission_readiness_checklist.md`
