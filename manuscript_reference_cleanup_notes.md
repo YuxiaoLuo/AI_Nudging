@@ -31,7 +31,14 @@ The current entries are serviceable working references, but a final pass should 
 - any house-style treatment of branded or prefixed article titles such as `Frontiers:`
 
 ### 2. Remaining title-level decisions are now narrow and explicit
-The current draft already uses a cleaner sentence-case baseline, so the main unresolved title-level issues are now limited to a small bounded set:
+The current draft already uses a cleaner sentence-case baseline, so the main unresolved title-level issues are now limited to a small bounded set.
+Those issues are now also source-confirmed rather than metadata-uncertain:
+- Luo et al. (2019) is published with the title `Frontiers: Machines vs. Humans: The Impact of Artificial Intelligence Chatbot Disclosure on Customer Purchases`
+- Wang et al. (2018) is published with the title `Effects of Recommendation Neutrality and Sponsorship Disclosure on Trust vs. Distrust in Online Recommendation Agents: Moderating Role of Explanations for Organic Recommendations`
+
+That means the remaining decisions are about outlet-specific normalization, not about whether the current bibliography is pointing to the wrong titles.
+
+The bounded remaining choices are:
 
 - whether `vs.` should remain abbreviated or be spelled out
 - whether the article-title prefix `Frontiers:` should remain exactly as written in the final reference list
@@ -64,7 +71,8 @@ Final pass reminder:
 
 ### Luo et al. (2019)
 - Current working title includes `Frontiers:` as part of the article title.
-- Final style pass should confirm whether the target outlet style keeps that prefix exactly as written in the reference list, and whether `vs.` remains abbreviated in that title.
+- Source title confirmation now shows that both `Frontiers:` and `vs.` are part of the published article title.
+- Final style pass should therefore treat any change here as an outlet-style normalization choice, not as a bibliographic correction.
 
 ### Xiao and Benbasat (2007)
 - Bibliographic entry is already present and aligned with the main text.

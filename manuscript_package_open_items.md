@@ -15,6 +15,7 @@ This file gives a fast, package-facing summary of what is still unresolved in th
 
 ## Remaining bibliography style decisions
 These are now narrow outlet-style decisions rather than broad cleanup problems.
+The flagged title features have also been checked against authoritative publication metadata, so what remains is normalization choice rather than title-verification uncertainty.
 
 1. Decide whether `vs.` should remain abbreviated or be spelled out in the final reference style.
    - Current affected titles:
