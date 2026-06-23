@@ -133,6 +133,8 @@
 - [x] Expand the one-command validation suite so the saved package snapshot also captures current source-archive status
 - [x] Expand the default one-command validation suite coverage so the replication manifest is checked and fingerprinted alongside the main package entrypoints
 - [x] Expand saved validation-snapshot fingerprints so bibliography-side archive-status inputs are covered by the freshness check
+- [x] Add a reusable placeholder audit that confirms remaining `TBD` text is confined to explicit templates and result shells rather than core package handoff docs
+- [x] Expand the one-command validation suite so placeholder carryover in core package docs is checked alongside the other lightweight handoff audits
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

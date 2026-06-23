@@ -30,8 +30,13 @@ These files define the intended analysis workflow before a final implementation 
   - lightweight local audit for which cited manuscript sources are already archived as authoritative local PDFs versus only bibliographically confirmed
   - default inputs: `../../manuscript_citation_crosswalk.md`, `../../manuscript_llm_ai_nudges_draft.md`, and `../../literature/download_log.md`
   - useful when you want to refresh `../../manuscript_source_archive_audit.md` without maintaining that handoff file manually
+- `check_placeholder_text.py`
+  - lightweight local audit for distinguishing unexpected `TBD` placeholders in core package docs from intentional placeholders in template appendices and result shells
+  - default core docs: main manuscript/package entrypoints and bibliography handoff artifacts
+  - default template docs: `../../appendix_c_screening_and_sample_flow.md`, `../../appendix_d_supplemental_robustness.md`, and `../../results_table_shells.md`
+  - useful before a handoff or submission-style walk-through when you want to know whether placeholder text remains only where it should
 - `run_validation_suite.py`
-  - one-command wrapper for the current package-link, citation-alignment, reference-formatting, and source-archive-status checks
+  - one-command wrapper for the current package-link, citation-alignment, reference-formatting, source-archive-status, and placeholder-text checks
   - default docs: `../../README.md`, `../../manuscript_package_index.md`, `../../submission_readiness_checklist.md`, and `../../replication_package/README.md`
   - default freshness-tracked bibliography inputs: `../../manuscript_citation_crosswalk.md`, `../../literature/download_log.md`, and `../../manuscript_source_archive_audit.md`
   - useful when you want one reproducible package-validation pass instead of remembering the helper order manually

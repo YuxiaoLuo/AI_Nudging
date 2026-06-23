@@ -4,14 +4,14 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T01:52:38+00:00`
-- Repository HEAD at generation: `6bc3bb12e3f12ea6fba92440ded182760314f689`
+- Generated at (UTC): `2026-06-23T02:24:49+00:00`
+- Repository HEAD at generation: `ca69884d84c79fd4e6f46e4ad9d7a18b3a687507`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `9b68409e8332`
 - `README.md`: sha256 `83bf31b0cff2`
 - `manuscript_package_index.md`: sha256 `123ac0d53a78`
-- `submission_readiness_checklist.md`: sha256 `e6f14f2fe552`
+- `submission_readiness_checklist.md`: sha256 `273d0c569b65`
 - `replication_package/README.md`: sha256 `bd254a6cf084`
 - `manuscript_citation_crosswalk.md`: sha256 `68156b481ff6`
 - `literature/download_log.md`: sha256 `7682a0427e6e`
@@ -35,6 +35,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - manuscript citation/reference alignment
 - bibliography-format consistency warnings
 - source-archive status for cited manuscript references
+- placeholder-text carryover in core handoff docs versus explicit templates
 
 ## Validation results
 ### package_links
@@ -50,7 +51,7 @@ Referenced package paths: 31
 Missing targets: 0
 
 Doc: submission_readiness_checklist.md
-Referenced package paths: 20
+Referenced package paths: 21
 Missing targets: 0
 
 Doc: replication_package/README.md
@@ -101,6 +102,82 @@ Missing local PDFs: 2
 Missing local PDFs:
 - Xiao and Benbasat (2007)
 - Ebrahimi et al. (2022)
+```
+
+### placeholder_text
+- Status: `PASS`
+- Output:
+```text
+Unexpected placeholders in core package docs
+Files with placeholders: 0
+Total placeholder hits: 0
+
+Expected placeholders in template/result-shell docs
+Files with placeholders: 3
+Total placeholder hits: 59
+
+- appendix_c_screening_and_sample_flow.md: 17
+  - 67: | Responses collected | `TBD` | `TBD` | `TBD` | `TBD` | Raw total before exclusions |
+  - 68: | Removed: incomplete responses | `TBD` | `TBD` | `TBD` | `TBD` | Core-post-task incompletion |
+  - 69: | Removed: duplicate responses | `TBD` | `TBD` | `TBD` | `TBD` | Prespecified duplicate rule |
+  - 70: | Removed: minimum-effort / implausibly fast responses | `TBD` | `TBD` | `TBD` | `TBD` | Completion-threshold screen |
+  - 71: | Removed: attentiveness failures | `TBD` | `TBD` | `TBD` | `TBD` | Direct instruction item |
+  - 72: | Removed: other prespecified disqualifications | `TBD` | `TBD` | `TBD` | `TBD` | Only if applicable |
+  - 73: | Final analyzable sample | `TBD` | `TBD` | `TBD` | `TBD` | Main confirmatory sample |
+  - 78: `We collected [TBD] responses. Prespecified quality screening removed [TBD] incomplete responses, [TBD] duplicate submissions, [TBD] implausibly fast or minimum-effort responses, and [TBD] attentiveness-screen failures, leaving a final analyzable sample of [TBD] participants ([TBD] conversational, [TBD] UI-based nudge, [TBD] control). These rules were fixed before outcome analysis and applied consistently across conditions.`
+  - 93: | Main confirmatory sample | `TBD` | `TBD` | `TBD` | `TBD` | Baseline screened sample | Headline evidence |
+  - 94: | Robustness variant 1 | `TBD` | `TBD` | `TBD` | `TBD` | Narrower threshold or coding rule | Robustness only |
+  - 95: | Robustness variant 2 | `TBD` | `TBD` | `TBD` | `TBD` | Additional sensitivity restriction | Robustness only |
+  - 111: | Product-category familiarity | `TBD` | `TBD` | `TBD` | Descriptive only |
+  - 112: | Prior AI-shopping use | `TBD` | `TBD` | `TBD` | Descriptive only |
+  - 113: | General trust in AI | `TBD` | `TBD` | `TBD` | Descriptive only |
+  - 114: | Need for cognition subset | `TBD` | `TBD` | `TBD` | Descriptive only |
+  - 115: | Shopping involvement | `TBD` | `TBD` | `TBD` | Descriptive only |
+  - 127: `Residual item missingness on the retained core constructs was [TBD]. The confirmatory analyses were estimated on a [TBD] sample under one consistent missing-data rule. Any alternative missing-data handling, if used, is reported only as a secondary robustness check.`
+- appendix_d_supplemental_robustness.md: 17
+  - 24: | Shopping aid felt conversational | `TBD` | `TBD` | `TBD` | Descriptive validation |
+  - 25: | Guidance adapted to my inputs or needs | `TBD` | `TBD` | `TBD` | Descriptive validation |
+  - 26: | AI played a meaningful role in the guidance | `TBD` | `TBD` | `TBD` | Descriptive validation |
+  - 27: | Recommendation logic was visibly presented | `TBD` | `TBD` | `TBD` | Diagnostic only |
+  - 43: | Perceived personalization | `TBD` | `TBD` | `TBD` |
+  - 44: | Cognitive load | `TBD` | `TBD` | `TBD` |
+  - 45: | Choice confidence | `TBD` | `TBD` | `TBD` |
+  - 46: | Perceived transparency | `TBD` | `TBD` | `TBD` |
+  - 47: | Perceived decision quality | `TBD` | `TBD` | `TBD` |
+  - 59: | Trust in the shopping aid | `TBD` | `TBD` | `TBD` | `TBD` | Secondary only |
+  - 60: | Satisfaction with guidance process | `TBD` | `TBD` | `TBD` | `TBD` | Secondary only |
+  - 75: | Main confirmatory sample | `TBD` | `TBD` | `TBD` | Headline reference |
+  - 76: | Robustness variant 1 | `TBD` | `TBD` | `TBD` | Narrower screen |
+  - 77: | Robustness variant 2 | `TBD` | `TBD` | `TBD` | Sensitivity only |
+  - 93: | Staged regression confirmation | `TBD` | `TBD` |
+  - 94: | Alternative indirect-effect estimation | `TBD` | `TBD` |
+  - 95: | Secondary missing-data handling | `TBD` | `TBD` |
+- results_table_shells.md: 25
+  - 16: | 1. Purchase likelihood | `TBD` | `TBD` | `--` |  |  |  |  |  |  |  |
+  - 17: | 2. Perceived decision quality | `TBD` | `TBD` | `TBD` | `--` |  |  |  |  |  |  |
+  - 18: | 3. Perceived personalization | `TBD` | `TBD` | `TBD` | `TBD` | `--` |  |  |  |  |  |
+  - 19: | 4. Cognitive load (reverse coded) | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `--` |  |  |  |  |
+  - 20: | 5. Choice confidence | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `--` |  |  |  |
+  - 21: | 6. Perceived transparency | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `--` |  |  |
+  - 22: | 7. Trust | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `--` |  |
+  - 23: | 8. Satisfaction | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `--` |
+  - 39: | Purchase likelihood | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` |
+  - 40: | Perceived decision quality | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` |
+  - 56: | Perceived personalization | `TBD` | `TBD` | `TBD` | Benefit-route entry |
+  - 57: | Perceived transparency | `TBD` | `TBD` | `TBD` | Risk-route entry |
+  - 63: | Perceived personalization -> cognitive load (reverse coded) | `TBD` | `TBD` | Support simplification route |
+  - 64: | Cognitive load (reverse coded) -> choice confidence | `TBD` | `TBD` | Confidence-building route |
+  - 65: | Choice confidence -> perceived decision quality | `TBD` | `TBD` | Positive evaluative route |
+  - 66: | Perceived transparency -> perceived decision quality | `TBD` | `TBD` | Inspectability route |
+  - 67: | Conversational nudge -> purchase likelihood (direct) | `TBD` | `TBD` | Direct behavioral path |
+  - 68: | Conversational nudge -> perceived decision quality (residual direct effect, if retained) | `TBD` | `TBD` | Interpret cautiously |
+  - 74: | Conversational nudge -> personalization -> cognitive load -> confidence -> decision quality | `TBD` | `TBD` | Support-route indirect effect |
+  - 75: | Conversational nudge -> transparency -> decision quality | `TBD` | `TBD` | Opacity-route indirect effect |
+  - 86: | Trust | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | Secondary only |
+  - 87: | Satisfaction | `TBD` | `TBD` | `TBD` | `TBD` | `TBD` | Secondary only |
+  - 93: | Main confirmatory sample | `TBD` | `TBD` | `TBD` | Reference row |
+  - 94: | Variant 1 | `TBD` | `TBD` | `TBD` | Narrower screen or coding choice |
+  - 95: | Variant 2 | `TBD` | `TBD` | `TBD` | Sensitivity only if needed |
 ```
 
 ## Interpretation note

@@ -9,7 +9,7 @@ This file explains how to use the current lightweight package-validation helpers
 - Script:
   - `run_validation_suite.py`
 - Default purpose:
-  - run the package-link, citation-alignment, reference-formatting, and source-archive-status helpers in one reproducible pass
+  - run the package-link, citation-alignment, reference-formatting, source-archive-status, and placeholder-text helpers in one reproducible pass
 - Typical use:
   - before a package handoff, after several documentation edits, or whenever you want a compact current-state audit without manually sequencing the helpers
 - Default package docs covered by the link check inside the suite:
@@ -87,6 +87,19 @@ python3 replication_package/scripts/check_reference_formatting.py manuscript_llm
 python3 replication_package/scripts/check_source_archive_status.py --repo-root .
 ```
 
+### 5. Placeholder-text audit
+- Script:
+  - `check_placeholder_text.py`
+- Default purpose:
+  - distinguish unexpected `TBD` placeholders in core handoff docs from intentional placeholders that still belong in templates and result shells
+- Typical use:
+  - before a package handoff, before a submission-style walk-through, or after creating new package-facing docs that should not contain placeholder carryover
+- Example:
+
+```bash
+python3 replication_package/scripts/check_placeholder_text.py --repo-root .
+```
+
 ## Recommended order during package cleanup
 1. Use `run_validation_suite.py` when you want one reproducible pass across the current lightweight checks.
 2. Use its `--report-md` flag when you want the current validation state preserved as a handoff artifact rather than left only in terminal output.
@@ -98,13 +111,14 @@ python3 replication_package/scripts/check_source_archive_status.py --repo-root .
 5. Run `check_reference_alignment.py` separately only when you changed citations or the references section and do not need the full suite.
 6. Run `check_reference_formatting.py` separately when the citation set is stable and the next step is bounded bibliography cleanup rather than theory expansion.
 7. Run `check_source_archive_status.py` separately when the question is no longer `are the citations aligned?` but `which cited sources are still not locally archived?`
-8. If the citation, formatting, and archive-status checks pass, use:
+8. Run `check_placeholder_text.py` when you want to confirm that remaining `TBD` text is confined to explicit templates rather than leaking into the core manuscript/package handoff docs.
+9. If the citation, formatting, and archive-status checks pass, use:
    - `manuscript_reference_audit.md`
    - `manuscript_source_archive_audit.md`
    - `manuscript_reference_cleanup_notes.md`
    - `manuscript_citation_crosswalk.md`
    to decide whether the next step is style cleanup, citation-role review, or PDF retrieval.
-9. If the package-link check passes, do the final walk-through items in `submission_readiness_checklist.md`.
+10. If the package-link and placeholder checks pass, do the final walk-through items in `submission_readiness_checklist.md`.
 
 ## Current scope limits
 - These helpers do not validate journal-style bibliography formatting.

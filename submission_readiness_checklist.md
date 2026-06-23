@@ -53,6 +53,7 @@ This checklist converts the current manuscript package into a pre-submission wor
 - [ ] If one of the two bridge PDFs is later archived manually, update `manuscript_source_archive_audit.md`, `manuscript_citation_crosswalk.md`, and `literature/download_log.md` together.
 - [ ] If authoritative local PDFs are still desired for the two bridge citations, use the fallback routes recorded in `literature/download_log.md` from a different access context rather than restarting discovery work.
 - [ ] Remove any placeholder `TBD` text that remains in package files.
+- [ ] Use `replication_package/scripts/check_placeholder_text.py` to confirm that any remaining `TBD` text is confined to explicit templates or result shells rather than core handoff docs.
 - [ ] Check that any later literature additions are reflected in both the manuscript and package files where relevant.
 
 ## Final package walk-through

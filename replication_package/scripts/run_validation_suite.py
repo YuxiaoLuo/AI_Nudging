@@ -105,6 +105,7 @@ def markdown_report(
             "- manuscript citation/reference alignment",
             "- bibliography-format consistency warnings",
             "- source-archive status for cited manuscript references",
+            "- placeholder-text carryover in core handoff docs versus explicit templates",
             "",
             "## Validation results",
         ]
@@ -212,6 +213,15 @@ def main() -> int:
             [
                 sys.executable,
                 str(script_dir / "check_source_archive_status.py"),
+                "--repo-root",
+                str(repo_root),
+            ],
+        ),
+        (
+            "placeholder_text",
+            [
+                sys.executable,
+                str(script_dir / "check_placeholder_text.py"),
                 "--repo-root",
                 str(repo_root),
             ],
