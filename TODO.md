@@ -155,6 +155,7 @@
 - [x] Add an explicit final-pass resolution rule for the remaining `vs.` and `Frontiers:` bibliography decisions so outlet-specific cleanup can be done in one bounded pass
 - [x] Tighten the package front door so future readers hit the open-items summary and freshness decision before the deeper validation snapshot
 - [x] Mirror that same triage logic inside the validation-workflow docs so operational guidance matches the front-door package entrypoints
+- [x] Add a compact orientation summary to the generated validation snapshot so later readers can see the current residual counts before scanning the full raw helper outputs
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

@@ -217,6 +217,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The bibliography handoff layer now also includes an explicit `how to resolve the last two title-style decisions` rule: preserve `vs.` and `Frontiers:` by default as source-confirmed title features, and only normalize them if the chosen outlet's written style guidance or exemplar references clearly requires it.
 - The repo front door is now also being tightened for faster handoff: the package index and top-level README now route readers to `manuscript_package_open_items.md` before the deeper validation artifacts, and they distinguish `what is left?` from `is the saved snapshot current?`
 - The validation-workflow layer now mirrors that same triage logic too, so future sessions can answer `what is left?`, `is the snapshot current?`, and `which helper should I run?` without reconstructing the decision path from the helper descriptions alone.
+- The saved validation snapshot itself is now also easier to scan at a glance: `run_validation_suite.py` writes a compact orientation block near the top of `manuscript_package_validation_report.md` that surfaces the current residual counts before the longer raw helper outputs.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

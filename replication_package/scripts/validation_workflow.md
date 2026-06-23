@@ -52,6 +52,9 @@ python3 replication_package/scripts/run_validation_suite.py \
   --report-md manuscript_package_validation_report.md
 ```
 
+- Saved report behavior:
+  - the generated validation snapshot now starts with a compact `Quick orientation` block that surfaces the current residual counts for links, citation alignment, bibliography-style flags, missing local PDFs, and unexpected core-doc placeholders before the longer raw helper outputs
+
 - Report + freshness example:
 
 ```bash

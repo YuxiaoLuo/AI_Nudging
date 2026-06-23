@@ -69,6 +69,81 @@ def write_freshness_report(
     )
 
 
+def extract_line(stdout: str, prefix: str) -> str | None:
+    for line in stdout.splitlines():
+        stripped = line.strip()
+        if stripped.startswith(prefix):
+            return stripped[len(prefix) :].strip()
+    return None
+
+
+def extract_missing_items(stdout: str, header: str) -> list[str]:
+    lines = stdout.splitlines()
+    items: list[str] = []
+    collecting = False
+    for line in lines:
+        stripped = line.strip()
+        if stripped == header:
+            collecting = True
+            continue
+        if not collecting:
+            continue
+        if not stripped:
+            if items:
+                break
+            continue
+        if not stripped.startswith("- "):
+            if items:
+                break
+            continue
+        items.append(stripped[2:].strip())
+    return items
+
+
+def build_orientation_summary(results: list[CheckResult]) -> list[str]:
+    results_by_name = {result.name: result for result in results}
+    lines = [
+        "## Quick orientation",
+        "- Read `manuscript_package_open_items.md` first if you want the fastest statement of residual package work.",
+        "- Read `manuscript_package_validation_freshness.md` if your first question is whether this saved snapshot is still current.",
+    ]
+
+    package_result = results_by_name.get("package_links")
+    reference_alignment_result = results_by_name.get("reference_alignment")
+    reference_formatting_result = results_by_name.get("reference_formatting")
+    source_archive_result = results_by_name.get("source_archive_status")
+    placeholder_result = results_by_name.get("placeholder_text")
+
+    lines.append("- Current lightweight snapshot highlights:")
+    if package_result:
+        missing_targets = extract_line(package_result.stdout, "Missing targets:")
+        if missing_targets is not None:
+            lines.append(f"  - Package links currently missing: `{missing_targets}`")
+    if reference_alignment_result:
+        unmatched = extract_line(reference_alignment_result.stdout, "Unmatched citation tokens:")
+        uncited = extract_line(reference_alignment_result.stdout, "Uncited reference entries:")
+        if unmatched is not None and uncited is not None:
+            lines.append(f"  - Citation alignment residuals: `{unmatched}` unmatched tokens, `{uncited}` uncited reference entries")
+    if reference_formatting_result:
+        vs_warning = extract_line(reference_formatting_result.stdout, "'vs.' warning:")
+        frontiers_warning = extract_line(reference_formatting_result.stdout, "'Frontiers:' warning:")
+        if vs_warning is not None and frontiers_warning is not None:
+            lines.append(f"  - Remaining bibliography-style flags: `vs.` = `{vs_warning}`, `Frontiers:` = `{frontiers_warning}`")
+    if source_archive_result:
+        missing_pdfs = extract_line(source_archive_result.stdout, "Missing local PDFs:")
+        if missing_pdfs is not None:
+            lines.append(f"  - Cited sources still lacking authoritative local PDFs: `{missing_pdfs}`")
+            missing_items = extract_missing_items(source_archive_result.stdout, "Missing local PDFs:")
+            if missing_items:
+                lines.extend([f"    - {item}" for item in missing_items])
+    if placeholder_result:
+        unexpected = extract_line(placeholder_result.stdout, "Total placeholder hits:")
+        if unexpected is not None:
+            lines.append(f"  - Unexpected placeholder hits in core package docs: `{unexpected}`")
+
+    return lines + [""]
+
+
 def markdown_report(
     repo_root: Path,
     manuscript: Path,
@@ -140,6 +215,11 @@ def markdown_report(
             "- placeholder-text carryover in core handoff docs versus explicit templates",
             "- validator-script drift for the saved package-validation snapshot",
             "",
+        ]
+    )
+    lines.extend(build_orientation_summary(results))
+    lines.extend(
+        [
             "## Validation results",
         ]
     )

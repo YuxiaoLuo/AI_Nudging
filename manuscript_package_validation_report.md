@@ -4,8 +4,8 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T13:51:56+00:00`
-- Repository HEAD at generation: `8b95b08264dc58fcd41df1ab668d5d84ade1e0b2`
+- Generated at (UTC): `2026-06-23T14:22:12+00:00`
+- Repository HEAD at generation: `20a171f52104ab247e966144403116a5f7b92af3`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `c2774c9f0090`
@@ -21,7 +21,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `manuscript_source_archive_audit.md`: sha256 `b7bd4c564cb2`
 
 ## Validator-script fingerprints
-- `replication_package/scripts/run_validation_suite.py`: sha256 `df63b7a03257`
+- `replication_package/scripts/run_validation_suite.py`: sha256 `4fae2c5ea230`
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: sha256 `c62456750aff`
 - `replication_package/scripts/check_package_links.py`: sha256 `efc91ccac4f2`
 - `replication_package/scripts/check_reference_alignment.py`: sha256 `dd7bbef31ea6`
@@ -52,6 +52,18 @@ This file records one lightweight validation-suite snapshot for the current manu
 - source-archive status for cited manuscript references
 - placeholder-text carryover in core handoff docs versus explicit templates
 - validator-script drift for the saved package-validation snapshot
+
+## Quick orientation
+- Read `manuscript_package_open_items.md` first if you want the fastest statement of residual package work.
+- Read `manuscript_package_validation_freshness.md` if your first question is whether this saved snapshot is still current.
+- Current lightweight snapshot highlights:
+  - Package links currently missing: `0`
+  - Citation alignment residuals: `0` unmatched tokens, `0` uncited reference entries
+  - Remaining bibliography-style flags: `vs.` = `yes`, `Frontiers:` = `yes`
+  - Cited sources still lacking authoritative local PDFs: `2`
+    - Xiao and Benbasat (2007)
+    - Ebrahimi et al. (2022)
+  - Unexpected placeholder hits in core package docs: `0`
 
 ## Validation results
 ### package_links
