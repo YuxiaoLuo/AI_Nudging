@@ -153,6 +153,7 @@
 - [x] Align the reference-format helper wording with the newer bibliography state so its remaining `vs.` and `Frontiers:` warnings explicitly reflect source-confirmed titles plus pending outlet normalization
 - [x] Align the citation crosswalk and regenerated source-archive audit with the latest bridge-PDF retry evidence so the package handoff docs no longer disagree about the archive diagnosis
 - [x] Add an explicit final-pass resolution rule for the remaining `vs.` and `Frontiers:` bibliography decisions so outlet-specific cleanup can be done in one bounded pass
+- [x] Tighten the package front door so future readers hit the open-items summary and freshness decision before the deeper validation snapshot
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

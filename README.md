@@ -7,6 +7,8 @@ This is the research repository for the AI nudging project.
   - `manuscript_llm_ai_nudges_draft.md`
 - Fastest package entrypoint:
   - `manuscript_package_index.md`
+- Fastest `what is still left?` entrypoint:
+  - `manuscript_package_open_items.md`
 - Current validation snapshot:
   - `manuscript_package_validation_report.md`
 - Current validation freshness decision:
@@ -54,10 +56,10 @@ This is the research repository for the AI nudging project.
 
 ## Suggested starting order
 1. `manuscript_package_index.md`
-2. `manuscript_llm_ai_nudges_draft.md`
-3. `manuscript_package_validation_report.md`
-4. `manuscript_package_validation_freshness.md`
-5. `manuscript_package_open_items.md`
+2. `manuscript_package_open_items.md`
+3. `manuscript_llm_ai_nudges_draft.md`
+4. `manuscript_package_validation_report.md`
+5. `manuscript_package_validation_freshness.md`
 6. `submission_readiness_checklist.md`
 7. `replication_package/scripts/validation_workflow.md`
 8. `manuscript_citation_crosswalk.md`
@@ -65,6 +67,14 @@ This is the research repository for the AI nudging project.
 10. `manuscript_source_archive_audit.md`
 11. `manuscript_reference_format_audit.md`
 12. `manuscript_reference_cleanup_notes.md`
+
+## Quick triage paths
+- If the question is `what is still unresolved?`
+  - start with `manuscript_package_open_items.md`
+- If the question is `is the saved package state still trustworthy?`
+  - read `manuscript_package_validation_freshness.md` before the full validation snapshot
+- If the question is `what should I do right before submission?`
+  - start with `submission_readiness_checklist.md`
 
 ## Maintenance note
 - When a manuscript-facing asset becomes part of the submission path, update this file and `manuscript_package_index.md` together so the repo front door does not drift behind the actual package.

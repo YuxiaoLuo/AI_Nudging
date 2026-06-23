@@ -78,5 +78,11 @@ replication_package/
 - Replication directory structure: scaffolded
 - Shareable data objects: pending
 
+## Fast package-entry hints
+- If you need the fastest statement of unresolved package issues:
+  - read `../manuscript_package_open_items.md` first
+- If you need to know whether the saved validation state is still current:
+  - read `../manuscript_package_validation_freshness.md` before `../manuscript_package_validation_report.md`
+
 ## Packaging rule
 - When a new package-relevant asset is created elsewhere in the repo, add or update its reference here so the replication package remains a useful entrypoint rather than a vague future promise.

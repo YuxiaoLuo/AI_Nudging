@@ -215,6 +215,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The lightweight reference-format helper is now also being aligned with that tighter bibliography state: its `vs.` and `Frontiers:` warnings now explicitly signal `source title confirmed, outlet normalization still pending` rather than implying generic title uncertainty.
 - The source-archive handoff layer is now also internally consistent again: the citation crosswalk now carries the latest 2026-06-23 browser-header retry evidence for the two missing bridge PDFs, and the regenerated archive audit now mirrors that tighter access-context diagnosis rather than lagging one retry behind.
 - The bibliography handoff layer now also includes an explicit `how to resolve the last two title-style decisions` rule: preserve `vs.` and `Frontiers:` by default as source-confirmed title features, and only normalize them if the chosen outlet's written style guidance or exemplar references clearly requires it.
+- The repo front door is now also being tightened for faster handoff: the package index and top-level README now route readers to `manuscript_package_open_items.md` before the deeper validation artifacts, and they distinguish `what is left?` from `is the saved snapshot current?`
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

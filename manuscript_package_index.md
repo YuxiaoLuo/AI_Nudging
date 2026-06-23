@@ -6,6 +6,8 @@ This file is the quickest entrypoint to the current manuscript package for the n
 ## Core manuscript
 - Main draft:
   - `manuscript_llm_ai_nudges_draft.md`
+- Fastest unresolved-items summary:
+  - `manuscript_package_open_items.md`
 - Current validation snapshot:
   - `manuscript_package_validation_report.md`
 - Current validation freshness decision:
@@ -68,10 +70,10 @@ This file is the quickest entrypoint to the current manuscript package for the n
   - `replication_package/scripts/04_robustness_shell.md`
 
 ## Suggested reading order
-1. `manuscript_llm_ai_nudges_draft.md`
-2. `manuscript_package_validation_report.md`
+1. `manuscript_package_open_items.md`
+2. `manuscript_llm_ai_nudges_draft.md`
 3. `manuscript_package_validation_freshness.md`
-4. `manuscript_package_open_items.md`
+4. `manuscript_package_validation_report.md`
 5. `manuscript_asset_plan.md`
 6. `manuscript_citation_crosswalk.md`
 7. `manuscript_reference_audit.md`
@@ -86,6 +88,14 @@ This file is the quickest entrypoint to the current manuscript package for the n
 16. `submission_readiness_checklist.md`
 17. `replication_package/scripts/validation_workflow.md`
 18. `replication_package/README.md`
+
+## Quick entry paths
+- If the question is `what is still left?`
+  - read `manuscript_package_open_items.md` first
+- If the question is `is the saved validation snapshot current?`
+  - read `manuscript_package_validation_freshness.md` before `manuscript_package_validation_report.md`
+- If the question is `what should I run or check next?`
+  - read `submission_readiness_checklist.md` and `replication_package/scripts/validation_workflow.md`
 
 ## Maintenance rule
 - When a new manuscript-facing asset is created, add it here if a reviewer, coauthor, or future session would reasonably need it as part of the package walkthrough.
