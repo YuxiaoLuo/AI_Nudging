@@ -4,14 +4,14 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T08:22:13+00:00`
-- Repository HEAD at generation: `a1e594afc885b2ddfe847ef8240ccfcadfec5ee5`
+- Generated at (UTC): `2026-06-23T08:52:58+00:00`
+- Repository HEAD at generation: `fd6276925295b11570185421c3cd1033d9150df6`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `c2774c9f0090`
-- `README.md`: sha256 `83bf31b0cff2`
-- `manuscript_package_index.md`: sha256 `8d2f35ee373d`
-- `submission_readiness_checklist.md`: sha256 `412726924143`
+- `README.md`: sha256 `565d6def0b2a`
+- `manuscript_package_index.md`: sha256 `f9e2a18ce34d`
+- `submission_readiness_checklist.md`: sha256 `0bd1fabf2b87`
 - `replication_package/README.md`: sha256 `bd254a6cf084`
 - `manuscript_reference_audit.md`: sha256 `f2ea9930a433`
 - `manuscript_reference_format_audit.md`: sha256 `ae3fd9947cd2`
@@ -57,15 +57,15 @@ This file records one lightweight validation-suite snapshot for the current manu
 - Output:
 ```text
 Doc: README.md
-Referenced package paths: 22
+Referenced package paths: 23
 Missing targets: 0
 
 Doc: manuscript_package_index.md
-Referenced package paths: 32
+Referenced package paths: 33
 Missing targets: 0
 
 Doc: submission_readiness_checklist.md
-Referenced package paths: 22
+Referenced package paths: 23
 Missing targets: 0
 
 Doc: replication_package/README.md

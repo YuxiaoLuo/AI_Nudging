@@ -145,6 +145,7 @@
 - [x] Remove the mixed subtitle-capitalization drift from the working references list so the remaining bibliography warnings are limited to `vs.` and `Frontiers:` decisions
 - [x] Narrow the package-facing bibliography cleanup guidance so the remaining style work is documented explicitly as the `vs.` and `Frontiers:` decision set
 - [x] Align the reusable validation-workflow docs with that narrower bibliography state so they no longer imply a broader capitalization-cleanup problem
+- [x] Add a package-facing open-items summary so later sessions can see the residual bibliography, source-archive, and placeholder issues without reconstructing them from multiple audits
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

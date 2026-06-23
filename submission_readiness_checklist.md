@@ -43,6 +43,7 @@ This checklist converts the current manuscript package into a pre-submission wor
 - [ ] Check that reliability and construct-separability evidence are adequate for the retained batteries.
 
 ## References and source hygiene
+- [ ] Read `manuscript_package_open_items.md` first if the goal is to see the current residual package issues without reconstructing them from multiple audits.
 - [ ] Use `manuscript_reference_audit.md` to confirm the references list still matches the in-text citation set after any draft changes.
 - [ ] If the saved reference-alignment audit may be stale, regenerate it with `replication_package/scripts/check_reference_alignment.py --repo-root . manuscript_llm_ai_nudges_draft.md --report-md manuscript_reference_audit.md`.
 - [ ] Use `manuscript_source_archive_audit.md` to confirm which cited papers are already locally archived versus still waiting on manual retrieval.

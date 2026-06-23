@@ -205,6 +205,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The working bibliography has now also been tightened through a bounded sentence-case normalization pass in the draft references section: the mixed subtitle-capitalization warning has been removed, leaving only the narrower unresolved style choices around `vs.` and the `Frontiers:` title prefix.
 - The package-facing bibliography guidance has now also been narrowed to match that cleaner state: `manuscript_reference_cleanup_notes.md` and `submission_readiness_checklist.md` now frame the remaining style work explicitly as a small `vs.`/`Frontiers:` decision set rather than a broad normalization problem.
 - The reusable validation-workflow docs now also reflect that same narrowed state, so `replication_package/scripts/README.md` and `replication_package/scripts/validation_workflow.md` no longer imply that the current bibliography still has a broader capitalization problem.
+- The manuscript package now also has a dedicated `manuscript_package_open_items.md` front-door summary, which makes the residual work visible in one place: the remaining `vs.`/`Frontiers:` reference-style decisions, the two access-blocked bridge PDFs, and the fact that `TBD` placeholders are currently confined to template-style assets rather than core handoff docs.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
