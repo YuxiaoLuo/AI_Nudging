@@ -51,11 +51,16 @@ def markdown_report(
     repo_root: Path,
     manuscript: Path,
     package_docs: list[str],
+    bibliography_inputs: list[str],
     results: list[CheckResult],
 ) -> str:
     generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
     head = git_head(repo_root)
-    tracked_inputs = [manuscript, *[(repo_root / doc).resolve() for doc in package_docs]]
+    tracked_inputs = [
+        manuscript,
+        *[(repo_root / doc).resolve() for doc in package_docs],
+        *[(repo_root / path).resolve() for path in bibliography_inputs],
+    ]
 
     lines = [
         "# Manuscript Package Validation Report",
@@ -86,6 +91,12 @@ def markdown_report(
             ]
     )
     lines.extend([f"  - `{doc}`" for doc in package_docs])
+    lines.extend(
+        [
+            "- Bibliography-side files tracked for source-archive freshness:",
+        ]
+    )
+    lines.extend([f"  - `{path}`" for path in bibliography_inputs])
     lines.extend(
         [
             "",
@@ -157,6 +168,11 @@ def main() -> int:
         "submission_readiness_checklist.md",
         "replication_package/README.md",
     ]
+    bibliography_inputs = [
+        "manuscript_citation_crosswalk.md",
+        "literature/download_log.md",
+        "manuscript_source_archive_audit.md",
+    ]
 
     if report_path and not report_path.exists():
         report_path.write_text(
@@ -205,7 +221,7 @@ def main() -> int:
     results = [run_check(name, command) for name, command in checks]
 
     if report_path:
-        report_path.write_text(markdown_report(repo_root, manuscript, package_docs, results))
+        report_path.write_text(markdown_report(repo_root, manuscript, package_docs, bibliography_inputs, results))
 
     overall_failure = False
     print("Validation suite summary:")

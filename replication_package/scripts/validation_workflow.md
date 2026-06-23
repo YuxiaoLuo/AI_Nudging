@@ -17,6 +17,10 @@ This file explains how to use the current lightweight package-validation helpers
   - `manuscript_package_index.md`
   - `submission_readiness_checklist.md`
   - `replication_package/README.md`
+- Default bibliography-side files fingerprinted in the saved report:
+  - `manuscript_citation_crosswalk.md`
+  - `literature/download_log.md`
+  - `manuscript_source_archive_audit.md`
 - Example:
 
 ```bash

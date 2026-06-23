@@ -4,8 +4,8 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T01:22:17+00:00`
-- Repository HEAD at generation: `dd5a93ccfb1572736a2d8e8b7c4655b8ea963794`
+- Generated at (UTC): `2026-06-23T01:52:38+00:00`
+- Repository HEAD at generation: `6bc3bb12e3f12ea6fba92440ded182760314f689`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `9b68409e8332`
@@ -13,6 +13,9 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `manuscript_package_index.md`: sha256 `123ac0d53a78`
 - `submission_readiness_checklist.md`: sha256 `e6f14f2fe552`
 - `replication_package/README.md`: sha256 `bd254a6cf084`
+- `manuscript_citation_crosswalk.md`: sha256 `68156b481ff6`
+- `literature/download_log.md`: sha256 `7682a0427e6e`
+- `manuscript_source_archive_audit.md`: sha256 `93da143a86ca`
 
 ## Current validation target
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
@@ -22,6 +25,10 @@ This file records one lightweight validation-suite snapshot for the current manu
   - `manuscript_package_index.md`
   - `submission_readiness_checklist.md`
   - `replication_package/README.md`
+- Bibliography-side files tracked for source-archive freshness:
+  - `manuscript_citation_crosswalk.md`
+  - `literature/download_log.md`
+  - `manuscript_source_archive_audit.md`
 
 ## Included lightweight checks
 - package-link integrity for the main manuscript/package entrypoints

@@ -132,6 +132,7 @@
 - [x] Add a reusable helper that regenerates the source-archive audit from the citation crosswalk and literature folder
 - [x] Expand the one-command validation suite so the saved package snapshot also captures current source-archive status
 - [x] Expand the default one-command validation suite coverage so the replication manifest is checked and fingerprinted alongside the main package entrypoints
+- [x] Expand saved validation-snapshot fingerprints so bibliography-side archive-status inputs are covered by the freshness check
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
