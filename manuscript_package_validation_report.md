@@ -4,14 +4,15 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T00:52:25+00:00`
-- Repository HEAD at generation: `5818c11dcac60e572808b10bae993adf4b3de571`
+- Generated at (UTC): `2026-06-23T01:22:17+00:00`
+- Repository HEAD at generation: `dd5a93ccfb1572736a2d8e8b7c4655b8ea963794`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `9b68409e8332`
 - `README.md`: sha256 `83bf31b0cff2`
-- `manuscript_package_index.md`: sha256 `d239a53ff745`
+- `manuscript_package_index.md`: sha256 `123ac0d53a78`
 - `submission_readiness_checklist.md`: sha256 `e6f14f2fe552`
+- `replication_package/README.md`: sha256 `bd254a6cf084`
 
 ## Current validation target
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
@@ -20,6 +21,7 @@ This file records one lightweight validation-suite snapshot for the current manu
   - `README.md`
   - `manuscript_package_index.md`
   - `submission_readiness_checklist.md`
+  - `replication_package/README.md`
 
 ## Included lightweight checks
 - package-link integrity for the main manuscript/package entrypoints
@@ -37,11 +39,15 @@ Referenced package paths: 22
 Missing targets: 0
 
 Doc: manuscript_package_index.md
-Referenced package paths: 30
+Referenced package paths: 31
 Missing targets: 0
 
 Doc: submission_readiness_checklist.md
 Referenced package paths: 20
+Missing targets: 0
+
+Doc: replication_package/README.md
+Referenced package paths: 23
 Missing targets: 0
 ```
 

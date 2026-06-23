@@ -37,6 +37,7 @@ This folder is a draft replication-package scaffold for the nudging manuscript. 
   - `scripts/check_reference_alignment.py`
   - `scripts/check_package_links.py`
   - `scripts/check_reference_formatting.py`
+  - `scripts/check_source_archive_status.py`
   - `scripts/validation_workflow.md`
   - `scripts/01_screening_shell.md`
   - `scripts/02_constructs_shell.md`

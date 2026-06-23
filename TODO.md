@@ -131,6 +131,7 @@
 - [x] Add a dedicated source-archive audit so later sessions can see which cited papers are locally archived versus only bibliographically confirmed
 - [x] Add a reusable helper that regenerates the source-archive audit from the citation crosswalk and literature folder
 - [x] Expand the one-command validation suite so the saved package snapshot also captures current source-archive status
+- [x] Expand the default one-command validation suite coverage so the replication manifest is checked and fingerprinted alongside the main package entrypoints
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

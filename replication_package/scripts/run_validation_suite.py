@@ -155,6 +155,7 @@ def main() -> int:
         "README.md",
         "manuscript_package_index.md",
         "submission_readiness_checklist.md",
+        "replication_package/README.md",
     ]
 
     if report_path and not report_path.exists():

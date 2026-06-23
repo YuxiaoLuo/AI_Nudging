@@ -190,6 +190,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The bibliography package now also includes a dedicated `manuscript_source_archive_audit.md` artifact that separates `citation aligned in the manuscript` from `authoritative local PDF archived`, making the remaining two-source archive gap easier to see during handoff without rereading the crosswalk and download log together.
 - The bibliography workflow now also has a dedicated `check_source_archive_status.py` helper that regenerates that source-archive audit from the manuscript crosswalk and current literature folder, reducing the risk that the handoff artifact drifts behind the actual archive state.
 - The saved one-command validation snapshot now also includes source-archive status alongside package-link integrity, citation alignment, and bibliography-format warnings, so the default handoff artifact surfaces the remaining two-PDF archive gap without requiring a separate bibliography-only read.
+- The default one-command validation suite now also covers `replication_package/README.md` as a tracked package-facing document, which closes the remaining front-door drift risk between the main manuscript entrypoints and the replication manifest.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

@@ -12,6 +12,11 @@ This file explains how to use the current lightweight package-validation helpers
   - run the package-link, citation-alignment, reference-formatting, and source-archive-status helpers in one reproducible pass
 - Typical use:
   - before a package handoff, after several documentation edits, or whenever you want a compact current-state audit without manually sequencing the helpers
+- Default package docs covered by the link check inside the suite:
+  - `README.md`
+  - `manuscript_package_index.md`
+  - `submission_readiness_checklist.md`
+  - `replication_package/README.md`
 - Example:
 
 ```bash
@@ -30,7 +35,7 @@ python3 replication_package/scripts/run_validation_suite.py \
 - Script:
   - `check_package_links.py`
 - Default purpose:
-  - confirm that repo-relative file references in `README.md` and `manuscript_package_index.md` still resolve
+  - confirm that repo-relative file references in package-facing docs still resolve
 - Typical use:
   - after editing package entrypoints or adding new manuscript-facing assets
 - Example:

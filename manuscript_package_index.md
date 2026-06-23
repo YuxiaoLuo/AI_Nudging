@@ -58,6 +58,7 @@ This file is the quickest entrypoint to the current manuscript package for the n
   - `replication_package/scripts/check_package_links.py`
   - `replication_package/scripts/check_reference_alignment.py`
   - `replication_package/scripts/check_reference_formatting.py`
+  - `replication_package/scripts/check_source_archive_status.py`
   - `replication_package/scripts/01_screening_shell.md`
   - `replication_package/scripts/02_constructs_shell.md`
   - `replication_package/scripts/03_main_results_shell.md`
