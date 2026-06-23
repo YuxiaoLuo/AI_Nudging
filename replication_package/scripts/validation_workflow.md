@@ -3,6 +3,16 @@
 ## Purpose
 This file explains how to use the current lightweight package-validation helpers before the final empirical scripts exist. The goal is to preserve a repeatable verification routine for package integrity and bibliography alignment.
 
+## Fast decision paths
+- If the question is `what is still unresolved in the package?`
+  - read `manuscript_package_open_items.md` first, then return here only if you need the specific helper sequence
+- If the question is `is the saved package snapshot still current?`
+  - read `manuscript_package_validation_freshness.md` first, then use `check_validation_snapshot_freshness.py` only if you need to regenerate or verify that decision
+- If the question is `which lightweight check should I run next?`
+  - use the numbered sections below, starting from the narrowest helper that matches the question rather than rerunning every check by default
+- If the question is `I just want one current package-state baseline`
+  - run `run_validation_suite.py` with `--report-md manuscript_package_validation_report.md --freshness-report-md manuscript_package_validation_freshness.md`
+
 ## Current runnable checks
 
 ### 0. Full lightweight validation suite

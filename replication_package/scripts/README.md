@@ -14,6 +14,8 @@ These files define the intended analysis workflow before a final implementation 
    - run bounded sensitivity and supplemental checks only after the main results are fixed
 
 ## Current helper utility
+- Fastest `what should I run?` companion:
+  - `validation_workflow.md`
 - `check_reference_alignment.py`
   - lightweight local check for whether the manuscript's in-text citations and references section still align
   - useful during package cleanup before a full journal-style bibliography pass
@@ -55,7 +57,7 @@ These files define the intended analysis workflow before a final implementation 
   - treats tracked manuscript/package inputs as the freshness criterion while still surfacing repository-HEAD drift as provenance
   - optional `--freshness-report-md` flag writes that freshness decision into a reusable markdown artifact
 - `validation_workflow.md`
-  - compact guide for when to run the current lightweight checks and what each one covers
+  - compact guide for when to run the current lightweight checks, what each one covers, and which file to read first when the question is `what is left?` versus `is the snapshot current?`
 
 ## Rule
 - When the final analysis language is chosen, each shell should be translated into one real script while preserving the same numbering and responsibility split.
