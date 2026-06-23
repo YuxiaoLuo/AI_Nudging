@@ -195,6 +195,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The replication-package scripts layer now also includes a working `check_placeholder_text.py` helper that distinguishes unexpected `TBD` carryover in core manuscript/package handoff docs from intentional placeholders in template appendices and results shells, and the current package state now passes that audit cleanly for core docs.
 - The default one-command validation suite now also includes that placeholder audit, so the package's main reproducible check now covers both structural integrity and accidental placeholder carryover in core handoff docs.
 - The saved validation snapshot is now also being tightened to fingerprint the validator scripts themselves, so later sessions can treat changes in validation logic as freshness-relevant drift rather than only changes in manuscript/package-facing inputs.
+- The bibliography workflow is now also less hand-maintained: `check_reference_formatting.py` can now write `manuscript_reference_format_audit.md` directly, so the package's reference-format status can be regenerated from the helper rather than preserved only as manual prose.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

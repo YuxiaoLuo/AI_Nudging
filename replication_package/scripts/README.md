@@ -26,6 +26,7 @@ These files define the intended analysis workflow before a final implementation 
   - lightweight local audit for reference-list ordering, DOI URL consistency, and a few bounded style-normalization risks
   - default target: `../../manuscript_llm_ai_nudges_draft.md`
   - useful before the final journal-style bibliography pass so cleanup stays disciplined rather than ad hoc
+  - optional `--report-md` flag writes the current audit into `../../manuscript_reference_format_audit.md` or another package-facing markdown artifact
 - `check_source_archive_status.py`
   - lightweight local audit for which cited manuscript sources are already archived as authoritative local PDFs versus only bibliographically confirmed
   - default inputs: `../../manuscript_citation_crosswalk.md`, `../../manuscript_llm_ai_nudges_draft.md`, and `../../literature/download_log.md`

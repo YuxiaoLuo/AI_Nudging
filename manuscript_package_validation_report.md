@@ -4,14 +4,14 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T02:52:55+00:00`
-- Repository HEAD at generation: `a04a9bdcfaf5484d01acbead6e2c12a918132ae5`
+- Generated at (UTC): `2026-06-23T03:23:07+00:00`
+- Repository HEAD at generation: `ec96b2517e0005dc6616ec310c69ea500e22ab1d`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `9b68409e8332`
 - `README.md`: sha256 `83bf31b0cff2`
 - `manuscript_package_index.md`: sha256 `8d2f35ee373d`
-- `submission_readiness_checklist.md`: sha256 `273d0c569b65`
+- `submission_readiness_checklist.md`: sha256 `e5f5a6f5931c`
 - `replication_package/README.md`: sha256 `bd254a6cf084`
 - `manuscript_citation_crosswalk.md`: sha256 `68156b481ff6`
 - `literature/download_log.md`: sha256 `7682a0427e6e`
@@ -22,7 +22,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: sha256 `c62456750aff`
 - `replication_package/scripts/check_package_links.py`: sha256 `182b2af323db`
 - `replication_package/scripts/check_reference_alignment.py`: sha256 `61fba9d7114b`
-- `replication_package/scripts/check_reference_formatting.py`: sha256 `43f5ab33a580`
+- `replication_package/scripts/check_reference_formatting.py`: sha256 `1bb979bad727`
 - `replication_package/scripts/check_source_archive_status.py`: sha256 `436013aef72e`
 - `replication_package/scripts/check_placeholder_text.py`: sha256 `abf74c4533d3`
 

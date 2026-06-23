@@ -69,9 +69,19 @@ python3 replication_package/scripts/check_reference_alignment.py manuscript_llm_
 - Typical use:
   - before or during the final bibliography normalization pass once the citation set is frozen
 - Example:
+  Basic run:
 
 ```bash
 python3 replication_package/scripts/check_reference_formatting.py manuscript_llm_ai_nudges_draft.md
+```
+
+- Report example:
+
+```bash
+python3 replication_package/scripts/check_reference_formatting.py \
+  --repo-root . \
+  manuscript_llm_ai_nudges_draft.md \
+  --report-md manuscript_reference_format_audit.md
 ```
 
 ### 4. Source-archive status audit

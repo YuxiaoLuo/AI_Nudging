@@ -15,19 +15,22 @@ This file records the current lightweight formatting state of the manuscript ref
 - The draft currently contains 12 reference entries.
 - All 12 entries currently use full `https://doi.org/` URLs.
 - No duplicate DOI URLs are currently flagged.
-- The first-pass alphabetical ordering issue in the `Wang` entries has already been corrected.
+- The first-pass alphabetical ordering issue in the references is not currently flagged.
 - The current bibliography therefore passes the lightweight structural-format audit.
 
-## Current remaining warnings
-The audit currently reports only outlet-specific style warnings:
+## Current warning flags
+- Alphabetical-order warning: `no`
+- Mixed subtitle capitalization warning: `yes`
+- `vs.` warning: `yes`
+- `Frontiers:` warning: `yes`
 
-1. Mixed subtitle capitalization appears after colons across some titles.
-2. At least one title currently uses `vs.`.
-3. At least one title currently begins with `Frontiers:`.
+## Current remaining warnings
+1. Mixed subtitle capitalization detected after colons; choose one journal-specific rule in the final style pass.
+2. At least one title uses 'vs.'; confirm whether the target outlet keeps abbreviations or spells them out.
+3. At least one title starts with 'Frontiers:'; confirm whether that prefix is kept exactly in the target style.
 
 ## Interpretation
 - These warnings do **not** indicate citation-list misalignment.
-- These warnings do **not** indicate missing DOI URLs.
 - These warnings do **not** require reopening the manuscript's theory or citation set.
 - They indicate only that the final bibliography pass still needs one explicit target-journal style decision.
 
@@ -35,7 +38,7 @@ The audit currently reports only outlet-specific style warnings:
 - If the target outlet prefers sentence case:
   - normalize all titles and subtitles in one bounded pass while preserving proper nouns and any required article prefixes.
 - If the target outlet prefers title case:
-  - convert all titles and subtitles in one bounded pass rather than editing only the flagged entries.
+  - convert all titles and subtitles in one pass rather than editing only the flagged entries.
 - Before making that pass:
   - keep the citation set frozen
   - confirm citation/reference alignment with `manuscript_reference_audit.md`
@@ -49,4 +52,4 @@ The audit currently reports only outlet-specific style warnings:
 
 ## Practical use
 - Use this file when deciding whether the next bibliography task is `style normalization` versus `PDF retrieval`.
-- Refresh this audit after any future reference-list edits that change title wording, ordering, or DOI presentation.
+- Refresh this audit after any future reference-list edits that change title wording, ordering, DOI presentation, or validation logic.
