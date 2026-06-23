@@ -27,6 +27,7 @@ class FileResult:
 DEFAULT_CORE_DOCS = [
     "README.md",
     "manuscript_package_index.md",
+    "manuscript_package_open_items.md",
     "manuscript_llm_ai_nudges_draft.md",
     "submission_readiness_checklist.md",
     "manuscript_asset_plan.md",

@@ -4,14 +4,14 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T09:22:29+00:00`
-- Repository HEAD at generation: `8fec68bee89069b39b80c516f2764f0cdd8c2d81`
+- Generated at (UTC): `2026-06-23T09:52:33+00:00`
+- Repository HEAD at generation: `d25f79256de32dc90a8f848877d0ddba5a98d1ad`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `c2774c9f0090`
 - `README.md`: sha256 `565d6def0b2a`
 - `manuscript_package_index.md`: sha256 `f9e2a18ce34d`
-- `manuscript_package_open_items.md`: sha256 `bc55eb04c9c2`
+- `manuscript_package_open_items.md`: sha256 `c36a41f23cf9`
 - `submission_readiness_checklist.md`: sha256 `0bd1fabf2b87`
 - `replication_package/README.md`: sha256 `bd254a6cf084`
 - `manuscript_reference_audit.md`: sha256 `f2ea9930a433`
@@ -27,7 +27,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `replication_package/scripts/check_reference_alignment.py`: sha256 `dd7bbef31ea6`
 - `replication_package/scripts/check_reference_formatting.py`: sha256 `e28c65500b7c`
 - `replication_package/scripts/check_source_archive_status.py`: sha256 `2fd4f177d359`
-- `replication_package/scripts/check_placeholder_text.py`: sha256 `abf74c4533d3`
+- `replication_package/scripts/check_placeholder_text.py`: sha256 `a35d6125add0`
 
 ## Current validation target
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`

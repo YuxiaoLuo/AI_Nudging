@@ -36,7 +36,7 @@ These files define the intended analysis workflow before a final implementation 
   - useful when you want to refresh `../../manuscript_source_archive_audit.md` without maintaining that handoff file manually
 - `check_placeholder_text.py`
   - lightweight local audit for distinguishing unexpected `TBD` placeholders in core package docs from intentional placeholders in template appendices and result shells
-  - default core docs: main manuscript/package entrypoints and bibliography handoff artifacts
+  - default core docs: main manuscript/package entrypoints, including `../../manuscript_package_open_items.md`, plus the bibliography handoff artifacts
   - default template docs: `../../appendix_c_screening_and_sample_flow.md`, `../../appendix_d_supplemental_robustness.md`, and `../../results_table_shells.md`
   - useful before a handoff or submission-style walk-through when you want to know whether placeholder text remains only where it should
 - `run_validation_suite.py`

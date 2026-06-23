@@ -147,6 +147,8 @@
 - [x] Align the reusable validation-workflow docs with that narrower bibliography state so they no longer imply a broader capitalization-cleanup problem
 - [x] Add a package-facing open-items summary so later sessions can see the residual bibliography, source-archive, and placeholder issues without reconstructing them from multiple audits
 - [x] Fold the new package-facing open-items summary into the default validation-suite package-doc set so it is tracked as a first-class handoff artifact
+- [x] Fold the new package-facing open-items summary into the default placeholder-audit core-doc set so all front-door handoff docs share the same baseline validation coverage
+- [x] Remove the placeholder-audit false positive from the new open-items summary so the stricter default coverage passes cleanly in practice
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

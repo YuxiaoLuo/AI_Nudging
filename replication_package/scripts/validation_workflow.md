@@ -134,6 +134,8 @@ python3 replication_package/scripts/check_source_archive_status.py --repo-root .
   - distinguish unexpected `TBD` placeholders in core handoff docs from intentional placeholders that still belong in templates and result shells
 - Typical use:
   - before a package handoff, before a submission-style walk-through, or after creating new package-facing docs that should not contain placeholder carryover
+- Default core-doc coverage includes:
+  - the front-door package docs such as `README.md`, `manuscript_package_index.md`, and `manuscript_package_open_items.md`
 - Example:
 
 ```bash

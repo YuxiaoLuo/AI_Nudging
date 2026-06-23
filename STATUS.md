@@ -207,6 +207,8 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The reusable validation-workflow docs now also reflect that same narrowed state, so `replication_package/scripts/README.md` and `replication_package/scripts/validation_workflow.md` no longer imply that the current bibliography still has a broader capitalization problem.
 - The manuscript package now also has a dedicated `manuscript_package_open_items.md` front-door summary, which makes the residual work visible in one place: the remaining `vs.`/`Frontiers:` reference-style decisions, the two access-blocked bridge PDFs, and the fact that `TBD` placeholders are currently confined to template-style assets rather than core handoff docs.
 - That new front-door open-items summary is now also part of the default validation-suite package-doc set, so the saved package snapshot and link-integrity checks now treat it as a first-class handoff artifact rather than an optional extra file.
+- The default placeholder audit now treats that same open-items summary as a core handoff doc too, which closes the remaining consistency gap between `front-door package doc` and `default validation coverage`.
+- That stricter placeholder coverage has now also been exercised successfully: `manuscript_package_open_items.md` was cleaned up so it no longer trips the core-doc placeholder audit, and the default package suite again passes cleanly with the open-items summary included in both link and placeholder checks.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

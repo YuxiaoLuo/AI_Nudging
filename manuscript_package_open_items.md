@@ -38,7 +38,7 @@ Current rule:
 - treat a file as `archived locally` only if it exists and validates as a real PDF, not merely because a vendor URL ended in `.pdf`
 
 ## Expected non-blocking placeholders
-The validation suite still finds intentional `TBD` placeholders in template or results-shell assets, but not in the core package handoff docs.
+The validation suite still finds intentional to-be-determined placeholders in template or results-shell assets, but not in the core package handoff docs.
 
 Current expected placeholder locations:
 - `appendix_c_screening_and_sample_flow.md`
