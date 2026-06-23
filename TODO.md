@@ -130,6 +130,7 @@
 - [x] Tighten the validation helpers so doc-local package links validate correctly and saved freshness decisions do not fail solely because the repo HEAD later moved
 - [x] Add a dedicated source-archive audit so later sessions can see which cited papers are locally archived versus only bibliographically confirmed
 - [x] Add a reusable helper that regenerates the source-archive audit from the citation crosswalk and literature folder
+- [x] Expand the one-command validation suite so the saved package snapshot also captures current source-archive status
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

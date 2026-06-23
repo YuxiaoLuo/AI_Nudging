@@ -189,6 +189,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - A targeted late-day literature retrieval recheck also clarified the remaining bridge-source gap further: Xiao and Benbasat (2007) and Ebrahimi et al. (2022) now have explicit direct PDF endpoints recorded, but those routes still return environment-level `403`/challenge blocks here, so the unresolved issue is access rather than source discovery.
 - The bibliography package now also includes a dedicated `manuscript_source_archive_audit.md` artifact that separates `citation aligned in the manuscript` from `authoritative local PDF archived`, making the remaining two-source archive gap easier to see during handoff without rereading the crosswalk and download log together.
 - The bibliography workflow now also has a dedicated `check_source_archive_status.py` helper that regenerates that source-archive audit from the manuscript crosswalk and current literature folder, reducing the risk that the handoff artifact drifts behind the actual archive state.
+- The saved one-command validation snapshot now also includes source-archive status alongside package-link integrity, citation alignment, and bibliography-format warnings, so the default handoff artifact surfaces the remaining two-PDF archive gap without requiring a separate bibliography-only read.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

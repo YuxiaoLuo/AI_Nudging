@@ -77,17 +77,23 @@ def markdown_report(
     for path in tracked_inputs:
         lines.append(f"- `{path.relative_to(repo_root)}`: sha256 `{sha256_prefix(path)}`")
     lines.extend(
-        [
-        "",
-        "## Current validation target",
-        f"- Repository root: `{repo_root}`",
-        f"- Manuscript: `{manuscript}`",
-        "- Package-facing docs included in link check:",
-        ]
+            [
+                "",
+                "## Current validation target",
+                f"- Repository root: `{repo_root}`",
+                f"- Manuscript: `{manuscript}`",
+                "- Package-facing docs included in link check:",
+            ]
     )
     lines.extend([f"  - `{doc}`" for doc in package_docs])
     lines.extend(
         [
+            "",
+            "## Included lightweight checks",
+            "- package-link integrity for the main manuscript/package entrypoints",
+            "- manuscript citation/reference alignment",
+            "- bibliography-format consistency warnings",
+            "- source-archive status for cited manuscript references",
             "",
             "## Validation results",
         ]
@@ -182,6 +188,15 @@ def main() -> int:
                 sys.executable,
                 str(script_dir / "check_reference_formatting.py"),
                 str(manuscript),
+            ],
+        ),
+        (
+            "source_archive_status",
+            [
+                sys.executable,
+                str(script_dir / "check_source_archive_status.py"),
+                "--repo-root",
+                str(repo_root),
             ],
         ),
     ]

@@ -9,7 +9,7 @@ This file explains how to use the current lightweight package-validation helpers
 - Script:
   - `run_validation_suite.py`
 - Default purpose:
-  - run the package-link, citation-alignment, and reference-formatting helpers in one reproducible pass
+  - run the package-link, citation-alignment, reference-formatting, and source-archive-status helpers in one reproducible pass
 - Typical use:
   - before a package handoff, after several documentation edits, or whenever you want a compact current-state audit without manually sequencing the helpers
 - Example:
@@ -88,8 +88,8 @@ python3 replication_package/scripts/check_source_archive_status.py --repo-root .
 4. Run `check_package_links.py` separately only when you are editing package-facing docs and want a faster targeted recheck.
 5. Run `check_reference_alignment.py` separately only when you changed citations or the references section and do not need the full suite.
 6. Run `check_reference_formatting.py` separately when the citation set is stable and the next step is bounded bibliography cleanup rather than theory expansion.
-7. Run `check_source_archive_status.py` when the question is no longer `are the citations aligned?` but `which cited sources are still not locally archived?`
-8. If the citation and formatting checks pass, use:
+7. Run `check_source_archive_status.py` separately when the question is no longer `are the citations aligned?` but `which cited sources are still not locally archived?`
+8. If the citation, formatting, and archive-status checks pass, use:
    - `manuscript_reference_audit.md`
    - `manuscript_source_archive_audit.md`
    - `manuscript_reference_cleanup_notes.md`

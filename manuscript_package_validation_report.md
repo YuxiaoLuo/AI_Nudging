@@ -4,8 +4,8 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-22T23:52:56+00:00`
-- Repository HEAD at generation: `3c72bc0d89a5b48594d73e2027067e0ca54c0e4e`
+- Generated at (UTC): `2026-06-23T00:52:25+00:00`
+- Repository HEAD at generation: `5818c11dcac60e572808b10bae993adf4b3de571`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `9b68409e8332`
@@ -20,6 +20,12 @@ This file records one lightweight validation-suite snapshot for the current manu
   - `README.md`
   - `manuscript_package_index.md`
   - `submission_readiness_checklist.md`
+
+## Included lightweight checks
+- package-link integrity for the main manuscript/package entrypoints
+- manuscript citation/reference alignment
+- bibliography-format consistency warnings
+- source-archive status for cited manuscript references
 
 ## Validation results
 ### package_links
@@ -67,6 +73,21 @@ Warnings:
 - Mixed subtitle capitalization detected after colons; choose one journal-specific rule in the final style pass.
 - At least one title uses 'vs.'; confirm whether the target outlet keeps abbreviations or spells them out.
 - At least one title starts with 'Frontiers:'; confirm whether that prefix is kept exactly in the target style.
+```
+
+### source_archive_status
+- Status: `PASS`
+- Output:
+```text
+Crosswalk: /Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_citation_crosswalk.md
+Source archive audit: /Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_source_archive_audit.md
+Citations checked: 12
+Archived locally: 10
+Missing local PDFs: 2
+
+Missing local PDFs:
+- Xiao and Benbasat (2007)
+- Ebrahimi et al. (2022)
 ```
 
 ## Interpretation note

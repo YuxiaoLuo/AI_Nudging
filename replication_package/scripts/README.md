@@ -31,7 +31,7 @@ These files define the intended analysis workflow before a final implementation 
   - default inputs: `../../manuscript_citation_crosswalk.md`, `../../manuscript_llm_ai_nudges_draft.md`, and `../../literature/download_log.md`
   - useful when you want to refresh `../../manuscript_source_archive_audit.md` without maintaining that handoff file manually
 - `run_validation_suite.py`
-  - one-command wrapper for the current package-link, citation-alignment, and reference-formatting checks
+  - one-command wrapper for the current package-link, citation-alignment, reference-formatting, and source-archive-status checks
   - default docs: `../../README.md`, `../../manuscript_package_index.md`, and `../../submission_readiness_checklist.md`
   - useful when you want one reproducible package-validation pass instead of remembering the helper order manually
   - optional `--report-md` flag writes the suite output into a reusable markdown artifact with generation metadata and input fingerprints
