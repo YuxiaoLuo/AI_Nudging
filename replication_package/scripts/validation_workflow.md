@@ -41,6 +41,15 @@ python3 replication_package/scripts/run_validation_suite.py \
   --report-md manuscript_package_validation_report.md
 ```
 
+- Report + freshness example:
+
+```bash
+python3 replication_package/scripts/run_validation_suite.py \
+  --repo-root . \
+  --report-md manuscript_package_validation_report.md \
+  --freshness-report-md manuscript_package_validation_freshness.md
+```
+
 ### 1. Package entrypoint link check
 - Script:
   - `check_package_links.py`
@@ -130,21 +139,22 @@ python3 replication_package/scripts/check_placeholder_text.py --repo-root .
 1. Use `run_validation_suite.py` when you want one reproducible pass across the current lightweight checks.
 2. Use its `--report-md` flag when you want the current validation state preserved as a handoff artifact rather than left only in terminal output.
    The saved report also records generation time, repository head, and input file fingerprints so later sessions can judge whether the snapshot is stale.
-3. Use `check_validation_snapshot_freshness.py` when you want to test whether the saved snapshot is still trustworthy before deciding to rerun the full suite.
+3. Use the suite's `--freshness-report-md` flag when you want the saved validation snapshot and its freshness decision refreshed together in one pass.
+4. Use `check_validation_snapshot_freshness.py` separately when you want to test whether the saved snapshot is still trustworthy before deciding to rerun the full suite.
    Treat the tracked manuscript and package-doc fingerprints as the actual freshness criterion, while reading any repository-HEAD drift as provenance about changes made after the snapshot was written.
    If useful, write that decision to disk with `--freshness-report-md manuscript_package_validation_freshness.md`.
-4. Run `check_package_links.py` separately only when you are editing package-facing docs and want a faster targeted recheck.
-5. Run `check_reference_alignment.py` separately only when you changed citations or the references section and do not need the full suite.
-6. Run `check_reference_formatting.py` separately when the citation set is stable and the next step is bounded bibliography cleanup rather than theory expansion.
-7. Run `check_source_archive_status.py` separately when the question is no longer `are the citations aligned?` but `which cited sources are still not locally archived?`
-8. Run `check_placeholder_text.py` when you want to confirm that remaining `TBD` text is confined to explicit templates rather than leaking into the core manuscript/package handoff docs.
-9. If the citation, formatting, and archive-status checks pass, use:
+5. Run `check_package_links.py` separately only when you are editing package-facing docs and want a faster targeted recheck.
+6. Run `check_reference_alignment.py` separately only when you changed citations or the references section and do not need the full suite.
+7. Run `check_reference_formatting.py` separately when the citation set is stable and the next step is bounded bibliography cleanup rather than theory expansion.
+8. Run `check_source_archive_status.py` separately when the question is no longer `are the citations aligned?` but `which cited sources are still not locally archived?`
+9. Run `check_placeholder_text.py` when you want to confirm that remaining `TBD` text is confined to explicit templates rather than leaking into the core manuscript/package handoff docs.
+10. If the citation, formatting, and archive-status checks pass, use:
    - `manuscript_reference_audit.md`
    - `manuscript_source_archive_audit.md`
    - `manuscript_reference_cleanup_notes.md`
    - `manuscript_citation_crosswalk.md`
    to decide whether the next step is style cleanup, citation-role review, or PDF retrieval.
-10. If the package-link and placeholder checks pass, do the final walk-through items in `submission_readiness_checklist.md`.
+11. If the package-link and placeholder checks pass, do the final walk-through items in `submission_readiness_checklist.md`.
 
 ## Current scope limits
 - These helpers do not validate journal-style bibliography formatting.

@@ -47,6 +47,28 @@ def sha256_prefix(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()[:12]
 
 
+def write_freshness_report(
+    repo_root: Path,
+    report_path: Path,
+    freshness_report_path: Path,
+) -> subprocess.CompletedProcess[str]:
+    script_dir = repo_root / "replication_package" / "scripts"
+    return subprocess.run(
+        [
+            sys.executable,
+            str(script_dir / "check_validation_snapshot_freshness.py"),
+            "--repo-root",
+            str(repo_root),
+            "--report-md",
+            str(report_path),
+            "--freshness-report-md",
+            str(freshness_report_path),
+        ],
+        capture_output=True,
+        text=True,
+    )
+
+
 def markdown_report(
     repo_root: Path,
     manuscript: Path,
@@ -168,12 +190,17 @@ def main() -> int:
         "--report-md",
         help="Optional path to write a markdown validation report.",
     )
+    parser.add_argument(
+        "--freshness-report-md",
+        help="Optional path to write a markdown freshness report after the validation report is refreshed.",
+    )
     args = parser.parse_args()
 
     script_dir = Path(__file__).resolve().parent
     repo_root = Path(args.repo_root).resolve()
     manuscript = Path(args.manuscript).resolve()
     report_path = Path(args.report_md).resolve() if args.report_md else None
+    freshness_report_path = Path(args.freshness_report_md).resolve() if args.freshness_report_md else None
     package_docs = args.package_docs or [
         "README.md",
         "manuscript_package_index.md",
@@ -271,6 +298,14 @@ def main() -> int:
                 results,
             )
         )
+        if freshness_report_path:
+            freshness_completed = write_freshness_report(repo_root, report_path, freshness_report_path)
+            print("Freshness report refresh:")
+            if freshness_completed.stdout.strip():
+                print(freshness_completed.stdout.strip())
+            if freshness_completed.stderr.strip():
+                print(freshness_completed.stderr.strip(), file=sys.stderr)
+            print()
 
     overall_failure = False
     print("Validation suite summary:")
