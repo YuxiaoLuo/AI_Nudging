@@ -8,22 +8,24 @@ This file records the current relationship between the manuscript's in-text cita
   - `manuscript_llm_ai_nudges_draft.md`
 - Audit date:
   - `2026-06-22`
+- Audit helper:
+  - `replication_package/scripts/check_reference_alignment.py`
 
 ## In-text citation set currently used in the draft
 The current main-text citation set is:
 
-1. Häubl and Trifts (2000)
-2. Senecal and Nantel (2004)
-3. Ursu (2018)
-4. Wang and Benbasat (2007)
-5. Wang et al. (2018)
-6. Wang and Wang (2019)
-7. Xiao and Benbasat (2007)
-8. Luo et al. (2019)
-9. Ebrahimi et al. (2022)
-10. de Cicco et al. (2022)
-11. Chung et al. (2020)
-12. Chen et al. (2021)
+1. Chen et al. (2021)
+2. Chung et al. (2020)
+3. de Cicco et al. (2022)
+4. Ebrahimi et al. (2022)
+5. Häubl and Trifts (2000)
+6. Luo et al. (2019)
+7. Senecal and Nantel (2004)
+8. Ursu (2018)
+9. Wang and Benbasat (2007)
+10. Wang et al. (2018)
+11. Wang and Wang (2019)
+12. Xiao and Benbasat (2007)
 
 ## References-section alignment
 - The current references section in `manuscript_llm_ai_nudges_draft.md` contains entries for all 12 citations currently used in the main text.
@@ -41,14 +43,7 @@ The current main-text citation set is:
   - `manuscript_citation_crosswalk.md`
   - `manuscript_source_archive_audit.md`
 
-## Remaining cleanup points
-- `Xiao and Benbasat (2007)` is bibliographically confirmed in project records, but an authoritative local PDF is still not archived.
-- `Ebrahimi et al. (2022)` is bibliographically confirmed in project records, but an authoritative local PDF is still not archived.
-- The latest archive attempt on `2026-06-22` indicates that the remaining problem is access or download-route availability from this environment rather than a citation-list mismatch.
-- The literature download log now records concrete manual-access routes for both missing PDFs, so later retrieval work no longer has to restart from a blank search.
-- If the manuscript later gains or drops citations, this audit should be refreshed rather than assumed to remain valid.
-
 ## Practical use
 - Use this file before submission-oriented formatting passes on the references section.
 - Use this file together with `manuscript_citation_crosswalk.md` when deciding whether the next step is `style cleanup`, `source verification`, or `local-PDF archiving`.
-- Use `replication_package/scripts/check_reference_alignment.py` when the draft changes and you want to rerun the alignment check instead of repeating the audit manually.
+- Refresh this audit after any future manuscript citation changes or reference-list edits, ideally by rerunning `replication_package/scripts/check_reference_alignment.py` with `--report-md manuscript_reference_audit.md`.

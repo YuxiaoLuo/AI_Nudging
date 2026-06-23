@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import date
 import re
 import sys
 from pathlib import Path
@@ -43,6 +44,17 @@ def extract_reference_metadata(block: str) -> tuple[str, int | None, list[str]]:
         for match in re.finditer(r"([A-Za-zÀ-ÿ' -]+?),\s+[A-Z]", author_segment)
     ]
     return author_segment, year, surnames
+
+
+def citation_label_from_block(block: str) -> str:
+    _, year, surnames = extract_reference_metadata(block)
+    if year is None or not surnames:
+        return block.split(".", 1)[0].strip()
+    if len(surnames) == 1:
+        return f"{surnames[0]} ({year})"
+    if len(surnames) == 2:
+        return f"{surnames[0]} and {surnames[1]} ({year})"
+    return f"{surnames[0]} et al. ({year})"
 
 
 def reference_keys(block: str) -> set[str]:
@@ -87,7 +99,92 @@ def extract_narrative_tokens(body: str) -> set[str]:
     return tokens
 
 
-def build_report(manuscript_path: Path) -> int:
+def markdown_report(
+    manuscript_rel: str,
+    matched_reference_blocks: list[str],
+    uncited_reference_blocks: list[str],
+    unmatched_citation_tokens: list[str],
+) -> str:
+    citation_labels = [citation_label_from_block(block) for block in matched_reference_blocks]
+    lines = [
+        "# Manuscript Reference Audit",
+        "",
+        "## Purpose",
+        "This file records the current relationship between the manuscript's in-text citations and the draft references section. The goal is to make later reference cleanup faster and to separate `reference-list alignment` from the narrower question of whether every cited paper already has an authoritative local PDF archived.",
+        "",
+        "## Current audit target",
+        "- Source file:",
+        f"  - `{manuscript_rel}`",
+        "- Audit date:",
+        f"  - `{date.today().isoformat()}`",
+        "- Audit helper:",
+        "  - `replication_package/scripts/check_reference_alignment.py`",
+        "",
+        "## In-text citation set currently used in the draft",
+    ]
+
+    if citation_labels:
+        lines.append("The current main-text citation set is:")
+        lines.append("")
+        for idx, label in enumerate(citation_labels, start=1):
+            lines.append(f"{idx}. {label}")
+    else:
+        lines.append("- No current in-text citations were detected.")
+
+    lines.extend(
+        [
+            "",
+            "## References-section alignment",
+            f"- The current references section in `{manuscript_rel}` contains entries for all {len(matched_reference_blocks)} citations currently used in the main text." if not unmatched_citation_tokens else f"- The current references section in `{manuscript_rel}` does not yet cover all citations currently used in the main text.",
+            f"- {'No extra references were found in the draft references section beyond the current in-text citation set.' if not uncited_reference_blocks else f'{len(uncited_reference_blocks)} reference entries are currently not matched to any in-text citation token.'}",
+            f"- {'No currently used in-text citations were found to be missing from the references section.' if not unmatched_citation_tokens else f'{len(unmatched_citation_tokens)} currently used in-text citation tokens do not yet match any reference entry.'}",
+        ]
+    )
+
+    if uncited_reference_blocks:
+        lines.extend(
+            [
+                "",
+                "## Uncited reference entries",
+            ]
+        )
+        for block in uncited_reference_blocks:
+            lines.append(f"- {block}")
+
+    if unmatched_citation_tokens:
+        lines.extend(
+            [
+                "",
+                "## In-text citation tokens without matching reference entries",
+            ]
+        )
+        for token in unmatched_citation_tokens:
+            lines.append(f"- `{token}`")
+
+    lines.extend(
+        [
+            "",
+            "## What this audit confirms",
+            "- The draft is currently aligned at the level of `in-text citation present` versus `reference entry present`." if not uncited_reference_blocks and not unmatched_citation_tokens else "- The audit isolates the current structural citation/reference mismatches that still need repair.",
+            "- The manuscript therefore does not currently have a citation-list mismatch problem." if not uncited_reference_blocks and not unmatched_citation_tokens else "- The manuscript should not be treated as citation-list clean until those mismatches are resolved.",
+            "",
+            "## What this audit does not confirm",
+            "- This file does not certify that every reference is already in final journal style.",
+            "- This file does not certify that every cited work has an authoritative local PDF archived.",
+            "- For source-role mapping and local-file status, use:",
+            "  - `manuscript_citation_crosswalk.md`",
+            "  - `manuscript_source_archive_audit.md`",
+            "",
+            "## Practical use",
+            "- Use this file before submission-oriented formatting passes on the references section.",
+            "- Use this file together with `manuscript_citation_crosswalk.md` when deciding whether the next step is `style cleanup`, `source verification`, or `local-PDF archiving`.",
+            "- Refresh this audit after any future manuscript citation changes or reference-list edits, ideally by rerunning `replication_package/scripts/check_reference_alignment.py` with `--report-md manuscript_reference_audit.md`.",
+        ]
+    )
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def build_report(manuscript_path: Path, report_path: Path | None = None, repo_root: Path | None = None) -> int:
     text = manuscript_path.read_text()
     body, references = split_manuscript(text)
     reference_blocks = extract_reference_blocks(references)
@@ -124,6 +221,19 @@ def build_report(manuscript_path: Path) -> int:
         for token in unmatched_citation_tokens:
             print(f"- {token}")
 
+    if report_path is not None:
+        if repo_root is None:
+            repo_root = manuscript_path.parent
+        manuscript_rel = manuscript_path.relative_to(repo_root).as_posix() if manuscript_path.is_relative_to(repo_root) else manuscript_path.as_posix()
+        report_path.write_text(
+            markdown_report(
+                manuscript_rel=manuscript_rel,
+                matched_reference_blocks=matched_reference_blocks,
+                uncited_reference_blocks=uncited_reference_blocks,
+                unmatched_citation_tokens=unmatched_citation_tokens,
+            )
+        )
+
     return 1 if uncited_reference_blocks or unmatched_citation_tokens else 0
 
 
@@ -135,9 +245,21 @@ def main() -> int:
         default="manuscript_llm_ai_nudges_draft.md",
         help="Path to the manuscript markdown file.",
     )
+    parser.add_argument(
+        "--repo-root",
+        default=".",
+        help="Repository root used when writing a markdown audit report.",
+    )
+    parser.add_argument(
+        "--report-md",
+        help="Optional path to write a markdown audit report.",
+    )
     args = parser.parse_args()
     try:
-        return build_report(Path(args.manuscript))
+        repo_root = Path(args.repo_root).resolve()
+        manuscript_path = Path(args.manuscript).resolve()
+        report_path = (repo_root / args.report_md).resolve() if args.report_md else None
+        return build_report(manuscript_path, report_path=report_path, repo_root=repo_root)
     except Exception as exc:  # pragma: no cover - diagnostic path
         print(f"Error: {exc}", file=sys.stderr)
         return 2

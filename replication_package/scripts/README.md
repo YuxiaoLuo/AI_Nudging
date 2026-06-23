@@ -18,6 +18,7 @@ These files define the intended analysis workflow before a final implementation 
   - lightweight local check for whether the manuscript's in-text citations and references section still align
   - useful during package cleanup before a full journal-style bibliography pass
   - default target: `../../manuscript_llm_ai_nudges_draft.md`
+  - optional `--report-md` flag writes the current alignment audit into `../../manuscript_reference_audit.md` or another package-facing markdown artifact
 - `check_package_links.py`
   - lightweight local check for whether package-doc file references still exist when resolved from each document's own location
   - default docs: `../../README.md` and `../../manuscript_package_index.md`

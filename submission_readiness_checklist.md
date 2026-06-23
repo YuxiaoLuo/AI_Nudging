@@ -44,6 +44,7 @@ This checklist converts the current manuscript package into a pre-submission wor
 
 ## References and source hygiene
 - [ ] Use `manuscript_reference_audit.md` to confirm the references list still matches the in-text citation set after any draft changes.
+- [ ] If the saved reference-alignment audit may be stale, regenerate it with `replication_package/scripts/check_reference_alignment.py --repo-root . manuscript_llm_ai_nudges_draft.md --report-md manuscript_reference_audit.md`.
 - [ ] Use `manuscript_source_archive_audit.md` to confirm which cited papers are already locally archived versus still waiting on manual retrieval.
 - [ ] Use `manuscript_reference_format_audit.md` to confirm that any remaining warnings are truly outlet-specific rather than structural.
 - [ ] Run `replication_package/scripts/check_reference_formatting.py` before the final bounded bibliography cleanup pass.

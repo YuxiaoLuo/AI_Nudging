@@ -56,9 +56,19 @@ python3 replication_package/scripts/check_package_links.py --repo-root . README.
 - Typical use:
   - after editing the manuscript draft or references section
 - Example:
+  Basic run:
 
 ```bash
 python3 replication_package/scripts/check_reference_alignment.py manuscript_llm_ai_nudges_draft.md
+```
+
+- Report example:
+
+```bash
+python3 replication_package/scripts/check_reference_alignment.py \
+  --repo-root . \
+  manuscript_llm_ai_nudges_draft.md \
+  --report-md manuscript_reference_audit.md
 ```
 
 ### 3. Reference-format consistency audit
