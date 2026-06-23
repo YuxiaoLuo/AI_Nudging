@@ -143,6 +143,7 @@
 - [x] Expand the reference-format audit so it lists the exact bibliography entries currently triggering the remaining outlet-style warnings
 - [x] Tighten the source-archive audit so cited local files count as archived only when they validate as real PDFs rather than merely existing on disk
 - [x] Remove the mixed subtitle-capitalization drift from the working references list so the remaining bibliography warnings are limited to `vs.` and `Frontiers:` decisions
+- [x] Narrow the package-facing bibliography cleanup guidance so the remaining style work is documented explicitly as the `vs.` and `Frontiers:` decision set
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
