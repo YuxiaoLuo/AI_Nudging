@@ -4,12 +4,12 @@
 This file records whether the saved manuscript-package validation snapshot still matches the current repository state.
 
 ## Freshness metadata
-- Generated at (UTC): `2026-06-23T14:22:12+00:00`
+- Generated at (UTC): `2026-06-23T14:52:05+00:00`
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
 - Validation snapshot checked: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_package_validation_report.md`
 - Saved snapshot HEAD: `20a171f52104ab247e966144403116a5f7b92af3`
-- Current repository HEAD: `20a171f52104ab247e966144403116a5f7b92af3`
-- Repository HEAD drift since snapshot: `NO`
+- Current repository HEAD: `7824edefa9d052bfb230e6fb888ae2bc8efcf888`
+- Repository HEAD drift since snapshot: `YES`
 
 ## Tracked fingerprint comparison
 - `manuscript_llm_ai_nudges_draft.md`: `MATCH` (saved `c2774c9f0090`, current `c2774c9f0090`)
@@ -34,3 +34,4 @@ This file records whether the saved manuscript-package validation snapshot still
 ## Result
 - Snapshot freshness: `CURRENT`
 - Action: the saved validation snapshot is currently trustworthy for package handoff and quick orientation.
+- Note: repository HEAD changed after the snapshot was written, but the tracked fingerprints still match.

@@ -69,6 +69,7 @@ This checklist converts the current manuscript package into a pre-submission wor
 - [ ] If using the saved validation snapshot, confirm that its generation metadata and input fingerprints still correspond to the current draft and package-facing docs.
 - [ ] Use `replication_package/scripts/check_validation_snapshot_freshness.py` if you want to verify the saved snapshot before deciding whether a full rerun is necessary.
 - [ ] If a saved freshness decision would help handoff, write it with `--freshness-report-md manuscript_package_validation_freshness.md`.
+- [ ] If repo HEAD has advanced after the saved snapshot was written but the tracked package fingerprints may still match, refresh only `manuscript_package_validation_freshness.md` before assuming the saved snapshot is stale.
 - [ ] Use `replication_package/scripts/validation_workflow.md` if you need to rerun or interpret the individual helpers separately.
 - [ ] Start from `manuscript_package_index.md` and verify every linked file still exists and is current.
 - [ ] Confirm `README.md` still points to the right manuscript entrypoints.

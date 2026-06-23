@@ -156,6 +156,7 @@
 - [x] Tighten the package front door so future readers hit the open-items summary and freshness decision before the deeper validation snapshot
 - [x] Mirror that same triage logic inside the validation-workflow docs so operational guidance matches the front-door package entrypoints
 - [x] Add a compact orientation summary to the generated validation snapshot so later readers can see the current residual counts before scanning the full raw helper outputs
+- [x] Document the post-commit snapshot-freshness rule so later sessions know when a standalone freshness refresh is enough and a full-suite rerun is unnecessary
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
