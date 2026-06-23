@@ -141,6 +141,7 @@
 - [x] Expand the one-command validation suite so it refreshes the citation-alignment and reference-format audit artifacts alongside the source-archive audit
 - [x] Expand the one-command validation suite so it can also refresh the saved freshness artifact immediately after rewriting the validation snapshot
 - [x] Expand the reference-format audit so it lists the exact bibliography entries currently triggering the remaining outlet-style warnings
+- [x] Tighten the source-archive audit so cited local files count as archived only when they validate as real PDFs rather than merely existing on disk
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

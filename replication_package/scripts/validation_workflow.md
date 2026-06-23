@@ -116,6 +116,8 @@ python3 replication_package/scripts/check_reference_formatting.py \
   - regenerate a compact audit showing which cited manuscript sources are already archived locally versus still missing authoritative local PDFs
 - Typical use:
   - after literature-retrieval work, after citation-crosswalk updates, or before a package handoff that needs clear source-archive status
+- Current validation rule:
+  - a local file only counts as archived if it exists and begins with the `%PDF-` signature; vendor challenge pages saved as `.pdf` files are treated as invalid rather than as real archived sources
 - Example:
 
 ```bash

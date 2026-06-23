@@ -25,6 +25,14 @@ class CitationRow:
         return path if path.startswith("literature/") else None
 
 
+def is_probable_pdf(path: Path) -> bool:
+    try:
+        with path.open("rb") as handle:
+            return handle.read(5) == b"%PDF-"
+    except OSError:
+        return False
+
+
 TABLE_ROW_PATTERN = re.compile(r"^\| (.+?) \| (.+?) \| (.+?) \| (.+?) \| (.+?) \|$")
 
 
@@ -50,6 +58,7 @@ def markdown_report(
     crosswalk_rel: str,
     download_log_rel: str,
     archived: list[tuple[str, str]],
+    invalid: list[tuple[str, str]],
     missing: list[CitationRow],
 ) -> str:
     lines = [
@@ -70,9 +79,11 @@ def markdown_report(
         "",
         "## Current archive summary",
         "- Current in-text citation count:",
-        f"  - `{len(archived) + len(missing)}`",
+        f"  - `{len(archived) + len(invalid) + len(missing)}`",
         "- Citations with authoritative local PDFs archived:",
         f"  - `{len(archived)}`",
+        "- Citations with local files present but not validated as real PDFs:",
+        f"  - `{len(invalid)}`",
         "- Citations bibliographically confirmed but still lacking authoritative local PDFs:",
         f"  - `{len(missing)}`",
         "",
@@ -86,6 +97,26 @@ def markdown_report(
                 f"  - local file: `{rel_path}`",
             ]
         )
+
+    lines.extend(
+        [
+            "",
+            "## Local files present but not validated as real PDFs",
+            "",
+        ]
+    )
+
+    if invalid:
+        for citation, rel_path in invalid:
+            lines.extend(
+                [
+                    f"- {citation}",
+                    f"  - local file: `{rel_path}`",
+                    "  - current issue: file exists locally but does not begin with the `%PDF-` signature",
+                ]
+            )
+    else:
+        lines.append("- None currently flagged.")
 
     lines.extend(
         [
@@ -129,6 +160,7 @@ def markdown_report(
 def build_report(repo_root: Path, crosswalk_path: Path, manuscript_path: Path, report_path: Path, download_log_path: Path) -> int:
     rows = parse_crosswalk(crosswalk_path)
     archived: list[tuple[str, str]] = []
+    invalid: list[tuple[str, str]] = []
     missing: list[CitationRow] = []
 
     for row in rows:
@@ -138,7 +170,10 @@ def build_report(repo_root: Path, crosswalk_path: Path, manuscript_path: Path, r
             continue
         abs_path = (repo_root / archived_path).resolve()
         if abs_path.exists():
-            archived.append((row.citation, archived_path))
+            if is_probable_pdf(abs_path):
+                archived.append((row.citation, archived_path))
+            else:
+                invalid.append((row.citation, archived_path))
         else:
             missing.append(row)
 
@@ -148,6 +183,7 @@ def build_report(repo_root: Path, crosswalk_path: Path, manuscript_path: Path, r
             crosswalk_path.relative_to(repo_root).as_posix(),
             download_log_path.relative_to(repo_root).as_posix(),
             archived,
+            invalid,
             missing,
         )
     )
@@ -156,7 +192,12 @@ def build_report(repo_root: Path, crosswalk_path: Path, manuscript_path: Path, r
     print(f"Source archive audit: {report_path}")
     print(f"Citations checked: {len(rows)}")
     print(f"Archived locally: {len(archived)}")
+    print(f"Invalid local PDFs: {len(invalid)}")
     print(f"Missing local PDFs: {len(missing)}")
+    if invalid:
+        print("\nInvalid local PDFs:")
+        for citation, rel_path in invalid:
+            print(f"- {citation}: {rel_path}")
     if missing:
         print("\nMissing local PDFs:")
         for row in missing:

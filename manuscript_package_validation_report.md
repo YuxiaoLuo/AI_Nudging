@@ -4,8 +4,8 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T06:23:29+00:00`
-- Repository HEAD at generation: `49318034877d9adf543f8026bb0cd62d762c0fe4`
+- Generated at (UTC): `2026-06-23T06:52:07+00:00`
+- Repository HEAD at generation: `1d66d4ecb85fe1254d59bd8274de96afb5b23030`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `9b68409e8332`
@@ -17,7 +17,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `manuscript_reference_format_audit.md`: sha256 `89e1ae2fbd24`
 - `manuscript_citation_crosswalk.md`: sha256 `68156b481ff6`
 - `literature/download_log.md`: sha256 `21e1d6a2a2b6`
-- `manuscript_source_archive_audit.md`: sha256 `6e2952f02ef4`
+- `manuscript_source_archive_audit.md`: sha256 `fbbb44c25240`
 
 ## Validator-script fingerprints
 - `replication_package/scripts/run_validation_suite.py`: sha256 `85d39999debb`
@@ -25,7 +25,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `replication_package/scripts/check_package_links.py`: sha256 `182b2af323db`
 - `replication_package/scripts/check_reference_alignment.py`: sha256 `dd7bbef31ea6`
 - `replication_package/scripts/check_reference_formatting.py`: sha256 `e28c65500b7c`
-- `replication_package/scripts/check_source_archive_status.py`: sha256 `436013aef72e`
+- `replication_package/scripts/check_source_archive_status.py`: sha256 `2fd4f177d359`
 - `replication_package/scripts/check_placeholder_text.py`: sha256 `abf74c4533d3`
 
 ## Current validation target
@@ -131,6 +131,7 @@ Crosswalk: /Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_cita
 Source archive audit: /Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_source_archive_audit.md
 Citations checked: 12
 Archived locally: 10
+Invalid local PDFs: 0
 Missing local PDFs: 2
 
 Missing local PDFs:

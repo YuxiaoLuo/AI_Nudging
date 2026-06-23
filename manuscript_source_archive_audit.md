@@ -18,6 +18,8 @@ This file records the current local-archive status of the manuscript's cited sou
   - `12`
 - Citations with authoritative local PDFs archived:
   - `10`
+- Citations with local files present but not validated as real PDFs:
+  - `0`
 - Citations bibliographically confirmed but still lacking authoritative local PDFs:
   - `2`
 
@@ -42,6 +44,10 @@ This file records the current local-archive status of the manuscript's cited sou
   - local file: `literature/Chen_IntrRes2021_ConversationalAgentDecisionAidShoppingTask.pdf`
 - de Cicco et al. (2022)
   - local file: `literature/DeCicco_TFSC2022_BiasedChoicesVoiceAssistantsConversationalCommerce.pdf`
+
+## Local files present but not validated as real PDFs
+
+- None currently flagged.
 
 ## Confirmed citations still missing authoritative local PDFs
 

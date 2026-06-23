@@ -31,6 +31,7 @@ These files define the intended analysis workflow before a final implementation 
 - `check_source_archive_status.py`
   - lightweight local audit for which cited manuscript sources are already archived as authoritative local PDFs versus only bibliographically confirmed
   - default inputs: `../../manuscript_citation_crosswalk.md`, `../../manuscript_llm_ai_nudges_draft.md`, and `../../literature/download_log.md`
+  - treats a local file as archived only if it exists and begins with the `%PDF-` signature, so HTML challenge pages saved from vendor routes are not misclassified as valid paper PDFs
   - useful when you want to refresh `../../manuscript_source_archive_audit.md` without maintaining that handoff file manually
 - `check_placeholder_text.py`
   - lightweight local audit for distinguishing unexpected `TBD` placeholders in core package docs from intentional placeholders in template appendices and result shells
