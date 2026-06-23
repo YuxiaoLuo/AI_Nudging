@@ -58,6 +58,10 @@ python3 replication_package/scripts/run_validation_suite.py \
   - confirm that repo-relative file references in package-facing docs still resolve
 - Typical use:
   - after editing package entrypoints or adding new manuscript-facing assets
+- Default doc coverage includes:
+  - `README.md`
+  - `manuscript_package_index.md`
+  - `manuscript_package_open_items.md`
 - Example:
 
 ```bash

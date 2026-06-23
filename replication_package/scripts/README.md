@@ -21,7 +21,7 @@ These files define the intended analysis workflow before a final implementation 
   - optional `--report-md` flag writes the current alignment audit into `../../manuscript_reference_audit.md` or another package-facing markdown artifact
 - `check_package_links.py`
   - lightweight local check for whether package-doc file references still exist when resolved from each document's own location
-  - default docs: `../../README.md` and `../../manuscript_package_index.md`
+  - default docs: `../../README.md`, `../../manuscript_package_index.md`, and `../../manuscript_package_open_items.md`
   - useful when package entrypoints are edited and you want to catch stale file pointers quickly
 - `check_reference_formatting.py`
   - lightweight local audit for reference-list ordering, DOI URL consistency, and a few bounded style-normalization risks
