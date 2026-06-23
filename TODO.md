@@ -169,6 +169,7 @@
 - [x] Tighten the discussion opening so the support-versus-inspectability issue is stated more directly
 - [x] Tighten the contribution close so the mechanism-level advance is stated with less back-end repetition
 - [x] Refresh the saved package-validation report and freshness artifact after the recent manuscript commits changed the tracked draft fingerprint
+- [x] Clarify in the submission checklist that tracked fingerprint changes require a full validation-suite rerun rather than only a freshness refresh
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
