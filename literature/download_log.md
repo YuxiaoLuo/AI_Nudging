@@ -178,6 +178,31 @@ Status:
 Purpose of this pass:
 - Check whether the remaining weak constructs in the current manuscript, especially choice confidence and perceived decision quality, require another targeted literature-collection step before the project moves from blueprint refinement into a cleaner manuscript-file workflow.
 
+## 2026-06-23 early-morning bridge-citation PDF endpoint recheck
+Purpose of this pass:
+- Recheck whether the two remaining missing bridge citations could be archived by hitting their most PDF-like public endpoints with a browser user agent rather than only relying on abstract pages or search snippets.
+
+What I tested:
+- Xiao and Benbasat (2007):
+  - MIS Quarterly PDF endpoint with browser user agent:
+    - `https://misq.umn.edu/misq/article-pdf/31/1/137/5188/7_xiaobenbasat.pdf`
+- Ebrahimi et al. (2022):
+  - Taylor & Francis PDF endpoint with browser user agent and explicit download parameter:
+    - `https://www.tandfonline.com/doi/pdf/10.1080/07421222.2022.2096549?download=true`
+- I also rechecked the JMIS mirror page for Ebrahimi et al. (2022):
+  - `https://www.jmis-web.org/articles/1583`
+
+What happened:
+- Both PDF-looking vendor endpoints returned HTML documents rather than valid PDFs when fetched from this environment, even with a browser user agent.
+- The Xiao and Benbasat (2007) MISQ endpoint saved an HTML page beginning with `<!DOCTYP` rather than `%PDF`.
+- The Ebrahimi et al. (2022) Taylor & Francis `?download=true` route also saved an HTML page beginning with `<!DOCTYP` rather than `%PDF`.
+- The JMIS mirror page for Ebrahimi et al. (2022) remains useful for metadata and abstract verification, but it still does not expose a downloadable PDF route from this environment.
+
+Updated judgment:
+- The remaining archive gap is still an access-context problem rather than a source-discovery problem.
+- Even the most direct PDF-style endpoints currently reachable from search should not be trusted unless the fetched file is validated as a real PDF.
+- Keep both citations on the `bibliographically confirmed but authoritative local PDF not yet archived` list.
+
 What I checked:
 - A narrow search focused on chatbot or conversational-agent work related to consumer confidence, decision quality, and AI-assisted shopping decisions.
 

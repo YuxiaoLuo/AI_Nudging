@@ -200,6 +200,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The one-command validation suite now also refreshes those two bibliography audit artifacts directly, so a single package-validation run regenerates the current citation-alignment, reference-format, and source-archive handoff files together rather than leaving them to drift separately.
 - That same one-command suite can now also refresh `manuscript_package_validation_freshness.md` immediately after rewriting the saved validation snapshot, which removes the last manual step from the default package-facing validation workflow.
 - The bibliography workflow is now also more actionable at the entry level: `check_reference_formatting.py` now records the exact titles currently triggering subtitle-capitalization, `vs.`, and `Frontiers:` warnings, so the eventual journal-style normalization pass can target a bounded set of flagged entries rather than rereading the whole references list.
+- Another targeted bridge-citation retrieval recheck now confirms that even the most PDF-looking public endpoints for Xiao and Benbasat (2007) and Ebrahimi et al. (2022) still return HTML challenge pages from this environment, which sharpens the archive-gap diagnosis further: the unresolved issue is access context, not uncertainty about the right source routes.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
