@@ -223,6 +223,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The manuscript front end is now also more economical: the abstract, introduction, and conceptualization handoff no longer repeat the `adaptive dialogue versus static cues` contrast in nearly the same wording, which makes the opening argument feel less circular.
 - The analysis-plan tail is now also tighter: the reporting hierarchy for secondary outcomes, covariates, manipulation checks, descriptive tables, and robustness checks is stated in a more compact sequence rather than spread across several partly overlapping paragraphs.
 - The methods section is now also more economical around sample handling: the procedure write-up states the screening, robustness, balance-reporting, preregistration, and replication-package logic in one tighter sequence rather than several adjacent cautionary paragraphs.
+- The discussion-conclusion handoff is now also cleaner: the conclusion closes on the paper's theoretical takeaway about support and inspectability rather than largely restating the discussion opener.
 - The package-validation workflow now also encodes the main post-commit nuance explicitly: a saved snapshot can remain trustworthy even after repo HEAD advances, as long as the tracked package fingerprints still match, and the right follow-up is then a standalone freshness refresh rather than an automatic full-suite rerun.
 
 ## Blockers
