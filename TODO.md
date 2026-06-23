@@ -160,6 +160,7 @@
 - [x] Tighten the manuscript and synthesis memo so the confidence path is defended as a downstream task-support mechanism rather than as a weakly separate literature lane
 - [x] Tighten the contribution and discussion handoff so the back end distinguishes theory contribution from downstream implication more clearly
 - [x] Tighten repeated front-end framing so the opening does not restate the dialogue-versus-static-cues contrast in near-duplicate wording
+- [x] Compress the analysis-plan tail so the reporting hierarchy is stated once in a tighter sequence rather than repeated across adjacent paragraphs
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
