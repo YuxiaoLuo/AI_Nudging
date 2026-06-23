@@ -4,11 +4,11 @@
 This file records whether the saved manuscript-package validation snapshot still matches the current repository state.
 
 ## Freshness metadata
-- Generated at (UTC): `2026-06-23T14:52:05+00:00`
+- Generated at (UTC): `2026-06-23T15:22:39+00:00`
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
 - Validation snapshot checked: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_package_validation_report.md`
 - Saved snapshot HEAD: `20a171f52104ab247e966144403116a5f7b92af3`
-- Current repository HEAD: `7824edefa9d052bfb230e6fb888ae2bc8efcf888`
+- Current repository HEAD: `af971ce3919fa473b98e63c7687813f99f43f1fe`
 - Repository HEAD drift since snapshot: `YES`
 
 ## Tracked fingerprint comparison
@@ -16,7 +16,7 @@ This file records whether the saved manuscript-package validation snapshot still
 - `README.md`: `MATCH` (saved `57fc50feedfb`, current `57fc50feedfb`)
 - `manuscript_package_index.md`: `MATCH` (saved `98c9b30fefa7`, current `98c9b30fefa7`)
 - `manuscript_package_open_items.md`: `MATCH` (saved `4a071a3d02d4`, current `4a071a3d02d4`)
-- `submission_readiness_checklist.md`: `MATCH` (saved `c5f1a8547cf9`, current `c5f1a8547cf9`)
+- `submission_readiness_checklist.md`: `CHANGED` (saved `c5f1a8547cf9`, current `285df2653e9b`)
 - `replication_package/README.md`: `MATCH` (saved `da6d4ec4db21`, current `da6d4ec4db21`)
 - `manuscript_reference_audit.md`: `MATCH` (saved `f2ea9930a433`, current `f2ea9930a433`)
 - `manuscript_reference_format_audit.md`: `MATCH` (saved `3b2eae652354`, current `3b2eae652354`)
@@ -32,6 +32,5 @@ This file records whether the saved manuscript-package validation snapshot still
 - `replication_package/scripts/check_placeholder_text.py`: `MATCH` (saved `a35d6125add0`, current `a35d6125add0`)
 
 ## Result
-- Snapshot freshness: `CURRENT`
-- Action: the saved validation snapshot is currently trustworthy for package handoff and quick orientation.
-- Note: repository HEAD changed after the snapshot was written, but the tracked fingerprints still match.
+- Snapshot freshness: `STALE`
+- Action: rerun `replication_package/scripts/run_validation_suite.py --report-md manuscript_package_validation_report.md` before relying on the saved snapshot.
