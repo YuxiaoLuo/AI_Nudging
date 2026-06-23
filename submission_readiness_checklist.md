@@ -60,6 +60,7 @@ This checklist converts the current manuscript package into a pre-submission wor
 
 ## Final package walk-through
 - [ ] Use `replication_package/scripts/run_validation_suite.py` as the default lightweight package audit before the final manual walk-through.
+- [ ] Treat that suite run as the default way to refresh `manuscript_reference_audit.md`, `manuscript_reference_format_audit.md`, and `manuscript_source_archive_audit.md` together before relying on the saved package state.
 - [ ] If a durable snapshot is useful for handoff or archiving, rerun the suite with `--report-md manuscript_package_validation_report.md`.
 - [ ] If using the saved validation snapshot, confirm that its generation metadata and input fingerprints still correspond to the current draft and package-facing docs.
 - [ ] Use `replication_package/scripts/check_validation_snapshot_freshness.py` if you want to verify the saved snapshot before deciding whether a full rerun is necessary.

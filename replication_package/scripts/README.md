@@ -39,6 +39,7 @@ These files define the intended analysis workflow before a final implementation 
   - useful before a handoff or submission-style walk-through when you want to know whether placeholder text remains only where it should
 - `run_validation_suite.py`
   - one-command wrapper for the current package-link, citation-alignment, reference-formatting, source-archive-status, and placeholder-text checks
+  - refreshes the package-facing bibliography and archive audit artifacts as part of the same run
   - default docs: `../../README.md`, `../../manuscript_package_index.md`, `../../submission_readiness_checklist.md`, and `../../replication_package/README.md`
   - default freshness-tracked bibliography inputs: `../../manuscript_citation_crosswalk.md`, `../../literature/download_log.md`, and `../../manuscript_source_archive_audit.md`
   - useful when you want one reproducible package-validation pass instead of remembering the helper order manually

@@ -181,6 +181,8 @@ def main() -> int:
         "replication_package/README.md",
     ]
     bibliography_inputs = [
+        "manuscript_reference_audit.md",
+        "manuscript_reference_format_audit.md",
         "manuscript_citation_crosswalk.md",
         "literature/download_log.md",
         "manuscript_source_archive_audit.md",
@@ -217,7 +219,11 @@ def main() -> int:
             [
                 sys.executable,
                 str(script_dir / "check_reference_alignment.py"),
+                "--repo-root",
+                str(repo_root),
                 str(manuscript),
+                "--report-md",
+                str(repo_root / "manuscript_reference_audit.md"),
             ],
         ),
         (
@@ -225,7 +231,11 @@ def main() -> int:
             [
                 sys.executable,
                 str(script_dir / "check_reference_formatting.py"),
+                "--repo-root",
+                str(repo_root),
                 str(manuscript),
+                "--report-md",
+                str(repo_root / "manuscript_reference_format_audit.md"),
             ],
         ),
         (

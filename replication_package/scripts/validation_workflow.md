@@ -18,8 +18,14 @@ This file explains how to use the current lightweight package-validation helpers
   - `submission_readiness_checklist.md`
   - `replication_package/README.md`
 - Default bibliography-side files fingerprinted in the saved report:
+  - `manuscript_reference_audit.md`
+  - `manuscript_reference_format_audit.md`
   - `manuscript_citation_crosswalk.md`
   - `literature/download_log.md`
+  - `manuscript_source_archive_audit.md`
+- Package-facing audit artifacts refreshed by the suite:
+  - `manuscript_reference_audit.md`
+  - `manuscript_reference_format_audit.md`
   - `manuscript_source_archive_audit.md`
 - Example:
 
