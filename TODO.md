@@ -159,6 +159,7 @@
 - [x] Document the post-commit snapshot-freshness rule so later sessions know when a standalone freshness refresh is enough and a full-suite rerun is unnecessary
 - [x] Tighten the manuscript and synthesis memo so the confidence path is defended as a downstream task-support mechanism rather than as a weakly separate literature lane
 - [x] Tighten the contribution and discussion handoff so the back end distinguishes theory contribution from downstream implication more clearly
+- [x] Tighten repeated front-end framing so the opening does not restate the dialogue-versus-static-cues contrast in near-duplicate wording
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
