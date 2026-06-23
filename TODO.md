@@ -161,6 +161,7 @@
 - [x] Tighten the contribution and discussion handoff so the back end distinguishes theory contribution from downstream implication more clearly
 - [x] Tighten repeated front-end framing so the opening does not restate the dialogue-versus-static-cues contrast in near-duplicate wording
 - [x] Compress the analysis-plan tail so the reporting hierarchy is stated once in a tighter sequence rather than repeated across adjacent paragraphs
+- [x] Compress the procedure-side screening and reporting logic so the methods section states that discipline once in a tighter sequence
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
