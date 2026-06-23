@@ -95,6 +95,8 @@ At this stage, the construct logic looks cleanest when each major variable has a
 
 This role separation matters because it helps avoid conceptual overlap. Personalization is the tailoring property of the guidance, cognitive load is the effort consequence of navigating the task, confidence is the felt certainty that follows from support, transparency is the inspectability of the recommendation process, and decision quality is the consumer's evaluative judgment about the final decision. Keeping these distinctions clear should make the manuscript's hypotheses easier to defend and the eventual measures easier to justify.
 
+A useful drafting implication follows for the confidence path specifically. The paper does not need to open a separate literature lane just to justify confidence if the mechanism is already implied by the decision-aid logic. The cleaner argument is that guidance that feels more tailored and makes comparison easier should also make the eventual choice feel more defensible. That keeps confidence downstream of personalization and cognitive-load reduction rather than turning it into an under-anchored standalone construct hunt.
+
 ## 4. What this means for your paper positioning
 A sharper positioning statement is:
 

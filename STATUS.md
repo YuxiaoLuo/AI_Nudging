@@ -218,6 +218,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The repo front door is now also being tightened for faster handoff: the package index and top-level README now route readers to `manuscript_package_open_items.md` before the deeper validation artifacts, and they distinguish `what is left?` from `is the saved snapshot current?`
 - The validation-workflow layer now mirrors that same triage logic too, so future sessions can answer `what is left?`, `is the snapshot current?`, and `which helper should I run?` without reconstructing the decision path from the helper descriptions alone.
 - The saved validation snapshot itself is now also easier to scan at a glance: `run_validation_suite.py` writes a compact orientation block near the top of `manuscript_package_validation_report.md` that surfaces the current residual counts before the longer raw helper outputs.
+- The manuscript-side theory package is now also tighter on the benefit route: the confidence mechanism is framed more explicitly as a downstream consequence of task support and lower cognitive burden, which makes that path read as a cleaner extension of the decision-aid logic rather than as a thin standalone construct claim.
 - The package-validation workflow now also encodes the main post-commit nuance explicitly: a saved snapshot can remain trustworthy even after repo HEAD advances, as long as the tracked package fingerprints still match, and the right follow-up is then a standalone freshness refresh rather than an automatic full-suite rerun.
 
 ## Blockers
