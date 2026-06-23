@@ -48,6 +48,24 @@ Current examples to confirm in the final pass:
 - `Frontiers: machines vs. humans: the impact of artificial intelligence chatbot disclosure on customer purchases.`
 - `Effects of recommendation neutrality and sponsorship disclosure on trust vs. distrust in online recommendation agents: moderating role of explanations for organic recommendations.`
 
+### 2a. Practical resolution rule once the outlet is fixed
+Use one explicit rule and apply it consistently across the whole references list rather than editing the flagged titles ad hoc.
+
+- If the outlet preserves article titles essentially as published:
+  - keep `vs.` as `vs.`
+  - keep the `Frontiers:` prefix
+  - only normalize casing or punctuation if the outlet requires that treatment broadly across all titles
+- If the outlet normalizes article titles to a house sentence-case style:
+  - treat `vs.` and `Frontiers:` as source-confirmed features first
+  - then change them only if the outlet's written style guidance or exemplars clearly normalize them
+  - apply that normalization consistently to every affected entry rather than only to Luo et al. (2019)
+- If the outlet uses title case in the reference list:
+  - convert the full title set in one pass
+  - preserve branded or source-specific title features unless the outlet explicitly overrides them
+
+Recommended default unless the journal says otherwise:
+- treat `vs.` and `Frontiers:` as preserved source-title features, not as errors to be silently corrected
+
 ### 3. Author-name formatting should be checked for consistency, not rewritten prematurely
 The current list already uses a consistent initials-based pattern, but a final style pass should verify:
 - spacing between initials
@@ -85,9 +103,10 @@ Final pass reminder:
 ## Suggested final-pass sequence
 1. Freeze the manuscript's in-text citation set.
 2. Use `manuscript_reference_audit.md` to confirm the references list still matches the text.
-3. Resolve the remaining `vs.` and `Frontiers:` title-style choices in one bounded pass once the outlet is fixed.
-4. Recheck alphabetical order after any edits.
-5. Keep local-PDF retrieval as a separate task, using `manuscript_citation_crosswalk.md` and `literature/download_log.md`.
+3. Choose one explicit title-normalization rule for `vs.` and `Frontiers:` based on the target outlet's written style guidance or recent reference examples.
+4. Resolve the remaining `vs.` and `Frontiers:` title-style choices in one bounded pass using that rule consistently.
+5. Recheck alphabetical order after any edits.
+6. Keep local-PDF retrieval as a separate task, using `manuscript_citation_crosswalk.md` and `literature/download_log.md`.
 
 ## Why this file exists
 - The bibliography is now stable enough that the remaining work is mostly normalization, not discovery.

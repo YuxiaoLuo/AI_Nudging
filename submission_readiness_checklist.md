@@ -52,6 +52,7 @@ This checklist converts the current manuscript package into a pre-submission wor
 - [ ] If the saved reference-format audit may be stale, regenerate it with `replication_package/scripts/check_reference_formatting.py --repo-root . manuscript_llm_ai_nudges_draft.md --report-md manuscript_reference_format_audit.md`.
 - [ ] Use `manuscript_reference_cleanup_notes.md` to run one bounded bibliography style-normalization pass once the target journal is fixed.
 - [ ] Treat the remaining working-draft bibliography decisions as narrow by default: mainly `vs.` wording and whether `Frontiers:` should remain exactly as written in the Luo et al. (2019) title.
+- [ ] Before changing either flagged title feature, decide explicitly whether the target outlet preserves source-title wording or normalizes it, and then apply that rule consistently across the whole references list.
 - [ ] Verify DOI formatting and journal names in the reference list.
 - [ ] Use `manuscript_citation_crosswalk.md` to confirm that any citation-role changes are intentional rather than accidental.
 - [ ] If one of the two bridge PDFs is later archived manually, update `manuscript_source_archive_audit.md`, `manuscript_citation_crosswalk.md`, and `literature/download_log.md` together.

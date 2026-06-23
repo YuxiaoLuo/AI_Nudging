@@ -24,6 +24,9 @@ The flagged title features have also been checked against authoritative publicat
 2. Decide whether the `Frontiers:` prefix in Luo et al. (2019) should remain exactly as written in the final reference list.
    - Current affected title:
      - `Frontiers: machines vs. humans: the impact of artificial intelligence chatbot disclosure on customer purchases.`
+Current decision rule:
+- treat both `vs.` and `Frontiers:` as source-confirmed title features by default
+- change them only if the target outlet's written style guidance or exemplar references clearly normalize them
 
 ## Remaining source-archive gaps
 These are access-context issues, not source-discovery problems.
