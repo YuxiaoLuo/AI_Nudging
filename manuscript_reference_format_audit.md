@@ -25,8 +25,8 @@ This file records the current lightweight formatting state of the manuscript ref
 - `Frontiers:` warning: `yes`
 
 ## Current remaining warnings
-1. At least one title uses 'vs.'; confirm whether the target outlet keeps abbreviations or spells them out.
-2. At least one title starts with 'Frontiers:'; confirm whether that prefix is kept exactly in the target style.
+1. At least one title uses 'vs.'; in the current manuscript state this abbreviation is treated as source-confirmed, so the remaining question is whether the target outlet keeps it or normalizes it.
+2. At least one title starts with 'Frontiers:'; in the current manuscript state this prefix is treated as source-confirmed, so the remaining question is whether the target outlet keeps it exactly or normalizes it.
 
 ## Flagged entries
 - `vs.` examples:
@@ -38,6 +38,7 @@ This file records the current lightweight formatting state of the manuscript ref
 ## Interpretation
 - These warnings do **not** indicate citation-list misalignment.
 - These warnings do **not** require reopening the manuscript's theory or citation set.
+- They also do **not** imply uncertainty about the underlying published article titles; in the current manuscript state, the remaining `vs.` and `Frontiers:` flags are source-confirmed title features.
 - They indicate only that the final bibliography pass still needs one explicit target-journal style decision.
 
 ## What to do next

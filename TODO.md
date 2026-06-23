@@ -150,6 +150,7 @@
 - [x] Fold the new package-facing open-items summary into the default placeholder-audit core-doc set so all front-door handoff docs share the same baseline validation coverage
 - [x] Remove the placeholder-audit false positive from the new open-items summary so the stricter default coverage passes cleanly in practice
 - [x] Align the standalone default link-check doc set with the suite so `check_package_links.py` also covers the open-items summary by default
+- [x] Align the reference-format helper wording with the newer bibliography state so its remaining `vs.` and `Frontiers:` warnings explicitly reflect source-confirmed titles plus pending outlet normalization
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

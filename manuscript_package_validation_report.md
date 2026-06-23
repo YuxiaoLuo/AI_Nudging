@@ -4,8 +4,8 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T11:22:38+00:00`
-- Repository HEAD at generation: `242efeb65ee0289cde567bf9a832354101c10e1b`
+- Generated at (UTC): `2026-06-23T11:52:36+00:00`
+- Repository HEAD at generation: `65fb16399610a9143f3e3a0009bcc7784e661056`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `c2774c9f0090`
@@ -15,7 +15,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `submission_readiness_checklist.md`: sha256 `0bd1fabf2b87`
 - `replication_package/README.md`: sha256 `bd254a6cf084`
 - `manuscript_reference_audit.md`: sha256 `f2ea9930a433`
-- `manuscript_reference_format_audit.md`: sha256 `ae3fd9947cd2`
+- `manuscript_reference_format_audit.md`: sha256 `3b2eae652354`
 - `manuscript_citation_crosswalk.md`: sha256 `68156b481ff6`
 - `literature/download_log.md`: sha256 `6184e6252288`
 - `manuscript_source_archive_audit.md`: sha256 `fbbb44c25240`
@@ -25,7 +25,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: sha256 `c62456750aff`
 - `replication_package/scripts/check_package_links.py`: sha256 `efc91ccac4f2`
 - `replication_package/scripts/check_reference_alignment.py`: sha256 `dd7bbef31ea6`
-- `replication_package/scripts/check_reference_formatting.py`: sha256 `e28c65500b7c`
+- `replication_package/scripts/check_reference_formatting.py`: sha256 `b5f349592bf5`
 - `replication_package/scripts/check_source_archive_status.py`: sha256 `2fd4f177d359`
 - `replication_package/scripts/check_placeholder_text.py`: sha256 `a35d6125add0`
 
@@ -104,8 +104,8 @@ Mixed subtitle capitalization warning: no
 'Frontiers:' warning: yes
 
 Warnings:
-- At least one title uses 'vs.'; confirm whether the target outlet keeps abbreviations or spells them out.
-- At least one title starts with 'Frontiers:'; confirm whether that prefix is kept exactly in the target style.
+- At least one title uses 'vs.'; in the current manuscript state this abbreviation is treated as source-confirmed, so the remaining question is whether the target outlet keeps it or normalizes it.
+- At least one title starts with 'Frontiers:'; in the current manuscript state this prefix is treated as source-confirmed, so the remaining question is whether the target outlet keeps it exactly or normalizes it.
 
 'vs.' examples:
 - Frontiers: machines vs. humans: the impact of artificial intelligence chatbot disclosure on customer purchases.

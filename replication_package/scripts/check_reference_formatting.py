@@ -190,6 +190,8 @@ def markdown_report(
     if issues:
         lines.append("- The current issues do indicate that the bibliography still needs a bounded structural cleanup pass before it can be treated as format-clean.")
     else:
+        if has_vs_entries or has_frontiers_entries:
+            lines.append("- They also do **not** imply uncertainty about the underlying published article titles; in the current manuscript state, the remaining `vs.` and `Frontiers:` flags are source-confirmed title features.")
         lines.append("- They indicate only that the final bibliography pass still needs one explicit target-journal style decision.")
 
     lines.extend(
@@ -262,13 +264,13 @@ def build_report(manuscript_path: Path, report_path: Path | None = None, repo_ro
     vs_entries = [entry for entry in entries if "vs." in entry.title.lower()]
     if vs_entries:
         warnings.append(
-            "At least one title uses 'vs.'; confirm whether the target outlet keeps abbreviations or spells them out."
+            "At least one title uses 'vs.'; in the current manuscript state this abbreviation is treated as source-confirmed, so the remaining question is whether the target outlet keeps it or normalizes it."
         )
 
     frontiers_entries = [entry for entry in entries if entry.title.startswith("Frontiers:")]
     if frontiers_entries:
         warnings.append(
-            "At least one title starts with 'Frontiers:'; confirm whether that prefix is kept exactly in the target style."
+            "At least one title starts with 'Frontiers:'; in the current manuscript state this prefix is treated as source-confirmed, so the remaining question is whether the target outlet keeps it exactly or normalizes it."
         )
 
     if report_path is not None:

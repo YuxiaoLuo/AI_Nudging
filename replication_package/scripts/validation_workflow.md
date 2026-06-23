@@ -100,6 +100,7 @@ python3 replication_package/scripts/check_reference_alignment.py \
   - before or during the final bibliography normalization pass once the citation set is frozen
 - Current manuscript state:
   - the structural checks pass, and the remaining warnings are limited to the narrower `vs.` and `Frontiers:` title cases rather than broader capitalization drift
+  - those title features are now treated as source-confirmed in the local package docs, so the helper's remaining warnings should be read as `outlet normalization still pending`, not `bibliographic title uncertain`
 - Example:
   Basic run:
 
