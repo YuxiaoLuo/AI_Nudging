@@ -15,6 +15,7 @@ This file explains how to use the current lightweight package-validation helpers
 - Default package docs covered by the link check inside the suite:
   - `README.md`
   - `manuscript_package_index.md`
+  - `manuscript_package_open_items.md`
   - `submission_readiness_checklist.md`
   - `replication_package/README.md`
 - Default bibliography-side files fingerprinted in the saved report:

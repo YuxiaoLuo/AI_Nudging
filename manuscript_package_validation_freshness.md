@@ -4,17 +4,18 @@
 This file records whether the saved manuscript-package validation snapshot still matches the current repository state.
 
 ## Freshness metadata
-- Generated at (UTC): `2026-06-23T08:52:58+00:00`
+- Generated at (UTC): `2026-06-23T09:22:29+00:00`
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
 - Validation snapshot checked: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_package_validation_report.md`
-- Saved snapshot HEAD: `fd6276925295b11570185421c3cd1033d9150df6`
-- Current repository HEAD: `fd6276925295b11570185421c3cd1033d9150df6`
+- Saved snapshot HEAD: `8fec68bee89069b39b80c516f2764f0cdd8c2d81`
+- Current repository HEAD: `8fec68bee89069b39b80c516f2764f0cdd8c2d81`
 - Repository HEAD drift since snapshot: `NO`
 
 ## Tracked fingerprint comparison
 - `manuscript_llm_ai_nudges_draft.md`: `MATCH` (saved `c2774c9f0090`, current `c2774c9f0090`)
 - `README.md`: `MATCH` (saved `565d6def0b2a`, current `565d6def0b2a`)
 - `manuscript_package_index.md`: `MATCH` (saved `f9e2a18ce34d`, current `f9e2a18ce34d`)
+- `manuscript_package_open_items.md`: `MATCH` (saved `bc55eb04c9c2`, current `bc55eb04c9c2`)
 - `submission_readiness_checklist.md`: `MATCH` (saved `0bd1fabf2b87`, current `0bd1fabf2b87`)
 - `replication_package/README.md`: `MATCH` (saved `bd254a6cf084`, current `bd254a6cf084`)
 - `manuscript_reference_audit.md`: `MATCH` (saved `f2ea9930a433`, current `f2ea9930a433`)
@@ -22,7 +23,7 @@ This file records whether the saved manuscript-package validation snapshot still
 - `manuscript_citation_crosswalk.md`: `MATCH` (saved `68156b481ff6`, current `68156b481ff6`)
 - `literature/download_log.md`: `MATCH` (saved `21e1d6a2a2b6`, current `21e1d6a2a2b6`)
 - `manuscript_source_archive_audit.md`: `MATCH` (saved `fbbb44c25240`, current `fbbb44c25240`)
-- `replication_package/scripts/run_validation_suite.py`: `MATCH` (saved `85d39999debb`, current `85d39999debb`)
+- `replication_package/scripts/run_validation_suite.py`: `MATCH` (saved `df63b7a03257`, current `df63b7a03257`)
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: `MATCH` (saved `c62456750aff`, current `c62456750aff`)
 - `replication_package/scripts/check_package_links.py`: `MATCH` (saved `182b2af323db`, current `182b2af323db`)
 - `replication_package/scripts/check_reference_alignment.py`: `MATCH` (saved `dd7bbef31ea6`, current `dd7bbef31ea6`)

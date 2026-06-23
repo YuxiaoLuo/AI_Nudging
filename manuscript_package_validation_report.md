@@ -4,13 +4,14 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T08:52:58+00:00`
-- Repository HEAD at generation: `fd6276925295b11570185421c3cd1033d9150df6`
+- Generated at (UTC): `2026-06-23T09:22:29+00:00`
+- Repository HEAD at generation: `8fec68bee89069b39b80c516f2764f0cdd8c2d81`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `c2774c9f0090`
 - `README.md`: sha256 `565d6def0b2a`
 - `manuscript_package_index.md`: sha256 `f9e2a18ce34d`
+- `manuscript_package_open_items.md`: sha256 `bc55eb04c9c2`
 - `submission_readiness_checklist.md`: sha256 `0bd1fabf2b87`
 - `replication_package/README.md`: sha256 `bd254a6cf084`
 - `manuscript_reference_audit.md`: sha256 `f2ea9930a433`
@@ -20,7 +21,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `manuscript_source_archive_audit.md`: sha256 `fbbb44c25240`
 
 ## Validator-script fingerprints
-- `replication_package/scripts/run_validation_suite.py`: sha256 `85d39999debb`
+- `replication_package/scripts/run_validation_suite.py`: sha256 `df63b7a03257`
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: sha256 `c62456750aff`
 - `replication_package/scripts/check_package_links.py`: sha256 `182b2af323db`
 - `replication_package/scripts/check_reference_alignment.py`: sha256 `dd7bbef31ea6`
@@ -34,6 +35,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - Package-facing docs included in link check:
   - `README.md`
   - `manuscript_package_index.md`
+  - `manuscript_package_open_items.md`
   - `submission_readiness_checklist.md`
   - `replication_package/README.md`
 - Bibliography-side files tracked for source-archive freshness:
@@ -62,6 +64,10 @@ Missing targets: 0
 
 Doc: manuscript_package_index.md
 Referenced package paths: 33
+Missing targets: 0
+
+Doc: manuscript_package_open_items.md
+Referenced package paths: 10
 Missing targets: 0
 
 Doc: submission_readiness_checklist.md

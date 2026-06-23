@@ -204,6 +204,7 @@ def main() -> int:
     package_docs = args.package_docs or [
         "README.md",
         "manuscript_package_index.md",
+        "manuscript_package_open_items.md",
         "submission_readiness_checklist.md",
         "replication_package/README.md",
     ]
