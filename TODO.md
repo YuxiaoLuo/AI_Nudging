@@ -171,6 +171,7 @@
 - [x] Refresh the saved package-validation report and freshness artifact after the recent manuscript commits changed the tracked draft fingerprint
 - [x] Clarify in the submission checklist that tracked fingerprint changes require a full validation-suite rerun rather than only a freshness refresh
 - [x] Refresh the saved package-validation report and freshness artifact after the submission-checklist workflow clarification changed a tracked package fingerprint
+- [x] Align the README starting order with the newer package triage rule that freshness should be read before the full validation snapshot
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
