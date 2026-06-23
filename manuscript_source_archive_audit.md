@@ -57,7 +57,7 @@ This file records the current local-archive status of the manuscript's cited sou
 - Current issue:
   - no authoritative local PDF archived yet
 - Current crosswalk note:
-  - Exact citation is confirmed in `literature_reading_matrix.md` and `literature/download_log.md`, but no authoritative local PDF is currently present. Direct MISQ and JSTOR PDF routes were rechecked on 2026-06-22 and both returned `403` access blocks from this environment; the download log now records those routes plus a ResearchGate full-text page for later manual retrieval. Nearby `Xiao_*` PDFs should not be treated as verified matches.
+  - Exact citation is confirmed in `literature_reading_matrix.md` and `literature/download_log.md`, but no authoritative local PDF is currently present. The MISQ and JSTOR PDF routes returned `403` access blocks on 2026-06-22, and a 2026-06-23 browser-header retry against the MISQ PDF endpoint still saved an HTML document beginning with `<!DOCTYPE html>` rather than a real PDF. The download log records those routes plus a ResearchGate full-text page for later manual retrieval. Nearby `Xiao_*` PDFs should not be treated as verified matches.
 
 ### Ebrahimi et al. (2022)
 - Citation status:
@@ -65,7 +65,7 @@ This file records the current local-archive status of the manuscript's cited sou
 - Current issue:
   - no authoritative local PDF archived yet
 - Current crosswalk note:
-  - Exact citation is confirmed in `literature_reading_matrix.md` and `literature/download_log.md`, but no authoritative local PDF is currently present. A direct Taylor & Francis PDF route and ResearchGate route were rechecked on 2026-06-22 and returned `403` access blocks from this environment; the download log records those routes for later manual retrieval, and `literature/DSS2024_XAI & Decision Making.pdf` should not be treated as a verified substitute.
+  - Exact citation is confirmed in `literature_reading_matrix.md` and `literature/download_log.md`, but no authoritative local PDF is currently present. The direct Taylor & Francis PDF route and ResearchGate route returned `403` access blocks on 2026-06-22, and a 2026-06-23 browser-header retry against the Taylor & Francis PDF endpoint still saved an HTML document beginning with `<!DOCTYPE html>` rather than a real PDF. The download log records those routes for later manual retrieval, and `literature/DSS2024_XAI & Decision Making.pdf` should not be treated as a verified substitute.
 
 ## Interpretation
 - The manuscript currently does not have a citation-alignment problem.
