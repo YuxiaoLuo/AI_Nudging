@@ -37,7 +37,7 @@ def parse_report(report_path: Path) -> tuple[str | None, list[tuple[str, str]]]:
     saved_head = head_match.group(1) if head_match else None
     fingerprints = FINGERPRINT_PATTERN.findall(text)
     if not fingerprints:
-        raise ValueError("No input fingerprints found in validation snapshot.")
+        raise ValueError("No fingerprints found in validation snapshot.")
     return saved_head, fingerprints
 
 
@@ -70,7 +70,7 @@ def markdown_report(
     lines.extend(
         [
             "",
-            "## Tracked input comparison",
+            "## Tracked fingerprint comparison",
         ]
     )
     for rel_path, status, saved_hash, current_hash in comparisons:
@@ -90,7 +90,7 @@ def markdown_report(
     else:
         lines.append("- Action: the saved validation snapshot is currently trustworthy for package handoff and quick orientation.")
         if head_drift:
-            lines.append("- Note: repository HEAD changed after the snapshot was written, but the tracked manuscript/package inputs still match.")
+            lines.append("- Note: repository HEAD changed after the snapshot was written, but the tracked fingerprints still match.")
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -130,7 +130,7 @@ def main() -> int:
             print("- Repository HEAD differs from the saved snapshot.")
             head_drift = True
 
-    print("\nTracked input comparison:")
+    print("\nTracked fingerprint comparison:")
     for rel_path, saved_hash in fingerprints:
         abs_path = (repo_root / rel_path).resolve()
         if not abs_path.exists():

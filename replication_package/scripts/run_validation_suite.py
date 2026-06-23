@@ -52,6 +52,7 @@ def markdown_report(
     manuscript: Path,
     package_docs: list[str],
     bibliography_inputs: list[str],
+    validator_scripts: list[str],
     results: list[CheckResult],
 ) -> str:
     generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -61,6 +62,7 @@ def markdown_report(
         *[(repo_root / doc).resolve() for doc in package_docs],
         *[(repo_root / path).resolve() for path in bibliography_inputs],
     ]
+    tracked_validators = [(script_dir := repo_root / "replication_package" / "scripts") / script for script in validator_scripts]
 
     lines = [
         "# Manuscript Package Validation Report",
@@ -80,6 +82,14 @@ def markdown_report(
         ]
     )
     for path in tracked_inputs:
+        lines.append(f"- `{path.relative_to(repo_root)}`: sha256 `{sha256_prefix(path)}`")
+    lines.extend(
+        [
+            "",
+            "## Validator-script fingerprints",
+        ]
+    )
+    for path in tracked_validators:
         lines.append(f"- `{path.relative_to(repo_root)}`: sha256 `{sha256_prefix(path)}`")
     lines.extend(
             [
@@ -106,6 +116,7 @@ def markdown_report(
             "- bibliography-format consistency warnings",
             "- source-archive status for cited manuscript references",
             "- placeholder-text carryover in core handoff docs versus explicit templates",
+            "- validator-script drift for the saved package-validation snapshot",
             "",
             "## Validation results",
         ]
@@ -174,6 +185,15 @@ def main() -> int:
         "literature/download_log.md",
         "manuscript_source_archive_audit.md",
     ]
+    validator_scripts = [
+        "run_validation_suite.py",
+        "check_validation_snapshot_freshness.py",
+        "check_package_links.py",
+        "check_reference_alignment.py",
+        "check_reference_formatting.py",
+        "check_source_archive_status.py",
+        "check_placeholder_text.py",
+    ]
 
     if report_path and not report_path.exists():
         report_path.write_text(
@@ -231,7 +251,16 @@ def main() -> int:
     results = [run_check(name, command) for name, command in checks]
 
     if report_path:
-        report_path.write_text(markdown_report(repo_root, manuscript, package_docs, bibliography_inputs, results))
+        report_path.write_text(
+            markdown_report(
+                repo_root,
+                manuscript,
+                package_docs,
+                bibliography_inputs,
+                validator_scripts,
+                results,
+            )
+        )
 
     overall_failure = False
     print("Validation suite summary:")

@@ -4,18 +4,27 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T02:24:49+00:00`
-- Repository HEAD at generation: `ca69884d84c79fd4e6f46e4ad9d7a18b3a687507`
+- Generated at (UTC): `2026-06-23T02:52:55+00:00`
+- Repository HEAD at generation: `a04a9bdcfaf5484d01acbead6e2c12a918132ae5`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `9b68409e8332`
 - `README.md`: sha256 `83bf31b0cff2`
-- `manuscript_package_index.md`: sha256 `123ac0d53a78`
+- `manuscript_package_index.md`: sha256 `8d2f35ee373d`
 - `submission_readiness_checklist.md`: sha256 `273d0c569b65`
 - `replication_package/README.md`: sha256 `bd254a6cf084`
 - `manuscript_citation_crosswalk.md`: sha256 `68156b481ff6`
 - `literature/download_log.md`: sha256 `7682a0427e6e`
 - `manuscript_source_archive_audit.md`: sha256 `93da143a86ca`
+
+## Validator-script fingerprints
+- `replication_package/scripts/run_validation_suite.py`: sha256 `44590db399c2`
+- `replication_package/scripts/check_validation_snapshot_freshness.py`: sha256 `c62456750aff`
+- `replication_package/scripts/check_package_links.py`: sha256 `182b2af323db`
+- `replication_package/scripts/check_reference_alignment.py`: sha256 `61fba9d7114b`
+- `replication_package/scripts/check_reference_formatting.py`: sha256 `43f5ab33a580`
+- `replication_package/scripts/check_source_archive_status.py`: sha256 `436013aef72e`
+- `replication_package/scripts/check_placeholder_text.py`: sha256 `abf74c4533d3`
 
 ## Current validation target
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
@@ -36,6 +45,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - bibliography-format consistency warnings
 - source-archive status for cited manuscript references
 - placeholder-text carryover in core handoff docs versus explicit templates
+- validator-script drift for the saved package-validation snapshot
 
 ## Validation results
 ### package_links
@@ -47,7 +57,7 @@ Referenced package paths: 22
 Missing targets: 0
 
 Doc: manuscript_package_index.md
-Referenced package paths: 31
+Referenced package paths: 32
 Missing targets: 0
 
 Doc: submission_readiness_checklist.md

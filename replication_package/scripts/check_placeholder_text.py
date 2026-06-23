@@ -35,8 +35,6 @@ DEFAULT_CORE_DOCS = [
     "manuscript_reference_cleanup_notes.md",
     "manuscript_citation_crosswalk.md",
     "manuscript_source_archive_audit.md",
-    "manuscript_package_validation_report.md",
-    "manuscript_package_validation_freshness.md",
     "replication_package/README.md",
 ]
 

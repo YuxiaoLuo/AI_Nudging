@@ -194,6 +194,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The saved validation snapshot now also fingerprints the bibliography-side files that drive source-archive status, namely the citation crosswalk, download log, and regenerated archive audit, which makes the freshness check more trustworthy when archive coverage changes without any front-door manuscript doc changing.
 - The replication-package scripts layer now also includes a working `check_placeholder_text.py` helper that distinguishes unexpected `TBD` carryover in core manuscript/package handoff docs from intentional placeholders in template appendices and results shells, and the current package state now passes that audit cleanly for core docs.
 - The default one-command validation suite now also includes that placeholder audit, so the package's main reproducible check now covers both structural integrity and accidental placeholder carryover in core handoff docs.
+- The saved validation snapshot is now also being tightened to fingerprint the validator scripts themselves, so later sessions can treat changes in validation logic as freshness-relevant drift rather than only changes in manuscript/package-facing inputs.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
