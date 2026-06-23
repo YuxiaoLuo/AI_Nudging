@@ -12,8 +12,6 @@ This file is the quickest entrypoint to the current manuscript package for the n
   - `manuscript_package_validation_report.md`
 - Current validation freshness decision:
   - `manuscript_package_validation_freshness.md`
-- Current residual open items:
-  - `manuscript_package_open_items.md`
 - References-backed packaging map:
   - `manuscript_asset_plan.md`
 - Citation-role and local-source crosswalk:

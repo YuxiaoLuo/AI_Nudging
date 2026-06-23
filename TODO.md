@@ -172,6 +172,7 @@
 - [x] Clarify in the submission checklist that tracked fingerprint changes require a full validation-suite rerun rather than only a freshness refresh
 - [x] Refresh the saved package-validation report and freshness artifact after the submission-checklist workflow clarification changed a tracked package fingerprint
 - [x] Align the README starting order with the newer package triage rule that freshness should be read before the full validation snapshot
+- [x] Remove the duplicate open-items pointer from the package front-door docs so the same file is not listed twice under near-identical labels
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
