@@ -204,6 +204,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The source-archive workflow is now also stricter and safer: `check_source_archive_status.py` no longer treats mere file existence as enough for `archived locally`, and instead validates that cited local files actually begin with the `%PDF-` signature, reducing the risk of silently accepting saved HTML challenge pages as authoritative paper PDFs.
 - The working bibliography has now also been tightened through a bounded sentence-case normalization pass in the draft references section: the mixed subtitle-capitalization warning has been removed, leaving only the narrower unresolved style choices around `vs.` and the `Frontiers:` title prefix.
 - The package-facing bibliography guidance has now also been narrowed to match that cleaner state: `manuscript_reference_cleanup_notes.md` and `submission_readiness_checklist.md` now frame the remaining style work explicitly as a small `vs.`/`Frontiers:` decision set rather than a broad normalization problem.
+- The reusable validation-workflow docs now also reflect that same narrowed state, so `replication_package/scripts/README.md` and `replication_package/scripts/validation_workflow.md` no longer imply that the current bibliography still has a broader capitalization problem.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

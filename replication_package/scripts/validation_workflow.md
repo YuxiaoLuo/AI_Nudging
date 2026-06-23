@@ -90,9 +90,11 @@ python3 replication_package/scripts/check_reference_alignment.py \
 - Script:
   - `check_reference_formatting.py`
 - Default purpose:
-  - flag bounded reference-list cleanup risks such as nonuniform DOI presentation, alphabetical-order drift, and mixed subtitle-capitalization conventions
+  - flag bounded reference-list cleanup risks such as nonuniform DOI presentation, alphabetical-order drift, and any remaining outlet-specific title-style decisions
 - Typical use:
   - before or during the final bibliography normalization pass once the citation set is frozen
+- Current manuscript state:
+  - the structural checks pass, and the remaining warnings are limited to the narrower `vs.` and `Frontiers:` title cases rather than broader capitalization drift
 - Example:
   Basic run:
 

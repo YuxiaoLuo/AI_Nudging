@@ -4,8 +4,8 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T07:52:29+00:00`
-- Repository HEAD at generation: `00e5ef087094f5a3b70ea526ebb385b452c4f83e`
+- Generated at (UTC): `2026-06-23T08:22:13+00:00`
+- Repository HEAD at generation: `a1e594afc885b2ddfe847ef8240ccfcadfec5ee5`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `c2774c9f0090`
