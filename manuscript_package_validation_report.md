@@ -4,8 +4,8 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T04:53:05+00:00`
-- Repository HEAD at generation: `a7e435b962c58326e7122fa6d2ac1a7cb30c4a1a`
+- Generated at (UTC): `2026-06-23T05:53:18+00:00`
+- Repository HEAD at generation: `2a98bb3beba319c826691d7d61cc5d01a64053fb`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `9b68409e8332`
@@ -13,18 +13,18 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `manuscript_package_index.md`: sha256 `8d2f35ee373d`
 - `submission_readiness_checklist.md`: sha256 `468f1829d843`
 - `replication_package/README.md`: sha256 `bd254a6cf084`
-- `manuscript_reference_audit.md`: sha256 `764fb16fd017`
-- `manuscript_reference_format_audit.md`: sha256 `77515a63099f`
+- `manuscript_reference_audit.md`: sha256 `f2ea9930a433`
+- `manuscript_reference_format_audit.md`: sha256 `89e1ae2fbd24`
 - `manuscript_citation_crosswalk.md`: sha256 `68156b481ff6`
 - `literature/download_log.md`: sha256 `7682a0427e6e`
-- `manuscript_source_archive_audit.md`: sha256 `93da143a86ca`
+- `manuscript_source_archive_audit.md`: sha256 `6e2952f02ef4`
 
 ## Validator-script fingerprints
 - `replication_package/scripts/run_validation_suite.py`: sha256 `85d39999debb`
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: sha256 `c62456750aff`
 - `replication_package/scripts/check_package_links.py`: sha256 `182b2af323db`
 - `replication_package/scripts/check_reference_alignment.py`: sha256 `dd7bbef31ea6`
-- `replication_package/scripts/check_reference_formatting.py`: sha256 `1bb979bad727`
+- `replication_package/scripts/check_reference_formatting.py`: sha256 `e28c65500b7c`
 - `replication_package/scripts/check_source_archive_status.py`: sha256 `436013aef72e`
 - `replication_package/scripts/check_placeholder_text.py`: sha256 `abf74c4533d3`
 
@@ -101,6 +101,26 @@ Warnings:
 - Mixed subtitle capitalization detected after colons; choose one journal-specific rule in the final style pass.
 - At least one title uses 'vs.'; confirm whether the target outlet keeps abbreviations or spells them out.
 - At least one title starts with 'Frontiers:'; confirm whether that prefix is kept exactly in the target style.
+
+Mixed subtitle-capitalization examples:
+- Understanding automated conversational agent as a decision aid: matching agent's conversation with customer's shopping task.
+- Effects of personalization and social role in voice shopping: An experimental study on product recommendation by a conversational voice agent.
+- Conversational commerce: Do biased choices offered by voice assistants' technology constrain its appropriation?
+- The impact of trust and recommendation quality on adopting interactive and non-interactive recommendation agents: A meta-analysis.
+- Consumer decision making in online shopping environments: The effects of interactive decision aids.
+- Frontiers: Machines vs. humans: The impact of artificial intelligence chatbot disclosure on customer purchases.
+- The power of rankings: Quantifying the effect of rankings on online consumer search and purchase decisions.
+- Recommendation agents for electronic commerce: Effects of explanation facilities on trusting beliefs.
+- Effects of recommendation neutrality and sponsorship disclosure on trust vs. distrust in online recommendation agents: Moderating role of explanations for organic recommendations.
+- Effects of sponsorship disclosure on perceived integrity of biased recommendation agents: Psychological contract violation and knowledge-based trust perspectives.
+- E-commerce product recommendation agents: Use, characteristics, and impact.
+
+'vs.' examples:
+- Frontiers: Machines vs. humans: The impact of artificial intelligence chatbot disclosure on customer purchases.
+- Effects of recommendation neutrality and sponsorship disclosure on trust vs. distrust in online recommendation agents: Moderating role of explanations for organic recommendations.
+
+'Frontiers:' examples:
+- Frontiers: Machines vs. humans: The impact of artificial intelligence chatbot disclosure on customer purchases.
 ```
 
 ### source_archive_status

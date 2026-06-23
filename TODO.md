@@ -140,6 +140,7 @@
 - [x] Make the reference-alignment audit artifact regenerable directly from `check_reference_alignment.py` instead of maintaining that package-facing file by hand
 - [x] Expand the one-command validation suite so it refreshes the citation-alignment and reference-format audit artifacts alongside the source-archive audit
 - [x] Expand the one-command validation suite so it can also refresh the saved freshness artifact immediately after rewriting the validation snapshot
+- [x] Expand the reference-format audit so it lists the exact bibliography entries currently triggering the remaining outlet-style warnings
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

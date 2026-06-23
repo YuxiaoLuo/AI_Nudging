@@ -100,6 +100,9 @@ def markdown_report(
     colon_mixed: bool,
     has_vs_entries: bool,
     has_frontiers_entries: bool,
+    colon_case_examples: list[str],
+    vs_examples: list[str],
+    frontiers_examples: list[str],
 ) -> str:
     lines = [
         "# Manuscript Reference Format Audit",
@@ -145,6 +148,26 @@ def markdown_report(
             lines.append(f"{idx}. {warning}")
     else:
         lines.append("- No outlet-specific style warnings are currently flagged.")
+
+    if colon_case_examples or vs_examples or frontiers_examples:
+        lines.extend(
+            [
+                "",
+                "## Flagged entries",
+            ]
+        )
+        if colon_case_examples:
+            lines.append("- Mixed subtitle-capitalization examples:")
+            for title in colon_case_examples:
+                lines.append(f"  - `{title}`")
+        if vs_examples:
+            lines.append("- `vs.` examples:")
+            for title in vs_examples:
+                lines.append(f"  - `{title}`")
+        if frontiers_examples:
+            lines.append("- `Frontiers:` examples:")
+            for title in frontiers_examples:
+                lines.append(f"  - `{title}`")
 
     if issues:
         lines.extend(
@@ -230,6 +253,7 @@ def build_report(manuscript_path: Path, report_path: Path | None = None, repo_ro
 
     colon_upper = sum(": " in entry.title and not subtitle_case_flag(entry.title) for entry in entries)
     colon_lower = sum(subtitle_case_flag(entry.title) for entry in entries)
+    colon_case_examples = [entry.title for entry in entries if ": " in entry.title]
     if colon_upper and colon_lower:
         warnings.append(
             "Mixed subtitle capitalization detected after colons; choose one journal-specific rule in the final style pass."
@@ -261,6 +285,9 @@ def build_report(manuscript_path: Path, report_path: Path | None = None, repo_ro
                 colon_mixed=bool(colon_upper and colon_lower),
                 has_vs_entries=bool(vs_entries),
                 has_frontiers_entries=bool(frontiers_entries),
+                colon_case_examples=colon_case_examples if colon_upper and colon_lower else [],
+                vs_examples=[entry.title for entry in vs_entries],
+                frontiers_examples=[entry.title for entry in frontiers_entries],
             )
         )
 
@@ -281,6 +308,21 @@ def build_report(manuscript_path: Path, report_path: Path | None = None, repo_ro
         print("\nIssues:")
         for issue in issues:
             print(f"- {issue}")
+
+    if colon_upper and colon_lower:
+        print("\nMixed subtitle-capitalization examples:")
+        for title in colon_case_examples:
+            print(f"- {title}")
+
+    if vs_entries:
+        print("\n'vs.' examples:")
+        for entry in vs_entries:
+            print(f"- {entry.title}")
+
+    if frontiers_entries:
+        print("\n'Frontiers:' examples:")
+        for entry in frontiers_entries:
+            print(f"- {entry.title}")
 
     return 1 if issues else 0
 

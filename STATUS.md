@@ -199,6 +199,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The citation-alignment workflow is now also less hand-maintained: `check_reference_alignment.py` can now write `manuscript_reference_audit.md` directly, so the package's citation-match status can be regenerated from the helper rather than preserved only as manual prose.
 - The one-command validation suite now also refreshes those two bibliography audit artifacts directly, so a single package-validation run regenerates the current citation-alignment, reference-format, and source-archive handoff files together rather than leaving them to drift separately.
 - That same one-command suite can now also refresh `manuscript_package_validation_freshness.md` immediately after rewriting the saved validation snapshot, which removes the last manual step from the default package-facing validation workflow.
+- The bibliography workflow is now also more actionable at the entry level: `check_reference_formatting.py` now records the exact titles currently triggering subtitle-capitalization, `vs.`, and `Frontiers:` warnings, so the eventual journal-style normalization pass can target a bounded set of flagged entries rather than rereading the whole references list.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

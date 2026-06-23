@@ -4,11 +4,11 @@
 This file records whether the saved manuscript-package validation snapshot still matches the current repository state.
 
 ## Freshness metadata
-- Generated at (UTC): `2026-06-23T04:53:05+00:00`
+- Generated at (UTC): `2026-06-23T05:53:18+00:00`
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
 - Validation snapshot checked: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_package_validation_report.md`
-- Saved snapshot HEAD: `a7e435b962c58326e7122fa6d2ac1a7cb30c4a1a`
-- Current repository HEAD: `a7e435b962c58326e7122fa6d2ac1a7cb30c4a1a`
+- Saved snapshot HEAD: `2a98bb3beba319c826691d7d61cc5d01a64053fb`
+- Current repository HEAD: `2a98bb3beba319c826691d7d61cc5d01a64053fb`
 - Repository HEAD drift since snapshot: `NO`
 
 ## Tracked fingerprint comparison
@@ -17,16 +17,16 @@ This file records whether the saved manuscript-package validation snapshot still
 - `manuscript_package_index.md`: `MATCH` (saved `8d2f35ee373d`, current `8d2f35ee373d`)
 - `submission_readiness_checklist.md`: `MATCH` (saved `468f1829d843`, current `468f1829d843`)
 - `replication_package/README.md`: `MATCH` (saved `bd254a6cf084`, current `bd254a6cf084`)
-- `manuscript_reference_audit.md`: `MATCH` (saved `764fb16fd017`, current `764fb16fd017`)
-- `manuscript_reference_format_audit.md`: `MATCH` (saved `77515a63099f`, current `77515a63099f`)
+- `manuscript_reference_audit.md`: `MATCH` (saved `f2ea9930a433`, current `f2ea9930a433`)
+- `manuscript_reference_format_audit.md`: `MATCH` (saved `89e1ae2fbd24`, current `89e1ae2fbd24`)
 - `manuscript_citation_crosswalk.md`: `MATCH` (saved `68156b481ff6`, current `68156b481ff6`)
 - `literature/download_log.md`: `MATCH` (saved `7682a0427e6e`, current `7682a0427e6e`)
-- `manuscript_source_archive_audit.md`: `MATCH` (saved `93da143a86ca`, current `93da143a86ca`)
+- `manuscript_source_archive_audit.md`: `MATCH` (saved `6e2952f02ef4`, current `6e2952f02ef4`)
 - `replication_package/scripts/run_validation_suite.py`: `MATCH` (saved `85d39999debb`, current `85d39999debb`)
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: `MATCH` (saved `c62456750aff`, current `c62456750aff`)
 - `replication_package/scripts/check_package_links.py`: `MATCH` (saved `182b2af323db`, current `182b2af323db`)
 - `replication_package/scripts/check_reference_alignment.py`: `MATCH` (saved `dd7bbef31ea6`, current `dd7bbef31ea6`)
-- `replication_package/scripts/check_reference_formatting.py`: `MATCH` (saved `1bb979bad727`, current `1bb979bad727`)
+- `replication_package/scripts/check_reference_formatting.py`: `MATCH` (saved `e28c65500b7c`, current `e28c65500b7c`)
 - `replication_package/scripts/check_source_archive_status.py`: `MATCH` (saved `436013aef72e`, current `436013aef72e`)
 - `replication_package/scripts/check_placeholder_text.py`: `MATCH` (saved `abf74c4533d3`, current `abf74c4533d3`)
 
