@@ -4,19 +4,19 @@
 This file records whether the saved manuscript-package validation snapshot still matches the current repository state.
 
 ## Freshness metadata
-- Generated at (UTC): `2026-06-23T15:22:39+00:00`
+- Generated at (UTC): `2026-06-23T15:51:38+00:00`
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
 - Validation snapshot checked: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_package_validation_report.md`
-- Saved snapshot HEAD: `20a171f52104ab247e966144403116a5f7b92af3`
-- Current repository HEAD: `af971ce3919fa473b98e63c7687813f99f43f1fe`
-- Repository HEAD drift since snapshot: `YES`
+- Saved snapshot HEAD: `d62570f56be38fd3b6d29dfcca6e49eb807dfa05`
+- Current repository HEAD: `d62570f56be38fd3b6d29dfcca6e49eb807dfa05`
+- Repository HEAD drift since snapshot: `NO`
 
 ## Tracked fingerprint comparison
 - `manuscript_llm_ai_nudges_draft.md`: `MATCH` (saved `c2774c9f0090`, current `c2774c9f0090`)
 - `README.md`: `MATCH` (saved `57fc50feedfb`, current `57fc50feedfb`)
 - `manuscript_package_index.md`: `MATCH` (saved `98c9b30fefa7`, current `98c9b30fefa7`)
 - `manuscript_package_open_items.md`: `MATCH` (saved `4a071a3d02d4`, current `4a071a3d02d4`)
-- `submission_readiness_checklist.md`: `CHANGED` (saved `c5f1a8547cf9`, current `285df2653e9b`)
+- `submission_readiness_checklist.md`: `MATCH` (saved `285df2653e9b`, current `285df2653e9b`)
 - `replication_package/README.md`: `MATCH` (saved `da6d4ec4db21`, current `da6d4ec4db21`)
 - `manuscript_reference_audit.md`: `MATCH` (saved `f2ea9930a433`, current `f2ea9930a433`)
 - `manuscript_reference_format_audit.md`: `MATCH` (saved `3b2eae652354`, current `3b2eae652354`)
@@ -32,5 +32,5 @@ This file records whether the saved manuscript-package validation snapshot still
 - `replication_package/scripts/check_placeholder_text.py`: `MATCH` (saved `a35d6125add0`, current `a35d6125add0`)
 
 ## Result
-- Snapshot freshness: `STALE`
-- Action: rerun `replication_package/scripts/run_validation_suite.py --report-md manuscript_package_validation_report.md` before relying on the saved snapshot.
+- Snapshot freshness: `CURRENT`
+- Action: the saved validation snapshot is currently trustworthy for package handoff and quick orientation.
