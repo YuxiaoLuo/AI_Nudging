@@ -165,6 +165,7 @@
 - [x] Compress the measures-to-manipulation-checks handoff so the measurement-discipline logic is stated more compactly
 - [x] Tighten the conclusion so it adds a cleaner closing takeaway instead of repeating the discussion opener
 - [x] Tighten the controls-and-data-quality tail so the methods section states covariate discipline and sample-handling rules in one compact sequence
+- [x] Tighten the discussion-tail implications and limitations so the back end states managerial relevance and study boundaries more economically
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
