@@ -4,7 +4,7 @@
 This project develops a study on how LLM-based conversational AI nudges shape consumer purchase decision-making in online shopping environments. The working title is: **Talking Shoppers Into Buying? Experimental Evidence on LLM-Driven AI Nudges**.
 
 ## Current Focus
-The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and make only genuinely readability-improving edits unless a concrete reviewer-facing literature or design gap becomes visible.
+The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft.
 
 ## Recent Progress
 - Core project idea identified: compare LLM-driven conversational nudges with traditional UI-based nudges and a control condition.
@@ -218,6 +218,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The repo front door is now also being tightened for faster handoff: the package index and top-level README now route readers to `manuscript_package_open_items.md` before the deeper validation artifacts, and they distinguish `what is left?` from `is the saved snapshot current?`
 - The validation-workflow layer now mirrors that same triage logic too, so future sessions can answer `what is left?`, `is the snapshot current?`, and `which helper should I run?` without reconstructing the decision path from the helper descriptions alone.
 - The saved validation snapshot itself is now also easier to scan at a glance: `run_validation_suite.py` writes a compact orientation block near the top of `manuscript_package_validation_report.md` that surfaces the current residual counts before the longer raw helper outputs.
+- The methods tail is now also tighter around controls and sample handling: the control rationale is stated once as a restrained adjustment rule, and the data-quality and missing-data logic now reads as one compact protocol rather than several adjacent procedural cautions.
 - The manuscript-side theory package is now also tighter on the benefit route: the confidence mechanism is framed more explicitly as a downstream consequence of task support and lower cognitive burden, which makes that path read as a cleaner extension of the decision-aid logic rather than as a thin standalone construct claim.
 - The manuscript back end is now also cleaner: the contribution section states the theoretical advance more explicitly as a shift in how support and inspectability are jointly experienced, while the discussion opening is less repetitive about persuasion and more clearly framed around implication.
 - The manuscript front end is now also more economical: the abstract, introduction, and conceptualization handoff no longer repeat the `adaptive dialogue versus static cues` contrast in nearly the same wording, which makes the opening argument feel less circular.
