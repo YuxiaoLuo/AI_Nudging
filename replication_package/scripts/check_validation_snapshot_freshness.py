@@ -65,7 +65,7 @@ def markdown_report(
     if saved_head:
         lines.append(f"- Saved snapshot HEAD: `{saved_head}`")
     if current_head:
-        lines.append(f"- Current repository HEAD: `{current_head}`")
+        lines.append(f"- Repository HEAD when this freshness check ran: `{current_head}`")
     lines.append(f"- Repository HEAD drift since snapshot: `{'YES' if head_drift else 'NO'}`")
     lines.extend(
         [
@@ -91,6 +91,7 @@ def markdown_report(
         lines.append("- Action: the saved validation snapshot is currently trustworthy for package handoff and quick orientation.")
         if head_drift:
             lines.append("- Note: repository HEAD changed after the snapshot was written, but the tracked fingerprints still match.")
+            lines.append("- Interpretation: the head shown above records the repo state when this freshness check ran; if this file is later committed, that commit alone does not require another refresh unless tracked package inputs changed again.")
     return "\n".join(lines).rstrip() + "\n"
 
 

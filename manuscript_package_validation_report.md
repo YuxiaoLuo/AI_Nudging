@@ -4,8 +4,8 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-23T23:52:02+00:00`
-- Repository HEAD at generation: `2fbe937a091da1dc4c384f26538ff6bd7e2f4b48`
+- Generated at (UTC): `2026-06-24T01:52:26+00:00`
+- Repository HEAD at generation: `1cb7d952de5f9a1ef5f999a839d3f4d800f08ea9`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `8eaf4651443f`
@@ -22,7 +22,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 
 ## Validator-script fingerprints
 - `replication_package/scripts/run_validation_suite.py`: sha256 `4fae2c5ea230`
-- `replication_package/scripts/check_validation_snapshot_freshness.py`: sha256 `c62456750aff`
+- `replication_package/scripts/check_validation_snapshot_freshness.py`: sha256 `42bc7bc752dc`
 - `replication_package/scripts/check_package_links.py`: sha256 `efc91ccac4f2`
 - `replication_package/scripts/check_reference_alignment.py`: sha256 `dd7bbef31ea6`
 - `replication_package/scripts/check_reference_formatting.py`: sha256 `b5f349592bf5`

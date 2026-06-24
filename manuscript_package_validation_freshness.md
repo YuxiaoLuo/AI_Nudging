@@ -4,12 +4,12 @@
 This file records whether the saved manuscript-package validation snapshot still matches the current repository state.
 
 ## Freshness metadata
-- Generated at (UTC): `2026-06-24T01:22:21+00:00`
+- Generated at (UTC): `2026-06-24T01:52:26+00:00`
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
 - Validation snapshot checked: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_package_validation_report.md`
-- Saved snapshot HEAD: `2fbe937a091da1dc4c384f26538ff6bd7e2f4b48`
-- Current repository HEAD: `59324227d8c8cf1095b2d2d8523454c9b49eee3b`
-- Repository HEAD drift since snapshot: `YES`
+- Saved snapshot HEAD: `1cb7d952de5f9a1ef5f999a839d3f4d800f08ea9`
+- Repository HEAD when this freshness check ran: `1cb7d952de5f9a1ef5f999a839d3f4d800f08ea9`
+- Repository HEAD drift since snapshot: `NO`
 
 ## Tracked fingerprint comparison
 - `manuscript_llm_ai_nudges_draft.md`: `MATCH` (saved `8eaf4651443f`, current `8eaf4651443f`)
@@ -24,7 +24,7 @@ This file records whether the saved manuscript-package validation snapshot still
 - `literature/download_log.md`: `MATCH` (saved `6184e6252288`, current `6184e6252288`)
 - `manuscript_source_archive_audit.md`: `MATCH` (saved `b7bd4c564cb2`, current `b7bd4c564cb2`)
 - `replication_package/scripts/run_validation_suite.py`: `MATCH` (saved `4fae2c5ea230`, current `4fae2c5ea230`)
-- `replication_package/scripts/check_validation_snapshot_freshness.py`: `MATCH` (saved `c62456750aff`, current `c62456750aff`)
+- `replication_package/scripts/check_validation_snapshot_freshness.py`: `MATCH` (saved `42bc7bc752dc`, current `42bc7bc752dc`)
 - `replication_package/scripts/check_package_links.py`: `MATCH` (saved `efc91ccac4f2`, current `efc91ccac4f2`)
 - `replication_package/scripts/check_reference_alignment.py`: `MATCH` (saved `dd7bbef31ea6`, current `dd7bbef31ea6`)
 - `replication_package/scripts/check_reference_formatting.py`: `MATCH` (saved `b5f349592bf5`, current `b5f349592bf5`)
@@ -34,4 +34,3 @@ This file records whether the saved manuscript-package validation snapshot still
 ## Result
 - Snapshot freshness: `CURRENT`
 - Action: the saved validation snapshot is currently trustworthy for package handoff and quick orientation.
-- Note: repository HEAD changed after the snapshot was written, but the tracked fingerprints still match.

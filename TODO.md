@@ -174,6 +174,7 @@
 - [x] Align the README starting order with the newer package triage rule that freshness should be read before the full validation snapshot
 - [x] Remove the duplicate open-items pointer from the package front-door docs so the same file is not listed twice under near-identical labels
 - [x] Refresh the saved freshness artifact after the package-entrypoint cleanup confirmed a `HEAD drift only` case with unchanged tracked fingerprints
+- [x] Remove the self-created freshness-refresh loop by clarifying in the helper output and workflow docs that the recorded repo head is the head at check time, not a reason for another refresh when only the freshness artifact commit moved HEAD
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

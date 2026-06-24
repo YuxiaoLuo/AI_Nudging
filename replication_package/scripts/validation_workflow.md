@@ -67,6 +67,7 @@ python3 replication_package/scripts/run_validation_suite.py \
 - Post-commit nuance:
   - if you commit package-facing changes after writing the saved snapshot, the snapshot's own `Repository HEAD at generation` metadata can lag behind the latest repo head even when the tracked package fingerprints still match
   - in that case, rerun only `check_validation_snapshot_freshness.py --repo-root . --report-md manuscript_package_validation_report.md --freshness-report-md manuscript_package_validation_freshness.md` if you want the saved freshness artifact to record `CURRENT with HEAD drift noted`
+  - if the only later commit is the commit that saves `manuscript_package_validation_freshness.md` itself, do not keep refreshing just to chase that self-created head movement; rely on the tracked fingerprint result unless other tracked inputs changed again
 
 ### 1. Package entrypoint link check
 - Script:
@@ -172,6 +173,7 @@ python3 replication_package/scripts/check_placeholder_text.py --repo-root .
 4. Use `check_validation_snapshot_freshness.py` separately when you want to test whether the saved snapshot is still trustworthy before deciding to rerun the full suite.
    Treat the tracked manuscript and package-doc fingerprints as the actual freshness criterion, while reading any repository-HEAD drift as provenance about changes made after the snapshot was written.
    After a commit that advances repo HEAD without changing the tracked package fingerprints further, this standalone freshness refresh is the right way to preserve an accurate saved handoff signal without rerunning the full suite.
+   If the only subsequent change is the commit that records the refreshed `manuscript_package_validation_freshness.md` file itself, that self-created HEAD movement is not a reason to refresh again.
    If useful, write that decision to disk with `--freshness-report-md manuscript_package_validation_freshness.md`.
 5. Run `check_package_links.py` separately only when you are editing package-facing docs and want a faster targeted recheck.
 6. Run `check_reference_alignment.py` separately only when you changed citations or the references section and do not need the full suite.
