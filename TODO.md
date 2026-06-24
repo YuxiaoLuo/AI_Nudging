@@ -176,6 +176,7 @@
 - [x] Refresh the saved freshness artifact after the package-entrypoint cleanup confirmed a `HEAD drift only` case with unchanged tracked fingerprints
 - [x] Remove the self-created freshness-refresh loop by clarifying in the helper output and workflow docs that the recorded repo head is the head at check time, not a reason for another refresh when only the freshness artifact commit moved HEAD
 - [x] Align the submission-readiness checklist with that same self-created freshness-commit rule so package-facing guidance does not lag the helper and workflow docs
+- [x] Tighten the package front-door open-items summary so the two remaining bridge-PDF gaps reflect the newer `blocked alternate route` versus `no OA PDF exposed` split directly
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

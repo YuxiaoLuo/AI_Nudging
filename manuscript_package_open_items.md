@@ -34,9 +34,11 @@ These are access-context issues, not source-discovery problems.
 1. `Xiao and Benbasat (2007)`
    - citation is bibliographically confirmed
    - authoritative local PDF is still missing
+   - a newly surfaced CORE-hosted route is also blocked from this environment, so the remaining gap is access context rather than a missing source lead
 2. `Ebrahimi et al. (2022)`
    - citation is bibliographically confirmed
    - authoritative local PDF is still missing
+   - current metadata checks do not expose any open-access PDF route, so the remaining gap is even more clearly `metadata confirmed, local PDF unavailable here`
 
 Current rule:
 - treat a file as `archived locally` only if it exists and validates as a real PDF, not merely because a vendor URL ended in `.pdf`

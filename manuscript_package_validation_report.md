@@ -4,14 +4,14 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-06-24T02:52:02+00:00`
-- Repository HEAD at generation: `337888e66428085cd0eb138d4a11137e4ebf797e`
+- Generated at (UTC): `2026-06-24T03:22:04+00:00`
+- Repository HEAD at generation: `3b75a32dd45bda2dc9a5e7910cd925c71b2cb9cf`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `8eaf4651443f`
 - `README.md`: sha256 `a510f939dd6e`
 - `manuscript_package_index.md`: sha256 `391dfcaaaef6`
-- `manuscript_package_open_items.md`: sha256 `4a071a3d02d4`
+- `manuscript_package_open_items.md`: sha256 `02d5462700cc`
 - `submission_readiness_checklist.md`: sha256 `1e430fee8624`
 - `replication_package/README.md`: sha256 `da6d4ec4db21`
 - `manuscript_reference_audit.md`: sha256 `f2ea9930a433`
