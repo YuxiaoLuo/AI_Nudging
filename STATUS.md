@@ -241,6 +241,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The submission-facing workflow is now also internally aligned with that same freshness rule: the checklist no longer implies that the freshness artifact should be refreshed again after the commit that merely saves the refreshed artifact itself.
 - The front-door open-items summary now also reflects that tighter two-paper archive split directly, so a future handoff can see `blocked alternate route for Xiao` versus `no OA PDF exposed for Ebrahimi` without reopening the longer download log.
 - The archive-status handoff layer is now also aligned with that same split again: the citation crosswalk entries for the two missing bridge PDFs now carry the latest `blocked alternate route` and `no OA PDF exposed` evidence, so the regenerated source-archive audit can inherit the newer diagnosis automatically rather than lagging behind the front-door notes.
+- The generated validation snapshot now also surfaces that same two-paper archive diagnosis in its quick-orientation block, so the saved package report itself no longer compresses the residual source gap down to only `2 PDFs missing` without telling a future reader why those two remain unresolved.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

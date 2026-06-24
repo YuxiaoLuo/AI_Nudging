@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import re
 import subprocess
 import sys
 from dataclasses import dataclass
@@ -100,7 +101,28 @@ def extract_missing_items(stdout: str, header: str) -> list[str]:
     return items
 
 
-def build_orientation_summary(results: list[CheckResult]) -> list[str]:
+def extract_archive_diagnoses(repo_root: Path) -> list[str]:
+    audit_path = repo_root / "manuscript_source_archive_audit.md"
+    if not audit_path.exists():
+        return []
+
+    text = audit_path.read_text()
+    section_pattern = re.compile(
+        r"### (?P<citation>.+?)\n.*?- Current crosswalk note:\n  - (?P<note>.+?)(?=\n### |\n## |\Z)",
+        re.DOTALL,
+    )
+    diagnoses: list[str] = []
+    for match in section_pattern.finditer(text):
+        citation = match.group("citation").strip()
+        note = match.group("note").strip()
+        if "CORE-hosted route" in note and "403 Forbidden" in note:
+            diagnoses.append(f"{citation}: alternate repository route also blocked from this environment")
+        elif "OpenAlex" in note and "no open-access PDF route" in note:
+            diagnoses.append(f"{citation}: no open-access PDF route currently exposed")
+    return diagnoses
+
+
+def build_orientation_summary(repo_root: Path, results: list[CheckResult]) -> list[str]:
     results_by_name = {result.name: result for result in results}
     lines = [
         "## Quick orientation",
@@ -136,6 +158,10 @@ def build_orientation_summary(results: list[CheckResult]) -> list[str]:
             missing_items = extract_missing_items(source_archive_result.stdout, "Missing local PDFs:")
             if missing_items:
                 lines.extend([f"    - {item}" for item in missing_items])
+            archive_diagnoses = extract_archive_diagnoses(repo_root)
+            if archive_diagnoses:
+                lines.append("  - Current archive-gap diagnosis:")
+                lines.extend([f"    - {item}" for item in archive_diagnoses])
     if placeholder_result:
         unexpected = extract_line(placeholder_result.stdout, "Total placeholder hits:")
         if unexpected is not None:
@@ -217,7 +243,7 @@ def markdown_report(
             "",
         ]
     )
-    lines.extend(build_orientation_summary(results))
+    lines.extend(build_orientation_summary(repo_root, results))
     lines.extend(
         [
             "## Validation results",

@@ -4,11 +4,11 @@
 This file records whether the saved manuscript-package validation snapshot still matches the current repository state.
 
 ## Freshness metadata
-- Generated at (UTC): `2026-06-24T03:52:15+00:00`
+- Generated at (UTC): `2026-06-24T04:52:36+00:00`
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
 - Validation snapshot checked: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_package_validation_report.md`
-- Saved snapshot HEAD: `47139b25444b9827c0adff28e96ed4631778bb78`
-- Repository HEAD when this freshness check ran: `47139b25444b9827c0adff28e96ed4631778bb78`
+- Saved snapshot HEAD: `2ce28d26abca271ee91e036d1fcdc20b02155be9`
+- Repository HEAD when this freshness check ran: `2ce28d26abca271ee91e036d1fcdc20b02155be9`
 - Repository HEAD drift since snapshot: `NO`
 
 ## Tracked fingerprint comparison
@@ -23,7 +23,7 @@ This file records whether the saved manuscript-package validation snapshot still
 - `manuscript_citation_crosswalk.md`: `MATCH` (saved `f67ba34f53c6`, current `f67ba34f53c6`)
 - `literature/download_log.md`: `MATCH` (saved `2348a7726d9d`, current `2348a7726d9d`)
 - `manuscript_source_archive_audit.md`: `MATCH` (saved `888b3f0167a0`, current `888b3f0167a0`)
-- `replication_package/scripts/run_validation_suite.py`: `MATCH` (saved `4fae2c5ea230`, current `4fae2c5ea230`)
+- `replication_package/scripts/run_validation_suite.py`: `MATCH` (saved `897a0500ee0e`, current `897a0500ee0e`)
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: `MATCH` (saved `42bc7bc752dc`, current `42bc7bc752dc`)
 - `replication_package/scripts/check_package_links.py`: `MATCH` (saved `efc91ccac4f2`, current `efc91ccac4f2`)
 - `replication_package/scripts/check_reference_alignment.py`: `MATCH` (saved `dd7bbef31ea6`, current `dd7bbef31ea6`)

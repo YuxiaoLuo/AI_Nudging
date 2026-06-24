@@ -178,6 +178,7 @@
 - [x] Align the submission-readiness checklist with that same self-created freshness-commit rule so package-facing guidance does not lag the helper and workflow docs
 - [x] Tighten the package front-door open-items summary so the two remaining bridge-PDF gaps reflect the newer `blocked alternate route` versus `no OA PDF exposed` split directly
 - [x] Align the citation crosswalk and regenerated source-archive audit with that same tighter two-paper archive diagnosis so the deeper handoff layer no longer lags the front-door summary
+- [x] Teach the generated validation snapshot to surface that same two-paper archive diagnosis in its quick-orientation block so the saved report itself carries the sharper handoff signal
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
