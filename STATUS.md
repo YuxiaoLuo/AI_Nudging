@@ -240,6 +240,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - A narrow late-night archive recheck also tightened the two remaining bridge-PDF diagnoses further: a newly surfaced CORE route for Xiao and Benbasat (2007) is also blocked from this environment, while OpenAlex confirms that Ebrahimi et al. (2022) currently exposes no open-access PDF route, so the residual gap is still access context rather than missing source discovery.
 - The submission-facing workflow is now also internally aligned with that same freshness rule: the checklist no longer implies that the freshness artifact should be refreshed again after the commit that merely saves the refreshed artifact itself.
 - The front-door open-items summary now also reflects that tighter two-paper archive split directly, so a future handoff can see `blocked alternate route for Xiao` versus `no OA PDF exposed for Ebrahimi` without reopening the longer download log.
+- The archive-status handoff layer is now also aligned with that same split again: the citation crosswalk entries for the two missing bridge PDFs now carry the latest `blocked alternate route` and `no OA PDF exposed` evidence, so the regenerated source-archive audit can inherit the newer diagnosis automatically rather than lagging behind the front-door notes.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.

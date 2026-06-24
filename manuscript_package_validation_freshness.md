@@ -4,11 +4,11 @@
 This file records whether the saved manuscript-package validation snapshot still matches the current repository state.
 
 ## Freshness metadata
-- Generated at (UTC): `2026-06-24T03:22:04+00:00`
+- Generated at (UTC): `2026-06-24T03:52:15+00:00`
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
 - Validation snapshot checked: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_package_validation_report.md`
-- Saved snapshot HEAD: `3b75a32dd45bda2dc9a5e7910cd925c71b2cb9cf`
-- Repository HEAD when this freshness check ran: `3b75a32dd45bda2dc9a5e7910cd925c71b2cb9cf`
+- Saved snapshot HEAD: `47139b25444b9827c0adff28e96ed4631778bb78`
+- Repository HEAD when this freshness check ran: `47139b25444b9827c0adff28e96ed4631778bb78`
 - Repository HEAD drift since snapshot: `NO`
 
 ## Tracked fingerprint comparison
@@ -20,9 +20,9 @@ This file records whether the saved manuscript-package validation snapshot still
 - `replication_package/README.md`: `MATCH` (saved `da6d4ec4db21`, current `da6d4ec4db21`)
 - `manuscript_reference_audit.md`: `MATCH` (saved `f2ea9930a433`, current `f2ea9930a433`)
 - `manuscript_reference_format_audit.md`: `MATCH` (saved `3b2eae652354`, current `3b2eae652354`)
-- `manuscript_citation_crosswalk.md`: `MATCH` (saved `c1f019b33366`, current `c1f019b33366`)
+- `manuscript_citation_crosswalk.md`: `MATCH` (saved `f67ba34f53c6`, current `f67ba34f53c6`)
 - `literature/download_log.md`: `MATCH` (saved `2348a7726d9d`, current `2348a7726d9d`)
-- `manuscript_source_archive_audit.md`: `MATCH` (saved `b7bd4c564cb2`, current `b7bd4c564cb2`)
+- `manuscript_source_archive_audit.md`: `MATCH` (saved `888b3f0167a0`, current `888b3f0167a0`)
 - `replication_package/scripts/run_validation_suite.py`: `MATCH` (saved `4fae2c5ea230`, current `4fae2c5ea230`)
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: `MATCH` (saved `42bc7bc752dc`, current `42bc7bc752dc`)
 - `replication_package/scripts/check_package_links.py`: `MATCH` (saved `efc91ccac4f2`, current `efc91ccac4f2`)
