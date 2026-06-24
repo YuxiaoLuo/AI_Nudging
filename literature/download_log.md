@@ -253,3 +253,26 @@ Relevant candidates identified in this pass:
 Bottom-line judgment from this pass:
 - No critical literature gap was found that should block the project from shifting into manuscript consolidation and prose cleanup.
 - If a later revision still needs more explicit support, the JBR and JRCS papers above can be cited as secondary reinforcement rather than promoted into the compact core anchor set.
+
+## 2026-06-23 late-night open-route recheck for the two remaining bridge PDFs
+Purpose of this pass:
+- Test whether the two remaining missing bridge citations now have materially different open or repository-hosted routes worth archiving, rather than repeating the same blocked publisher-PDF endpoints.
+
+What I tested:
+- Xiao and Benbasat (2007):
+  - a CORE-hosted PDF route surfaced by web search:
+    - `https://files01.core.ac.uk/download/pdf/16699406.pdf`
+- Ebrahimi et al. (2022):
+  - OpenAlex metadata lookup for DOI `10.1080/07421222.2022.2096549`
+  - targeted web search for alternate public PDF routes
+
+What happened:
+- The Xiao CORE-hosted candidate returned `403 Forbidden` from this environment rather than a downloadable PDF.
+- The Ebrahimi OpenAlex record confirms the citation metadata cleanly, but reports `is_oa: false`, `oa_url: null`, and `pdf_url: null`, so there is still no registered open-access PDF route.
+- The targeted Ebrahimi web search did not surface a cleaner public PDF host than the already-failed Taylor & Francis and ResearchGate-style routes.
+
+Updated judgment:
+- The remaining two-PDF archive gap is still an access-context problem, not a discovery problem.
+- Xiao and Benbasat (2007) does have at least one non-publisher route discoverable on the open web, but that route is also blocked from this environment and should not be treated as a usable archive source here.
+- Ebrahimi et al. (2022) is now even more clearly a `metadata confirmed, no open PDF exposed` case rather than one where another shell-level vendor retry is likely to help.
+- Keep both citations on the `bibliographically confirmed but authoritative local PDF not yet archived` list unless the access context changes materially.
