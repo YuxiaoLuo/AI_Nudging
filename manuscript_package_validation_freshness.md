@@ -4,11 +4,11 @@
 This file records whether the saved manuscript-package validation snapshot still matches the current repository state.
 
 ## Freshness metadata
-- Generated at (UTC): `2026-06-24T01:52:26+00:00`
+- Generated at (UTC): `2026-06-24T02:52:02+00:00`
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
 - Validation snapshot checked: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_package_validation_report.md`
-- Saved snapshot HEAD: `1cb7d952de5f9a1ef5f999a839d3f4d800f08ea9`
-- Repository HEAD when this freshness check ran: `1cb7d952de5f9a1ef5f999a839d3f4d800f08ea9`
+- Saved snapshot HEAD: `337888e66428085cd0eb138d4a11137e4ebf797e`
+- Repository HEAD when this freshness check ran: `337888e66428085cd0eb138d4a11137e4ebf797e`
 - Repository HEAD drift since snapshot: `NO`
 
 ## Tracked fingerprint comparison
@@ -16,12 +16,12 @@ This file records whether the saved manuscript-package validation snapshot still
 - `README.md`: `MATCH` (saved `a510f939dd6e`, current `a510f939dd6e`)
 - `manuscript_package_index.md`: `MATCH` (saved `391dfcaaaef6`, current `391dfcaaaef6`)
 - `manuscript_package_open_items.md`: `MATCH` (saved `4a071a3d02d4`, current `4a071a3d02d4`)
-- `submission_readiness_checklist.md`: `MATCH` (saved `33ebf4279d3d`, current `33ebf4279d3d`)
+- `submission_readiness_checklist.md`: `MATCH` (saved `1e430fee8624`, current `1e430fee8624`)
 - `replication_package/README.md`: `MATCH` (saved `da6d4ec4db21`, current `da6d4ec4db21`)
 - `manuscript_reference_audit.md`: `MATCH` (saved `f2ea9930a433`, current `f2ea9930a433`)
 - `manuscript_reference_format_audit.md`: `MATCH` (saved `3b2eae652354`, current `3b2eae652354`)
 - `manuscript_citation_crosswalk.md`: `MATCH` (saved `c1f019b33366`, current `c1f019b33366`)
-- `literature/download_log.md`: `MATCH` (saved `6184e6252288`, current `6184e6252288`)
+- `literature/download_log.md`: `MATCH` (saved `2348a7726d9d`, current `2348a7726d9d`)
 - `manuscript_source_archive_audit.md`: `MATCH` (saved `b7bd4c564cb2`, current `b7bd4c564cb2`)
 - `replication_package/scripts/run_validation_suite.py`: `MATCH` (saved `4fae2c5ea230`, current `4fae2c5ea230`)
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: `MATCH` (saved `42bc7bc752dc`, current `42bc7bc752dc`)

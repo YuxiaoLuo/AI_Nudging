@@ -238,6 +238,7 @@ The project is now in late-stage manuscript consolidation rather than open-ended
 - The package-validation workflow now also encodes the main post-commit nuance explicitly: a saved snapshot can remain trustworthy even after repo HEAD advances, as long as the tracked package fingerprints still match, and the right follow-up is then a standalone freshness refresh rather than an automatic full-suite rerun.
 - The package-validation workflow now also avoids a low-value self-refresh loop: the freshness helper and workflow docs make explicit that the recorded repo head is the head at check time, and that a later commit which only saves the freshness artifact itself is not a reason to refresh again unless tracked inputs changed.
 - A narrow late-night archive recheck also tightened the two remaining bridge-PDF diagnoses further: a newly surfaced CORE route for Xiao and Benbasat (2007) is also blocked from this environment, while OpenAlex confirms that Ebrahimi et al. (2022) currently exposes no open-access PDF route, so the residual gap is still access context rather than missing source discovery.
+- The submission-facing workflow is now also internally aligned with that same freshness rule: the checklist no longer implies that the freshness artifact should be refreshed again after the commit that merely saves the refreshed artifact itself.
 
 ## Blockers
 - The earlier theory-side source-calibration blocker is now materially narrower; the main remaining manuscript work is light prose smoothing rather than unresolved framing architecture.
