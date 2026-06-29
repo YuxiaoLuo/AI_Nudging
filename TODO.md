@@ -169,6 +169,7 @@
 - [x] Tighten the discussion opening so the support-versus-inspectability issue is stated more directly
 - [x] Tighten the contribution close so the mechanism-level advance is stated with less back-end repetition
 - [x] Tighten the contribution-discussion-conclusion handoff so the back-end mechanism takeaway is stated more economically across adjacent sections
+- [x] Tighten the abstract-and-introduction handoff so the front-end mechanism contrast is stated more economically across adjacent sections
 - [x] Refresh the saved package-validation report and freshness artifact after the recent manuscript commits changed the tracked draft fingerprint
 - [x] Clarify in the submission checklist that tracked fingerprint changes require a full validation-suite rerun rather than only a freshness refresh
 - [x] Refresh the saved package-validation report and freshness artifact after the submission-checklist workflow clarification changed a tracked package fingerprint
