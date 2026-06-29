@@ -7,6 +7,7 @@ This project develops a study on how LLM-based conversational AI nudges shape co
 The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft.
 
 ## Recent Progress
+- A post-compaction reread of the draft confirmed that the manuscript remains structurally stable, and the latest bounded edit tightened the contribution-discussion-conclusion handoff so the support-versus-inspectability mechanism is stated more economically with less repeated phrasing.
 - Core project idea identified: compare LLM-driven conversational nudges with traditional UI-based nudges and a control condition.
 - Working title anchored as `Talking Shoppers Into Buying? Experimental Evidence on LLM-Driven AI Nudges`.
 - Initial framing extracted from `AI nudges.pptx`.
