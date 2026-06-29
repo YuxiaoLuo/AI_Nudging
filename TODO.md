@@ -172,6 +172,7 @@
 - [x] Tighten the abstract-and-introduction handoff so the front-end mechanism contrast is stated more economically across adjacent sections
 - [x] Tighten the analysis-section handoff so the empirical mechanism framing is stated more economically across adjacent paragraphs
 - [x] Align the limitations paragraph with the manuscript's tighter `felt support / less visible logic` wording
+- [x] Align the hypotheses-section close with the manuscript's tighter `felt support / less visible recommendation logic` wording
 - [x] Refresh the saved package-validation report and freshness artifact after the recent manuscript commits changed the tracked draft fingerprint
 - [x] Clarify in the submission checklist that tracked fingerprint changes require a full validation-suite rerun rather than only a freshness refresh
 - [x] Refresh the saved package-validation report and freshness artifact after the submission-checklist workflow clarification changed a tracked package fingerprint

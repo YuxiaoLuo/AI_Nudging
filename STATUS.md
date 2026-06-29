@@ -7,6 +7,7 @@ This project develops a study on how LLM-based conversational AI nudges shape co
 The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft.
 
 ## Recent Progress
+- Another bounded theory-line cleanup aligned the hypotheses-section close with the manuscript's tighter `felt support / less visible recommendation logic` wording.
 - Another bounded back-end cleanup aligned the limitations paragraph with the manuscript's tighter `felt support / less visible logic` wording, removing one remaining older formulation of the core mechanism.
 - Another bounded prose pass tightened the analysis-section handoff so the empirical logic now states the manuscript's benefit-versus-transparency mechanism more economically across adjacent paragraphs.
 - Another bounded front-end prose pass tightened the abstract and introduction so the `stronger support / harder-to-inspect logic` contrast is stated more economically and with less repeated wording.
