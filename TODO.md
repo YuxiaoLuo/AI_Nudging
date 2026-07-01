@@ -171,6 +171,7 @@
 - [x] Tighten the contribution-discussion-conclusion handoff so the back-end mechanism takeaway is stated more economically across adjacent sections
 - [x] Tighten the abstract-and-introduction handoff so the front-end mechanism contrast is stated more economically across adjacent sections
 - [x] Tighten the analysis-section handoff so the empirical mechanism framing is stated more economically across adjacent paragraphs
+- [x] Remove residual reviewer-instruction and fallback-specification phrasing from the methods and analysis sections so the empirical draft reads more like a settled manuscript
 - [x] Align the limitations paragraph with the manuscript's tighter `felt support / less visible logic` wording
 - [x] Align the hypotheses-section close with the manuscript's tighter `felt support / less visible recommendation logic` wording
 - [x] Refresh the saved package-validation report and freshness artifact after the recent manuscript commits changed the tracked draft fingerprint
