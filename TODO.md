@@ -188,6 +188,7 @@
 - [x] Teach the generated validation snapshot to surface that same two-paper archive diagnosis in its quick-orientation block so the saved report itself carries the sharper handoff signal
 - [x] Refresh the saved package-validation report and freshness artifact after the latest manuscript and literature-log edits changed tracked package fingerprints again
 - [x] Sharpen the two remaining bridge-PDF archive notes so Xiao and Benbasat (2007) is distinguished from Ebrahimi et al. (2022) as `publicly readable repository full text but no archived local PDF here` versus `request-only / no public repository full text exposed`
+- [x] Align the package front-door open-items summary with that same sharper two-paper archive distinction so the first handoff doc no longer lags the deeper bibliography notes
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
