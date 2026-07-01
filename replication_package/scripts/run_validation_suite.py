@@ -115,7 +115,11 @@ def extract_archive_diagnoses(repo_root: Path) -> list[str]:
     for match in section_pattern.finditer(text):
         citation = match.group("citation").strip()
         note = match.group("note").strip()
-        if "CORE-hosted route" in note and "403 Forbidden" in note:
+        if "publicly readable full-text view" in note and "PDF Available" in note:
+            diagnoses.append(f"{citation}: publicly readable repository full text, but no archived local PDF here")
+        elif "Request full-text PDF" in note and "No full-text available" in note:
+            diagnoses.append(f"{citation}: request-only repository page, with no public full text exposed")
+        elif "CORE-hosted route" in note and "403 Forbidden" in note:
             diagnoses.append(f"{citation}: alternate repository route also blocked from this environment")
         elif "OpenAlex" in note and "no open-access PDF route" in note:
             diagnoses.append(f"{citation}: no open-access PDF route currently exposed")

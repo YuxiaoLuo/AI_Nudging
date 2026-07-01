@@ -4,8 +4,8 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-07-01T19:21:53+00:00`
-- Repository HEAD at generation: `7279e6f396f6093f0137d4e90229929671dec19e`
+- Generated at (UTC): `2026-07-01T19:52:04+00:00`
+- Repository HEAD at generation: `1950706f2e3594d83f9fd7b3a006f1e177446d1e`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `d0841293ab41`
@@ -21,7 +21,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `manuscript_source_archive_audit.md`: sha256 `9c44ef554e52`
 
 ## Validator-script fingerprints
-- `replication_package/scripts/run_validation_suite.py`: sha256 `897a0500ee0e`
+- `replication_package/scripts/run_validation_suite.py`: sha256 `b88a21c811aa`
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: sha256 `42bc7bc752dc`
 - `replication_package/scripts/check_package_links.py`: sha256 `efc91ccac4f2`
 - `replication_package/scripts/check_reference_alignment.py`: sha256 `dd7bbef31ea6`
@@ -64,8 +64,8 @@ This file records one lightweight validation-suite snapshot for the current manu
     - Xiao and Benbasat (2007)
     - Ebrahimi et al. (2022)
   - Current archive-gap diagnosis:
-    - Xiao and Benbasat (2007): alternate repository route also blocked from this environment
-    - Ebrahimi et al. (2022): no open-access PDF route currently exposed
+    - Xiao and Benbasat (2007): publicly readable repository full text, but no archived local PDF here
+    - Ebrahimi et al. (2022): request-only repository page, with no public full text exposed
   - Unexpected placeholder hits in core package docs: `0`
 
 ## Validation results
