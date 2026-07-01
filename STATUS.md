@@ -7,6 +7,7 @@ This project develops a study on how LLM-based conversational AI nudges shape co
 The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft.
 
 ## Recent Progress
+- The lightweight package-validation snapshot and freshness artifact have been refreshed after the latest manuscript and literature-log edits, so the current handoff baseline again matches the repo state and still shows only the narrow `vs.`/`Frontiers:` style decisions plus the two access-blocked bridge PDFs as residual issues.
 - Another bounded manuscript pass tightened the procedure, stimuli, measurement-reporting, and results-presentation prose so the middle of the draft now reads more directly and with less packaging-style scaffolding.
 - Another bounded methods-and-analysis cleanup removed residual reviewer-instruction phrasing from the formal manuscript draft, so the empirical sections now read more like a settled manuscript and less like an internal blueprint.
 - Another bounded theory-line cleanup aligned the hypotheses-section close with the manuscript's tighter `felt support / less visible recommendation logic` wording.

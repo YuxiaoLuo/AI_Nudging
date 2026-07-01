@@ -7,7 +7,7 @@ This file records the current relationship between the manuscript's in-text cita
 - Source file:
   - `manuscript_llm_ai_nudges_draft.md`
 - Audit date:
-  - `2026-06-23`
+  - `2026-07-01`
 - Audit helper:
   - `replication_package/scripts/check_reference_alignment.py`
 

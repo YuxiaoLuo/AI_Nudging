@@ -186,6 +186,7 @@
 - [x] Tighten the package front-door open-items summary so the two remaining bridge-PDF gaps reflect the newer `blocked alternate route` versus `no OA PDF exposed` split directly
 - [x] Align the citation crosswalk and regenerated source-archive audit with that same tighter two-paper archive diagnosis so the deeper handoff layer no longer lags the front-door summary
 - [x] Teach the generated validation snapshot to surface that same two-paper archive diagnosis in its quick-orientation block so the saved report itself carries the sharper handoff signal
+- [x] Refresh the saved package-validation report and freshness artifact after the latest manuscript and literature-log edits changed tracked package fingerprints again
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
