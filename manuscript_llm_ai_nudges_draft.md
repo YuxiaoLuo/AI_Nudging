@@ -37,6 +37,8 @@ Taken together, these predictions imply that the effect of conversational AI on 
 
 The resulting hypotheses are as follows:
 
+H7 and H8 intentionally play different inferential roles. H7 captures whether conversational guidance increases willingness to act on the focal recommendation, whereas H8 states the paper's more diagnostic tradeoff claim about how support and inspectability jointly shape perceived decision quality.
+
 **H1:** Relative to UI-based nudges and control, LLM conversational nudges increase perceived personalization.
 
 **H2:** Greater perceived personalization is associated with lower cognitive load during product choice.
