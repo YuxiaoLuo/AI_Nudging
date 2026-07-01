@@ -226,6 +226,28 @@ Updated judgment:
 - Future retries should avoid repeating the same shell-level header experiment unless the access context changes materially.
 - Keep both citations on the `bibliographically confirmed but authoritative local PDF not yet archived` list.
 
+## 2026-07-01 direct-endpoint recheck
+Purpose of this pass:
+- Recheck whether the two remaining bridge citations could now be archived from the clearest direct PDF endpoints surfaced by current web search, without broadening the literature scope again.
+
+What I tested:
+- Xiao and Benbasat (2007):
+  - MIS Quarterly direct PDF route surfaced again by search:
+    - `https://misq.umn.edu/misq/article-pdf/31/1/137/5188/7_xiaobenbasat.pdf`
+- Ebrahimi et al. (2022):
+  - Taylor & Francis direct PDF route surfaced again by search:
+    - `https://www.tandfonline.com/doi/pdf/10.1080/07421222.2022.2096549`
+
+What happened:
+- Both direct endpoints returned `403 Forbidden` from this environment during a fresh shell-level fetch on 2026-07-01.
+- No valid `%PDF-` signature was retrievable from either route in this pass.
+- This means the two strongest publisher-style routes remain blocked here even when rediscovered through current search, so the retry did not change archive status.
+
+Updated judgment:
+- The archive gap still reflects environment-level access constraints rather than uncertainty about the correct papers or likely PDF routes.
+- Further retries should focus only on materially different access contexts, such as a manual browser or institutional-library session, rather than repeated shell fetches of the same endpoints.
+- Keep both citations on the `bibliographically confirmed but authoritative local PDF not yet archived` list.
+
 What I checked:
 - A narrow search focused on chatbot or conversational-agent work related to consumer confidence, decision quality, and AI-assisted shopping decisions.
 
