@@ -175,6 +175,7 @@
 - [x] Tighten the procedure, stimuli, measurement-reporting, and results-presentation prose so the manuscript middle reads more directly and with less packaging-style scaffolding
 - [x] Align the limitations paragraph with the manuscript's tighter `felt support / less visible logic` wording
 - [x] Align the hypotheses-section close with the manuscript's tighter `felt support / less visible recommendation logic` wording
+- [x] Clarify more explicitly in the draft and analysis plan why purchase likelihood and perceived decision quality remain analytically distinct outcomes rather than interchangeable indicators of stronger AI guidance
 - [x] Refresh the saved package-validation report and freshness artifact after the recent manuscript commits changed the tracked draft fingerprint
 - [x] Clarify in the submission checklist that tracked fingerprint changes require a full validation-suite rerun rather than only a freshness refresh
 - [x] Refresh the saved package-validation report and freshness artifact after the submission-checklist workflow clarification changed a tracked package fingerprint
