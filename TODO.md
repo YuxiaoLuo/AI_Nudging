@@ -195,6 +195,7 @@
 - [x] Clarify more explicitly why trust remains a secondary outcome rather than being elevated into a parallel core mediator, preserving the tighter support-versus-inspectability model
 - [x] Clarify more explicitly that the no-nudge control serves as an absolute baseline while the conversational-versus-UI comparison remains the paper's main theoretical contrast
 - [x] Clarify more explicitly that purchase likelihood is a headline behavioral consequence while the fuller mediated tradeoff is evaluated through perceived decision quality
+- [x] Clarify more explicitly that forced product choice anchors the shopping task while purchase likelihood remains the headline action-oriented outcome
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
