@@ -194,6 +194,7 @@
 - [x] Resolve whether Yalcin et al. (2022) and Longoni et al. (2019) should move into the compact core anchor set, keeping both as support or boundary citations so the manuscript spine stays centered on commerce-specific recommendation-agent and disclosure anchors
 - [x] Clarify more explicitly why trust remains a secondary outcome rather than being elevated into a parallel core mediator, preserving the tighter support-versus-inspectability model
 - [x] Clarify more explicitly that the no-nudge control serves as an absolute baseline while the conversational-versus-UI comparison remains the paper's main theoretical contrast
+- [x] Clarify more explicitly that purchase likelihood is a headline behavioral consequence while the fuller mediated tradeoff is evaluated through perceived decision quality
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
