@@ -248,6 +248,26 @@ Updated judgment:
 - Further retries should focus only on materially different access contexts, such as a manual browser or institutional-library session, rather than repeated shell fetches of the same endpoints.
 - Keep both citations on the `bibliographically confirmed but authoritative local PDF not yet archived` list.
 
+## 2026-07-01 repository-route distinction recheck
+Purpose of this pass:
+- Check whether the two remaining missing bridge citations differ meaningfully in repository or author-hosted access state, rather than treating both as the same generic `publisher blocked` case.
+
+What I verified:
+- Xiao and Benbasat (2007):
+  - the ResearchGate article page currently exposes a public full-text view and labels the article `PDF Available`
+  - the page text shows the article content directly and indicates author-uploaded content by Bo Xiao
+  - however, the direct PDF fetch path still did not yield a locally archived file in this environment, so the project still lacks an authoritative local PDF copy
+- Ebrahimi et al. (2022):
+  - the ResearchGate article page currently shows `Request full-text PDF` and `No full-text available`
+  - the page exposes the abstract and metadata, but not a public downloadable full text
+
+Updated judgment:
+- The two remaining archive gaps are now more clearly different:
+  - Xiao and Benbasat (2007) appears to have a publicly readable repository-hosted full text, but the project still lacks a successfully archived local PDF from this environment
+  - Ebrahimi et al. (2022) still has no publicly exposed full-text route visible from the repository page, so the gap remains closer to `metadata confirmed, no OA full text exposed here`
+- Keep both citations on the `bibliographically confirmed but authoritative local PDF not yet archived` list.
+- If Rain later wants a manual retrieval attempt, Xiao and Benbasat (2007) is now the stronger candidate for a browser-based save or author-page retrieval before trying Ebrahimi et al. (2022) again.
+
 What I checked:
 - A narrow search focused on chatbot or conversational-agent work related to consumer confidence, decision quality, and AI-assisted shopping decisions.
 
