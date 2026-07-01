@@ -197,6 +197,7 @@
 - [x] Clarify more explicitly that purchase likelihood is a headline behavioral consequence while the fuller mediated tradeoff is evaluated through perceived decision quality
 - [x] Clarify more explicitly that forced product choice anchors the shopping task while purchase likelihood remains the headline action-oriented outcome
 - [x] Clarify more explicitly inside the hypothesis block that H7 captures willingness to act while H8 carries the fuller mediated tradeoff claim
+- [x] Refresh the saved package-validation report and freshness artifact after the latest manuscript clarification passes changed the tracked draft fingerprint again
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
