@@ -177,6 +177,8 @@ These papers are important, but they should stabilize the manuscript's middle la
 
 These papers still matter, but they should sharpen interpretation and scope conditions rather than define the manuscript's central theoretical spine.
 
+The discipline here is important. Yalcin et al. (2022) is valuable because it sharpens how consumers react to algorithmic versus human decision makers, and Longoni et al. (2019) is valuable because it shows that AI advice can trigger resistance in consequential settings. But neither paper is centered on shopping guidance, recommendation-agent explanation design, or commerce-facing disclosure. Pulling either one into the compact core would therefore widen the manuscript's theoretical center of gravity away from the tighter commerce-specific support-versus-transparency argument that the current draft now handles well.
+
 
 ## 8. Priority implications for the next drafting pass
 The next theory draft should probably do five things in order:

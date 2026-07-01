@@ -268,6 +268,27 @@ Updated judgment:
 - Keep both citations on the `bibliographically confirmed but authoritative local PDF not yet archived` list.
 - If Rain later wants a manual retrieval attempt, Xiao and Benbasat (2007) is now the stronger candidate for a browser-based save or author-page retrieval before trying Ebrahimi et al. (2022) again.
 
+## 2026-07-01 narrow anchor-placement follow-up
+Purpose of this pass:
+- Resolve one remaining manuscript-facing literature question without reopening broad source collection: whether Yalcin et al. (2022) or Longoni et al. (2019) should now move into the manuscript's compact core anchor set.
+
+What I checked:
+- The current `literature_reading_matrix.md` entries for both papers.
+- The current `literature_synthesis_memo.md` anchor map and boundary-citation logic.
+- The local literature folder to confirm both papers are already archived here as:
+  - `Yalcin_JMR2022_ConsumerReactionsAlgorithmsVersusHumans.pdf`
+  - `Longoni_JCR2019_ResistanceToMedicalAI.pdf`
+
+What changed:
+- No new PDF downloads were needed in this pass.
+- The current evidence base is now strong enough to resolve the placement question directly from the project's existing synthesis materials and archived copies.
+
+Updated judgment:
+- Keep **Yalcin et al. (2022)** as a supporting citation on reactions to algorithmic decision makers rather than promoting it into the compact core set.
+- Keep **Longoni et al. (2019)** as a boundary-condition citation on resistance to AI advice rather than promoting it into the compact core set.
+- The reason is not quality; both are useful high-prestige consumer-AI papers. The reason is fit: neither one is centered on shopping guidance, recommendation-agent explanation design, or commerce-facing disclosure in the way the current core anchor set is.
+- Promoting either paper into the compact core would widen the manuscript away from the tighter commerce-specific support-versus-transparency argument that currently reads most defensibly.
+
 What I checked:
 - A narrow search focused on chatbot or conversational-agent work related to consumer confidence, decision quality, and AI-assisted shopping decisions.
 
