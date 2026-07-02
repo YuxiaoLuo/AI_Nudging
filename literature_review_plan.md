@@ -44,7 +44,7 @@ LLM conversational nudges are not just stronger recommendation badges. They repr
 1. Digital nudging and online choice architecture
 2. Recommender systems and recommendation cues in e-commerce
 3. Conversational agents / conversational commerce
-4. AI transparency, explainability, and algorithmic opacity
+4. AI transparency, explainability, and inspectability limits
 5. Consumer decision quality, confidence, and cognitive load
 6. Trust in algorithmic or AI advice
 
