@@ -48,7 +48,7 @@ This file converts the manuscript's promised main-text results tables into concr
 ## Table 3. Mechanism-path results
 
 ### Purpose
-- Report the support and opacity pathways in the order implied by the theory
+- Report the support and inspectability pathways in the order implied by the theory
 - Distinguish total effects, indirect effects, and any residual direct effects clearly
 
 ### Shell A. Condition-to-mechanism contrasts

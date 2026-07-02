@@ -52,7 +52,7 @@ This file converts the manuscript's current reporting commitments into a concret
 - Status: required by the current theory-aligned analysis sequence
 - Draft asset: `results_table_shells.md`
 - Purpose:
-  - Report the staged support and opacity pathway evidence.
+  - Report the staged support and inspectability pathway evidence.
   - Show whether conversational guidance increases personalization, reduces cognitive load, increases confidence, and decreases transparency in the expected pattern.
 - Likely contents:
   - path coefficients

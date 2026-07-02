@@ -216,6 +216,7 @@
 - [x] Tighten repeated manuscript phrasing around transparency and inspectability so the core mechanism is stated more consistently across the abstract, theory close, discussion, limitations, and conclusion
 - [x] Remove the remaining residual `opacity` phrasing so the manuscript now uses `inspectability` more consistently in the measurement-reporting and managerial-implications sections
 - [x] Align `results_table_shells.md` with that same `inspectability` wording so the package-facing indirect-effect shell no longer lags the manuscript's mechanism language
+- [x] Align the remaining package-facing appendix and asset-plan guidance with that same `inspectability` wording so the broader package scaffolding no longer lags the manuscript's mechanism language
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

@@ -50,7 +50,7 @@ This appendix externalizes the manuscript's promised separation between confirma
 | Perceived decision quality | `TBD` | `TBD` | `TBD` |
 
 - Optional narrative template:
-  - `The retained construct batteries showed acceptable internal consistency and remained empirically distinguishable enough for the theorized support-versus-opacity paths to be interpretable.`
+  - `The retained construct batteries showed acceptable internal consistency and remained empirically distinguishable enough for the theorized support-versus-inspectability paths to be interpretable.`
 
 ## Section D3. Secondary outcomes
 - Purpose:
