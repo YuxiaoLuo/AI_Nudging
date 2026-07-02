@@ -6,7 +6,7 @@
 - [x] Create a dedicated working manuscript/concept draft for the project
 - [x] Sharpen the core contribution claim relative to digital nudging, AI nudging, and conversational commerce
 - [x] Decide the main dependent variables and which ones are mediators or moderators at a first-pass level
-- [ ] Continue collecting highly relevant and significant articles in seminal journals
+- [ ] If a target outlet is fixed, make the final bibliography-style cleanup decisions on `vs.` and `Frontiers:` so the package matches that venue's exact reference conventions
 - [x] Run one full fresh reread of the manuscript to decide whether draft-side polishing should pause unless a concrete reviewer-facing gap appears
 - [x] Articulate how LLM conversational nudges differ from algorithm-generated recommendation badges in e-commerce choice architecture
 - [x] Conduct a focused literature review in UTD24 and ABDC A* business journals
@@ -224,10 +224,10 @@
 - [x] Remove the remaining false-positive `opaque` wording from the live asset plan so future consistency scans no longer flag a non-theoretical mismatch
 
 ## Process
-- [ ] Continue autonomous literature collection and verification
+- [ ] Reopen literature collection only if a concrete reviewer-facing theoretical or measurement gap appears, or if alternate access makes the two remaining bridge PDFs archivable locally
 - [x] Reassess the core anchor set now that the previously missing PDFs have been added locally
 - [x] Update the manuscript blueprint to explicitly promote Wang and Benbasat (2007) into the compact core anchor set while keeping the remaining recommendation-agent bridge papers as support citations unless later evidence suggests otherwise
 - [x] Continue harmonizing the opening, theory, and hypotheses into one fully consistent scientific manuscript voice
-- [ ] Update `literature/download_log.md` every time literature review is performed
+- [x] Update `literature/download_log.md` every time literature review is performed
 - [x] Record new questions and resolved decisions in `questions_log.md`
 - [x] Update project status after each meaningful review iteration
