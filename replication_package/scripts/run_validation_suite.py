@@ -115,7 +115,21 @@ def extract_archive_diagnoses(repo_root: Path) -> list[str]:
     for match in section_pattern.finditer(text):
         citation = match.group("citation").strip()
         note = match.group("note").strip()
-        if "publicly readable full-text view" in note and "PDF Available" in note:
+        if (
+            "publicly readable full-text view" in note
+            and "PDF Available" in note
+            and "exact MISQ PDF route and JSTOR PDF route still return challenge or access-block HTML" in note
+        ):
+            diagnoses.append(
+                f"{citation}: repository full-text page is visible, but the exact MISQ and JSTOR PDF routes still return challenge or access-block HTML here"
+            )
+        elif (
+            "Taylor & Francis PDF and abstract routes still resolve to challenge HTML" in note
+        ):
+            diagnoses.append(
+                f"{citation}: canonical Taylor & Francis PDF and abstract routes still resolve to challenge HTML from this environment"
+            )
+        elif "publicly readable full-text view" in note and "PDF Available" in note:
             diagnoses.append(f"{citation}: publicly readable repository full text, but no archived local PDF here")
         elif "Request full-text PDF" in note and "No full-text available" in note:
             diagnoses.append(f"{citation}: request-only repository page, with no public full text exposed")

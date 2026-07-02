@@ -4,8 +4,8 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-07-02T11:22:07+00:00`
-- Repository HEAD at generation: `f41ee07b1965e9f955587d355012068a5e2c7a6c`
+- Generated at (UTC): `2026-07-02T11:52:13+00:00`
+- Repository HEAD at generation: `6b4d510bf80a423a5bc4458309fc3327e9bb537c`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `264ab08395a0`
@@ -23,7 +23,7 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `manuscript_source_archive_audit.md`: sha256 `d230798dd42d`
 
 ## Validator-script fingerprints
-- `replication_package/scripts/run_validation_suite.py`: sha256 `9085031993bb`
+- `replication_package/scripts/run_validation_suite.py`: sha256 `add595ed01b5`
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: sha256 `42bc7bc752dc`
 - `replication_package/scripts/check_package_links.py`: sha256 `915ab5083d37`
 - `replication_package/scripts/check_reference_alignment.py`: sha256 `dd7bbef31ea6`
@@ -68,8 +68,8 @@ This file records one lightweight validation-suite snapshot for the current manu
     - Xiao and Benbasat (2007)
     - Ebrahimi et al. (2022)
   - Current archive-gap diagnosis:
-    - Xiao and Benbasat (2007): publicly readable repository full text, but no archived local PDF here
-    - Ebrahimi et al. (2022): request-only repository page, with no public full text exposed
+    - Xiao and Benbasat (2007): repository full-text page is visible, but the exact MISQ and JSTOR PDF routes still return challenge or access-block HTML here
+    - Ebrahimi et al. (2022): canonical Taylor & Francis PDF and abstract routes still resolve to challenge HTML from this environment
   - Unexpected placeholder hits in core package docs: `0`
 
 ## Validation results
