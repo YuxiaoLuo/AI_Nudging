@@ -103,7 +103,7 @@ This file converts the manuscript's current reporting commitments into a concret
 - Purpose:
   - Make the screening pipeline inspectable if the final write-up benefits from a visual flow rather than a text-only description.
 - Use only if:
-  - the exclusions are numerous enough that prose or a compact appendix table would feel opaque
+  - the exclusions are numerous enough that prose or a compact appendix table would feel unwieldy
 
 ## Appendices
 

@@ -220,6 +220,7 @@
 - [x] Align the live synthesis and blueprint summaries with that same `inspectability` framing so future drafting notes do not quietly reintroduce older `opacity` shorthand
 - [x] Remove the remaining core `opacity` shorthand from the live review plan and blueprint so the active drafting guidance is fully aligned with the manuscript's stabilized `inspectability` framing
 - [x] Replace the last active `opaque` and `opacity` wording in the manuscript definition and live synthesis layer so the current drafting stack points more consistently toward the stabilized `inspectability` framing
+- [x] Remove the remaining false-positive `opaque` wording from the live asset plan so future consistency scans no longer flag a non-theoretical mismatch
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

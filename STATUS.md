@@ -7,6 +7,7 @@ This project develops a study on how LLM-based conversational AI nudges shape co
 The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft.
 
 ## Recent Progress
+- The asset-plan wording no longer uses a stray non-theoretical `opaque` label for dense exclusion reporting, so future consistency scans should no longer flag a false-positive wording mismatch in the live package guidance.
 - A final live-wording pass replaced the last active uses of `opaque` and `opacity` in the manuscript definition plus the synthesis and blueprint layer, so the current drafting stack now points more consistently toward the stabilized `inspectability` framing.
 - The remaining core `opacity` shorthand has now been removed from the live review plan and blueprint, so the active drafting guidance is more fully aligned with the manuscript's stabilized `inspectability` framing.
 - The live synthesis and blueprint docs now also use the manuscript's newer `inspectability` framing in their core causal-language summaries, which reduces the chance that future drafting work will reintroduce older `opacity` shorthand into the stabilized manuscript.
