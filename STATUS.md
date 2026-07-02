@@ -7,6 +7,7 @@ This project develops a study on how LLM-based conversational AI nudges shape co
 The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft.
 
 ## Recent Progress
+- A narrow analysis-order cleanup tightened the sentence that positions trust-related evidence so the analysis section now states that supporting role more directly and with less drafting-side cautionary tone.
 - A narrow limitations-section cleanup tightened the closing extension sentence so the limitations paragraph now points to the next empirical boundaries in a more settled manuscript voice and with less overt future-work phrasing.
 - A narrow discussion-section cleanup tightened the practical-implications opening so the managerial takeaway now reads more like settled manuscript exposition than conditional design-speculation phrasing.
 - A narrow analysis-section cleanup tightened two interpretation guardrails so the planned treatment of purchase-likelihood mediation and residual direct effects now reads more like settled manuscript exposition than internal cautionary notes.
