@@ -7,6 +7,7 @@ This project develops a study on how LLM-based conversational AI nudges shape co
 The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft.
 
 ## Recent Progress
+- A narrow procedure-section cleanup tightened the forced-choice versus purchase-likelihood explanation so the methods now state that analytic distinction more directly and with less design-justification tone.
 - A narrow methods-opening cleanup tightened the participant-sampling rationale so the design section now states the target cell-size logic more directly and with less defensive pilot-versus-main-study framing.
 - A narrow model-handoff cleanup tightened the purchase-likelihood positioning paragraph so the hypothesis section now states the difference between the behavioral path and the decision-quality path more directly and with less internal-justification phrasing.
 - A narrow construct-positioning cleanup tightened the trust-placement rationale so the measurement section now states the paper's central mechanism claim in a more settled theoretical voice rather than slipping back into proposal-style prediction wording.
