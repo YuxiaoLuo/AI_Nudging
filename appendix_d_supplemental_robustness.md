@@ -8,6 +8,9 @@ This appendix externalizes the manuscript's promised separation between confirma
 - Use this appendix only for bounded supporting material that helps defend the main results without reframing the paper around auxiliary findings
 - Preserve the conversational-versus-UI contrast as the central comparative lens even in supplemental analyses
 - Label all material here as secondary, robustness, diagnostic, or descriptive rather than as headline evidence
+- Preserve the manuscript's inferential split:
+  - purchase likelihood = main action-oriented outcome
+  - perceived decision quality = fuller support-versus-inspectability endpoint
 
 ## Section D1. Manipulation-check results
 - Purpose:
@@ -78,6 +81,9 @@ This appendix externalizes the manuscript's promised separation between confirma
 
 - Guardrail:
   - Use this section only for bounded sensitivity checks, not for an expansive menu of alternative analytic worlds
+  - Preserve the two-outcome interpretation when summarizing robustness:
+    - purchase likelihood tells whether willingness to act remains stable
+    - perceived decision quality tells whether the fuller tradeoff conclusion remains stable
 
 ## Section D5. Alternative coding or estimation checks
 - Purpose:
@@ -93,6 +99,9 @@ This appendix externalizes the manuscript's promised separation between confirma
 | Staged regression confirmation | `TBD` | `TBD` |
 | Alternative indirect-effect estimation | `TBD` | `TBD` |
 | Secondary missing-data handling | `TBD` | `TBD` |
+
+- Guardrail:
+  - Do not force these checks to explain purchase likelihood through the same full mediation chain used for perceived decision quality unless the realized data support that stronger claim cleanly
 
 ## Section D6. Optional supplemental descriptive displays
 - Use only if needed:
