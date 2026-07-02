@@ -9,10 +9,10 @@ This is the research repository for the AI nudging project.
   - `manuscript_package_index.md`
 - Fastest `what is still left?` entrypoint:
   - `manuscript_package_open_items.md`
-- Current validation snapshot:
-  - `manuscript_package_validation_report.md`
 - Current validation freshness decision:
   - `manuscript_package_validation_freshness.md`
+- Current validation snapshot:
+  - `manuscript_package_validation_report.md`
 - Asset and packaging map:
   - `manuscript_asset_plan.md`
 - Submission workflow:

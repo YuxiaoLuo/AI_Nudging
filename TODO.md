@@ -209,6 +209,8 @@
 - [x] Align the repo `README.md` starting order with the package's newer triage logic so unresolved items and freshness are surfaced in the right sequence
 - [x] Refresh the saved package-validation snapshot after the latest README and open-items edits changed tracked package fingerprints again
 - [x] Align the repo `README.md` and `manuscript_package_index.md` reading orders so both now place unresolved items and validation trustworthiness ahead of the full draft
+- [x] Align the top summary bullets in `README.md` and `manuscript_package_index.md` so the freshness decision is listed before the full validation snapshot
+- [x] Refresh the saved package-validation snapshot after the latest front-door summary-bullet edits changed tracked package fingerprints again
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

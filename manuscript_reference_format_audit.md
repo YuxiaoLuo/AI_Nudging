@@ -7,7 +7,7 @@ This file records the current lightweight formatting state of the manuscript ref
 - Source file:
   - `manuscript_llm_ai_nudges_draft.md`
 - Audit date:
-  - `2026-07-01`
+  - `2026-07-02`
 - Audit helper:
   - `replication_package/scripts/check_reference_formatting.py`
 
