@@ -38,7 +38,7 @@ These are access-context issues, not source-discovery problems.
 2. `Ebrahimi et al. (2022)`
    - citation is bibliographically confirmed
    - authoritative local PDF is still missing
-   - the ResearchGate page remains request-only with no public full text exposed there, and current metadata checks still do not expose any open-access PDF route
+   - current Taylor & Francis search snippets explicitly advertise `View PDF` / `Download PDF`, but no usable public PDF route emerges from this environment, so the remaining gap now looks more like access-gated retrieval than route discovery
 
 Current rule:
 - treat a file as `archived locally` only if it exists and validates as a real PDF, not merely because a vendor URL ended in `.pdf`

@@ -212,6 +212,7 @@
 - [x] Align the top summary bullets in `README.md` and `manuscript_package_index.md` so the freshness decision is listed before the full validation snapshot
 - [x] Refresh the saved package-validation snapshot after the latest front-door summary-bullet edits changed tracked package fingerprints again
 - [x] Tighten the Ebrahimi archive note so the remaining bridge-PDF gap is described as access-gated retrieval rather than route discovery
+- [x] Align `manuscript_package_open_items.md` with that sharper Ebrahimi archive diagnosis so the first unresolved-items handoff doc no longer lags the deeper source-archive audit
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
