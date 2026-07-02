@@ -208,6 +208,7 @@
 - [x] Align `manuscript_package_open_items.md` with the broader validation scope so its expected-placeholder summary no longer lags the saved validation snapshot
 - [x] Align the repo `README.md` starting order with the package's newer triage logic so unresolved items and freshness are surfaced in the right sequence
 - [x] Refresh the saved package-validation snapshot after the latest README and open-items edits changed tracked package fingerprints again
+- [x] Align the repo `README.md` and `manuscript_package_index.md` reading orders so both now place unresolved items and validation trustworthiness ahead of the full draft
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

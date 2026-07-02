@@ -69,9 +69,9 @@ This file is the quickest entrypoint to the current manuscript package for the n
 
 ## Suggested reading order
 1. `manuscript_package_open_items.md`
-2. `manuscript_llm_ai_nudges_draft.md`
-3. `manuscript_package_validation_freshness.md`
-4. `manuscript_package_validation_report.md`
+2. `manuscript_package_validation_freshness.md`
+3. `manuscript_package_validation_report.md`
+4. `manuscript_llm_ai_nudges_draft.md`
 5. `manuscript_asset_plan.md`
 6. `manuscript_citation_crosswalk.md`
 7. `manuscript_reference_audit.md`
