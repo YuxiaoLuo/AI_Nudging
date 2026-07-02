@@ -7,6 +7,7 @@ This project develops a study on how LLM-based conversational AI nudges shape co
 The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft.
 
 ## Recent Progress
+- A narrow model-handoff cleanup tightened the purchase-likelihood positioning paragraph so the hypothesis section now states the difference between the behavioral path and the decision-quality path more directly and with less internal-justification phrasing.
 - A narrow construct-positioning cleanup tightened the trust-placement rationale so the measurement section now states the paper's central mechanism claim in a more settled theoretical voice rather than slipping back into proposal-style prediction wording.
 - The lightweight package-validation snapshot and freshness artifact have been refreshed after the latest manuscript-tone commits, and the saved handoff state is again current: package links, citation alignment, source-archive status, and placeholder checks all pass, with only the two missing bridge PDFs plus the narrow `vs.` / `Frontiers:` outlet-style decisions remaining.
 - A narrow theory-section cleanup tightened the benefit and risk route setup so the construct paragraphs now read less like proposal-stage expectations and more like settled theoretical exposition ahead of the formal hypotheses.
