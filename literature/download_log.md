@@ -339,3 +339,24 @@ Updated judgment:
 - Xiao and Benbasat (2007) does have at least one non-publisher route discoverable on the open web, but that route is also blocked from this environment and should not be treated as a usable archive source here.
 - Ebrahimi et al. (2022) is now even more clearly a `metadata confirmed, no open PDF exposed` case rather than one where another shell-level vendor retry is likely to help.
 - Keep both citations on the `bibliographically confirmed but authoritative local PDF not yet archived` list unless the access context changes materially.
+
+## 2026-07-02 targeted archive-note recheck for the two remaining bridge PDFs
+Purpose of this pass:
+- Test whether the remaining bridge-source gap has changed materially enough to justify another direct archive attempt, rather than assuming the prior blocked routes still describe the current state.
+
+What I checked:
+- Xiao and Benbasat (2007):
+  - current local archive and crosswalk state only, to decide whether a new shell-level retry was likely to add anything beyond the existing `publicly readable repository full-text view` note
+- Ebrahimi et al. (2022):
+  - fresh open-web search results for DOI `10.1080/07421222.2022.2096549`
+  - whether the live article-page snippets now signal a clearer PDF route than the earlier Taylor & Francis / ResearchGate checks
+
+What happened:
+- The Xiao state did not materially change: it remains the stronger manual-retrieval candidate, but the project still has no successfully archived local PDF from this environment.
+- The Ebrahimi search results again surfaced the Taylor & Francis PDF route and article page, and the page snippets now make the access-context issue slightly sharper because they explicitly advertise `View PDF` / `Download PDF` while still not yielding a usable public PDF route here.
+- No new open-access host or repository mirror surfaced for Ebrahimi beyond the already logged Taylor & Francis and ResearchGate-style routes.
+
+Updated judgment:
+- The remaining archive gap is still better understood as `route known, access context blocks retrieval` than as `citation found but full-text route unknown`.
+- Xiao and Benbasat (2007) remains the more plausible candidate for a later manual browser save or alternate-environment retrieval.
+- Ebrahimi et al. (2022) now looks even less like a discovery problem: the page advertises a PDF route, but the route still appears to be access-gated from this environment rather than absent.

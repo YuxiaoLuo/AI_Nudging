@@ -4,11 +4,11 @@
 This file records whether the saved manuscript-package validation snapshot still matches the current repository state.
 
 ## Freshness metadata
-- Generated at (UTC): `2026-07-02T05:21:50+00:00`
+- Generated at (UTC): `2026-07-02T05:53:15+00:00`
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
 - Validation snapshot checked: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_package_validation_report.md`
-- Saved snapshot HEAD: `5e51afac38de7a135dcd4162203adebc3115cd6c`
-- Repository HEAD when this freshness check ran: `5e51afac38de7a135dcd4162203adebc3115cd6c`
+- Saved snapshot HEAD: `cebe99700488224161ff1ca3159c36173ab54f31`
+- Repository HEAD when this freshness check ran: `cebe99700488224161ff1ca3159c36173ab54f31`
 - Repository HEAD drift since snapshot: `NO`
 
 ## Tracked fingerprint comparison
@@ -22,9 +22,9 @@ This file records whether the saved manuscript-package validation snapshot still
 - `replication_package/scripts/README.md`: `MATCH` (saved `8bd4a5a362eb`, current `8bd4a5a362eb`)
 - `manuscript_reference_audit.md`: `MATCH` (saved `7cb087c771bf`, current `7cb087c771bf`)
 - `manuscript_reference_format_audit.md`: `MATCH` (saved `55cc1df64a17`, current `55cc1df64a17`)
-- `manuscript_citation_crosswalk.md`: `MATCH` (saved `8d5476741689`, current `8d5476741689`)
-- `literature/download_log.md`: `MATCH` (saved `3023cdbc3584`, current `3023cdbc3584`)
-- `manuscript_source_archive_audit.md`: `MATCH` (saved `36ed8ce1feea`, current `36ed8ce1feea`)
+- `manuscript_citation_crosswalk.md`: `MATCH` (saved `ef6249dd84fc`, current `ef6249dd84fc`)
+- `literature/download_log.md`: `MATCH` (saved `5b0a49478726`, current `5b0a49478726`)
+- `manuscript_source_archive_audit.md`: `MATCH` (saved `168866bd81fe`, current `168866bd81fe`)
 - `replication_package/scripts/run_validation_suite.py`: `MATCH` (saved `9085031993bb`, current `9085031993bb`)
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: `MATCH` (saved `42bc7bc752dc`, current `42bc7bc752dc`)
 - `replication_package/scripts/check_package_links.py`: `MATCH` (saved `915ab5083d37`, current `915ab5083d37`)
