@@ -34,11 +34,11 @@ These are access-context issues, not source-discovery problems.
 1. `Xiao and Benbasat (2007)`
    - citation is bibliographically confirmed
    - authoritative local PDF is still missing
-   - the ResearchGate page now appears to expose a publicly readable full-text view, but the project still does not have a successfully archived local PDF copy from this environment
+   - the ResearchGate page appears to expose a publicly readable full-text view, but the exact MIS Quarterly and JSTOR PDF routes still returned challenge or access-block HTML from this environment on 2026-07-02, so the project still does not have a successfully archived local PDF copy
 2. `Ebrahimi et al. (2022)`
    - citation is bibliographically confirmed
    - authoritative local PDF is still missing
-   - current Taylor & Francis search snippets explicitly advertise `View PDF` / `Download PDF`, but no usable public PDF route emerges from this environment, so the remaining gap now looks more like access-gated retrieval than route discovery
+   - current Taylor & Francis search snippets explicitly advertise `View PDF` / `Download PDF`, but the canonical Taylor & Francis PDF and abstract routes still resolved to challenge HTML from this environment on 2026-07-02, so the remaining gap looks like access-gated retrieval rather than route discovery
 
 Current rule:
 - treat a file as `archived locally` only if it exists and validates as a real PDF, not merely because a vendor URL ended in `.pdf`

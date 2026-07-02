@@ -360,3 +360,32 @@ Updated judgment:
 - The remaining archive gap is still better understood as `route known, access context blocks retrieval` than as `citation found but full-text route unknown`.
 - Xiao and Benbasat (2007) remains the more plausible candidate for a later manual browser save or alternate-environment retrieval.
 - Ebrahimi et al. (2022) now looks even less like a discovery problem: the page advertises a PDF route, but the route still appears to be access-gated from this environment rather than absent.
+
+## 2026-07-02 canonical-endpoint retrieval recheck for the two remaining bridge PDFs
+Purpose of this pass:
+- Re-test the exact canonical publisher-side PDF routes for the two remaining bridge citations so the archive notes reflect current endpoint behavior rather than only search-result snippets or older inferred routes.
+
+What I checked:
+- Xiao and Benbasat (2007):
+  - exact MIS Quarterly PDF route from current web search:
+    - `https://misq.umn.edu/misq/article-pdf/31/1/137/5188/7_xiaobenbasat.pdf`
+  - JSTOR PDF route:
+    - `https://www.jstor.org/stable/pdf/25148784.pdf`
+- Ebrahimi et al. (2022):
+  - Taylor & Francis canonical PDF route:
+    - `https://www.tandfonline.com/doi/pdf/10.1080/07421222.2022.2096549`
+  - Taylor & Francis abstract route:
+    - `https://www.tandfonline.com/doi/abs/10.1080/07421222.2022.2096549`
+
+What happened:
+- The exact MIS Quarterly Xiao PDF route returned an HTTP `403` Cloudflare challenge page from this environment.
+- Saving that MISQ route with browser-style headers still produced an HTML file beginning with `<!DOCTYPE html>` rather than a real `%PDF-` file.
+- The JSTOR Xiao PDF route also returned HTTP `403`.
+- The Taylor & Francis Ebrahimi PDF route returned HTTP `403` and saved an HTML challenge page rather than a real PDF.
+- The Taylor & Francis abstract route also resolved to a `Just a moment...` Cloudflare challenge page rather than a readable article page from this environment.
+
+Updated judgment:
+- The two remaining archive gaps are now confirmed at the canonical endpoint level rather than only at the snippet or alternate-route level.
+- Xiao and Benbasat (2007) still has the stronger downstream manual-retrieval story because the citation is exact and the ResearchGate record advertises full text, but the canonical MISQ and JSTOR PDF routes remain blocked here.
+- Ebrahimi et al. (2022) is now even more clearly an access-context problem: both the canonical Taylor & Francis PDF and abstract routes are challenge-gated from this environment.
+- Keep both citations on the `bibliographically confirmed but authoritative local PDF not yet archived` list.
