@@ -203,6 +203,8 @@
 - [x] Align `appendix_d_supplemental_robustness.md` with the manuscript's clarified split between purchase likelihood and perceived decision quality
 - [x] Align `submission_readiness_checklist.md` with the manuscript's clarified outcome hierarchy for tables and appendices
 - [x] Align the replication-package analysis shells and codebook scaffold with the manuscript's clarified choice-anchor, confirmatory-outcome, and secondary-outcome hierarchy
+- [x] Expand the default package-validation coverage so the replication-package codebook shell and scripts README are treated as first-class handoff assets
+- [x] Refresh the saved package-validation snapshot after the broader default coverage exposed and resolved one stale codebook link plus one placeholder-audit self-match
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

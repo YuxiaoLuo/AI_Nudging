@@ -14,6 +14,7 @@ PLACEHOLDER_PATTERN = re.compile(r"\bTBD\b")
 IGNORE_LINE_PATTERNS = [
     re.compile(r"placeholder `TBD` text"),
     re.compile(r"check_placeholder_text\.py"),
+    re.compile(r"unexpected `TBD` placeholders in core package docs"),
 ]
 
 
@@ -37,12 +38,14 @@ DEFAULT_CORE_DOCS = [
     "manuscript_citation_crosswalk.md",
     "manuscript_source_archive_audit.md",
     "replication_package/README.md",
+    "replication_package/scripts/README.md",
 ]
 
 DEFAULT_TEMPLATE_DOCS = [
     "appendix_c_screening_and_sample_flow.md",
     "appendix_d_supplemental_robustness.md",
     "results_table_shells.md",
+    "replication_package/codebook_shell.md",
 ]
 
 

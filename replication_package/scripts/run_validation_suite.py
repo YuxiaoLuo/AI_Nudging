@@ -317,6 +317,8 @@ def main() -> int:
         "manuscript_package_open_items.md",
         "submission_readiness_checklist.md",
         "replication_package/README.md",
+        "replication_package/codebook_shell.md",
+        "replication_package/scripts/README.md",
     ]
     bibliography_inputs = [
         "manuscript_reference_audit.md",

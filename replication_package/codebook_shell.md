@@ -89,5 +89,5 @@ Use this section later to document the exact exclusion logic that produced the m
 | `flag_other_prespecified` | `TBD` | `0/1` | `TBD` |
 
 ## Maintenance rule
-- Keep this file aligned with `appendix_b_measurement_instrument.md` and `appendix_c_screening_and_sample_flow.md`
+- Keep this file aligned with `../appendix_b_measurement_instrument.md` and `../appendix_c_screening_and_sample_flow.md`
 - If a final variable name changes, update it here before using it in analysis scripts so the replication package retains one stable reference

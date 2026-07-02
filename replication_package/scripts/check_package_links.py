@@ -44,12 +44,20 @@ def main() -> int:
     parser.add_argument(
         "docs",
         nargs="*",
-        help="Package docs to check. Defaults to README.md, manuscript_package_index.md, and manuscript_package_open_items.md.",
+        help="Package docs to check. Defaults to the main package entrypoints plus the replication manifest, codebook shell, and scripts README.",
     )
     args = parser.parse_args()
 
     repo_root = Path(args.repo_root).resolve()
-    docs = args.docs or ["README.md", "manuscript_package_index.md", "manuscript_package_open_items.md"]
+    docs = args.docs or [
+        "README.md",
+        "manuscript_package_index.md",
+        "manuscript_package_open_items.md",
+        "submission_readiness_checklist.md",
+        "replication_package/README.md",
+        "replication_package/codebook_shell.md",
+        "replication_package/scripts/README.md",
+    ]
     missing_total = 0
 
     for doc in docs:

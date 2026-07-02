@@ -28,6 +28,8 @@ This file explains how to use the current lightweight package-validation helpers
   - `manuscript_package_open_items.md`
   - `submission_readiness_checklist.md`
   - `replication_package/README.md`
+  - `replication_package/codebook_shell.md`
+  - `replication_package/scripts/README.md`
 - Default bibliography-side files fingerprinted in the saved report:
   - `manuscript_reference_audit.md`
   - `manuscript_reference_format_audit.md`
@@ -80,6 +82,10 @@ python3 replication_package/scripts/run_validation_suite.py \
   - `README.md`
   - `manuscript_package_index.md`
   - `manuscript_package_open_items.md`
+  - `submission_readiness_checklist.md`
+  - `replication_package/README.md`
+  - `replication_package/codebook_shell.md`
+  - `replication_package/scripts/README.md`
 - Example:
 
 ```bash
@@ -159,6 +165,8 @@ python3 replication_package/scripts/check_source_archive_status.py --repo-root .
   - before a package handoff, before a submission-style walk-through, or after creating new package-facing docs that should not contain placeholder carryover
 - Default core-doc coverage includes:
   - the front-door package docs such as `README.md`, `manuscript_package_index.md`, and `manuscript_package_open_items.md`
+- Default template-doc coverage includes:
+  - `replication_package/codebook_shell.md` alongside the existing appendix/result shells, because unresolved variable maps are still expected there before implementation
 - Example:
 
 ```bash
