@@ -82,7 +82,7 @@ But they may also:
 - increase reliance on the system without corresponding user understanding
 - create a design tension between persuasive effectiveness and responsible choice architecture
 
-This is a stronger contribution because it allows the paper to make a balanced claim: conversational AI may improve shopping efficiency and confidence while simultaneously introducing a new opacity problem.
+This is a stronger contribution because it allows the paper to make a balanced claim: conversational AI may improve shopping efficiency and confidence while simultaneously introducing a new inspectability problem.
 
 ### Working construct logic for the core model
 At this stage, the construct logic looks cleanest when each major variable has a distinct role.
@@ -160,7 +160,7 @@ Together, these three papers provide the cleanest baseline for saying that tradi
 - **Wang and Wang (2019)** should serve as the core integrity-and-disclosure anchor for why sponsorship disclosure changes evaluations of recommendation agents.
 - **Luo et al. (2019)** should serve as the commerce-facing conversational disclosure anchor because it ties AI chatbot disclosure directly to purchase outcomes.
 
-This four-paper cluster is now the clearest core set for the manuscript's opacity route. It is compact, e-commerce relevant, and strong enough to support the paper's transparency argument without importing a wider and looser AI-ethics literature.
+This four-paper cluster is now the clearest core set for the manuscript's inspectability risk route. It is compact, e-commerce relevant, and strong enough to support the paper's transparency argument without importing a wider and looser AI-ethics literature.
 
 ### C. Supporting but not core bridge citations
 - **Xiao and Benbasat (2007)** remains the best compact bridge for defining recommendation agents as a decision-support category, but it should support the bridge rather than carry the main causal burden.

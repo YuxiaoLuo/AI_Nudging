@@ -38,7 +38,7 @@ Typical properties:
 - nudge is embedded in advice, explanation, framing, and turn-by-turn guidance
 
 ## Working conceptual claim
-LLM conversational nudges are not just stronger recommendation badges. They represent a **qualitatively different form of choice architecture** because they combine personalization, dialogue, adaptive framing, and algorithmic opacity in ways that can change both **what consumers choose** and **how they arrive at the choice**.
+LLM conversational nudges are not just stronger recommendation badges. They represent a **qualitatively different form of choice architecture** because they combine personalization, dialogue, adaptive framing, and limited inspectability in ways that can change both **what consumers choose** and **how they arrive at the choice**.
 
 ## Priority literature buckets
 1. Digital nudging and online choice architecture

@@ -7,6 +7,7 @@ This project develops a study on how LLM-based conversational AI nudges shape co
 The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft.
 
 ## Recent Progress
+- The live synthesis and blueprint docs now also use the manuscript's newer `inspectability` framing in their core causal-language summaries, which reduces the chance that future drafting work will reintroduce older `opacity` shorthand into the stabilized manuscript.
 - The package-facing appendix shell and asset-plan guidance now also use `inspectability` rather than `opacity`, so the remaining package scaffolding is more consistent with the manuscript's current mechanism language.
 - The package-facing results shell now also uses the manuscript's `inspectability` language for the transparency-to-decision-quality indirect path, so the reporting scaffold no longer lags the draft's newer mechanism wording.
 - A follow-up manuscript consistency pass removed two residual `opacity` phrasings from the measurement-reporting and managerial-implications sections, so the draft now carries the `inspectability` language more uniformly across the front end, empirical setup, and discussion.

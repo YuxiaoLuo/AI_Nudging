@@ -217,6 +217,7 @@
 - [x] Remove the remaining residual `opacity` phrasing so the manuscript now uses `inspectability` more consistently in the measurement-reporting and managerial-implications sections
 - [x] Align `results_table_shells.md` with that same `inspectability` wording so the package-facing indirect-effect shell no longer lags the manuscript's mechanism language
 - [x] Align the remaining package-facing appendix and asset-plan guidance with that same `inspectability` wording so the broader package scaffolding no longer lags the manuscript's mechanism language
+- [x] Align the live synthesis and blueprint summaries with that same `inspectability` framing so future drafting notes do not quietly reintroduce older `opacity` shorthand
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
