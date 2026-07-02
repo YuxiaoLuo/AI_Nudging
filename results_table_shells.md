@@ -74,7 +74,7 @@ This file converts the manuscript's promised main-text results tables into concr
 | Indirect effect | Estimate | 95% CI | Note |
 |---|---:|---:|---|
 | Conversational nudge -> personalization -> cognitive load -> confidence -> decision quality | `TBD` | `TBD` | Support-route indirect effect |
-| Conversational nudge -> transparency -> decision quality | `TBD` | `TBD` | Opacity-route indirect effect |
+| Conversational nudge -> transparency -> decision quality | `TBD` | `TBD` | Inspectability-route indirect effect |
 
 ### Notes
 - Keep the mechanism table disciplined: the fuller mediated tradeoff is evaluated through perceived decision quality, not by forcing the same chain to account for every purchase-likelihood movement
