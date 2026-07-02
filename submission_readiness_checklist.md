@@ -12,9 +12,9 @@ This checklist converts the current manuscript package into a pre-submission wor
 
 ## Tables
 - [ ] Populate `results_table_shells.md` with final estimates or map each shell to the final journal-formatted table file.
-- [ ] Confirm that Table 1 reports means, standard deviations, and correlations for the retained constructs.
-- [ ] Confirm that Table 2 foregrounds the primary outcomes and the conversational-versus-UI contrast.
-- [ ] Confirm that Table 3 cleanly separates mechanism-path estimates and indirect effects.
+- [ ] Confirm that Table 1 reports means, standard deviations, and correlations for the retained constructs, while keeping purchase likelihood visible as the action-oriented outcome and perceived decision quality as the evaluative endpoint.
+- [ ] Confirm that Table 2 foregrounds the primary outcomes and the conversational-versus-UI contrast, with purchase likelihood read as willingness to act rather than as a substitute for the fuller mechanism test.
+- [ ] Confirm that Table 3 cleanly separates mechanism-path estimates and indirect effects, and that the fuller support-versus-inspectability tradeoff is evaluated through perceived decision quality rather than forced onto every purchase-likelihood movement.
 - [ ] Confirm that Table 4 remains bounded to secondary outcomes and robustness evidence only.
 
 ## Figures
@@ -25,9 +25,9 @@ This checklist converts the current manuscript package into a pre-submission wor
 
 ## Appendices
 - [ ] Confirm Appendix A matches the final implemented treatment materials exactly.
-- [ ] Confirm Appendix B matches the final programmed survey and retained item set.
+- [ ] Confirm Appendix B matches the final programmed survey and retained item set, including the distinction between forced product choice as the task anchor and purchase likelihood as the action-oriented outcome.
 - [ ] Populate Appendix C with realized screening counts and final sample definitions.
-- [ ] Populate Appendix D only with bounded supporting evidence and robustness material.
+- [ ] Populate Appendix D only with bounded supporting evidence and robustness material, preserving separate robustness interpretations for purchase likelihood and perceived decision quality.
 
 ## Replication package
 - [ ] Confirm `replication_package/codebook_shell.md` has been converted into a final codebook.
