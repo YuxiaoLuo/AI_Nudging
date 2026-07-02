@@ -5,7 +5,7 @@ This file gives a fast, package-facing summary of what is still unresolved in th
 
 ## Current status snapshot
 - Validation state:
-  - the lightweight package checks currently pass
+  - the lightweight package checks currently pass across the main package entrypoints, the replication manifest, the codebook shell, and the scripts-layer workflow README
 - Citation alignment:
   - no current citation-to-reference mismatch is flagged
 - Package links:
@@ -50,6 +50,7 @@ Current expected placeholder locations:
 - `appendix_c_screening_and_sample_flow.md`
 - `appendix_d_supplemental_robustness.md`
 - `results_table_shells.md`
+- `replication_package/codebook_shell.md`
 
 ## Where to act next
 - For final reference-style decisions:
