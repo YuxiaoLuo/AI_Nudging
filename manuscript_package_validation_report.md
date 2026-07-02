@@ -4,14 +4,14 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-07-02T02:54:05+00:00`
-- Repository HEAD at generation: `679bcdaf90cf1050d94d9f04cb9875ffff3687c2`
+- Generated at (UTC): `2026-07-02T04:21:38+00:00`
+- Repository HEAD at generation: `2dda8017e43180ce6c8ace83a90572b0b4449b74`
 
 ## Input fingerprints
 - `manuscript_llm_ai_nudges_draft.md`: sha256 `b60106712260`
-- `README.md`: sha256 `a510f939dd6e`
+- `README.md`: sha256 `963dffa5bebb`
 - `manuscript_package_index.md`: sha256 `391dfcaaaef6`
-- `manuscript_package_open_items.md`: sha256 `5b33b6c4f9eb`
+- `manuscript_package_open_items.md`: sha256 `b1dfbbdd8714`
 - `submission_readiness_checklist.md`: sha256 `7dedc4e3a101`
 - `replication_package/README.md`: sha256 `da6d4ec4db21`
 - `replication_package/codebook_shell.md`: sha256 `7e487e4f937e`
@@ -86,7 +86,7 @@ Referenced package paths: 33
 Missing targets: 0
 
 Doc: manuscript_package_open_items.md
-Referenced package paths: 10
+Referenced package paths: 11
 Missing targets: 0
 
 Doc: submission_readiness_checklist.md
