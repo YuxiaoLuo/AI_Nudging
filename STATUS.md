@@ -7,6 +7,7 @@ This project develops a study on how LLM-based conversational AI nudges shape co
 The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft.
 
 ## Recent Progress
+- A narrow front-end cleanup tightened the abstract and opening introduction so the manuscript now states the core framing and predicted tradeoff in a more settled scientific voice and with less proposal-style hedging.
 - A narrow discussion-and-conclusion cleanup replaced a few residual predictive or policy-style phrasings with more settled manuscript wording, so the back-end interpretation now states the evaluation and design takeaways more directly.
 - The project tracker has been narrowed to the real residual package work, so `TODO.md` now centers on the two still-unarchived bridge PDFs, one outlet-contingent bibliography-style cleanup, and reopening literature collection only if a concrete reviewer-facing gap or alternate access context emerges.
 - Another bounded manuscript pass tightened the measurement-model handoff so the draft now states item-retention discipline, scale-diagnostic visibility, manipulation-check handling, and covariate discipline in a more settled manuscript voice.
