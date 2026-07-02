@@ -53,8 +53,8 @@ This is the research repository for the AI nudging project.
 - `replication_package/outputs/manifest.md`
 
 ## Suggested starting order
-1. `manuscript_package_index.md`
-2. `manuscript_package_open_items.md`
+1. `manuscript_package_open_items.md`
+2. `manuscript_package_index.md`
 3. `manuscript_llm_ai_nudges_draft.md`
 4. `manuscript_package_validation_freshness.md`
 5. `manuscript_package_validation_report.md`

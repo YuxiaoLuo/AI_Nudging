@@ -206,6 +206,7 @@
 - [x] Expand the default package-validation coverage so the replication-package codebook shell and scripts README are treated as first-class handoff assets
 - [x] Refresh the saved package-validation snapshot after the broader default coverage exposed and resolved one stale codebook link plus one placeholder-audit self-match
 - [x] Align `manuscript_package_open_items.md` with the broader validation scope so its expected-placeholder summary no longer lags the saved validation snapshot
+- [x] Align the repo `README.md` starting order with the package's newer triage logic so unresolved items and freshness are surfaced in the right sequence
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
