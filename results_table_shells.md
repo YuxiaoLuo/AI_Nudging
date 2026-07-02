@@ -24,6 +24,7 @@ This file converts the manuscript's promised main-text results tables into concr
 
 ### Notes
 - Keep the confirmatory core constructs visually central even if trust and satisfaction remain in the same table
+- Treat `purchase likelihood` as the main action-oriented outcome and `perceived decision quality` as the evaluative tradeoff endpoint when discussing the correlation pattern
 - Add significance markers only if the target journal expects them
 
 ## Table 2. Headline treatment effects on primary outcomes
@@ -41,6 +42,7 @@ This file converts the manuscript's promised main-text results tables into concr
 
 ### Notes
 - The conversational-versus-UI comparison should remain visibly central rather than being buried inside an omnibus test
+- Read the purchase-likelihood row as the headline willingness-to-act outcome, not as a substitute for the fuller decision-quality mechanism test
 - If the main text keeps only one effect-size column, retain the conversational-versus-UI effect size first
 
 ## Table 3. Mechanism-path results
@@ -74,6 +76,10 @@ This file converts the manuscript's promised main-text results tables into concr
 | Conversational nudge -> personalization -> cognitive load -> confidence -> decision quality | `TBD` | `TBD` | Support-route indirect effect |
 | Conversational nudge -> transparency -> decision quality | `TBD` | `TBD` | Opacity-route indirect effect |
 
+### Notes
+- Keep the mechanism table disciplined: the fuller mediated tradeoff is evaluated through perceived decision quality, not by forcing the same chain to account for every purchase-likelihood movement
+- If a direct conversational-nudge effect on purchase likelihood remains, report it as a behavioral consequence of guidance fluency and reduced friction rather than as proof that decision quality improved
+
 ## Table 4. Secondary outcomes and compact robustness checks
 
 ### Purpose
@@ -93,6 +99,9 @@ This file converts the manuscript's promised main-text results tables into concr
 | Main confirmatory sample | `TBD` | `TBD` | `TBD` | Reference row |
 | Variant 1 | `TBD` | `TBD` | `TBD` | Narrower screen or coding choice |
 | Variant 2 | `TBD` | `TBD` | `TBD` | Sensitivity only if needed |
+
+### Notes
+- Preserve the same inferential split here: robustness should show whether the purchase-likelihood conclusion and the decision-quality conclusion each remain stable, not collapse them into one generic `main effect preserved` statement
 
 ## Usage notes
 - These shells are not a substitute for the appendices; they are the planned main-text table layer

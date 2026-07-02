@@ -198,6 +198,7 @@
 - [x] Clarify more explicitly that forced product choice anchors the shopping task while purchase likelihood remains the headline action-oriented outcome
 - [x] Clarify more explicitly inside the hypothesis block that H7 captures willingness to act while H8 carries the fuller mediated tradeoff claim
 - [x] Refresh the saved package-validation report and freshness artifact after the latest manuscript clarification passes changed the tracked draft fingerprint again
+- [x] Align `results_table_shells.md` with the manuscript's clarified distinction between purchase likelihood and the fuller perceived-decision-quality tradeoff
 
 ## Process
 - [ ] Continue autonomous literature collection and verification
