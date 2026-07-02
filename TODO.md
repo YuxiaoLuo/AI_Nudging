@@ -199,6 +199,7 @@
 - [x] Clarify more explicitly inside the hypothesis block that H7 captures willingness to act while H8 carries the fuller mediated tradeoff claim
 - [x] Refresh the saved package-validation report and freshness artifact after the latest manuscript clarification passes changed the tracked draft fingerprint again
 - [x] Align `results_table_shells.md` with the manuscript's clarified distinction between purchase likelihood and the fuller perceived-decision-quality tradeoff
+- [x] Align `appendix_b_measurement_instrument.md` and `replication_package/codebook_shell.md` with the manuscript's clarified distinction between product choice and purchase likelihood
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

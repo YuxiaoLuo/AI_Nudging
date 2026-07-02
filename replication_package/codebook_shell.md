@@ -17,7 +17,7 @@ This file is a draft codebook scaffold for the nudging study. It is meant to bec
 |---|---|---|---|---|---|
 | `participant_id` | Participant identifier | ID | `TBD` | Platform export | De-identify if shared |
 | `condition` | Experimental condition | Categorical | `1, 2, 3` | Random assignment | Keep stable across all scripts |
-| `choice_product` | Chosen headphone option | Categorical | `TBD` | Shopping task | Final selected product |
+| `choice_product` | Chosen headphone option | Categorical | `TBD` | Shopping task | Anchors which product the participant later evaluates; not the headline action outcome by itself |
 | `purchase_1` | Purchase likelihood item 1 | Numeric | `1-7` | Instrument | `TBD` |
 | `purchase_2` | Purchase likelihood item 2 | Numeric | `1-7` | Instrument | `TBD` |
 | `purchase_3` | Purchase likelihood item 3 | Numeric | `1-7` | Instrument | `TBD` |
@@ -56,6 +56,11 @@ This file is a draft codebook scaffold for the nudging study. It is meant to bec
 
 ## Construct-score section
 Use this section later to define the final retained constructs after reliability and dimensionality checks.
+
+Interpretation rule:
+- `choice_product` records task completion at the product-selection stage.
+- `purchase_likelihood` captures willingness to act on that selected product and remains the headline action-oriented outcome.
+- `decision_quality` captures whether the selected choice is experienced as sound and well justified.
 
 | Construct score | Component items | Reverse coded? | Aggregation rule | Final retained? |
 |---|---|---|---|---|

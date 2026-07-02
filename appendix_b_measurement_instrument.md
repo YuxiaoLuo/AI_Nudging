@@ -13,6 +13,8 @@ This appendix externalizes the measurement package described in the manuscript i
 ### Purchase likelihood
 - Construct role: headline behavioral outcome
 - Response format: seven-point unlikely-to-likely scale
+- Measurement note:
+  - These items are asked after the participant selects one focal product, so they capture willingness to act on that selected option rather than mere completion of the choice task
 - Draft items:
   - `I would be likely to purchase the headphone option I selected.`
   - `I would seriously consider buying the headphone option I selected.`
@@ -21,6 +23,8 @@ This appendix externalizes the measurement package described in the manuscript i
 ### Perceived decision quality
 - Construct role: headline evaluative outcome
 - Response format: seven-point agreement scale
+- Measurement note:
+  - These items evaluate whether the selected option feels well justified and appropriate, which is analytically distinct from willingness to purchase it
 - Draft items:
   - `I made a high-quality decision in this shopping task.`
   - `My final choice seems well justified given the information available.`
@@ -170,3 +174,4 @@ This appendix externalizes the measurement package described in the manuscript i
 - Concise reliability statistics for retained scales
 - Brief dimensionality or loading evidence sufficient to show construct separability
 - Any clearly reported item deletions made under the disciplined retention rule
+- A short note that the forced product choice anchors what respondents evaluate, while purchase likelihood remains the main action-oriented outcome
