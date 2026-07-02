@@ -219,6 +219,7 @@
 - [x] Align the remaining package-facing appendix and asset-plan guidance with that same `inspectability` wording so the broader package scaffolding no longer lags the manuscript's mechanism language
 - [x] Align the live synthesis and blueprint summaries with that same `inspectability` framing so future drafting notes do not quietly reintroduce older `opacity` shorthand
 - [x] Remove the remaining core `opacity` shorthand from the live review plan and blueprint so the active drafting guidance is fully aligned with the manuscript's stabilized `inspectability` framing
+- [x] Replace the last active `opaque` and `opacity` wording in the manuscript definition and live synthesis layer so the current drafting stack points more consistently toward the stabilized `inspectability` framing
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

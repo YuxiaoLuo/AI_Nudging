@@ -26,7 +26,7 @@ A useful refinement from this literature pass is that the bridge does not have t
 ### C. Digital nudging research is increasingly attentive to ethics and transparency
 The more recent digital nudging literature has started to examine not only effectiveness but also the ethical and transparency dimensions of nudges. For example, the EJIS paper on salience, transparency, and self-nudging in healthier food choices suggests that the field is moving beyond the simple question of whether nudges work and toward whether they are transparent, ethical, and autonomy-preserving.
 
-This is useful for your project because LLM-based nudges are not only likely to be effective, they are also likely to raise stronger concerns about opacity and hidden influence than standard salience nudges.
+This is useful for your project because LLM-based nudges are not only likely to be effective, they are also likely to raise stronger concerns about limited inspectability and hidden influence than standard salience nudges.
 
 ### D. Conversational systems add interactivity and sequential guidance
 A further adjacent stream on chatbots and conversational recommender systems suggests that conversational interfaces change the mode of decision support. Compared with static interface cues, conversational systems can deliver guidance across multiple turns, adapt recommendations to evolving user input, and increase perceived socialness or advisor-like presence.
@@ -44,7 +44,7 @@ LLM conversational nudges, by contrast, operate through:
 - sequential guidance rather than one-shot exposure
 - adaptive framing rather than fixed ordering
 - personalized language rather than simple visual salience
-- opaque reasoning that is harder to infer or reconstruct
+- reasoning that is harder to inspect, infer, or reconstruct
 
 That means LLM conversational nudges may influence not just search and consideration, but also confidence, trust, preference articulation, justification, and even the subjective sense that the system "understands" the user.
 
@@ -100,7 +100,7 @@ A useful drafting implication follows for the confidence path specifically. The 
 ## 4. What this means for your paper positioning
 A sharper positioning statement is:
 
-**Algorithm-generated recommendation badges alter online choice primarily by changing salience and search order, whereas LLM-driven conversational nudges alter choice architecture through adaptive dialogue that can reshape evaluation, confidence, and perceived understanding while also increasing opacity.**
+**Algorithm-generated recommendation badges alter online choice primarily by changing salience and search order, whereas LLM-driven conversational nudges alter choice architecture through adaptive dialogue that can reshape evaluation, confidence, and perceived understanding while also reducing inspectability.**
 
 That statement helps you differentiate the paper from at least three nearby literatures:
 - digital nudging through interface design
@@ -135,7 +135,7 @@ Luo et al. (2019) is especially valuable because it moves the discussion back in
 The Internet Research paper on matching an automated conversational agent's conversation to the customer's shopping task is especially useful because it treats the conversational agent as a **decision aid** rather than just a service interface. That framing is very close to the present paper's logic and gives a direct bridge from decision-aid research to conversational shopping assistance. After this pass, that bridge looks even stronger when placed after the recommendation-agent interaction literature rather than after broad conversational-commerce reviews.
 
 ### E. Conversational commerce bias and transparency concerns
-The Technological Forecasting and Social Change paper on biased choices offered by voice assistants is useful for the downside path. It suggests that conversational commerce is not only about convenience and engagement, but also about concerns over constrained choice, hidden steering, and transparency. This is closely aligned with the project's opacity concern.
+The Technological Forecasting and Social Change paper on biased choices offered by voice assistants is useful for the downside path. It suggests that conversational commerce is not only about convenience and engagement, but also about concerns over constrained choice, hidden steering, and transparency. This is closely aligned with the project's inspectability concern.
 
 ### F. Personalization benefits in conversational shopping
 The Computers in Human Behavior paper on personalization and social role in voice shopping is useful for the upside path. It supports the idea that conversational recommendation can increase perceived personalization and favorable product evaluation, which helps justify the benefit side of the tradeoff model.

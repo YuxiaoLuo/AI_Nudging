@@ -33,7 +33,7 @@ Typical properties:
 - adaptive across turns
 - can infer and reshape preferences during dialogue
 - higher perceived social presence / agency
-- more opaque in recommendation logic
+- less inspectable in recommendation logic
 - potentially stronger persuasive and confidence-shaping effects
 - nudge is embedded in advice, explanation, framing, and turn-by-turn guidance
 
