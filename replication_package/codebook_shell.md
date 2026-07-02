@@ -73,6 +73,10 @@ Interpretation rule:
 | `trust` | `TBD` | No | `TBD` | `TBD` |
 | `satisfaction` | `TBD` | No | `TBD` | `TBD` |
 
+Construct-role rule:
+- Treat `purchase_likelihood` and `decision_quality` as the two confirmatory outcomes carried into the main results layer.
+- Treat `trust` and `satisfaction` as secondary outcomes that remain available for supporting analyses without expanding the core mechanism model.
+
 ## Screening flags section
 Use this section later to document the exact exclusion logic that produced the main confirmatory sample.
 

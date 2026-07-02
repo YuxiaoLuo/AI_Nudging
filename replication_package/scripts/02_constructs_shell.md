@@ -30,5 +30,7 @@ Score the retained constructs from the screened sample and document item handlin
 - descriptive table inputs
 
 ## Guardrails
+- Preserve the distinction between `choice_product` as the task anchor and `purchase likelihood` as the action-oriented outcome.
+- Keep trust and satisfaction available for later secondary tables without letting them expand the confirmatory construct core.
 - Do not proliferate substitute measures because of noisy diagnostics.
 - Record any dropped item decisions explicitly before recomputing the retained construct.

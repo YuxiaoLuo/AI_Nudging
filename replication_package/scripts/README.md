@@ -9,9 +9,9 @@ These files define the intended analysis workflow before a final implementation 
 2. `02_constructs_shell.md`
    - score retained constructs and document item handling
 3. `03_main_results_shell.md`
-   - generate the main manuscript tables and mechanism-path results
+   - generate the main manuscript tables and mechanism-path results while keeping forced product choice as the task anchor rather than treating it as a substitute outcome
 4. `04_robustness_shell.md`
-   - run bounded sensitivity and supplemental checks only after the main results are fixed
+   - run bounded sensitivity and supplemental checks only after the main results are fixed, with trust and satisfaction kept in the secondary layer
 
 ## Current helper utility
 - Fastest `what should I run?` companion:

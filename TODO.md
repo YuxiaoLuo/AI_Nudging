@@ -202,6 +202,7 @@
 - [x] Align `appendix_b_measurement_instrument.md` and `replication_package/codebook_shell.md` with the manuscript's clarified distinction between product choice and purchase likelihood
 - [x] Align `appendix_d_supplemental_robustness.md` with the manuscript's clarified split between purchase likelihood and perceived decision quality
 - [x] Align `submission_readiness_checklist.md` with the manuscript's clarified outcome hierarchy for tables and appendices
+- [x] Align the replication-package analysis shells and codebook scaffold with the manuscript's clarified choice-anchor, confirmatory-outcome, and secondary-outcome hierarchy
 
 ## Process
 - [ ] Continue autonomous literature collection and verification

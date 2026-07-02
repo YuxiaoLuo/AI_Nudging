@@ -7,6 +7,7 @@ Generate the main confirmatory evidence for the manuscript.
 - construct-scored confirmatory dataset from `02_constructs`
 - fixed condition coding
 - stable confirmatory covariate set
+- stable `choice_product` record so downstream outputs preserve the chosen-product task anchor without treating it as a headline dependent variable
 
 ## Main steps
 1. Generate Table 1 descriptive statistics and correlations.
@@ -28,4 +29,5 @@ Generate the main confirmatory evidence for the manuscript.
 
 ## Guardrails
 - Keep the conversational-versus-UI comparison central.
+- Keep purchase likelihood and perceived decision quality as the only headline confirmatory outcomes.
 - Do not mix secondary outcomes or robustness variants into the main confirmatory output objects.
