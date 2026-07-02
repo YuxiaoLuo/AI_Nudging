@@ -7,6 +7,7 @@ This project develops a study on how LLM-based conversational AI nudges shape co
 The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft.
 
 ## Recent Progress
+- A narrow measures-layer cleanup tightened the sentence that positions the auxiliary outcomes so the brief trust-and-satisfaction treatment now reads more like settled manuscript exposition than process-justification wording.
 - A narrow discussion-opening cleanup tightened the first interpretive sentence so the opening contrast between felt support and reduced inspectability now reads more directly and with less soft evaluative phrasing.
 - A narrow sample-handling cleanup tightened the missing-data sentence so the survey-protocol paragraph now states the fallback logic in a more settled manuscript voice and with less contingency-note phrasing.
 - A narrow analysis-order cleanup tightened the sentence that positions trust-related evidence so the analysis section now states that supporting role more directly and with less drafting-side cautionary tone.
