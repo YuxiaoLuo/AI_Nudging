@@ -4,9 +4,10 @@
 This project develops a study on how LLM-based conversational AI nudges shape consumer purchase decision-making in online shopping environments. The working title is: **Talking Shoppers Into Buying? Experimental Evidence on LLM-Driven AI Nudges**.
 
 ## Current Focus
-The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft.
+The project is now in late-stage manuscript consolidation rather than open-ended theory expansion. The immediate objective is to preserve the tightened framing, avoid unnecessary churn, and keep only bounded readability improvements that noticeably reduce residual procedural scaffolding in the draft. A fresh reread of the back-end sections now suggests that additional heartbeat-driven prose edits should pause unless a clearer reviewer-facing weakness or a more substantive manuscript target appears.
 
 ## Recent Progress
+- A narrow practical-implications cleanup replaced one remaining soft transition phrase, and the latest reread suggests the back-end draft is now close enough to diminishing returns that further heartbeat-driven micro-polish should pause unless a clearer weakness appears.
 - A narrow practical-implications cleanup tightened the design-recommendation sentence so the managerial paragraph now reads more directly and with less soft loss-language.
 - A narrow discussion-implications cleanup tightened the literature-bridge sentence so the first theoretical implication now reads more directly and with less scaffolding-like phrasing.
 - A narrow discussion-opening cleanup tightened the central issue sentence so the opening framing now reads more directly and with less redundant wording.
