@@ -68,7 +68,7 @@ Current literature provides important pieces of the puzzle, but not the exact co
 
 That comparison is theoretically valuable because it can show whether conversational AI is simply a more powerful digital nudge or a qualitatively different architecture of influence.
 
-## 3. The most defensible theory direction right now
+## 3. The most defensible theory direction at this stage
 Based on the literature reviewed so far, the strongest theory direction is not a simple effectiveness story. It is a **dual-process tradeoff story** about how conversational AI changes the decision process.
 
 ### Proposed core logic
@@ -102,7 +102,7 @@ A sharper positioning statement is:
 
 **Algorithm-generated recommendation badges alter online choice primarily by changing salience and search order, whereas LLM-driven conversational nudges alter choice architecture through adaptive dialogue that can reshape evaluation, confidence, and perceived understanding while also reducing inspectability.**
 
-That statement helps you differentiate the paper from at least three nearby research streams:
+That statement differentiates the paper from at least three nearby research streams:
 - digital nudging through interface design
 - recommendation-agent studies focused on disclosure and trust
 - conversational commerce studies focused mainly on user experience rather than choice architecture
@@ -115,7 +115,7 @@ A strong contribution claim would be:
 3. It identifies a core tradeoff in LLM-mediated shopping: better personalization and lower cognitive burden versus lower transparency and less reconstructible influence.
 4. It provides experimental evidence on how this new form of choice architecture shapes purchase decisions and decision process outcomes.
 
-## 6. Additional literature worth keeping in the active set
+## 6. Additional literature worth retaining in the active set
 A few additional papers look worth retaining because they strengthen specific pieces of the emerging model rather than merely adding more adjacent citations.
 
 ### A. Early recommendation-effect baseline
@@ -181,7 +181,7 @@ The discipline here is important. Yalcin et al. (2022) is valuable because it sh
 
 
 ## 8. Priority implications for the next drafting pass
-The next theory draft should probably do five things in order:
+The next theory draft should do five things in order:
 1. establish the badge/ranking baseline
 2. bridge to recommendation-agent trust and disclosure literature
 3. use conversational-agent-as-decision-aid work to justify why LLM dialogue changes the nature of choice support

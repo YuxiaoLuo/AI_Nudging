@@ -2,6 +2,7 @@
 
 ## Immediate
 - [ ] If an alternate browser or access context becomes available, archive authoritative local PDFs for Xiao and Benbasat (2007) and Ebrahimi et al. (2022) using the exact routes now logged in `literature/download_log.md`
+- [x] Remove the remaining note-style synthesis phrasing from the live memo so later drafting passes are less likely to inherit informal internal voice
 - [x] Remove the remaining second-person memo phrasing from the live literature synthesis layer so later drafting passes are less likely to inherit note-to-self language
 - [x] Normalize the remaining `literatures` drafting shorthand across the manuscript and live synthesis guidance so later drafting passes are less likely to reintroduce that wording
 - [x] Tighten one last small pocket of drafting-shorthand wording in the manuscript front end after the post-validation pause check so the opening setup reads more like finished prose
