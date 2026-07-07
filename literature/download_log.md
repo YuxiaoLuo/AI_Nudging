@@ -389,3 +389,27 @@ Updated judgment:
 - Xiao and Benbasat (2007) still has the stronger downstream manual-retrieval story because the citation is exact and the ResearchGate record advertises full text, but the canonical MISQ and JSTOR PDF routes remain blocked here.
 - Ebrahimi et al. (2022) is now even more clearly an access-context problem: both the canonical Taylor & Francis PDF and abstract routes are challenge-gated from this environment.
 - Keep both citations on the `bibliographically confirmed but authoritative local PDF not yet archived` list.
+
+## 2026-07-06 late-night direct-PDF route recheck
+Purpose of this pass:
+- Recheck the two remaining unresolved bridge PDFs from the current environment using the clearest direct PDF routes surfaced by current web search, and sharpen the manual-retrieval notes if the files still cannot be archived here.
+
+What I tested:
+- Xiao and Benbasat (2007):
+  - MIS Quarterly direct PDF route:
+    - `https://misq.umn.edu/misq/article-pdf/31/1/137/5188/7_xiaobenbasat.pdf`
+  - JSTOR direct PDF route surfaced again by search:
+    - `https://www.jstor.org/stable/pdf/25148784.pdf`
+- Ebrahimi et al. (2022):
+  - Taylor & Francis direct PDF route:
+    - `https://www.tandfonline.com/doi/pdf/10.1080/07421222.2022.2096549`
+
+What happened:
+- The MIS Quarterly Xiao PDF route returned HTTP `403` with a Cloudflare challenge page from this environment.
+- The JSTOR Xiao PDF route also returned HTTP `403` from this environment. This route is still worth preserving because it is a stable article-specific PDF endpoint and may be the cleanest browser-side retrieval candidate if access context changes.
+- The Taylor & Francis Ebrahimi PDF route again returned HTTP `403` with a Cloudflare challenge page from this environment.
+
+Updated judgment:
+- No authoritative local PDF could be archived in this pass.
+- Xiao and Benbasat (2007) now has two exact article-specific PDF endpoints logged (`MISQ` and `JSTOR`), which sharpens the later manual-retrieval path even though both are blocked here.
+- Ebrahimi et al. (2022) remains an access-context problem rather than a source-discovery problem; the known Taylor & Francis PDF route is exact, but still challenge-gated from this environment.
