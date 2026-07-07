@@ -102,7 +102,7 @@ A sharper positioning statement is:
 
 **Algorithm-generated recommendation badges alter online choice primarily by changing salience and search order, whereas LLM-driven conversational nudges alter choice architecture through adaptive dialogue that can reshape evaluation, confidence, and perceived understanding while also reducing inspectability.**
 
-That statement helps you differentiate the paper from at least three nearby literatures:
+That statement helps you differentiate the paper from at least three nearby research streams:
 - digital nudging through interface design
 - recommendation-agent studies focused on disclosure and trust
 - conversational commerce studies focused mainly on user experience rather than choice architecture

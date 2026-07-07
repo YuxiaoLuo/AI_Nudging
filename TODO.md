@@ -2,6 +2,7 @@
 
 ## Immediate
 - [ ] If an alternate browser or access context becomes available, archive authoritative local PDFs for Xiao and Benbasat (2007) and Ebrahimi et al. (2022) using the exact routes now logged in `literature/download_log.md`
+- [x] Normalize the remaining `literatures` drafting shorthand across the manuscript and live synthesis guidance so later drafting passes are less likely to reintroduce that wording
 - [x] Tighten one last small pocket of drafting-shorthand wording in the manuscript front end after the post-validation pause check so the opening setup reads more like finished prose
 - [x] Run one more lightweight validation check after the latest bounded manuscript cleanup to confirm the handoff package still passes and that no new reference or placeholder drift was introduced
 - [x] Remove the empty `ai nudging on digital platform.docx` file from the project so it no longer creates false blocker noise
