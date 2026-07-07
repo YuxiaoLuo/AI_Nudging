@@ -13,7 +13,7 @@ A foundational example is Häubl and Trifts (2000), who show that interactive de
 At the same time, the ranking literature suggests a boundary. Ursu (2018) shows that rankings causally affect what consumers search, but conditional on search, do not directly affect purchases. This is a critical benchmark for the current project because it suggests that many traditional interface-level nudges work primarily through **search-cost reduction and attention allocation**, not through deeper conversational persuasion or dynamic preference shaping.
 
 ### B. Recommendation-agent research explains trust, explanation, disclosure, and integrity concerns
-A second literature stream examines recommendation agents rather than simple badges or rankings. This work moves closer to your project because it addresses trust, explanations, sponsorship disclosure, and perceptions of biased recommendation systems.
+A second literature stream examines recommendation agents rather than simple badges or rankings. This work moves closer to the current project because it addresses trust, explanations, sponsorship disclosure, and perceptions of biased recommendation systems.
 
 An important early anchor here is Wang and Benbasat (2007), who show that explanation facilities in recommendation agents affect trusting beliefs. This is especially useful because it establishes, at an earlier stage in the literature, that the design of explanations is not just a usability add-on. It changes whether users feel able to trust the recommendation mechanism itself. That matters directly for the present project because conversational AI systems may be highly fluent and personalized while still offering weak reconstructability of how the recommendation was produced.
 
@@ -26,7 +26,7 @@ A useful refinement from this literature pass is that the bridge does not have t
 ### C. Digital nudging research is increasingly attentive to ethics and transparency
 The more recent digital nudging literature has started to examine not only effectiveness but also the ethical and transparency dimensions of nudges. For example, the EJIS paper on salience, transparency, and self-nudging in healthier food choices suggests that the field is moving beyond the simple question of whether nudges work and toward whether they are transparent, ethical, and autonomy-preserving.
 
-This is useful for your project because LLM-based nudges are not only likely to be effective, they are also likely to raise stronger concerns about limited inspectability and hidden influence than standard salience nudges.
+This is useful for the current project because LLM-based nudges are not only likely to be effective, they are also likely to raise stronger concerns about limited inspectability and hidden influence than standard salience nudges.
 
 ### D. Conversational systems add interactivity and sequential guidance
 A further adjacent stream on chatbots and conversational recommender systems suggests that conversational interfaces change the mode of decision support. Compared with static interface cues, conversational systems can deliver guidance across multiple turns, adapt recommendations to evolving user input, and increase perceived socialness or advisor-like presence.
@@ -61,7 +61,7 @@ LLM systems are different because they can:
 So the gap is not merely that LLM systems are newer. The gap is that they combine **recommendation, persuasion, and conversational interaction** into a single form of choice architecture.
 
 ### Gap 3: The field lacks a strong business-journal comparison between badge-based and conversational AI nudges in e-commerce
-Current literature gives you pieces of the puzzle, but not the exact comparison your project needs. There is still limited evidence in top business-journal conversations that directly compares:
+Current literature provides important pieces of the puzzle, but not the exact comparison the project needs. There is still limited evidence in top business-journal conversations that directly compares:
 1. static or semi-static UI nudges, such as badges and rankings,
 2. conversational AI nudges delivered by an LLM assistant, and
 3. the downstream consequences for purchase, transparency, confidence, and decision quality.
@@ -97,7 +97,7 @@ This role separation matters because it helps avoid conceptual overlap. Personal
 
 A useful drafting implication follows for the confidence path specifically. The paper does not need to open a separate literature lane just to justify confidence if the mechanism is already implied by the decision-aid logic. The cleaner argument is that guidance that feels more tailored and makes comparison easier should also make the eventual choice feel more defensible. That keeps confidence downstream of personalization and cognitive-load reduction rather than turning it into an under-anchored standalone construct hunt.
 
-## 4. What this means for your paper positioning
+## 4. What this means for the paper's positioning
 A sharper positioning statement is:
 
 **Algorithm-generated recommendation badges alter online choice primarily by changing salience and search order, whereas LLM-driven conversational nudges alter choice architecture through adaptive dialogue that can reshape evaluation, confidence, and perceived understanding while also reducing inspectability.**
