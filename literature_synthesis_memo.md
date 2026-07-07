@@ -202,4 +202,4 @@ The next theory draft should do five things in order:
 - Ebrahimi, S., Ghasemaghaei, M., & Benbasat, I. (2022). *The Impact of Trust and Recommendation Quality on Adopting Interactive and Non-Interactive Recommendation Agents: A Meta-Analysis*. Journal of Management Information Systems. https://doi.org/10.1080/07421222.2022.2096549
 
 ## Note on evidence scope
-This memo uses a mix of workspace files and primary-source abstract pages from journal publishers. I used those primary-source pages because several local PDFs in the workspace are not text-extractable with the tools available on this machine.
+This memo uses a mix of workspace files and primary-source abstract pages from journal publishers. Those primary-source pages were used because several local PDFs in the workspace are not text-extractable with the tools available on this machine.
