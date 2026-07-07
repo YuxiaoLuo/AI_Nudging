@@ -7,7 +7,7 @@ This file records the current local-archive status of the manuscript's cited sou
 - Source manuscript:
   - `manuscript_llm_ai_nudges_draft.md`
 - Audit date:
-  - `2026-07-02`
+  - `2026-07-06`
 - Related files:
   - `manuscript_citation_crosswalk.md`
   - `manuscript_reference_audit.md`
