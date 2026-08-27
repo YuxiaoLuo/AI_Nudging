@@ -2,6 +2,7 @@
 
 ## Immediate
 - [ ] If an alternate browser or access context becomes available, archive authoritative local PDFs for Xiao and Benbasat (2007) and Ebrahimi et al. (2022) using the exact routes now logged in `literature/download_log.md`
+- [x] Carry the repo-root `run_validation_suite.py` invocation rule into the submission-facing checklist so the safer package-refresh workflow is visible at the top handoff layer
 - [x] Refresh the saved package-validation snapshot and freshness artifact again after the validation-workflow-doc commit changed a tracked package input, so the saved package state no longer lags behind the newer repo head
 - [x] Refresh the saved package-validation snapshot and freshness artifact after the recent handoff-guidance cleanups changed tracked package fingerprints, then record the safer repo-root invocation rule for the validation suite
 - [x] Align the older blueprint and synthesis guidance with the manuscript's settled core-anchor hierarchy so future sessions do not inherit the outdated `likely Luo core anchor` phrasing
