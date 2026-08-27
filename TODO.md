@@ -2,6 +2,7 @@
 
 ## Immediate
 - [ ] If an alternate browser or access context becomes available, archive authoritative local PDFs for Xiao and Benbasat (2007) and Ebrahimi et al. (2022) using the exact routes now logged in `literature/download_log.md`
+- [x] Align the older blueprint and synthesis guidance with the manuscript's settled core-anchor hierarchy so future sessions do not inherit the outdated `likely Luo core anchor` phrasing
 - [x] Align the project questions log with the manuscript's now-stable late-stage state so future sessions see only the true residual unresolved items instead of reopening already-settled scope, design, and literature questions
 - [x] Align the literature reading matrix with the manuscript's now-stable compact anchor hierarchy so future literature-facing passes preserve the same core / bridge / boundary roles instead of reopening a broad reading queue
 - [x] Lock the live literature-synthesis memo to the manuscript's stable compact theory spine so future heartbeat passes preserve the tighter anchor hierarchy instead of reopening broad adjacent literatures
