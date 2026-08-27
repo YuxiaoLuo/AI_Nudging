@@ -25,10 +25,10 @@ This matrix captures the most relevant literature for positioning the nudging pr
 | 18 | Chung, M., Ko, E., Joung, H., & Kim, S. J. (2020). Effects of personalization and social role in voice shopping: An experimental study on product recommendation by a conversational voice agent. Computers in Human Behavior. https://doi.org/10.1016/j.chb.2020.106359 | Strong adjacent | Voice shopping | Personalized recommendation by conversational voice agent | Personalization, social role | Experiment | Shows personalized recommendations through a conversational voice agent can shape attitudes toward recommended products. Useful support for the personalization benefit path in the current model. | High |
 | 19 | Wang, W., & Benbasat, I. (2007). Recommendation agents for electronic commerce: Effects of explanation facilities on trusting beliefs. Journal of Management Information Systems. https://doi.org/10.2753/MIS0742-1222230420 | Strong IS anchor | E-commerce recommendation agents | Explanation facilities in recommendation agents | Trusting beliefs, adoption of recommendation agents | Experiment | Seminal explanation-facility paper for recommendation agents. Very useful for the transparency and trust side of the current model, especially as a precursor to later disclosure/integrity work. PDF now available locally, which makes this one of the strongest candidates for the core transparency-anchor set. | Very high |
 | 20 | Senecal, S., & Nantel, J. (2004). The influence of online product recommendations on consumers' online choices. Journal of Retailing. https://doi.org/10.1016/j.jretai.2004.04.001 | Strong marketing anchor | Online shopping | Product recommendations | Consumer choice and recommender influence | Experiment | Important early anchor showing that online recommendations can directly shape consumer choice. Useful as a baseline recommendation-effect paper before moving to conversational and opaque forms of guidance. PDF now available locally, strengthening its role as a likely baseline anchor rather than just a remembered citation. | Very high |
-| 21 | Yalcin, G., Lim, S., Puntoni, S., & van Osselaer, S. M. J. (2022). Thumbs Up or Down: Consumer Reactions to Decisions by Algorithms Versus Humans. Journal of Marketing Research. https://doi.org/10.1177/00222437211070016 | UTD24 | Consumer response to algorithmic decisions | Algorithm versus human decision maker | Perceived fairness, bias, and reactions to algorithmic decisions | Multi-study experiments | Useful top-journal anchor on how consumers react to algorithmic versus human decision makers. Helpful for downstream framing of anthropomorphism, perceived understanding, and acceptance of AI guidance. PDF now available locally for closer assessment of whether it should remain support or move closer to the core framing. | High |
+| 21 | Yalcin, G., Lim, S., Puntoni, S., & van Osselaer, S. M. J. (2022). Thumbs Up or Down: Consumer Reactions to Decisions by Algorithms Versus Humans. Journal of Marketing Research. https://doi.org/10.1177/00222437211070016 | UTD24 | Consumer response to algorithmic decisions | Algorithm versus human decision maker | Perceived fairness, bias, and reactions to algorithmic decisions | Multi-study experiments | Useful top-journal anchor on how consumers react to algorithmic versus human decision makers. Helpful for downstream framing of anthropomorphism, perceived understanding, and acceptance of AI guidance, but best retained as a boundary or interpretation citation rather than promoted into the commerce-specific core anchor spine. | High |
 | 22 | De Keyser, A., Köcher, S., Alkire, L., Verbeeck, C., & Kandampully, J. (2019). Frontline Service Technology infusion: Conceptual archetypes and future research directions. Journal of Service Management. https://doi.org/10.1108/JOSM-03-2019-0088 | Strong adjacent | Service interactions | Frontline service technologies | Technology infusion, service interaction design | Conceptual paper | Not a direct shopping-choice paper, but useful for framing conversational AI as a service interface that changes interaction structure. Best used as peripheral context, not core anchor. | Low-medium |
 | 23 | Longoni, C., Bonezzi, A., & Morewedge, C. K. (2019). Resistance to Medical Artificial Intelligence. Journal of Consumer Research. https://doi.org/10.1093/jcr/ucz013 | UTD24 | Consumer response to AI advice | Artificial intelligence versus human advice | Algorithm aversion, trust, domain sensitivity | Experiments | Not a shopping paper, but a strong top-journal anchor for consumer resistance to AI recommendations in consequential settings. Useful supporting reference for boundary conditions around AI advice acceptance. | Medium |
-| 24 | Luo, X., Tong, S., Fang, Z., & Qu, Z. (2019). Frontiers: Machines vs. Humans: The Impact of Artificial Intelligence Chatbot Disclosure on Customer Purchases. Marketing Science. https://doi.org/10.1287/mksc.2019.1192 | UTD24 | AI chatbot in commerce | Chatbot disclosure | Customer purchase behavior, disclosure effects | Field experiment / empirical study | Very useful commerce-facing anchor on AI chatbot disclosure and purchasing. This pass increases confidence that it belongs near the core anchor set for the transparency/disclosure side of the model, because it is both commerce-facing and directly tied to purchase behavior. | Very high |
+| 24 | Luo, X., Tong, S., Fang, Z., & Qu, Z. (2019). Frontiers: Machines vs. Humans: The Impact of Artificial Intelligence Chatbot Disclosure on Customer Purchases. Marketing Science. https://doi.org/10.1287/mksc.2019.1192 | UTD24 | AI chatbot in commerce | Chatbot disclosure | Customer purchase behavior, disclosure effects | Field experiment / empirical study | Very useful commerce-facing anchor on AI chatbot disclosure and purchasing. It should now be treated as a stable core anchor for the transparency and disclosure side of the model because it is both commerce-facing and directly tied to purchase behavior. | Very high |
 | 25 | Lei, K., & Liu, Y. (2025). When AI Becomes a Shopping Advisor: A Study on the Impact of Generative AI Review on Consumer Purchase Decision. SAGE Open. https://doi.org/10.1177/21582440251357671 | Not a target journal, current topical relevance | Shopping with generative AI | Generative AI review / shopping advisor | Purchase decision | Empirical study | Not a target outlet paper, but useful for current phenomenon relevance and emerging constructs. Use cautiously as supporting context, not as an anchor. | Low-medium |
 | 26 | Xiao, B., & Benbasat, I. (2007). E-Commerce Product Recommendation Agents: Use, Characteristics, and Impact. MIS Quarterly. https://doi.org/10.2307/25148784 | UTD24 | E-commerce recommendation agents | Product recommendation agents | Recommendation-agent characteristics and consumer use | Review / conceptual synthesis grounded in RA literature | Very useful bridge paper because it synthesizes what recommendation agents do for consumers before the newer disclosure and conversational-AI literatures. Strong candidate for tightening the bridge between classic decision aids and the later transparency-oriented RA work. | High |
 | 27 | Wang, W., & Benbasat, I. (2008). Attributions of Trust in Decision Support Technologies: A Study of Recommendation Agents for E-Commerce. Journal of Management Information Systems. https://doi.org/10.2753/MIS0742-1222240410 | Strong IS anchor | E-commerce recommendation agents | Trust attributions in recommendation agents | Trusting beliefs in decision support technologies | Experiment | Strong follow-on to the explanation-facility literature because it sharpens how consumers attribute trust to recommendation technology itself. Useful for theorizing why fluent but opaque conversational AI may change not only usefulness judgments but also the basis of trust. | High |
@@ -57,14 +57,30 @@ There is still room for a paper showing that **LLM-based conversational nudges a
 - opacity of recommendation logic
 - influence on confidence and preference construction, not just attention or search
 
-## Priority shortlist for immediate deep reading
-1. Häubl & Trifts (2000) - interactive decision aids
-2. Ursu (2018) - rankings and search
-3. Wang, Xu, & Wang (2018) - trust/distrust in recommendation agents
-4. Wang & Wang (2019) - integrity, disclosure, psychological contract violation
-5. Narducci et al. (2020) - conversational recommender systems
-6. Mahmud & Islam (2021) - chatbot as decision aid
-7. Kaliyamurthy & Schau (2025) - algorithmic constraints on consumer experience
+## Stable literature-facing reading order
+The project no longer needs a broad immediate-reading queue. The more useful discipline now is to preserve a compact, role-specific anchor hierarchy for later drafting and submission cleanup.
+
+### First-read core anchors
+1. Häubl & Trifts (2000) - interactive decision-aid baseline for process change.
+2. Senecal & Nantel (2004) - recommendation-effect baseline for direct influence on online choice.
+3. Ursu (2018) - ranking and search-order baseline for interface-level nudging.
+4. Wang & Benbasat (2007) - explanation-facility anchor for inspectability and trusting beliefs.
+5. Wang, Xu, & Wang (2018) - neutrality, distrust, and explanation-restoration anchor.
+6. Wang & Wang (2019) - disclosure, integrity, and psychological-contract anchor.
+7. Luo et al. (2019) - commerce-facing conversational disclosure anchor tied to purchase behavior.
+
+### Second-read bridge and support papers
+1. Xiao & Benbasat (2007) - recommendation-agent category bridge.
+2. Ebrahimi et al. (2022) - interactivity versus non-interactivity bridge.
+3. Chen et al. (2021) - conversational-agent-as-decision-aid bridge.
+4. Chung et al. (2020) - personalization support.
+5. de Cicco et al. (2022) - conversational-commerce bias and transparency support.
+
+### Boundary and interpretation papers
+1. Yalcin et al. (2022) - reactions to algorithmic decision makers.
+2. Longoni et al. (2019) - AI-advice resistance boundary condition.
+
+The current rule is to reopen broader adjacent reading only if a concrete reviewer-facing weakness emerges that the compact anchor set cannot already defend.
 
 ## Reassessed compact anchor map
 
@@ -91,3 +107,4 @@ There is still room for a paper showing that **LLM-based conversational nudges a
 ## Notes
 - UTD24 status can vary by list year and school implementation, but the selected core journals above are standard high-prestige targets and are appropriate anchors for this project.
 - I intentionally separated top-anchor papers from merely topical recent papers so the review stays publication-oriented.
+- The current matrix should be read as a stable role map rather than as an invitation to keep widening the citation base. At the present manuscript stage, the highest-value use of this file is to preserve the compact commerce-facing theory spine and the boundary status of adjacent consumer-AI papers unless a specific draft claim needs reinforcement.
