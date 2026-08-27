@@ -188,6 +188,35 @@ The next theory draft should do five things in order:
 4. define the core constructs in a non-overlapping way, especially personalization, transparency, confidence, and perceived decision quality
 5. argue why LLM conversational nudges create a sharper transparency tradeoff than prior forms of digital assistance
 
+## 8A. Stable manuscript spine after consolidation
+The manuscript has now largely completed that sequence, so the live synthesis layer should preserve the compact anchor hierarchy rather than reopen broad theory expansion. The cleanest stable spine is:
+
+1. **Baseline digital-guidance paragraph**
+   - use Häubl and Trifts (2000), Senecal and Nantel (2004), and Ursu (2018)
+   - establish that digital guidance already changes comparison, search, and choice before conversational AI enters the picture
+2. **Recommendation-agent bridge paragraph**
+   - use Xiao and Benbasat (2007) as the category bridge
+   - use Wang and Benbasat (2007), Wang et al. (2018), Wang and Wang (2019), Luo et al. (2019), and Ebrahimi et al. (2022) to show that explanation, neutrality, disclosure, integrity, and interactivity matter once advisory systems become more agentic
+3. **Benefit-route paragraph**
+   - use Chung et al. (2020), Chen et al. (2021), and Häubl and Trifts (2000)
+   - establish that conversational guidance should feel more tailored, simplify comparison, and strengthen confidence through better structured support
+4. **Risk-route paragraph**
+   - use Wang and Benbasat (2007), Wang et al. (2018), Wang and Wang (2019), Luo et al. (2019), and de Cicco et al. (2022)
+   - establish that the same adaptive guidance can reduce inspectability of recommendation logic and weaken confidence that the recommendation basis is understandable
+
+This four-step ordering is now the most defensible literature-facing structure for the paper. It keeps the theory centered on commerce-specific guidance and recommendation design rather than allowing the draft to drift into a broader and looser AI-attitudes discussion.
+
+## 8B. Current drafting discipline
+At the current manuscript stage, the highest-value literature-synthesis rule is not to add more adjacent streams unless a concrete reviewer-facing weakness requires them.
+
+The active discipline should therefore be:
+- keep the compact core anchor set stable unless a missing citation is needed to defend a specific claim already in the draft
+- treat Yalcin et al. (2022) and Longoni et al. (2019) as boundary or interpretation support rather than as new center-of-gravity anchors
+- avoid reopening broad AI-ethics, anthropomorphism, or general service-technology literatures unless the manuscript's focal support-versus-inspectability model becomes insufficient
+- prefer bounded wording, evidence-role, or source-verification updates over new conceptual expansion
+
+This rule matters because the manuscript now gains more from preserving a tight commerce-facing theory spine than from widening the citation footprint.
+
 ## 9. Sources used in this synthesis
 - Häubl, G., & Trifts, V. (2000). *Consumer Decision Making in Online Shopping Environments: The Effects of Interactive Decision Aids*. Marketing Science. https://pubsonline.informs.org/doi/10.1287/mksc.19.1.4.15178
 - Senecal, S., & Nantel, J. (2004). *The influence of online product recommendations on consumers' online choices*. Journal of Retailing. https://doi.org/10.1016/j.jretai.2004.04.001

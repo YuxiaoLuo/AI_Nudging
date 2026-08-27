@@ -2,6 +2,7 @@
 
 ## Immediate
 - [ ] If an alternate browser or access context becomes available, archive authoritative local PDFs for Xiao and Benbasat (2007) and Ebrahimi et al. (2022) using the exact routes now logged in `literature/download_log.md`
+- [x] Lock the live literature-synthesis memo to the manuscript's stable compact theory spine so future heartbeat passes preserve the tighter anchor hierarchy instead of reopening broad adjacent literatures
 - [x] Remove the final first-person process sentence from the live literature-synthesis memo so the active guidance layer reads consistently in impersonal project-facing prose
 - [x] Recheck the clearest current direct-PDF routes for the two remaining bridge citations and log the stable JSTOR path for Xiao so any later manual retrieval starts from the strongest exact endpoints
 - [x] Remove the remaining note-style synthesis phrasing from the live memo so later drafting passes are less likely to inherit informal internal voice
