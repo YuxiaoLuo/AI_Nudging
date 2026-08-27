@@ -4,15 +4,15 @@
 This file records whether the saved manuscript-package validation snapshot still matches the current repository state.
 
 ## Freshness metadata
-- Generated at (UTC): `2026-07-02T16:21:52+00:00`
+- Generated at (UTC): `2026-08-27T16:22:18+00:00`
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
 - Validation snapshot checked: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_package_validation_report.md`
-- Saved snapshot HEAD: `ee4d3674e41614c987216026d8bf66938ac5312c`
-- Repository HEAD when this freshness check ran: `ee4d3674e41614c987216026d8bf66938ac5312c`
+- Saved snapshot HEAD: `c19e6cc6de5268205c29f8e2663143fec5ea2afd`
+- Repository HEAD when this freshness check ran: `c19e6cc6de5268205c29f8e2663143fec5ea2afd`
 - Repository HEAD drift since snapshot: `NO`
 
 ## Tracked fingerprint comparison
-- `manuscript_llm_ai_nudges_draft.md`: `MATCH` (saved `fb3ec2479430`, current `fb3ec2479430`)
+- `manuscript_llm_ai_nudges_draft.md`: `MATCH` (saved `50e4d87e0593`, current `50e4d87e0593`)
 - `README.md`: `MATCH` (saved `549e7274f3db`, current `549e7274f3db`)
 - `manuscript_package_index.md`: `MATCH` (saved `b06fae90caf8`, current `b06fae90caf8`)
 - `manuscript_package_open_items.md`: `MATCH` (saved `793c1866d7ed`, current `793c1866d7ed`)
@@ -20,11 +20,11 @@ This file records whether the saved manuscript-package validation snapshot still
 - `replication_package/README.md`: `MATCH` (saved `da6d4ec4db21`, current `da6d4ec4db21`)
 - `replication_package/codebook_shell.md`: `MATCH` (saved `7e487e4f937e`, current `7e487e4f937e`)
 - `replication_package/scripts/README.md`: `MATCH` (saved `8bd4a5a362eb`, current `8bd4a5a362eb`)
-- `manuscript_reference_audit.md`: `MATCH` (saved `7cb087c771bf`, current `7cb087c771bf`)
-- `manuscript_reference_format_audit.md`: `MATCH` (saved `55cc1df64a17`, current `55cc1df64a17`)
+- `manuscript_reference_audit.md`: `MATCH` (saved `993998368a58`, current `993998368a58`)
+- `manuscript_reference_format_audit.md`: `MATCH` (saved `cf760e32af35`, current `cf760e32af35`)
 - `manuscript_citation_crosswalk.md`: `MATCH` (saved `69257645698e`, current `69257645698e`)
-- `literature/download_log.md`: `MATCH` (saved `a02aa3ad3c87`, current `a02aa3ad3c87`)
-- `manuscript_source_archive_audit.md`: `MATCH` (saved `d230798dd42d`, current `d230798dd42d`)
+- `literature/download_log.md`: `MATCH` (saved `7b23b42c336b`, current `7b23b42c336b`)
+- `manuscript_source_archive_audit.md`: `MATCH` (saved `71984399b8ed`, current `71984399b8ed`)
 - `replication_package/scripts/run_validation_suite.py`: `MATCH` (saved `add595ed01b5`, current `add595ed01b5`)
 - `replication_package/scripts/check_validation_snapshot_freshness.py`: `MATCH` (saved `42bc7bc752dc`, current `42bc7bc752dc`)
 - `replication_package/scripts/check_package_links.py`: `MATCH` (saved `915ab5083d37`, current `915ab5083d37`)

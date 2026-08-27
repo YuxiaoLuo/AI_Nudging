@@ -4,11 +4,11 @@
 This file records one lightweight validation-suite snapshot for the current manuscript package.
 
 ## Snapshot metadata
-- Generated at (UTC): `2026-07-02T16:21:52+00:00`
-- Repository HEAD at generation: `ee4d3674e41614c987216026d8bf66938ac5312c`
+- Generated at (UTC): `2026-08-27T16:22:18+00:00`
+- Repository HEAD at generation: `c19e6cc6de5268205c29f8e2663143fec5ea2afd`
 
 ## Input fingerprints
-- `manuscript_llm_ai_nudges_draft.md`: sha256 `fb3ec2479430`
+- `manuscript_llm_ai_nudges_draft.md`: sha256 `50e4d87e0593`
 - `README.md`: sha256 `549e7274f3db`
 - `manuscript_package_index.md`: sha256 `b06fae90caf8`
 - `manuscript_package_open_items.md`: sha256 `793c1866d7ed`
@@ -16,11 +16,11 @@ This file records one lightweight validation-suite snapshot for the current manu
 - `replication_package/README.md`: sha256 `da6d4ec4db21`
 - `replication_package/codebook_shell.md`: sha256 `7e487e4f937e`
 - `replication_package/scripts/README.md`: sha256 `8bd4a5a362eb`
-- `manuscript_reference_audit.md`: sha256 `7cb087c771bf`
-- `manuscript_reference_format_audit.md`: sha256 `55cc1df64a17`
+- `manuscript_reference_audit.md`: sha256 `993998368a58`
+- `manuscript_reference_format_audit.md`: sha256 `cf760e32af35`
 - `manuscript_citation_crosswalk.md`: sha256 `69257645698e`
-- `literature/download_log.md`: sha256 `a02aa3ad3c87`
-- `manuscript_source_archive_audit.md`: sha256 `d230798dd42d`
+- `literature/download_log.md`: sha256 `7b23b42c336b`
+- `manuscript_source_archive_audit.md`: sha256 `71984399b8ed`
 
 ## Validator-script fingerprints
 - `replication_package/scripts/run_validation_suite.py`: sha256 `add595ed01b5`

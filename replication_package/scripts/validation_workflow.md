@@ -66,6 +66,10 @@ python3 replication_package/scripts/run_validation_suite.py \
   --freshness-report-md manuscript_package_validation_freshness.md
 ```
 
+- Invocation rule:
+  - run `run_validation_suite.py` from the repository root with repo-local paths such as `--repo-root .`
+  - avoid calling it from outside `projects/nudging` with absolute path arguments for the saved markdown outputs, because the current report-writing path logic can fail while computing repo-relative fingerprint labels
+
 - Post-commit nuance:
   - if you commit package-facing changes after writing the saved snapshot, the snapshot's own `Repository HEAD at generation` metadata can lag behind the latest repo head even when the tracked package fingerprints still match
   - in that case, rerun only `check_validation_snapshot_freshness.py --repo-root . --report-md manuscript_package_validation_report.md --freshness-report-md manuscript_package_validation_freshness.md` if you want the saved freshness artifact to record `CURRENT with HEAD drift noted`
