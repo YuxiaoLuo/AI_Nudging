@@ -11,22 +11,22 @@ This file records open questions, uncertainties, and decisions encountered while
 ### Historical questions now effectively settled
 The project no longer needs to reopen its earlier broad design and positioning questions unless a concrete reviewer-facing problem appears. The following issues are now settled enough to guide future drafting:
 
-- The paper should frame LLM conversational nudges as a dialogic form of digital choice architecture, with the central theoretical contrast carried by the conversational-versus-UI comparison and the control retained as an absolute baseline.
-- The main contribution lane should stay commerce-facing and recommendation-design oriented rather than widening into a broader AI-attitudes or general service-technology paper.
-- The first study should use headphones as the shopping category, a semi-structured conversational treatment, a fixed six-product fictional stimulus set, and the same focal recommendation across the conversational and UI-nudge conditions.
-- The headline behavioral outcome should be purchase likelihood, while the fuller mediated tradeoff should be evaluated through perceived decision quality rather than by forcing every mechanism claim through purchase movement.
+- The paper frames LLM conversational nudges as a dialogic form of digital choice architecture, with the central theoretical contrast carried by the conversational-versus-UI comparison and the control retained as an absolute baseline.
+- The main contribution lane stays commerce-facing and recommendation-design oriented rather than widening into a broader AI-attitudes or general service-technology paper.
+- The first study uses headphones as the shopping category, a semi-structured conversational treatment, a fixed six-product fictional stimulus set, and the same focal recommendation across the conversational and UI-nudge conditions.
+- The headline behavioral outcome is purchase likelihood, while the fuller mediated tradeoff is evaluated through perceived decision quality rather than by forcing every mechanism claim through purchase movement.
 - Transparency should remain the competing risk path alongside the positive support route rather than being recast as a moderator or a separate detached theory lane.
-- The construct definitions should remain compact and role-specific: personalization as felt tailoring, cognitive load as task effort, confidence as certainty in the selected option, transparency as understandability and reconstructability of recommendation logic, and perceived decision quality as the broader evaluative judgment of whether the final decision is sound and well justified.
-- The core literature spine should remain compact: Häubl and Trifts (2000), Senecal and Nantel (2004), and Ursu (2018) for the baseline; Wang and Benbasat (2007), Wang et al. (2018), Wang and Wang (2019), and Luo et al. (2019) for the advisory and transparency spine; Xiao and Benbasat (2007), Ebrahimi et al. (2022), and Chen et al. (2021) as bridge citations rather than additional core anchors.
-- Yalcin et al. (2022) and Longoni et al. (2019) should remain boundary or interpretation citations rather than be promoted into the compact commerce-facing anchor spine.
-- The theory section should keep the now-stable four-step bridge structure: baseline interface nudges and decision aids, recommendation-agent explanation and disclosure research, conversational guidance as adaptive advisory support, and then the support-versus-inspectability tradeoff.
-- The manuscript is now far enough into consolidation that future gains should usually come from bounded handoff cleanup, evidence-role clarification, or package maintenance rather than from broad literature expansion or open-ended model redesign.
+- The construct definitions remain compact and role-specific: personalization as felt tailoring, cognitive load as task effort, confidence as certainty in the selected option, transparency as understandability and reconstructability of recommendation logic, and perceived decision quality as the broader evaluative judgment of whether the final decision is sound and well justified.
+- The core literature spine remains compact: Häubl and Trifts (2000), Senecal and Nantel (2004), and Ursu (2018) for the baseline; Wang and Benbasat (2007), Wang et al. (2018), Wang and Wang (2019), and Luo et al. (2019) for the advisory and transparency spine; Xiao and Benbasat (2007), Ebrahimi et al. (2022), and Chen et al. (2021) as bridge citations rather than additional core anchors.
+- Yalcin et al. (2022) and Longoni et al. (2019) remain boundary or interpretation citations rather than being promoted into the compact commerce-facing anchor spine.
+- The theory section keeps the now-stable four-step bridge structure: baseline interface nudges and decision aids, recommendation-agent explanation and disclosure research, conversational guidance as adaptive advisory support, and then the support-versus-inspectability tradeoff.
+- The manuscript is now far enough into consolidation that future gains usually come from bounded handoff cleanup, evidence-role clarification, package maintenance, or legacy-guidance alignment rather than from broad literature expansion or open-ended model redesign.
 
 ## Resolved questions
 
 ### Verification workflow
-- I should verify metadata, journal fit, and topical alignment before treating a paper as an anchor.
-- Misleading local filenames should not be trusted without verification.
+- Metadata, journal fit, and topical alignment must be verified before treating a paper as an anchor.
+- Misleading local filenames are not trusted without verification.
 
 ### Excluded paper
 - `Ho_2025_System 2 & Confidence.pdf` was verified as out of scope for this project and removed from the usable literature set.
