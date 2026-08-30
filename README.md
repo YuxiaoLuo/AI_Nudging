@@ -54,9 +54,9 @@ This is the research repository for the AI nudging project.
 
 ## Suggested starting order
 1. `manuscript_package_open_items.md`
-2. `manuscript_package_index.md`
-3. `manuscript_package_validation_freshness.md`
-4. `manuscript_package_validation_report.md`
+2. `manuscript_package_validation_freshness.md`
+3. `manuscript_package_validation_report.md`
+4. `manuscript_package_index.md`
 5. `manuscript_llm_ai_nudges_draft.md`
 6. `submission_readiness_checklist.md`
 7. `replication_package/scripts/validation_workflow.md`

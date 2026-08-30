@@ -4,16 +4,16 @@
 This file records whether the saved manuscript-package validation snapshot still matches the current repository state.
 
 ## Freshness metadata
-- Generated at (UTC): `2026-08-30T15:21:59+00:00`
+- Generated at (UTC): `2026-08-30T17:22:01+00:00`
 - Repository root: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging`
 - Validation snapshot checked: `/Users/yuxiaoluo/.openclaw/workspace/projects/nudging/manuscript_package_validation_report.md`
-- Saved snapshot HEAD: `2da04a3ff89c9c2e42e3de44bf76e370eb27fa30`
-- Repository HEAD when this freshness check ran: `2da04a3ff89c9c2e42e3de44bf76e370eb27fa30`
+- Saved snapshot HEAD: `8d22bac8eb74787cbef0e0746ac994567e2f1def`
+- Repository HEAD when this freshness check ran: `8d22bac8eb74787cbef0e0746ac994567e2f1def`
 - Repository HEAD drift since snapshot: `NO`
 
 ## Tracked fingerprint comparison
 - `manuscript_llm_ai_nudges_draft.md`: `MATCH` (saved `8b33e3c1adc1`, current `8b33e3c1adc1`)
-- `README.md`: `MATCH` (saved `549e7274f3db`, current `549e7274f3db`)
+- `README.md`: `MATCH` (saved `e3cb63b2bc28`, current `e3cb63b2bc28`)
 - `manuscript_package_index.md`: `MATCH` (saved `b06fae90caf8`, current `b06fae90caf8`)
 - `manuscript_package_open_items.md`: `MATCH` (saved `cbc4b7fc30d0`, current `cbc4b7fc30d0`)
 - `submission_readiness_checklist.md`: `MATCH` (saved `2ee78ee932d7`, current `2ee78ee932d7`)
