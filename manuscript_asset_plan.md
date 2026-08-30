@@ -61,7 +61,7 @@ This file converts the manuscript's current reporting commitments into a concret
   - any residual direct effect reported separately and interpreted cautiously
 
 ### Table 4. Secondary outcomes and compact robustness checks
-- Status: optional but likely useful
+- Status: secondary asset to use only if the final results package needs it
 - Draft asset: `results_table_shells.md`
 - Purpose:
   - Keep trust, satisfaction, and limited robustness evidence visible without letting them compete with the paper's headline tests.
@@ -99,7 +99,7 @@ This file converts the manuscript's current reporting commitments into a concret
   - Use representative materials, not every screen. The figure should clarify the treatment contrast quickly.
 
 ### Figure 3. Sample-flow visualization
-- Status: optional because the manuscript allows either table, appendix flowchart, or short robustness display
+- Status: optional only if the exclusions are dense enough to warrant a visual companion
 - Purpose:
   - Make the screening pipeline inspectable if the final write-up benefits from a visual flow rather than a text-only description.
 - Use only if:
@@ -108,7 +108,7 @@ This file converts the manuscript's current reporting commitments into a concret
 ## Appendices
 
 ### Appendix A. Full stimuli and treatment materials
-- Status: effectively required if space permits
+- Status: effectively required under the current manuscript commitments
 - Draft asset: `appendix_a_stimuli_and_treatment_materials.md`
 - Purpose:
   - Preserve the exact wording and presentation logic for the conversational and UI conditions.
@@ -130,7 +130,7 @@ This file converts the manuscript's current reporting commitments into a concret
   - coding notes
 
 ### Appendix C. Screening and sample-flow details
-- Status: likely required for empirical credibility
+- Status: required under the current reporting commitments
 - Draft asset: `appendix_c_screening_and_sample_flow.md`
 - Purpose:
   - Show how many responses were removed under each prespecified quality rule and what analyzable sample remained.
@@ -141,7 +141,7 @@ This file converts the manuscript's current reporting commitments into a concret
   - any alternate-screening variants used for robustness
 
 ### Appendix D. Supplemental robustness and secondary analyses
-- Status: optional but likely useful
+- Status: secondary appendix to use only if bounded follow-on evidence is needed
 - Draft asset: `appendix_d_supplemental_robustness.md`
 - Purpose:
   - Keep confirmatory and secondary evidence clearly separated.
@@ -150,7 +150,7 @@ This file converts the manuscript's current reporting commitments into a concret
   - limited secondary-outcome detail not needed in the main text
 
 ## Replication package components
-- Status: conditional on journal policy and data-sharing constraints, but already anticipated in the manuscript
+- Status: anticipated by the manuscript, subject only to journal policy and data-sharing constraints
 - Draft assets:
   - `replication_package/README.md`
   - `replication_package/codebook_shell.md`
@@ -168,7 +168,7 @@ This file converts the manuscript's current reporting commitments into a concret
   - treatment materials
   - codebook
   - core analysis scripts
-- Nice-to-have:
+- Secondary additions if the package is expanded:
   - mock data dictionary
   - table/figure generation scripts mapped to manuscript assets
 
@@ -186,7 +186,7 @@ This file converts the manuscript's current reporting commitments into a concret
 ## Practical use
 - Treat this file as the packaging checklist for future heartbeats.
 - Add asset filenames here once draft tables, figures, or appendices are actually created.
-- If the manuscript's reporting promises change, update this file rather than rediscovering the commitments from the prose each time.
+- If the manuscript's reporting commitments change, update this file rather than rediscovering them from the prose each time.
 - Use the citation crosswalk during reference cleanup so the anchor hierarchy and local-file matches do not have to be reconstructed from scratch.
 - Use the reference audit to distinguish citation-list alignment work from local-PDF archiving work.
 - Use the reference cleanup notes to separate style normalization from citation verification and source retrieval.
