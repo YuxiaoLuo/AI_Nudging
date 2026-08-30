@@ -1,7 +1,7 @@
 # nudging - TODO
 
 ## Immediate
-- [ ] If an alternate browser or access context becomes available, archive authoritative local PDFs for Xiao and Benbasat (2007) and Ebrahimi et al. (2022) using the exact routes now logged in `literature/download_log.md`
+- [ ] If an authenticated manual browser or institutional-library access context becomes available, archive authoritative local PDFs for Xiao and Benbasat (2007) and Ebrahimi et al. (2022) using the exact routes now logged in `literature/download_log.md`; do not repeat the same shell-level ResearchGate or publisher PDF fetches unless the access context changes materially
 - [x] Carry the repo-root `run_validation_suite.py` invocation rule into the submission-facing checklist so the safer package-refresh workflow is visible at the top handoff layer
 - [x] Refresh the saved package-validation snapshot and freshness artifact again after the validation-workflow-doc commit changed a tracked package input, so the saved package state no longer lags behind the newer repo head
 - [x] Refresh the saved package-validation snapshot and freshness artifact after the recent handoff-guidance cleanups changed tracked package fingerprints, then record the safer repo-root invocation rule for the validation suite

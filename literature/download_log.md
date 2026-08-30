@@ -413,3 +413,27 @@ Updated judgment:
 - No authoritative local PDF could be archived in this pass.
 - Xiao and Benbasat (2007) now has two exact article-specific PDF endpoints logged (`MISQ` and `JSTOR`), which sharpens the later manual-retrieval path even though both are blocked here.
 - Ebrahimi et al. (2022) remains an access-context problem rather than a source-discovery problem; the known Taylor & Francis PDF route is exact, but still challenge-gated from this environment.
+
+## 2026-08-30 alternate-route retrieval check
+Purpose of this pass:
+- Test whether a materially different retrieval route now works for the two remaining bridge citations, rather than repeating only the already-known publisher PDF endpoints.
+
+What I tested:
+- Xiao and Benbasat (2007):
+  - an older direct ResearchGate PDF path surfaced indirectly through a later citing PDF:
+    - `https://www.researchgate.net/profile/Bo_Xiao12/publication/220260358_E-Commerce_Product_Recommendation_Agents_Use_Characteristics_and_Impact/links/0deec53a01d3bd194f000000/E-Commerce-Product-Recommendation-Agents-Use-Characteristics-and-Impact.pdf`
+- Ebrahimi et al. (2022):
+  - Taylor & Francis PDF route with explicit download parameter:
+    - `https://www.tandfonline.com/doi/pdf/10.1080/07421222.2022.2096549?download=true`
+  - current ResearchGate article page:
+    - `https://www.researchgate.net/publication/363016491_The_Impact_of_Trust_and_Recommendation_Quality_on_Adopting_Interactive_and_Non-Interactive_Recommendation_Agents_A_Meta-Analysis`
+
+What happened:
+- The older direct ResearchGate PDF path for Xiao and Benbasat (2007) returned `403 Forbidden` from this environment on 2026-08-30.
+- The Taylor & Francis `?download=true` PDF route for Ebrahimi et al. (2022) also returned `403 Forbidden` again from this environment on 2026-08-30.
+- The current ResearchGate article page for Ebrahimi et al. (2022) did not expose a retrievable full text in this shell-level context; it served a `ResearchGate - Temporarily Unavailable` HTML page rather than article content or a downloadable PDF.
+
+Updated judgment:
+- The remaining gap still reflects access context rather than source discovery.
+- Future retries should not repeat shell-level fetches of ResearchGate or the same Taylor & Francis PDF route unless the access context changes materially.
+- The next meaningful retrieval attempt should use an authenticated manual browser or institutional-library session, then archive only files that validate as real PDFs.

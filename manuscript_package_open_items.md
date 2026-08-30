@@ -38,10 +38,11 @@ These are access-context issues, not source-discovery problems.
 2. `Ebrahimi et al. (2022)`
    - citation is bibliographically confirmed
    - authoritative local PDF is still missing
-   - current Taylor & Francis search snippets explicitly advertise `View PDF` / `Download PDF`, but the canonical Taylor & Francis PDF and abstract routes still resolved to challenge HTML from this environment on 2026-07-02, so the remaining gap looks like access-gated retrieval rather than route discovery
+   - current Taylor & Francis search snippets explicitly advertise `View PDF` / `Download PDF`, but the canonical Taylor & Francis PDF and abstract routes still resolved to challenge HTML from this environment on 2026-07-02, and a 2026-08-30 retry with the `?download=true` variant still returned `403 Forbidden`, so the remaining gap looks like access-gated retrieval rather than route discovery
 
 Current rule:
 - treat a file as `archived locally` only if it exists and validates as a real PDF, not merely because a vendor URL ended in `.pdf`
+- do not repeat shell-level fetches of the same ResearchGate or publisher PDF routes unless the access context changes materially; the next meaningful attempt is an authenticated manual browser or institutional-library session
 
 ## Expected non-blocking placeholders
 The validation suite still finds intentional to-be-determined placeholders in template or results-shell assets, but not in the core package handoff docs.
